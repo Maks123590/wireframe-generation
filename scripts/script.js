@@ -66,7 +66,7 @@
 
                     columnData.widgets.forEach(widgetData => {
                         const widget = document.createElement("div");
-                        widget.classList.add("widget", widgetData["element-type"]);
+                        widget.classList.add("widget", widgetData["element-type"].split(' ').join('-'));
                         widget.style.background = widgetData["element-color"];
 
                         const label = window.__truSites.generateElementLabel(widgetData["element-type"]);

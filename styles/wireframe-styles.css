@@ -101,6 +101,8 @@
     margin: 12px 0px;
     position: relative;
     overflow: hidden;
+
+    border: 1px solid #ddd;
 }
 
 .image {
@@ -110,7 +112,6 @@
 .form {
     height: 200px
 }
-
 
 .heading-text {
     font-weight: 600;
