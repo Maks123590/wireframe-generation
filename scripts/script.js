@@ -3,11 +3,20 @@
 
     window.__truSites.init = () => {
         const generateBtn = document.querySelector("#generate-btn");
+        const clearBtn = document.querySelector("#clear-btn");
 
         generateBtn.onclick = () => {
             const textArea = document.querySelector("#input");
 
             window.__truSites.generate(textArea.value);
+        };
+
+        clearBtn.onclick = () => {
+            const textArea = document.querySelector("#input");
+            const resultBlock = document.querySelector("#result-view");
+
+            textArea.value = "";
+            resultBlock.innerHTML = "";
         };
     }
     
@@ -39,6 +48,8 @@
             
             section.style.background = sectionData["background-color"];
 
+            const label = window.__truSites.generateElementLabel(sectionData["section-type"]);
+
             const grid = document.createElement("div");
             grid.classList.add("mesh");
             grid.style.width = sectionData.grid.width;
@@ -55,9 +66,12 @@
 
                     columnData.widgets.forEach(widgetData => {
                         const widget = document.createElement("div");
-                        widget.classList.add("widget");
+                        widget.classList.add("widget", widgetData["element-type"]);
                         widget.style.background = widgetData["element-color"];
-                        widget.textContent = widgetData["element-type"];
+
+                        const label = window.__truSites.generateElementLabel(widgetData["element-type"]);
+
+                        widget.append(label);
                         column.append(widget);
                     })
 
@@ -69,8 +83,21 @@
 
 
             section.append(grid);
+            section.append(label);
+
             resultBlock.appendChild(section);
         });
+    }
+
+    window.__truSites.generateElementLabel = (elementType) => {
+        const typeLabel = document.createElement("div");
+        typeLabel.classList.add("type-label");
+
+        const span = document.createElement("span");
+        span.innerHTML = elementType;
+
+        typeLabel.append(span);
+        return typeLabel;
     }
 
 
@@ -121,5 +148,20 @@
 
     }
 ]
+
+<ELEMENT TYPES>
+"heading-text",
+"text"
+"text-link"
+"image",
+"search-box",
+"navigation-menu",
+"form",
+"button",
+"map",
+"social-links",
+"blog-roll",
+"blog-post.
+</ELEMENT TYPES>
 
 */
