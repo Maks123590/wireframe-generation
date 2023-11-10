@@ -1,0 +1,82 @@
+{
+    "sections": [
+        {
+            "section-type": "header",
+            "background": {
+                "color": "#fff",
+                "media": "src"
+            },
+            "section-content": {
+                "contentType": "single | slider",
+                "border-radius": "px",
+                "background": {
+                    "color": "#fff",
+                    "media": "src"
+                },
+                "grids": [
+                    {
+                        "width": "90%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 12,
+                                        "widgets": [
+                                            {
+                                                "element-type": "heading1-text",
+                                                "chars-count": 20,
+                                                "color": "#fff" // optional
+                                            },
+                                            {
+                                                "element-type": "heading2-text",
+                                                "chars-count": 20,
+                                                "color": "#fff" // optional
+                                            },
+                                            {
+                                                "element-type": "text",
+                                                "chars-count": 20,
+                                                "color": "#fff" // optional
+                                            },
+                                            {
+                                                "element-type": "menu",
+                                                "items": ["home", "about", "contacts"]
+                                            },
+                                            {
+                                                "element-type": "image",
+                                                "height": 20,
+                                                "border-radius": "px"
+                                            },
+                                            {
+                                                "element-type": "button",
+                                                "fit-type": "fit | fill",
+                                                "align": "left | right | center",
+                                                "type": "primary | secondary",
+                                                "width": "100%"
+                                            },
+                                            {
+                                                "element-type": "form",
+                                                "type": "vertical | horizontal"
+                                            },
+                                            {
+                                                "element-type": "social links",
+                                                "links-count": 3
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "common-styles": {
+        "button-color": "hex",
+        "primary-button-color": "hex",
+        "secondary-button-color": "hex",
+        "button-border-radius": "px",
+        "headings-color": "hex",
+        "normal-text-color": "hex"
+    } 
+}

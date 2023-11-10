@@ -1,0 +1,674 @@
+{
+    "sections": [
+        {
+            "section-type": "header",
+            "background": {
+                "color": "#fff"
+            },
+            "section-content": {
+                "contentType": "single",
+                "border-radius": "0px",
+                "background": {
+                    "color": "#fff"
+                },
+                "grids": [
+                    {
+                        "width": "90%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 2,
+                                        "widgets": [
+                                            {
+                                                "element-type": "heading3-text",
+                                                "chars-count": 15
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 3,
+                                        "widgets": [
+                                            {
+                                                "element-type": "menu",
+                                                "items": ["About Us", "Projects", "Contacts"]
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 5,
+                                        "widgets": [ 
+                                            {
+                                                "element-type": "search-box",
+                                                "element-color": "#C5E384"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                            {
+                                                "element-type": "login",
+                                                "element-color": "#F7F8F9"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                            {
+                                                "element-type": "cart",
+                                                "element-color": "#F7F8F9"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "section-type": "slider",
+            "background": {
+                "color": "#fff"
+            },
+            "section-content": {
+                "contentType": "slider",
+                "border-radius": "24px",
+                "background": {
+                    "image": "src"
+                },
+                "grids": [
+                    {
+                        "width": "90%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                        ]
+                                    },
+                                    {  
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "heading2-text",
+                                                "chars-count": 33
+                                            },
+                                            {
+                                                "element-type": "text",
+                                                "chars-count": 109
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 7,
+                                        "widgets": [
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                        ]
+                                    },
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                            {
+                                                "element-type": "button",
+                                                "type": "primary",
+                                                "element-color": "#00A3E0"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                            {
+                                                "element-type": "button",
+                                                "type": "secondary",
+                                                "element-color": "#FFFFFF"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 9,
+                                        "widgets": [
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "section-type": "about-us",
+            "background": {
+                "color": "#fff"
+            },
+
+            "section-content": {
+                "contentType": "single",
+                "border-radius": "0px",
+                "background": {
+                    "color": "#fff"
+                },
+                "grids": [
+                    {
+                        "width": "90%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 6,
+                                        "widgets": [
+                                            {
+                                                "element-type": "heading1-text",
+                                                "chars-count": 55
+                                            },
+                                            {
+                                                "element-type": "text",
+                                                "chars-count": 444
+                                            },
+                                            {
+                                                "element-type": "button",
+                                                "type": "primary",
+                                                "fit-type": "fit",
+                                                "align": "left",
+                                                "width": "25%"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 6,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 506,
+                                                "border-radius": "24px"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "section-type": "products",
+            "background": {
+                "color": "#fff",
+                "media": "src"
+            },
+
+            "section-content": {
+                "contentType": "single",
+                "border-radius": "0px",
+                "background": {
+                    "color": "#fff"
+                },
+                "grids": [
+                    {
+                        "width": "90%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                        ]
+                                    },
+                                    {  
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 361,
+                                                "border-radius": "24px"
+                                            }, 
+                                            {
+                                                "element-type": "heading2-text",
+                                                "chars-count": 11
+                                            },
+                                            {
+                                                "element-type": "text",
+                                                "chars-count": 40
+                                            },
+                                        ]
+                                    },
+                                    {  
+                                        "size": 2,
+                                        "widgets": [
+                                        ]
+                                    },
+                                    {  
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 361,
+                                                "border-radius": "24px"
+                                            }, 
+                                            {
+                                                "element-type": "heading2-text",
+                                                "chars-count": 11
+                                            },
+                                            {
+                                                "element-type": "text",
+                                                "chars-count": 30
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 3,
+                                        "widgets": [
+                                            {
+                                                "element-type": "button",
+                                                "type": "primary",
+                                                "fit-type": "fit",
+                                                "align": "right",
+                                                "width": "40%"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 3,
+                                        "widgets": [
+                                            {
+                                                "element-type": "button",
+                                                "type": "secondary",
+                                                "fit-type": "fit",
+                                                "align": "left",
+                                                "width": "40%"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 3,
+                                        "widgets": [
+                                            {
+                                                "element-type": "button",
+                                                "type": "primary",
+                                                "fit-type": "fit",
+                                                "align": "right",
+                                                "width": "40%"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 3,
+                                        "widgets": [
+                                            {
+                                                "element-type": "button",
+                                                "type": "secondary",
+                                                "fit-type": "fit",
+                                                "align": "left",
+                                                "width": "40%"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "section-type": "testimonials",
+            "background": {
+                "color": "#fff"
+            },
+            "section-content": {
+                "contentType": "single",
+                "border-radius": "0px",
+                "background": {
+                    "color": "#fff"
+                },
+                "grids": [
+                    {
+                        "width": "90%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 12,
+                                        "widgets": [
+                                            {
+                                                "element-type": "heading1-text",
+                                                "chars-count": 11
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 60,
+                                                "border-radius": "50px"
+                                            },
+                                            {
+                                                "element-type": "text",
+                                                "chars-count": 153
+                                            },
+                                            {
+                                                "element-type": "heading4-text",
+                                                "chars-count": 11
+                                            },
+                                            {
+                                                "element-type": "text",
+                                                "chars-count": 11
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 60,
+                                                "border-radius": "50px"
+                                            },
+                                            {
+                                                "element-type": "text",
+                                                "chars-count": 153
+                                            },
+                                            {
+                                                "element-type": "heading4-text",
+                                                "chars-count": 11
+                                            },
+                                            {
+                                                "element-type": "text",
+                                                "chars-count": 11
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 60,
+                                                "border-radius": "50px"
+                                            },
+                                            {
+                                                "element-type": "text",
+                                                "chars-count": 153
+                                            },
+                                            {
+                                                "element-type": "heading4-text",
+                                                "chars-count": 11
+                                            },
+                                            {
+                                                "element-type": "text",
+                                                "chars-count": 11
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "section-type": "contacts",
+            "background": {
+                "color": "#fff"
+            },
+            "section-content": {
+                "contentType": "single",
+                "border-radius": "24px",
+                "background": {
+                    "media": "src"
+                },
+                "grids": [
+                    {
+                        "width": "90%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                        ]
+                                    },
+                                    {  
+                                        "size": 5,
+                                        "widgets": [
+                                            {
+                                                "element-type": "heading1-text",
+                                                "chars-count": 11
+                                            },
+                                            {
+                                                "element-type": "form",
+                                                "type": "vertical"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                        ]
+                                    },
+                                    {  
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 570,
+                                                "border-radius": "24px"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "section-type": "blog",
+            "background": {
+                "color": "#fff"
+            },
+            "section-content": {
+                "contentType": "single",
+                "border-radius": "0px",
+                "background": {
+                    "color": "#fff"
+                },
+                "grids": [
+                    {
+                        "width": "90%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 10,
+                                        "widgets": [
+                                            {
+                                                "element-type": "heading1-text",
+                                                "chars-count": 11
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 2,
+                                        "widgets": [
+                                            {
+                                                "element-type": "button",
+                                                "type": "primary",
+                                                "fit-type": "fill"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 12,
+                                        "widgets": [
+                                            {
+                                                "element-type": "blog-roll"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "section-type": "footer",
+            "background": {
+                "color": "#333333"
+            },
+            "section-content": {
+                "contentType": "single",
+                "border-radius": "0px",
+                "background": {
+                    "color": "#333333"
+                },
+                "grids": [
+                    {
+                        "width": "90%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 2,
+                                        "widgets": [
+                                            {
+                                                "element-type": "text",
+                                                "chars-count": 38,
+                                                "color": "#fff"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 3,
+                                        "widgets": [
+                                            {
+                                                "element-type": "text",
+                                                "chars-count": 25,
+                                                "color": "#fff"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                            {
+                                                "element-type": "heading3-text",
+                                                "chars-count": 11,
+                                                "color": "#fff"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 2,
+                                        "widgets": [
+                                        ]
+                                    },
+                                    {  
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "heading4-text",
+                                                "chars-count": 26,
+                                                "color": "#fff"
+                                            },
+                                            {
+                                                "element-type": "form",
+                                                "type": "horizontal"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 2,
+                                        "widgets": [
+                                            {
+                                                "element-type": "heading3-text",
+                                                "chars-count": 15,
+                                                "color": "#fff"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 8,
+                                        "widgets": [
+                                            {
+                                                "element-type": "menu",
+                                                "items": ["About Us", "Projects", "Contacts", "Privacy Policy", "Returns & Exchanges"]
+                                            },
+                                        ]
+                                    },
+                                    {  
+                                        "size": 2,
+                                        "widgets": [
+                                            {
+                                                "element-type": "social links",
+                                                "links-count": 3
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "common-styles": {
+        "primary-button-color": "#00A3E0",
+        "secondary-button-color": "#F7F8F9",
+        "button-border-radius": "16px",
+        "heading1-color": "#333333",
+        "heading2-color": "#333333",
+        "heading3-color": "#333333",
+        "heading4-color": "#333333",
+        "subheading-color": "#333333",
+        "normal-text-color": "#333333"
+    } 
+}

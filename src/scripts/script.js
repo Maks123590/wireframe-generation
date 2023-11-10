@@ -161,7 +161,8 @@
 "map",
 "social-links",
 "blog-roll",
-"blog-post.
+"blog-post
+search-box
 </ELEMENT TYPES>
 
 */
