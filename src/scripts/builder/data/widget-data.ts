@@ -1,8 +1,10 @@
+import { IFontData } from "./common-styles";
 import { IAlignableData, IBorderRadiusData } from "./section-data";
 
 export interface ITextWidgetData {
     elementType: TextWidgetType;
     charsCount: number;
+    fontData?: IFontData
 }
 
 export interface IImageWidgetData extends IAlignableData {
@@ -29,7 +31,7 @@ export interface ISocialLinksWidgetData {
 
 export type IWidgetData = ITextWidgetData | IImageWidgetData | IButtonWidgetData | IFormWidgetData | ISocialLinksWidgetData;
 
-export type TextWidgetType = "heading1-text" | "heading2-text" | "text";
+export type TextWidgetType = "heading1-text" | "heading2-text" | "heading3-text" | "heading4-text" | "subheading-text" | "normal-text";
 
 export type WidgetType = TextWidgetType | "menu" | "image" | "button" | "form" | "social-links"
 

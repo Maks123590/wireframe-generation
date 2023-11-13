@@ -1,3 +1,4 @@
+import { CommonRenderer } from "./renderers/common-renderer";
 import { IColumnData, IGridData, IRowData } from "./data/grid-data";
 import { ISectionData } from "./data/section-data";
 import { IWidgetData } from "./data/widget-data";
@@ -17,7 +18,7 @@ export class WireframeBuilder {
   
         try {
             wireframeData = JSON.parse(input);
-        } catch(error) {
+        } catch(error: any) {
             const errorAlert = document.createElement("p");
             errorAlert.classList.add("error-alert");
             errorAlert.innerText = "INVALID FORMAT";
@@ -35,15 +36,21 @@ export class WireframeBuilder {
   
         wireframeData.sections.forEach((sectionData: ISectionData) => {
             const section = document.createElement("section");
-          
-            section.style.background = sectionData.background === "image" ? "#D9D9D9" : sectionData.background;
   
+            CommonRenderer.renderBackground(section, sectionData.background);
+            
             const label = this.generateElementLabel(sectionData.sectionType);
   
             const sectionContent = document.createElement("div");
             sectionContent.classList.add("sectionContent");
 
+            sectionContent.style.width = sectionData.sectionContent.width;
+            sectionContent.style.marginTop = sectionData.sectionContent.marginTop;
+            sectionContent.style.marginBottom = sectionData.sectionContent.marginBottom;
   
+            CommonRenderer.renderBackground(sectionContent, sectionData.sectionContent.background);
+            CommonRenderer.renderBorderRadius(sectionContent, sectionData.sectionContent.borderRadius);
+
             sectionData.sectionContent.grids.forEach((gridData: IGridData) => {
 
                 const grid = document.createElement("div");

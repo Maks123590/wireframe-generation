@@ -5,8 +5,11 @@ export interface ISectionData {
     background: string, //hex for color or image for image stub
     sectionContent: {
         contentType: SectionContentType,
+        marginTop: string,
+        marginBottom: string,
+        width: string, // in percent
         background: string, //hex for color or image for image stub
-        borderRadiusData: IBorderRadiusData,
+        borderRadius: IBorderRadiusData,
         grids: IGridData[],
 
     }

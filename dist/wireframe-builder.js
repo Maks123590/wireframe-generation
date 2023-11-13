@@ -38,6 +38,31 @@ class App {
 
 /***/ }),
 
+/***/ "./src/scripts/builder/renderers/common-renderer.ts":
+/*!**********************************************************!*\
+  !*** ./src/scripts/builder/renderers/common-renderer.ts ***!
+  \**********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   CommonRenderer: () => (/* binding */ CommonRenderer)
+/* harmony export */ });
+class CommonRenderer {
+    static renderBorderRadius(element, data) {
+        element.style.borderTopLeftRadius = `${data.topLeftPx}px`;
+        element.style.borderTopRightRadius = `${data.topRightPx}px`;
+        element.style.borderBottomRightRadius = `${data.bottomRightPx}px`;
+        element.style.borderBottomLeftRadius = `${data.bottomLeftPx}px`;
+    }
+    static renderBackground(element, background) {
+        element.style.background = background === "image" ? "#D9D9D9" : background;
+    }
+}
+
+
+/***/ }),
+
 /***/ "./src/scripts/builder/renderers/widget-renderer.ts":
 /*!**********************************************************!*\
   !*** ./src/scripts/builder/renderers/widget-renderer.ts ***!
@@ -48,36 +73,43 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   WidgetRenderer: () => (/* binding */ WidgetRenderer)
 /* harmony export */ });
+/* harmony import */ var _common_renderer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./common-renderer */ "./src/scripts/builder/renderers/common-renderer.ts");
+
 class WidgetRenderer {
     static render(data, commonStylesData) {
         switch (data.elementType) {
-            case "image": return this.renderImageWidget(data, commonStylesData);
             case "heading1-text":
             case "heading2-text":
-            case "text": return this.renderTextWidget(data, commonStylesData);
+            case "heading3-text":
+            case "heading4-text":
+            case "subheading-text":
+            case "normal-text": return this.renderTextWidget(data, commonStylesData);
             case "button": return this.renderButtonWidget(data, commonStylesData);
             case "form": return this.renderFormWidget(data, commonStylesData);
+            case "image": return this.renderImageWidget(data, commonStylesData);
         }
-        return document.createElement("div");
+        return this.defaultRenderer(data);
     }
     static renderImageWidget(data, commonStylesData) {
         const widget = document.createElement("div");
         widget.classList.add("widget", data.elementType);
         const widgetContent = document.createElement("div");
         widgetContent.classList.add("widget-content");
-        widget.style.background = "#D9D9D9";
-        widget.style.height = `${data.height}px`;
-        if (data.fitType === "fill") {
-            widgetContent.style.width = "auto";
-        }
-        else {
+        widgetContent.style.background = "#D9D9D9";
+        widgetContent.style.height = `${data.height}px`;
+        if (data.fitType === "fit") {
+            widget.style.display = "flex";
             widgetContent.style.width = data.width;
-            widgetContent.style.alignContent = data.align == "left"
+            widget.style.justifyContent = data.align == "left"
                 ? "flex-start"
                 : data.align == "right"
                     ? "flex-end"
                     : "center";
         }
+        else {
+            widgetContent.style.width = "auto";
+        }
+        _common_renderer__WEBPACK_IMPORTED_MODULE_0__.CommonRenderer.renderBorderRadius(widgetContent, data.borderRadius);
         widget.append(widgetContent);
         return widget;
     }
@@ -87,36 +119,55 @@ class WidgetRenderer {
         const widgetContent = document.createElement("div");
         widgetContent.classList.add("widget-content");
         widgetContent.textContent = this.loremIpsum.substring(0, data.charsCount);
+        let commonFontSettings = commonStylesData.normalTextStyles;
         switch (data.elementType) {
             case "heading1-text":
-                widgetContent.style.fontSize = commonStylesData.headingsColor;
+                commonFontSettings = commonStylesData.heading1Styles;
                 break;
             case "heading2-text":
-                widgetContent.style.fontSize = commonStylesData.headingsColor;
+                commonFontSettings = commonStylesData.heading2Styles;
                 break;
-            case "text":
-                widgetContent.style.fontSize = commonStylesData.normalTextColor;
+            case "heading3-text":
+                commonFontSettings = commonStylesData.heading3Styles;
+                break;
+            case "heading4-text":
+                commonFontSettings = commonStylesData.heading4Styles;
+                break;
+            case "subheading-text":
+                commonFontSettings = commonStylesData.subheadingStyles;
+                break;
+            case "normal-text":
+                commonFontSettings = commonStylesData.normalTextStyles;
                 break;
         }
+        this.setFont(widgetContent, data.fontData, commonFontSettings);
         widget.append(widgetContent);
         return widget;
+    }
+    static setFont(element, data, commonData) {
+        var _a, _b, _c;
+        element.style.fontSize = (_a = data === null || data === void 0 ? void 0 : data.fontSize) !== null && _a !== void 0 ? _a : commonData.fontSize;
+        element.style.fontFamily = (_b = data === null || data === void 0 ? void 0 : data.fontFamily) !== null && _b !== void 0 ? _b : commonData.fontFamily;
+        element.style.color = (_c = data === null || data === void 0 ? void 0 : data.color) !== null && _c !== void 0 ? _c : commonData.color;
     }
     static renderButtonWidget(data, commonStylesData) {
         const widget = document.createElement("div");
         widget.classList.add("widget", data.elementType, data.type);
         const widgetContent = document.createElement("div");
         widgetContent.classList.add("widget-content");
-        if (data.fitType === "fill") {
-            widgetContent.style.width = "auto";
-        }
-        else {
+        if (data.fitType === "fit") {
+            widget.style.display = "flex";
             widgetContent.style.width = data.width;
-            widgetContent.style.alignContent = data.align == "left"
+            widget.style.justifyContent = data.align == "left"
                 ? "flex-start"
                 : data.align == "right"
                     ? "flex-end"
                     : "center";
         }
+        else {
+            widgetContent.style.width = "auto";
+        }
+        _common_renderer__WEBPACK_IMPORTED_MODULE_0__.CommonRenderer.renderBorderRadius(widgetContent, commonStylesData.buttonBorderRadius);
         if (data.type === "primary") {
             widgetContent.style.background = commonStylesData.primaryButtonColor;
         }
@@ -166,6 +217,28 @@ class WidgetRenderer {
         widget.append(widgetContent);
         return widget;
     }
+    static defaultRenderer(data) {
+        const widget = document.createElement("div");
+        widget.classList.add("widget", data.elementType.split(' ').join('-'));
+        const widgetContent = document.createElement("div");
+        widgetContent.classList.add("widget-content");
+        const span = document.createElement("span");
+        widgetContent.style.display = "flex";
+        widgetContent.style.justifyContent = "center";
+        widgetContent.style.alignItems = "center";
+        widgetContent.style.background = "#D9D9D9";
+        widgetContent.style.height = "32px";
+        _common_renderer__WEBPACK_IMPORTED_MODULE_0__.CommonRenderer.renderBorderRadius(widgetContent, {
+            topLeftPx: 24,
+            topRightPx: 24,
+            bottomLeftPx: 24,
+            bottomRightPx: 24
+        });
+        span.innerText = data.elementType;
+        widgetContent.append(span);
+        widget.append(widgetContent);
+        return widget;
+    }
 }
 // menu
 // login
@@ -186,7 +259,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   WireframeBuilder: () => (/* binding */ WireframeBuilder)
 /* harmony export */ });
-/* harmony import */ var _renderers_widget_renderer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./renderers/widget-renderer */ "./src/scripts/builder/renderers/widget-renderer.ts");
+/* harmony import */ var _renderers_common_renderer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./renderers/common-renderer */ "./src/scripts/builder/renderers/common-renderer.ts");
+/* harmony import */ var _renderers_widget_renderer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./renderers/widget-renderer */ "./src/scripts/builder/renderers/widget-renderer.ts");
+
 
 class WireframeBuilder {
     constructor() {
@@ -212,10 +287,15 @@ class WireframeBuilder {
         console.warn(wireframeData);
         wireframeData.sections.forEach((sectionData) => {
             const section = document.createElement("section");
-            section.style.background = sectionData.background === "image" ? "#D9D9D9" : sectionData.background;
+            _renderers_common_renderer__WEBPACK_IMPORTED_MODULE_0__.CommonRenderer.renderBackground(section, sectionData.background);
             const label = this.generateElementLabel(sectionData.sectionType);
             const sectionContent = document.createElement("div");
             sectionContent.classList.add("sectionContent");
+            sectionContent.style.width = sectionData.sectionContent.width;
+            sectionContent.style.marginTop = sectionData.sectionContent.marginTop;
+            sectionContent.style.marginBottom = sectionData.sectionContent.marginBottom;
+            _renderers_common_renderer__WEBPACK_IMPORTED_MODULE_0__.CommonRenderer.renderBackground(sectionContent, sectionData.sectionContent.background);
+            _renderers_common_renderer__WEBPACK_IMPORTED_MODULE_0__.CommonRenderer.renderBorderRadius(sectionContent, sectionData.sectionContent.borderRadius);
             sectionData.sectionContent.grids.forEach((gridData) => {
                 const grid = document.createElement("div");
                 grid.classList.add("mesh");
@@ -228,7 +308,7 @@ class WireframeBuilder {
                         column.classList.add("col");
                         column.classList.add(`col-${columnData.size}`);
                         columnData.widgets.forEach((widgetData) => {
-                            const widgetElement = _renderers_widget_renderer__WEBPACK_IMPORTED_MODULE_0__.WidgetRenderer.render(widgetData, wireframeData.commonStyles);
+                            const widgetElement = _renderers_widget_renderer__WEBPACK_IMPORTED_MODULE_1__.WidgetRenderer.render(widgetData, wireframeData.commonStyles);
                             column.append(widgetElement);
                         });
                         row.append(column);

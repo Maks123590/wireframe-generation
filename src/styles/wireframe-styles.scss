@@ -97,43 +97,39 @@
 }
 
 .widget {
-    height: 50px;
     margin: 12px 0px;
     position: relative;
     overflow: hidden;
 
-    border: 1px solid #ddd;
+    .widget-content {
+        height: 100%;
+    }
+
+    // border: 1px solid #ddd;
 }
 
-.image {
-    height: 150px
+section {
+    display: flex;
+    justify-content: center;
+
+    .section-content {
+        display: flex;
+        justify-content: center;
+    }
 }
 
-.form {
-    height: 200px
+.heading1-text, .heading2-text, .heading3-text, .heading4-text {
+    font-weight: 700;
 }
 
-.heading-text {
+.subheading-text {
     font-weight: 600;
-    height: 32px;
 }
 
-.heading-text:before {
-    content: "Heading 1";
-}
-
-.text {
-    height: 48px;
-}
-
-.text:before {
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+.normal-text {
+    font-weight: 500;
 }
 
 .button {
-    height: 36px;
-}
-
-.button, .form, .social-links, .search-box {
-    border-radius: 10px;
+    height: 54px;
 }

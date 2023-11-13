@@ -1,19 +1,23 @@
-import { ICommonStyles } from "../data/common-styles";
+import { CommonRenderer } from "./common-renderer";
+import { ICommonStyles, IFontData } from "../data/common-styles";
 import { IButtonWidgetData, IFormWidgetData, IImageWidgetData, ITextWidgetData, IWidgetData } from "../data/widget-data";
 
 export class WidgetRenderer {
     
     static render(data: IWidgetData, commonStylesData: ICommonStyles): HTMLElement {
         switch (data.elementType) {
-            case "image": return this.renderImageWidget(data, commonStylesData);
             case "heading1-text":
             case "heading2-text":
-            case "text": return this.renderTextWidget(data, commonStylesData);
+            case "heading3-text":
+            case "heading4-text":
+            case "subheading-text":
+            case "normal-text": return this.renderTextWidget(data, commonStylesData);
             case "button": return this.renderButtonWidget(data, commonStylesData);
             case "form": return this.renderFormWidget(data, commonStylesData);
+            case "image": return this.renderImageWidget(data, commonStylesData);
         }
 
-        return document.createElement("div") as HTMLElement;
+        return this.defaultRenderer(data);
     }
 
     static renderImageWidget(data: IImageWidgetData, commonStylesData: ICommonStyles): HTMLElement {
@@ -23,19 +27,22 @@ export class WidgetRenderer {
         const widgetContent = document.createElement("div");
         widgetContent.classList.add("widget-content");
 
-        widget.style.background = "#D9D9D9";
-        widget.style.height = `${data.height}px`;
+        widgetContent.style.background = "#D9D9D9";
+        widgetContent.style.height = `${data.height}px`;
 
-        if (data.fitType === "fill") {
-            widgetContent.style.width = "auto";
-        } else {
+        if (data.fitType === "fit") {
+            widget.style.display = "flex";
             widgetContent.style.width = data.width;
-            widgetContent.style.alignContent = data.align == "left"
+            widget.style.justifyContent = data.align == "left"
             ? "flex-start"
             : data.align == "right"
                 ? "flex-end"
                 : "center";
+        } else {
+            widgetContent.style.width = "auto";
         }
+
+        CommonRenderer.renderBorderRadius(widgetContent, data.borderRadius);
 
         widget.append(widgetContent);
         return widget;
@@ -50,20 +57,39 @@ export class WidgetRenderer {
 
         widgetContent.textContent = this.loremIpsum.substring(0, data.charsCount);
 
+        let commonFontSettings = commonStylesData.normalTextStyles;
+
         switch (data.elementType) {
             case "heading1-text":
-                widgetContent.style.fontSize = commonStylesData.headingsColor;
+                commonFontSettings = commonStylesData.heading1Styles;
                 break;
             case "heading2-text":
-                widgetContent.style.fontSize = commonStylesData.headingsColor;
+                commonFontSettings = commonStylesData.heading2Styles;
                 break;
-            case "text":
-                widgetContent.style.fontSize = commonStylesData.normalTextColor;
+            case "heading3-text":
+                commonFontSettings = commonStylesData.heading3Styles;
+                break;
+            case "heading4-text":
+                commonFontSettings = commonStylesData.heading4Styles;
+                break;
+            case "subheading-text":
+                commonFontSettings = commonStylesData.subheadingStyles;
+                break;
+            case "normal-text":
+                commonFontSettings = commonStylesData.normalTextStyles;
                 break;
         }
 
+        this.setFont(widgetContent, data.fontData, commonFontSettings);
+
         widget.append(widgetContent);
         return widget;
+    }
+
+    private static setFont(element: HTMLElement, data: IFontData | undefined, commonData: IFontData): void {
+        element.style.fontSize = data?.fontSize ?? commonData.fontSize;
+        element.style.fontFamily = data?.fontFamily ?? commonData.fontFamily;
+        element.style.color = data?.color ?? commonData.color;
     }
     
     static renderButtonWidget(data: IButtonWidgetData, commonStylesData: ICommonStyles): HTMLElement {
@@ -73,16 +99,19 @@ export class WidgetRenderer {
         const widgetContent = document.createElement("div");
         widgetContent.classList.add("widget-content");
 
-        if (data.fitType === "fill") {
-            widgetContent.style.width = "auto";
-        } else {
+        if (data.fitType === "fit") {
+            widget.style.display = "flex";
             widgetContent.style.width = data.width;
-            widgetContent.style.alignContent = data.align == "left"
+            widget.style.justifyContent = data.align == "left"
             ? "flex-start"
             : data.align == "right"
                 ? "flex-end"
                 : "center";
+        } else {
+            widgetContent.style.width = "auto";
         }
+
+        CommonRenderer.renderBorderRadius(widgetContent, commonStylesData.buttonBorderRadius);
 
         if (data.type === "primary") {
             widgetContent.style.background = commonStylesData.primaryButtonColor;
@@ -137,6 +166,38 @@ export class WidgetRenderer {
             `
         }
 
+        widget.append(widgetContent);
+        return widget;
+    }
+
+    private static defaultRenderer(data: IWidgetData): HTMLElement {
+        const widget = document.createElement("div");
+        widget.classList.add("widget", data.elementType.split(' ').join('-'));
+
+        const widgetContent = document.createElement("div");
+        widgetContent.classList.add("widget-content");
+
+        const span = document.createElement("span");
+
+        widgetContent.style.display = "flex";
+        widgetContent.style.justifyContent = "center";
+        widgetContent.style.alignItems = "center";
+
+        widgetContent.style.background = "#D9D9D9";
+        widgetContent.style.height = "32px";
+
+        CommonRenderer.renderBorderRadius(widgetContent, {
+            topLeftPx: 24,
+            topRightPx: 24,
+            bottomLeftPx: 24,
+            bottomRightPx: 24
+        });
+
+        
+
+        span.innerText = data.elementType;
+
+        widgetContent.append(span);
         widget.append(widgetContent);
         return widget;
     }
