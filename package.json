@@ -4,9 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx webpack serve",
-    "build": "npx webpack --mode production",
-    "watch": "webpack --mode development --watch"
+    "scripts:dev": "npx webpack --mode=development --watch --progress",
+    "scripts:release": "npx webpack --mode=production",
+    "styles:dev": "npx sass src/styles/app.scss dist/app.css --style compressed --watch",
+    "styles:release": "npx sass src/styles/app.scss dist/app.css --style compressed",
+    "release": "npx concurrently \"npm:scripts:release\" \"npm:styles:release\"",
+    "dev": "npx concurrently \"npm:scripts:dev\" \"npm:styles:dev\"",
+    "watch": "npx concurrently \"npm:scripts:dev\" \"npm:styles:dev\""
   },
   "repository": {
     "type": "git",
@@ -19,16 +23,14 @@
     "url": "https://github.com/Maks123590/wireframe-generation/issues"
   },
   "homepage": "https://github.com/Maks123590/wireframe-generation#readme",
-  "dependencies": {
-    "css-loader": "^6.8.1",
-    "style-loader": "^3.3.3",
-    "ts-loader": "^9.5.0",
-    "typescript": "^5.2.2",
-    "webpack": "^5.89.0"
-  },
   "devDependencies": {
-    "html-webpack-plugin": "^5.5.3",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.15.1"
-  }
+    "concurrently": "^6.4.0",
+    "copy-webpack-plugin": "^10.1.0",
+    "sass": "^1.44.0",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+}
 }

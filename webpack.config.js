@@ -1,43 +1,38 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-require('webpack');
-const path = require('path');
+/* eslint-disable no-undef */
+/* eslint-disable @typescript-eslint/no-var-requires */
+
+const CopyPlugin = require("copy-webpack-plugin");
+const path = require("path");
 
 module.exports = {
-  entry: './src/scripts/index.ts',
-  mode: 'development',
-  devServer: {
-    static: {
-        directory: path.join(__dirname, "./dist")
+    entry: {
+        "wireframe-builder": "./src/index.ts"
     },
-    compress: true,
-    port: 8080,
-  },
-  output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
-  },
-  module: {
-    rules: [
-      { test: /\.txt$/, use: 'raw-loader' },
-      {
-          test: /\.tsx?$/,
-          use: 'ts-loader',
-          exclude: /node_modules/
-      },
-      {
-        test: /\.css$/i,
-        use: [
-          {
-            loader: 'style-loader',
-            options: { injectType: 'singletonStyleTag' },
-          },
-          'css-loader',
-        ],
-      },
+    output: {
+        filename: "[name].js",
+        sourceMapFilename: "[name].js.map",
+        path: path.resolve(__dirname, "dist"),
+    },
+    module: {
+        rules: [
+            { 
+                test: /\.tsx?$/, 
+                use: "ts-loader", 
+                exclude: /node_modules/
+            }
+        ]
+    },
+    plugins: [
+        new CopyPlugin({
+            patterns: [
+                { from: "src/assets/fonts/style.css", to: "assets/fonts/style.css" },
+                { from: "src/assets/fonts/fonts", to: "assets/fonts/fonts" },
+                { from: "src/index.html", to: "index.html" }
+            ]
+        })
     ],
-  },
-  plugins: [new HtmlWebpackPlugin({ template: './src/index.html' })],
-  resolve: {
-    extensions: [ ".tsx", ".ts", ".js" ]
-  },
+    resolve: {
+        extensions: [".tsx", ".ts", ".js"]
+    },
+    devtool: "source-map"
 };
