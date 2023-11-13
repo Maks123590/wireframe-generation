@@ -1,8 +1,9 @@
+import { IBorderRadiusData } from "./section-data";
+
 export interface ICommonStyles {
-    "button-color": string, // hex
-    "primary-button-color": string, // hex
-    "secondary-button-color": string, // hex
-    "button-border-radius": string,   // px
-    "headings-color": string, // hex
-    "normal-text-color": string, // hex
+    primaryButtonColor: string, // hex
+    secondaryButtonColor: string, // hex
+    buttonBorderRadius: IBorderRadiusData,   // px
+    headingsColor: string, // hex
+    normalTextColor: string, // hex
 }

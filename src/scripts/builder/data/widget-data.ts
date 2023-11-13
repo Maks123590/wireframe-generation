@@ -7,21 +7,27 @@ export interface ITextWidgetData {
 
 export interface IImageWidgetData extends IAlignableData {
     readonly elementType: "image";
+    height: number, // number in px
+    borderRadius: IBorderRadiusData;
+}
+
+export interface IButtonWidgetData extends IAlignableData {
+    readonly elementType: "button";
     borderRadius: IBorderRadiusData;
     type: "primary" | "secondary"
 }
 
 export interface IFormWidgetData {
     readonly elementType: "form";
-    type: "vertical | horizontal";
+    type: "vertical" | "horizontal";
 }
 
 export interface ISocialLinksWidgetData {
-    readonly elementType: "form";
+    readonly elementType: "social-links";
     linksCount: 3
 }
 
-export type IWidgetData = ITextWidgetData | IImageWidgetData | IFormWidgetData | ISocialLinksWidgetData;
+export type IWidgetData = ITextWidgetData | IImageWidgetData | IButtonWidgetData | IFormWidgetData | ISocialLinksWidgetData;
 
 export type TextWidgetType = "heading1-text" | "heading2-text" | "text";
 

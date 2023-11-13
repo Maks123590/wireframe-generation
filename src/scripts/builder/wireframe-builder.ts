@@ -1,17 +1,22 @@
+import { IColumnData, IGridData, IRowData } from "./data/grid-data";
+import { ISectionData } from "./data/section-data";
+import { IWidgetData } from "./data/widget-data";
+import { IWireframeData } from "./data/wireframe-data";
+import { WidgetRenderer } from "./renderers/widget-renderer";
+
 export class WireframeBuilder {
 
     constructor() {
     }
   
-  
     public generate(input: any) {
         const resultBlock = document.querySelector("#result-view") as HTMLElement;
         resultBlock.innerHTML = "";
   
-        let sections = [];
+        let wireframeData: IWireframeData;
   
         try {
-            sections = JSON.parse(input);
+            wireframeData = JSON.parse(input);
         } catch(error) {
             const errorAlert = document.createElement("p");
             errorAlert.classList.add("error-alert");
@@ -25,47 +30,51 @@ export class WireframeBuilder {
             resultBlock.append(errorMessage);
             return;
         }
+
+        console.warn(wireframeData);
   
-        sections.forEach((sectionData: any) => {
+        wireframeData.sections.forEach((sectionData: ISectionData) => {
             const section = document.createElement("section");
           
-            section.style.background = sectionData["background-color"];
+            section.style.background = sectionData.background === "image" ? "#D9D9D9" : sectionData.background;
   
-            const label = this.generateElementLabel(sectionData["section-type"]);
+            const label = this.generateElementLabel(sectionData.sectionType);
   
-            const grid = document.createElement("div");
-            grid.classList.add("mesh");
-            grid.style.width = sectionData.grid.width;
+            const sectionContent = document.createElement("div");
+            sectionContent.classList.add("sectionContent");
+
   
-  
-            sectionData.grid.rows.forEach((rowData: any) => {
-                const row = document.createElement("div");
-                row.classList.add("mesh-row");
-  
-                rowData.columns.forEach((columnData: any) => {
-                    const column = document.createElement("div");
-                    column.classList.add("col");
-                    column.classList.add(`col-${columnData.size}`);
-  
-                    columnData.widgets.forEach((widgetData: any) => {
-                        const widget = document.createElement("div");
-                        widget.classList.add("widget", widgetData["element-type"].split(' ').join('-'));
-                        widget.style.background = widgetData["element-color"];
-  
-                        const label = this.generateElementLabel(widgetData["element-type"]);
-  
-                        widget.append(label);
-                        column.append(widget);
+            sectionData.sectionContent.grids.forEach((gridData: IGridData) => {
+
+                const grid = document.createElement("div");
+                grid.classList.add("mesh");
+                grid.style.width = sectionData.sectionContent.grids[0].width;
+
+                gridData.rows.forEach((rowData: IRowData) => {
+                    const row = document.createElement("div");
+                    row.classList.add("mesh-row");
+      
+                    rowData.columns.forEach((columnData: IColumnData) => {
+                        const column = document.createElement("div");
+                        column.classList.add("col");
+                        column.classList.add(`col-${columnData.size}`);
+      
+                        columnData.widgets.forEach((widgetData: IWidgetData) => {
+                            const widgetElement = WidgetRenderer.render(widgetData, wireframeData.commonStyles);
+                            column.append(widgetElement);
+                        });
+      
+                        row.append(column);
                     });
-  
-                    row.append(column);
+      
+                    grid.append(row);
                 });
+                
+                sectionContent.append(grid);
+            })
+
   
-                grid.append(row);
-            });
-  
-  
-            section.append(grid);
+            section.append(sectionContent);
             section.append(label);
   
             resultBlock.appendChild(section);
