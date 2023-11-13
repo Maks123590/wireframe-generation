@@ -12,15 +12,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   App: () => (/* binding */ App)
 /* harmony export */ });
+/* harmony import */ var _builder_wireframe_builder__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./builder/wireframe-builder */ "./src/scripts/builder/wireframe-builder.ts");
+
 class App {
     constructor() {
+        this.container = document.body;
     }
     run() {
-        const generateBtn = document.querySelector("#generate-btn");
-        const clearBtn = document.querySelector("#clear-btn");
+        const generateBtn = this.container.querySelector("#generate-btn");
+        const clearBtn = this.container.querySelector("#clear-btn");
+        const builder = new _builder_wireframe_builder__WEBPACK_IMPORTED_MODULE_0__.WireframeBuilder();
         generateBtn.onclick = () => {
             const textArea = document.querySelector("#input");
-            this.generate(textArea.value);
+            builder.generate(textArea.value);
         };
         clearBtn.onclick = () => {
             const textArea = document.querySelector("#input");
@@ -28,6 +32,24 @@ class App {
             textArea.value = "";
             resultBlock.innerHTML = "";
         };
+    }
+}
+
+
+/***/ }),
+
+/***/ "./src/scripts/builder/wireframe-builder.ts":
+/*!**************************************************!*\
+  !*** ./src/scripts/builder/wireframe-builder.ts ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   WireframeBuilder: () => (/* binding */ WireframeBuilder)
+/* harmony export */ });
+class WireframeBuilder {
+    constructor() {
     }
     generate(input) {
         const resultBlock = document.querySelector("#result-view");
@@ -87,7 +109,6 @@ class App {
         return typeLabel;
     }
 }
-App.container = document.body;
 
 
 /***/ })
