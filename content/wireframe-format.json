@@ -1,7 +1,7 @@
 {
     "sections": [
         {
-            "section-type": "header",
+            "section-type": "string",
             "background": "hex | image",
             "section-content": {
                 "contentType": "single | slider",
@@ -23,49 +23,70 @@
                                                 "element-type": "heading1-text",
                                                 "chars-count": 20,
                                                 "fontData": {   // optional
-                                                    "color": "#fff"
+                                                    "color": "hex",
+                                                    "fontSize": "px",
+                                                    "fontFamily": "Samsung Sharp Sans",
+                                                    "text-align": "left | center | right"
                                                 }
                                             },
                                             {
                                                 "element-type": "heading2-text",
                                                 "chars-count": 20,
                                                 "fontData": {   // optional
-                                                    "color": "#fff"
+                                                    "color": "hex",
+                                                    "fontSize": "px",
+                                                    "fontFamily": "Samsung Sharp Sans",
+                                                    "text-align": "left | center | right"
                                                 }
                                             },
                                             {
                                                 "element-type": "heading3-text",
                                                 "chars-count": 20,
                                                 "fontData": {   // optional
-                                                    "color": "#fff"
+                                                    "color": "hex",
+                                                    "fontSize": "px",
+                                                    "fontFamily": "Samsung Sharp Sans",
+                                                    "text-align": "left | center | right"
                                                 }
                                             },
                                             {
                                                 "element-type": "heading4-text",
                                                 "chars-count": 20,
                                                 "fontData": {   // optional
-                                                    "color": "#fff"
+                                                    "color": "hex",
+                                                    "fontSize": "px",
+                                                    "fontFamily": "Samsung Sharp Sans",
+                                                    "text-align": "left | center | right"
                                                 }
                                             },
                                             {
                                                 "element-type": "subheading-text",
                                                 "chars-count": 20,
                                                 "fontData": {   // optional
-                                                    "color": "#fff"
+                                                    "color": "hex",
+                                                    "fontSize": "px",
+                                                    "fontFamily": "Samsung Sharp Sans",
+                                                    "text-align": "left | center | right"
                                                 }
                                             },
                                             {
                                                 "element-type": "normal-text",
                                                 "chars-count": 20,
                                                 "fontData": {   // optional
-                                                    "color": "#fff"
+                                                    "color": "hex",
+                                                    "fontSize": "px",
+                                                    "fontFamily": "Samsung Sharp Sans",
+                                                    "text-align": "left | center | right"
                                                 }
                                             },
                                             {
                                                 "element-type": "link-text",
                                                 "chars-count": 20,
                                                 "fontData": {   // optional
-                                                    "color": "#fff"
+                                                    "color": "hex",
+                                                    "fontSize": "px",
+                                                    "fontFamily": "Samsung Sharp Sans",
+                                                    "text-align": "left | center | right"
                                                 }
                                             },
                                             {
@@ -130,7 +151,22 @@
                                             {
                                                 "element-type": "box",
                                                 "type": "vertical | horizontal",
-                                                "widgets": []
+                                                "widgets": [],
+                                                "background": "hex | image"
+                                            },
+                                            {
+                                                "element-type": "logo-text",
+                                                "text": "",
+                                                "fontData": {
+                                                    "color": "hex",
+                                                    "fontSize": "px",
+                                                    "fontFamily": "Samsung Sharp Sans",
+                                                    "text-align": "left | center | right"
+                                                },
+                                            },
+                                            {
+                                                "element-type": "spacer",
+                                                "height": "px"
                                             }
                                         ]
                                     }
@@ -154,32 +190,38 @@
         "heading1Styles": {
             "color": "hex",
             "fontSize": "px",
-            "fontFamily": "Samsung Sharp Sans"
+            "fontFamily": "Samsung Sharp Sans",
+            "text-align": "left | center | right"
         },
         "heading2Styles": {
             "color": "hex",
             "fontSize": "px",
-            "fontFamily": "Samsung Sharp Sans"
+            "fontFamily": "Samsung Sharp Sans",
+            "text-align": "left | center | right"
         },
         "heading3Styles": {
             "color": "hex",
             "fontSize": "px",
-            "fontFamily": "Samsung Sharp Sans"
+            "fontFamily": "Samsung Sharp Sans",
+            "text-align": "left | center | right"
         },
         "heading4Styles": {
             "color": "hex",
             "fontSize": "px",
-            "fontFamily": "Samsung Sharp Sans"
+            "fontFamily": "Samsung Sharp Sans",
+            "text-align": "left | center | right"
         },
         "subheadingStyles": {
             "color": "hex",
             "fontSize": "px",
-            "fontFamily": "Inter"
+            "fontFamily": "Inter",
+            "text-align": "left | center | right"
         },
         "normalTextStyles": {
             "color": "hex",
             "fontSize": "px",
-            "fontFamily": "Inter"
+            "fontFamily": "Inter",
+            "text-align": "left | center | right"
         }
     }
 }

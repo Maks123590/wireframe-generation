@@ -1,0 +1,667 @@
+{
+    "sections": [
+        {
+            "section-type": "header",
+            "background": "#FDFAF1",
+            "section-content": {
+                "contentType": "single",
+                "border-radius": "0px",
+                "background": "#FDFAF1",
+                "width": "92%",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "grids": [
+                    {
+                        "width": "100%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {
+                                        "size": 3,
+                                        "widgets": [
+                                            {
+                                                "element-type": "logo-text",
+                                                "text": "CarRepair",
+                                                "fontData": {
+                                                    "color": "#EA3F34"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 3,
+                                        "widgets": []
+                                    },
+                                    {
+                                        "size": 6,
+                                        "widgets": [
+                                            {
+                                                "element-type": "menu",
+                                                "items": [
+                                                    "ABOUT US",
+                                                    "SERVICES",
+                                                    "PRICING PLAN",
+                                                    "INSURANCE",
+                                                    "CONTACT"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "section-type": "content-1",
+            "background": "#404040",
+            "section-content": {
+                "contentType": "single",
+                "border-radius": "0px",
+                "background": "#404040",
+                "width": "92%",
+                "marginTop": "96",
+                "marginBottom": "96 ",
+                "grids": [
+                    {
+                        "width": "100%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {
+                                        "size": 3,
+                                        "widgets": []
+                                    },
+                                    {
+                                        "size": 6,
+                                        "widgets": [
+                                            {
+                                                "element-type": "heading1-text",
+                                                "chars-count": 58
+                                            },
+                                            {
+                                                "element-type": "normal-text",
+                                                "chars-count": 109
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 3,
+                                        "widgets": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "section-type": "content-2",
+            "background": "#FFFFFF",
+            "section-content": {
+                "contentType": "single",
+                "border-radius": "0px",
+                "background": "#FFFFFF",
+                "width": "92%",
+                "marginTop": "96px",
+                "marginBottom": "74px",
+                "grids": [
+                    {
+                        "width": "100%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "box",
+                                                "type": "vertical",
+                                                "widgets": [
+                                                    {
+                                                        "element-type": "heading2-text",
+                                                        "chars-count": 11
+                                                    },
+                                                    {
+                                                        "element-type": "normal-text",
+                                                        "chars-count": 89
+                                                    }
+                                                ],
+                                                "background": "#EA3F34"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "box",
+                                                "type": "vertical",
+                                                "widgets": [
+                                                    {
+                                                        "element-type": "heading2-text",
+                                                        "chars-count": 11
+                                                    },
+                                                    {
+                                                        "element-type": "normal-text",
+                                                        "chars-count": 89
+                                                    }
+                                                ],
+                                                "background": "#EA3F34"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "box",
+                                                "type": "vertical",
+                                                "widgets": [
+                                                    {
+                                                        "element-type": "heading2-text",
+                                                        "chars-count": 11
+                                                    },
+                                                    {
+                                                        "element-type": "normal-text",
+                                                        "chars-count": 89
+                                                    }
+                                                ],
+                                                "background": "#EA3F34"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "section-type": "content-3",
+            "background": "#FFFFFF",
+            "section-content": {
+                "contentType": "single",
+                "border-radius": "0 px",
+                "background": "#FFFFFF",
+                "width": "92%",
+                "marginTop": "74px",
+                "marginBottom": "120px",
+                "grids": [
+                    {
+                        "width": "100%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {
+                                        "size": 6,
+                                        "widgets": [
+                                            {
+                                                "element-type": "heading1-text",
+                                                "chars-count": 58
+                                            },
+                                            {
+                                                "element-type": "normal-text",
+                                                "chars-count": 109
+                                            },
+                                            {
+                                                "element-type": "spacer",
+                                                "height": "56px"
+                                            },
+                                            {
+                                                "element-type": "button",
+                                                "fit-type": "fit",
+                                                "align": "left",
+                                                "type": "primary",
+                                                "width": "20%"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 1,
+                                        "widgets": []
+                                    },
+                                    {
+                                        "size": 5,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 270,
+                                                "borderRadius": {
+                                                    "topLeftPx": 0,
+                                                    "topRightPx": 0,
+                                                    "bottomLeftPx": 0,
+                                                    "bottomRightPx": 0
+                                                },
+                                                "fit-type": "fill"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "section-type": "content-4",
+            "background": "image",
+            "section-content": {
+                "contentType": "single",
+                "border-radius": "0px",
+                "width": "92%",
+                "marginTop": "74px",
+                "marginBottom": "120px",
+                "grids": [
+                    {
+                        "width": "100%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {
+                                        "size": 3,
+                                        "widgets": []
+                                    },
+                                    {
+                                        "size": 6,
+                                        "widgets": [
+                                            {
+                                                "element-type": "heading1-text",
+                                                "chars-count": 58,
+                                                "font-data": {
+                                                    "text-align": "center"
+                                                }
+                                            },
+                                            {
+                                                "element-type": "normal-text",
+                                                "chars-count": 109,
+                                                "font-data": {
+                                                    "text-align": "center"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 3,
+                                        "widgets": []
+                                    }
+                                ]
+                            },
+                            {
+                                "columns": [
+                                    {
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 62,
+                                                "borderRadius": {
+                                                    "topLeftPx": 50,
+                                                    "topRightPx": 50,
+                                                    "bottomLeftPx": 50,
+                                                    "bottomRightPx": 50
+                                                },
+                                                "fit-type": "fit",
+                                                "align": "center",
+                                                "width": "20%"
+                                            },
+                                            {
+                                                "element-type": "heading1-text",
+                                                "chars-count": 11,
+                                                "font-data": {
+                                                    "text-align": "center"
+                                                }
+                                            },
+                                            {
+                                                "element-type": "normal-text",
+                                                "chars-count": 78,
+                                                "font-data": {
+                                                    "text-align": "center"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 62,
+                                                "borderRadius": {
+                                                    "topLeftPx": 50,
+                                                    "topRightPx": 50,
+                                                    "bottomLeftPx": 50,
+                                                    "bottomRightPx": 50
+                                                },
+                                                "fit-type": "fit",
+                                                "align": "center",
+                                                "width": "20%"
+                                            },
+                                            {
+                                                "element-type": "heading1-text",
+                                                "chars-count": 11,
+                                                "font-data": {
+                                                    "text-align": "center"
+                                                }
+                                            },
+                                            {
+                                                "element-type": "normal-text",
+                                                "chars-count": 78,
+                                                "font-data": {
+                                                    "text-align": "center"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 62,
+                                                "borderRadius": {
+                                                    "topLeftPx": 50,
+                                                    "topRightPx": 50,
+                                                    "bottomLeftPx": 50,
+                                                    "bottomRightPx": 50
+                                                },
+                                                "fit-type": "fit",
+                                                "align": "center",
+                                                "width": "20%"
+                                            },
+                                            {
+                                                "element-type": "heading1-text",
+                                                "chars-count": 11,
+                                                "font-data": {
+                                                    "text-align": "center"
+                                                }
+                                            },
+                                            {
+                                                "element-type": "normal-text",
+                                                "chars-count": 78,
+                                                "font-data": {
+                                                    "text-align": "center"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "section-type": "content-5",
+            "background": "#FFFFFF",
+            "section-content": {
+                "contentType": "single",
+                "border-radius": "0px",
+                "background": "#FFFFFF",
+                "width": "92%",
+                "marginTop": "120px",
+                "marginBottom": "120px",
+                "grids": [
+                    {
+                        "width": "100%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {
+                                        "size": 12,
+                                        "widgets": [
+                                            {
+                                                "element-type": "heading1-text",
+                                                "chars-count": 6,
+                                                "fontData": {
+                                                    "text-align": "center"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "columns": [
+                                    {
+                                        "size": 3,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 124,
+                                                "borderRadius": {
+                                                    "topLeftPx": 0,
+                                                    "topRightPx": 0,
+                                                    "bottomLeftPx": 0,
+                                                    "bottomRightPx": 0
+                                                },
+                                                "fit-type": "fill"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 3,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 124,
+                                                "borderRadius": {
+                                                    "topLeftPx": 0,
+                                                    "topRightPx": 0,
+                                                    "bottomLeftPx": 0,
+                                                    "bottomRightPx": 0
+                                                },
+                                                "fit-type": "fill"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 3,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 124,
+                                                "borderRadius": {
+                                                    "topLeftPx": 0,
+                                                    "topRightPx": 0,
+                                                    "bottomLeftPx": 0,
+                                                    "bottomRightPx": 0
+                                                },
+                                                "fit-type": "fill"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 3,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 124,
+                                                "borderRadius": {
+                                                    "topLeftPx": 0,
+                                                    "topRightPx": 0,
+                                                    "bottomLeftPx": 0,
+                                                    "bottomRightPx": 0
+                                                },
+                                                "fit-type": "fill"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "columns": [
+                                    {
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "box",
+                                                "type": "vertical",
+                                                "widgets": [
+                                                    {
+                                                        "element-type": "heading2-text",
+                                                        "chars-count": 7
+                                                    },
+                                                    {
+                                                        "element-type": "normal-text",
+                                                        "chars-count": 14
+                                                    }
+                                                ],
+                                                "background": "#EA3F34"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "box",
+                                                "type": "vertical",
+                                                "widgets": [
+                                                    {
+                                                        "element-type": "heading2-text",
+                                                        "chars-count": 8
+                                                    },
+                                                    {
+                                                        "element-type": "normal-text",
+                                                        "chars-count": 11
+                                                    }
+                                                ],
+                                                "background": "#EA3F34"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "box",
+                                                "type": "vertical",
+                                                "widgets": [
+                                                    {
+                                                        "element-type": "heading2-text",
+                                                        "chars-count": 14
+                                                    },
+                                                    {
+                                                        "element-type": "normal-text",
+                                                        "chars-count": 27
+                                                    }
+                                                ],
+                                                "background": "#EA3F34"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "section-type": "footer",
+            "background": "#242834",
+            "section-content": {
+                "contentType": "single",
+                "border-radius": "0px",
+                "background": "#242834",
+                "width": "92%",
+                "marginTop": "120px",
+                "marginBottom": "120px",
+                "grids": [
+                    {
+                        "width": "100%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {
+                                        "size": 3,
+                                        "widgets": [
+                                            {
+                                                "element-type": "heading2-text",
+                                                "chars-count": 11
+                                            },
+                                            {
+                                                "element-type": "normal-text",
+                                                "chars-count": 78
+                                            },
+                                            {
+                                                "element-type": "social-links",
+                                                "links-count": 5
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 1,
+                                        "widgets": []
+                                    },
+                                    {
+                                        "size": 3,
+                                        "widgets": [
+                                            {
+                                                "element-type": "heading2-text",
+                                                "chars-count": 11
+                                            },
+                                            {
+                                                "element-type": "normal-text",
+                                                "chars-count": 88
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 2,
+                                        "widgets": []
+                                    },
+                                    {
+                                        "size": 3,
+                                        "widgets": [
+                                            {
+                                                "element-type": "heading2-text",
+                                                "chars-count": 11
+                                            },
+                                            {
+                                                "element-type": "normal-text",
+                                                "chars-count": 63
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "commonStyles": {
+        "primaryButtonColor": "#EA3F34",
+        "secondaryButtonColor": "#FFF",
+        "buttonBorderRadius": {
+            "topLeftPx": 16,
+            "topRightPx": 16,
+            "bottomLeftPx": 16,
+            "bottomRightPx": 16
+        },
+        "heading1Styles": {
+            "color": "#333333",
+            "fontSize": "36px",
+            "fontFamily": "Roboto"
+        },
+        "heading2Styles": {
+            "color": "#333333",
+            "fontSize": "18px",
+            "fontFamily": "Roboto"
+        },
+        "normalTextStyles": {
+            "color": "hex",
+            "fontSize": "18px",
+            "fontFamily": "Roboto"
+        }
+    }
+}
