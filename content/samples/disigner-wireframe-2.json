@@ -1,0 +1,1075 @@
+{
+    "sections": [
+        {
+            "section-type": "header",
+            "background": "#1A1A1A",
+            "section-content": {
+                "contentType": "single",
+                "border-radius": "0px",
+                "background": "#1A1A1A",
+                "width": "100%",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "grids": [
+                    {
+                        "width": "90%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 5,
+                                        "widgets": [
+                                        ]
+                                    },
+                                    {  
+                                        "size": 2,
+                                        "widgets": [
+                                            {
+                                                "element-type": "heading3-text",
+                                                "chars-count": 18 ,
+                                                "fontData": {
+                                                    "color": "#E9AA5D",
+                                                    "fontFamily": "Molle"
+
+                                                }
+                                            },
+                                        ]
+                                    },
+                                    {  
+                                        "size": 5,
+                                        "widgets": [
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "section-type": "header",
+            "background": "#1A1A1A",
+            "section-content": {
+                "contentType": "single",
+                "border-radius": "0px",
+                "background": "#1A1A1A",
+                "width": "100%",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "grids": [
+                    {
+                        "width": "100%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 2,
+                                        "widgets": [
+                                            {
+                                                "elementType": "search-box",
+                                                "elementColor": "#B3B3B3"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                        ]
+                                    },
+                                    {  
+                                        "size": 6,
+                                        "widgets": [
+                                            {
+                                                "element-type": "menu",
+                                                "items": ["HOME", "ABOUT US", "WINE COLLECTION", "WINE TESTING TOURS", "EVENTS", "SHOP", "CONTACT US"]
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 2,
+                                        "widgets": [
+                                        ]
+                                    },
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                            {
+                                                "element-type": "box",
+                                                "type": "horizontal",
+                                                "widgets": [
+                                                    {
+                                                        "elementType": "login"
+                                                    },
+                                                    {
+                                                        "elementType": "cart"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "section-type": "Hero",
+            "background": "#1A1A1A",
+            "section-content": {
+                "contentType": "slider",
+                "border-radius": "0px",
+                "background": "#1A1A1A",
+                "width": "100%",
+                "marginTop": "104px",
+                "marginBottom": "0px",
+                "grids": [
+                    {
+                        "width": "100%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 2,
+                                        "widgets": [
+                                        ]
+                                    },
+                                    {  
+                                        "size": 8,
+                                        "widgets": [
+                                            {
+                                                "elementType": "heading1-text",
+                                                "charsCount": 10
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 2,
+                                        "widgets": [
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 5,
+                                        "widgets": [
+                                        ]
+                                    },
+                                    {  
+                                        "size": 2,
+                                        "widgets": [
+                                            {
+                                                "elementType": "subheading-text",
+                                                "charsCount": 11
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 5,
+                                        "widgets": [
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 3,
+                                        "widgets": [
+                                        ]
+                                    },
+                                    {  
+                                        "size": 6,
+                                        "widgets": [
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 218
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 3,
+                                        "widgets": [
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "section-type": "content-1",
+            "background": "#810820;",
+            "section-content": {
+                "contentType": "single",
+                "border-radius": "0px",
+                "background": "#810820;",
+                "width": "100%",
+                "marginTop": "104px",
+                "marginBottom": "104px",
+                "grids": [
+                    {
+                        "width": "100%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                        ]
+                                    },
+                                    {  
+                                        "size": 10,
+                                        "widgets": [
+                                            {
+                                                "elementType": "heading2-text",
+                                                "charsCount": 11
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 877
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 566
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 441
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "section-type": "content-2",
+            "background": "#1A1A1A;",
+            "section-content": {
+                "contentType": "single",
+                "border-radius": "0px",
+                "background": "#1A1A1A;",
+                "width": "100%",
+                "marginTop": "104px",
+                "marginBottom": "104px",
+                "grids": [
+                    {
+                        "width": "100%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                        ]
+                                    },
+                                    {  
+                                        "size": 11,
+                                        "widgets": [
+                                            {
+                                                "elementType": "heading2-text",
+                                                "charsCount": 11
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                        ]
+                                    },
+                                    {  
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",    //ToDo color?
+                                                "height": 412,
+                                                "borderRadius": {
+                                                    "topLeftPx": 100,
+                                                    "topRightPx": 100,
+                                                    "bottomLeftPx": 100,
+                                                    "bottomRightPx": 100
+                                                },
+                                                "fit-type": "fit",
+                                                "align": "left",
+                                                "width": "95%"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                        ]
+                                    },
+                                    {  
+                                        "size": 5,
+                                        "widgets": [
+                                            {
+                                                "elementType": "heading2-text",
+                                                "charsCount": 11
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 877
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                        ]
+                                    },
+                                    {  
+                                        "size": 5,
+                                        "widgets": [
+                                            {
+                                                "elementType": "heading2-text",
+                                                "charsCount": 11
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 877
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                        ]
+                                    },
+                                    {  
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 412,
+                                                "borderRadius": {
+                                                    "topLeftPx": 100,
+                                                    "topRightPx": 100,
+                                                    "bottomLeftPx": 100,
+                                                    "bottomRightPx": 100
+                                                },
+                                                "fit-type": "fit",
+                                                "align": "left",
+                                                "width": "95%"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "section-type": "content-3",
+            "background": "#F5ECDC",
+            "section-content": {
+                "contentType": "single",
+                "border-radius": "0px",
+                "background": "#F5ECDC",
+                "width": "100%",
+                "marginTop": "104px",
+                "marginBottom": "104px",
+                "grids": [
+                    {
+                        "width": "100%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                        ]
+                                    },
+                                    {  
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 489,
+                                                "borderRadius": {
+                                                    "topLeftPx": 500,
+                                                    "topRightPx": 500,
+                                                    "bottomLeftPx": 16,
+                                                    "bottomRightPx": 16
+                                                },
+                                                "fit-type": "fill"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 6,
+                                        "widgets": [
+                                            {
+                                                "elementType": "heading2-text",
+                                                "charsCount": 11,
+                                                "fontData": {
+                                                    "color": "#1A1A1A"
+                                                }
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 877,
+                                                "fontData": {
+                                                    "color": "#1A1A1A"
+                                                }
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 443,
+                                                "fontData": {
+                                                    "color": "#1A1A1A"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                        ]
+                                    },
+                                    {  
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 274,
+                                                "borderRadius": {
+                                                    "topLeftPx": 8,
+                                                    "topRightPx": 8,
+                                                    "bottomLeftPx": 8,
+                                                    "bottomRightPx": 8
+                                                },
+                                                "fit-type": "fill"
+                                            },
+                                            {
+                                                "elementType": "heading3-text",
+                                                "charsCount": 11,
+                                                "fontData": {
+                                                    "color": "#1A1A1A"
+                                                }
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 220,
+                                                "fontData": {
+                                                    "color": "#1A1A1A"
+                                                }
+                                            },
+                                            {
+                                                "elementType": "button",
+                                                "type": "primary",
+                                                "fitType": "fill"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 274,
+                                                "borderRadius": {
+                                                    "topLeftPx": 8,
+                                                    "topRightPx": 8,
+                                                    "bottomLeftPx": 8,
+                                                    "bottomRightPx": 8
+                                                },
+                                                "fit-type": "fill"
+                                            },
+                                            {
+                                                "elementType": "heading3-text",
+                                                "charsCount": 11,
+                                                "fontData": {
+                                                    "color": "#1A1A1A"
+                                                }
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 220,
+                                                "fontData": {
+                                                    "color": "#1A1A1A"
+                                                }
+                                            },
+                                            {
+                                                "elementType": "button",
+                                                "type": "primary",
+                                                "fitType": "fill"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 3,
+                                        "widgets": [
+                                        ]
+                                    }
+                                ]
+                            }
+                            
+                        ]
+                    }
+                ]
+            }
+        },
+        { 
+            "section-type": "content-4",
+            "background": "#810820;",
+            "section-content": {
+                "contentType": "single",
+                "border-radius": "0px",
+                "background": "#810820;",
+                "width": "100%",
+                "marginTop": "104px",
+                "marginBottom": "104px",
+                "grids": [
+                    {
+                        "width": "100%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                        ]
+                                    },
+                                    {  
+                                        "size": 11,
+                                        "widgets": [
+                                            {
+                                                "elementType": "heading2-text",
+                                                "charsCount": 11
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                        ]
+                                    },
+                                    {  
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "elementType": "heading3-text",
+                                                "charsCount": 11
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 220
+                                            },
+                                            {
+                                                "elementType": "link-text",
+                                                "charsCount": 11
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "elementType": "heading3-text",
+                                                "charsCount": 11
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 220
+                                            },
+                                            {
+                                                "elementType": "link-text",
+                                                "charsCount": 11
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 3,
+                                        "widgets": [
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                        ]
+                                    },
+                                    {  
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "elementType": "heading3-text",
+                                                "charsCount": 11
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 220
+                                            },
+                                            {
+                                                "elementType": "link-text",
+                                                "charsCount": 11
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "elementType": "heading3-text",
+                                                "charsCount": 11
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 220
+                                            },
+                                            {
+                                                "elementType": "link-text",
+                                                "charsCount": 11
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 3,
+                                        "widgets": [
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 1,
+                                        "widgets": [
+                                        ]
+                                    },
+                                    {  
+                                        "size": 11,
+                                        "widgets": [
+                                            {
+                                                "elementType": "link-text",
+                                                "charsCount": 11,
+                                                "fontData": {
+                                                    "color": "#F3DDAA"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "section-type": "content-5",
+            "background": "#F5ECDC",
+            "section-content": {
+                "contentType": "single",
+                "border-radius": "0px",
+                "background": "#F5ECDC",
+                "width": "100%",
+                "marginTop": "104px",
+                "marginBottom": "104px",
+                "grids": [
+                    {
+                        "width": "100%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 12,
+                                        "widgets": [
+                                            {
+                                                "elementType": "heading2-text",
+                                                "charsCount": 11,
+                                                "fontData": {
+                                                    "color": "#1A1A1A"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 3,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 369,
+                                                "borderRadius": {
+                                                    "topLeftPx": 8,
+                                                    "topRightPx": 8,
+                                                    "bottomLeftPx": 8,
+                                                    "bottomRightPx": 8
+                                                },
+                                                "fit-type": "fill"
+                                            },
+                                            {
+                                                "elementType": "heading3-text",
+                                                "charsCount": 11,
+                                                "fontData": {
+                                                    "color": "#1A1A1A"
+                                                }
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 118,
+                                                "fontData": {
+                                                    "color": "#1A1A1A"
+                                                }
+                                            },
+                                            {
+                                                "elementType": "button",
+                                                "type": "primary",
+                                                "fitType": "fill"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 3,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 369,
+                                                "borderRadius": {
+                                                    "topLeftPx": 8,
+                                                    "topRightPx": 8,
+                                                    "bottomLeftPx": 8,
+                                                    "bottomRightPx": 8
+                                                },
+                                                "fit-type": "fill"
+                                            },
+                                            {
+                                                "elementType": "heading3-text",
+                                                "charsCount": 11,
+                                                "fontData": {
+                                                    "color": "#1A1A1A"
+                                                }
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 118,
+                                                "fontData": {
+                                                    "color": "#1A1A1A"
+                                                }
+                                            },
+                                            {
+                                                "elementType": "button",
+                                                "type": "primary",
+                                                "fitType": "fill"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 3,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 369,
+                                                "borderRadius": {
+                                                    "topLeftPx": 8,
+                                                    "topRightPx": 8,
+                                                    "bottomLeftPx": 8,
+                                                    "bottomRightPx": 8
+                                                },
+                                                "fit-type": "fill"
+                                            },
+                                            {
+                                                "elementType": "heading3-text",
+                                                "charsCount": 11,
+                                                "fontData": {
+                                                    "color": "#1A1A1A"
+                                                }
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 118,
+                                                "fontData": {
+                                                    "color": "#1A1A1A"
+                                                }
+                                            },
+                                            {
+                                                "elementType": "button",
+                                                "type": "primary",
+                                                "fitType": "fill"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 3,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 369,
+                                                "borderRadius": {
+                                                    "topLeftPx": 8,
+                                                    "topRightPx": 8,
+                                                    "bottomLeftPx": 8,
+                                                    "bottomRightPx": 8
+                                                },
+                                                "fit-type": "fill"
+                                            },
+                                            {
+                                                "elementType": "heading3-text",
+                                                "charsCount": 11,
+                                                "fontData": {
+                                                    "color": "#1A1A1A"
+                                                }
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 118,
+                                                "fontData": {
+                                                    "color": "#1A1A1A"
+                                                }
+                                            },
+                                            {
+                                                "elementType": "button",
+                                                "type": "primary",
+                                                "fitType": "fill"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 3,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 369,
+                                                "borderRadius": {
+                                                    "topLeftPx": 8,
+                                                    "topRightPx": 8,
+                                                    "bottomLeftPx": 8,
+                                                    "bottomRightPx": 8
+                                                },
+                                                "fit-type": "fill"
+                                            },
+                                            {
+                                                "elementType": "heading3-text",
+                                                "charsCount": 11,
+                                                "fontData": {
+                                                    "color": "#1A1A1A"
+                                                }
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 118,
+                                                "fontData": {
+                                                    "color": "#1A1A1A"
+                                                }
+                                            },
+                                            {
+                                                "elementType": "button",
+                                                "type": "primary",
+                                                "fitType": "fill"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 3,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 369,
+                                                "borderRadius": {
+                                                    "topLeftPx": 8,
+                                                    "topRightPx": 8,
+                                                    "bottomLeftPx": 8,
+                                                    "bottomRightPx": 8
+                                                },
+                                                "fit-type": "fill"
+                                            },
+                                            {
+                                                "elementType": "heading3-text",
+                                                "charsCount": 11,
+                                                "fontData": {
+                                                    "color": "#1A1A1A"
+                                                }
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 118,
+                                                "fontData": {
+                                                    "color": "#1A1A1A"
+                                                }
+                                            },
+                                            {
+                                                "elementType": "button",
+                                                "type": "primary",
+                                                "fitType": "fill"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 3,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 369,
+                                                "borderRadius": {
+                                                    "topLeftPx": 8,
+                                                    "topRightPx": 8,
+                                                    "bottomLeftPx": 8,
+                                                    "bottomRightPx": 8
+                                                },
+                                                "fit-type": "fill"
+                                            },
+                                            {
+                                                "elementType": "heading3-text",
+                                                "charsCount": 11,
+                                                "fontData": {
+                                                    "color": "#1A1A1A"
+                                                }
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 118,
+                                                "fontData": {
+                                                    "color": "#1A1A1A"
+                                                }
+                                            },
+                                            {
+                                                "elementType": "button",
+                                                "type": "primary",
+                                                "fitType": "fill"
+                                            }
+                                        ]
+                                    },
+                                    {  
+                                        "size": 3,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 369,
+                                                "borderRadius": {
+                                                    "topLeftPx": 8,
+                                                    "topRightPx": 8,
+                                                    "bottomLeftPx": 8,
+                                                    "bottomRightPx": 8
+                                                },
+                                                "fit-type": "fill"
+                                            },
+                                            {
+                                                "elementType": "heading3-text",
+                                                "charsCount": 11,
+                                                "fontData": {
+                                                    "color": "#1A1A1A"
+                                                }
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 118,
+                                                "fontData": {
+                                                    "color": "#1A1A1A"
+                                                }
+                                            },
+                                            {
+                                                "elementType": "button",
+                                                "type": "primary",
+                                                "fitType": "fill"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "commonStyles": {
+        "primaryButtonColor": "#810820",
+        "secondaryButtonColor": "#E9AA5D;",
+        "buttonBorderRadius": {
+            "topLeftPx": 8,
+            "topRightPx": 8,
+            "bottomLeftPx": 8,
+            "bottomRightPx": 8
+        },
+        "heading1Styles": {
+            "color": "#FFFFFF",
+            "fontSize": "110px",
+            "fontFamily": "Molle"
+        },
+        "heading2Styles": {
+            "color": "#FFFFFF",
+            "fontSize": "32px",
+            "fontFamily": "Malayalam MN"
+        },
+        "heading3Styles": {
+            "color": "#FFFFFF",
+            "fontSize": "24px",
+            "fontFamily": "Malayalam MN"
+        },
+        "heading4Styles": {
+            "color": "#FFFFFF",
+            "fontSize": "16px",
+            "fontFamily": "Malayalam MN"
+        },
+        "subheadingStyles": {
+            "color": "#FFFFFF",
+            "fontSize": "16px",
+            "fontFamily": "Malayalam MN"
+        },
+        "normalTextStyles": {
+            "color": "#FFFFFF",
+            "fontSize": "16px",
+            "fontFamily": "Malayalam MN"
+        }
+    }
+}

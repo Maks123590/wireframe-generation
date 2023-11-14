@@ -47,8 +47,7 @@
                                         "size": 5,
                                         "widgets": [
                                             {
-                                                "elementType": "search-box",
-                                                "elementColor": "#C5E384"
+                                                "elementType": "search-box"
                                             }
                                         ]
                                     },
@@ -56,8 +55,7 @@
                                         "size": 1,
                                         "widgets": [
                                             {
-                                                "elementType": "login",
-                                                "elementColor": "#F7F8F9"
+                                                "elementType": "login"
                                             }
                                         ]
                                     },
@@ -65,8 +63,7 @@
                                         "size": 1,
                                         "widgets": [
                                             {
-                                                "elementType": "cart",
-                                                "elementColor": "#F7F8F9"
+                                                "elementType": "cart"
                                             }
                                         ]
                                     }
@@ -124,8 +121,7 @@
                                         "widgets": [
                                             {
                                                 "elementType": "button",
-                                                "type": "primary",
-                                                "elementColor": "#00A3E0"
+                                                "type": "primary"
                                             }
                                         ]
                                     },
@@ -134,8 +130,7 @@
                                         "widgets": [
                                             {
                                                 "elementType": "button",
-                                                "type": "secondary",
-                                                "elementColor": "#FFFFFF"
+                                                "type": "secondary"
                                             }
                                         ]
                                     },

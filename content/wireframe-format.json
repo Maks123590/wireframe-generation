@@ -2,17 +2,14 @@
     "sections": [
         {
             "section-type": "header",
-            "background": {
-                "color": "#fff",
-                "media": "src"
-            },
+            "background": "hex | image",
             "section-content": {
                 "contentType": "single | slider",
                 "border-radius": "px",
-                "background": {
-                    "color": "#fff",
-                    "media": "src"
-                },
+                "background": "hex | image",
+                "width": "100%",
+                "marginTop": "0px",
+                "marginBottom": "0px",
                 "grids": [
                     {
                         "width": "90%",
@@ -25,17 +22,78 @@
                                             {
                                                 "element-type": "heading1-text",
                                                 "chars-count": 20,
-                                                "color": "#fff" // optional
+                                                "fontData": {   // optional
+                                                    "color": "#fff"
+                                                }
                                             },
                                             {
                                                 "element-type": "heading2-text",
                                                 "chars-count": 20,
-                                                "color": "#fff" // optional
+                                                "fontData": {   // optional
+                                                    "color": "#fff"
+                                                }
                                             },
                                             {
-                                                "element-type": "text",
+                                                "element-type": "heading3-text",
                                                 "chars-count": 20,
-                                                "color": "#fff" // optional
+                                                "fontData": {   // optional
+                                                    "color": "#fff"
+                                                }
+                                            },
+                                            {
+                                                "element-type": "heading4-text",
+                                                "chars-count": 20,
+                                                "fontData": {   // optional
+                                                    "color": "#fff"
+                                                }
+                                            },
+                                            {
+                                                "element-type": "subheading-text",
+                                                "chars-count": 20,
+                                                "fontData": {   // optional
+                                                    "color": "#fff"
+                                                }
+                                            },
+                                            {
+                                                "element-type": "normal-text",
+                                                "chars-count": 20,
+                                                "fontData": {   // optional
+                                                    "color": "#fff"
+                                                }
+                                            },
+                                            {
+                                                "element-type": "link-text",
+                                                "chars-count": 20,
+                                                "fontData": {   // optional
+                                                    "color": "#fff"
+                                                }
+                                            },
+                                            {
+                                                "size": 5,
+                                                "widgets": [
+                                                    {
+                                                        "elementType": "search-box",
+                                                        "elementColor": "#C5E384"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "size": 1,
+                                                "widgets": [
+                                                    {
+                                                        "elementType": "login",
+                                                        "elementColor": "#F7F8F9"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "size": 1,
+                                                "widgets": [
+                                                    {
+                                                        "elementType": "cart",
+                                                        "elementColor": "#F7F8F9"
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "element-type": "menu",
@@ -43,8 +101,16 @@
                                             },
                                             {
                                                 "element-type": "image",
-                                                "height": 20,
-                                                "border-radius": "px"
+                                                "height": 506,
+                                                "borderRadius": {
+                                                    "topLeftPx": 24,
+                                                    "topRightPx": 24,
+                                                    "bottomLeftPx": 24,
+                                                    "bottomRightPx": 24
+                                                },
+                                                "fit-type": "fit | fill",
+                                                "align": "left | right | center",
+                                                "width": "25%"
                                             },
                                             {
                                                 "element-type": "button",
@@ -60,6 +126,11 @@
                                             {
                                                 "element-type": "social links",
                                                 "links-count": 3
+                                            },
+                                            {
+                                                "element-type": "box",
+                                                "type": "vertical | horizontal",
+                                                "widgets": []
                                             }
                                         ]
                                     }
@@ -71,12 +142,44 @@
             }
         }
     ],
-    "common-styles": {
-        "button-color": "hex",
-        "primary-button-color": "hex",
-        "secondary-button-color": "hex",
-        "button-border-radius": "px",
-        "headings-color": "hex",
-        "normal-text-color": "hex"
-    } 
+    "commonStyles": {
+        "primaryButtonColor": "hex",
+        "secondaryButtonColor": "hex",
+        "buttonBorderRadius": {
+            "topLeftPx": 16,  // px
+            "topRightPx": 16,
+            "bottomLeftPx": 16,
+            "bottomRightPx": 16
+        },
+        "heading1Styles": {
+            "color": "hex",
+            "fontSize": "px",
+            "fontFamily": "Samsung Sharp Sans"
+        },
+        "heading2Styles": {
+            "color": "hex",
+            "fontSize": "px",
+            "fontFamily": "Samsung Sharp Sans"
+        },
+        "heading3Styles": {
+            "color": "hex",
+            "fontSize": "px",
+            "fontFamily": "Samsung Sharp Sans"
+        },
+        "heading4Styles": {
+            "color": "hex",
+            "fontSize": "px",
+            "fontFamily": "Samsung Sharp Sans"
+        },
+        "subheadingStyles": {
+            "color": "hex",
+            "fontSize": "px",
+            "fontFamily": "Inter"
+        },
+        "normalTextStyles": {
+            "color": "hex",
+            "fontSize": "px",
+            "fontFamily": "Inter"
+        }
+    }
 }
