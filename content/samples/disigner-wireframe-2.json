@@ -16,29 +16,26 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 5,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     },
-                                    {  
+                                    {
                                         "size": 2,
                                         "widgets": [
                                             {
                                                 "element-type": "heading3-text",
-                                                "chars-count": 18 ,
+                                                "chars-count": 18,
                                                 "fontData": {
                                                     "color": "#E9AA5D",
                                                     "fontFamily": "Molle"
-
                                                 }
-                                            },
+                                            }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 5,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     }
                                 ]
                             }
@@ -63,7 +60,7 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 2,
                                         "widgets": [
                                             {
@@ -72,26 +69,32 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 1,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     },
-                                    {  
+                                    {
                                         "size": 6,
                                         "widgets": [
                                             {
                                                 "element-type": "menu",
-                                                "items": ["HOME", "ABOUT US", "WINE COLLECTION", "WINE TESTING TOURS", "EVENTS", "SHOP", "CONTACT US"]
+                                                "items": [
+                                                    "HOME",
+                                                    "ABOUT US",
+                                                    "WINE COLLECTION",
+                                                    "WINE TESTING TOURS",
+                                                    "EVENTS",
+                                                    "SHOP",
+                                                    "CONTACT US"
+                                                ]
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 2,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     },
-                                    {  
+                                    {
                                         "size": 1,
                                         "widgets": [
                                             {
@@ -131,12 +134,11 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 2,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     },
-                                    {  
+                                    {
                                         "size": 8,
                                         "widgets": [
                                             {
@@ -145,21 +147,19 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 2,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     }
                                 ]
                             },
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 5,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     },
-                                    {  
+                                    {
                                         "size": 2,
                                         "widgets": [
                                             {
@@ -168,21 +168,19 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 5,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     }
                                 ]
                             },
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 3,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     },
-                                    {  
+                                    {
                                         "size": 6,
                                         "widgets": [
                                             {
@@ -191,10 +189,9 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 3,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     }
                                 ]
                             }
@@ -219,12 +216,11 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 1,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     },
-                                    {  
+                                    {
                                         "size": 10,
                                         "widgets": [
                                             {
@@ -245,10 +241,9 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 1,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     }
                                 ]
                             }
@@ -273,12 +268,11 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 1,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     },
-                                    {  
+                                    {
                                         "size": 11,
                                         "widgets": [
                                             {
@@ -291,80 +285,11 @@
                             },
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 1,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     },
-                                    {  
-                                        "size": 4,
-                                        "widgets": [
-                                            {
-                                                "element-type": "image",    //ToDo color?
-                                                "height": 412,
-                                                "borderRadius": {
-                                                    "topLeftPx": 100,
-                                                    "topRightPx": 100,
-                                                    "bottomLeftPx": 100,
-                                                    "bottomRightPx": 100
-                                                },
-                                                "fit-type": "fit",
-                                                "align": "left",
-                                                "width": "95%"
-                                            }
-                                        ]
-                                    },
-                                    {  
-                                        "size": 1,
-                                        "widgets": [
-                                        ]
-                                    },
-                                    {  
-                                        "size": 5,
-                                        "widgets": [
-                                            {
-                                                "elementType": "heading2-text",
-                                                "charsCount": 11
-                                            },
-                                            {
-                                                "elementType": "normal-text",
-                                                "charsCount": 877
-                                            }
-                                        ]
-                                    },
-                                    {  
-                                        "size": 1,
-                                        "widgets": [
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "columns": [
-                                    {  
-                                        "size": 1,
-                                        "widgets": [
-                                        ]
-                                    },
-                                    {  
-                                        "size": 5,
-                                        "widgets": [
-                                            {
-                                                "elementType": "heading2-text",
-                                                "charsCount": 11
-                                            },
-                                            {
-                                                "elementType": "normal-text",
-                                                "charsCount": 877
-                                            }
-                                        ]
-                                    },
-                                    {  
-                                        "size": 1,
-                                        "widgets": [
-                                        ]
-                                    },
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -382,10 +307,73 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 1,
+                                        "widgets": []
+                                    },
+                                    {
+                                        "size": 5,
                                         "widgets": [
+                                            {
+                                                "elementType": "heading2-text",
+                                                "charsCount": 11
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 877
+                                            }
                                         ]
+                                    },
+                                    {
+                                        "size": 1,
+                                        "widgets": []
+                                    }
+                                ]
+                            },
+                            {
+                                "columns": [
+                                    {
+                                        "size": 1,
+                                        "widgets": []
+                                    },
+                                    {
+                                        "size": 5,
+                                        "widgets": [
+                                            {
+                                                "elementType": "heading2-text",
+                                                "charsCount": 11
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 877
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 1,
+                                        "widgets": []
+                                    },
+                                    {
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 412,
+                                                "borderRadius": {
+                                                    "topLeftPx": 100,
+                                                    "topRightPx": 100,
+                                                    "bottomLeftPx": 100,
+                                                    "bottomRightPx": 100
+                                                },
+                                                "fit-type": "fit",
+                                                "align": "left",
+                                                "width": "95%"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 1,
+                                        "widgets": []
                                     }
                                 ]
                             }
@@ -410,12 +398,11 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 1,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     },
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -431,7 +418,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 6,
                                         "widgets": [
                                             {
@@ -457,21 +444,19 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 1,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     }
                                 ]
                             },
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 1,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     },
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -506,7 +491,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -541,20 +526,18 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 3,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     }
                                 ]
                             }
-                            
                         ]
                     }
                 ]
             }
         },
-        { 
+        {
             "section-type": "content-4",
             "background": "#810820;",
             "section-content": {
@@ -570,12 +553,11 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 1,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     },
-                                    {  
+                                    {
                                         "size": 11,
                                         "widgets": [
                                             {
@@ -588,12 +570,11 @@
                             },
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 1,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     },
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -610,7 +591,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -627,21 +608,19 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 3,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     }
                                 ]
                             },
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 1,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     },
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -658,7 +637,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -675,21 +654,19 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 3,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     }
                                 ]
                             },
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 1,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     },
-                                    {  
+                                    {
                                         "size": 11,
                                         "widgets": [
                                             {
@@ -724,7 +701,7 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 12,
                                         "widgets": [
                                             {
@@ -740,7 +717,7 @@
                             },
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 3,
                                         "widgets": [
                                             {
@@ -775,7 +752,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 3,
                                         "widgets": [
                                             {
@@ -810,7 +787,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 3,
                                         "widgets": [
                                             {
@@ -845,7 +822,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 3,
                                         "widgets": [
                                             {
@@ -884,7 +861,7 @@
                             },
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 3,
                                         "widgets": [
                                             {
@@ -919,7 +896,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 3,
                                         "widgets": [
                                             {
@@ -954,7 +931,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 3,
                                         "widgets": [
                                             {
@@ -989,7 +966,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 3,
                                         "widgets": [
                                             {
@@ -1021,6 +998,336 @@
                                                 "elementType": "button",
                                                 "type": "primary",
                                                 "fitType": "fill"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "section-type": "content-6",
+            "background": "#1A1A1A;",
+            "section-content": {
+                "contentType": "single",
+                "border-radius": "0px",
+                "background": "#1A1A1A;",
+                "width": "100%",
+                "marginTop": "104px",
+                "marginBottom": "104px",
+                "grids": [
+                    {
+                        "width": "100%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {
+                                        "size": 1,
+                                        "widgets": []
+                                    },
+                                    {
+                                        "size": 11,
+                                        "widgets": [
+                                            {
+                                                "elementType": "heading2-text",
+                                                "charsCount": 11
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "columns": [
+                                    {
+                                        "size": 1,
+                                        "widgets": []
+                                    },
+                                    {
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 224,
+                                                "borderRadius": {
+                                                    "topLeftPx": 8,
+                                                    "topRightPx": 8,
+                                                    "bottomLeftPx": 8,
+                                                    "bottomRightPx": 8
+                                                },
+                                                "fit-type": "fill"
+                                            },
+                                            {
+                                                "elementType": "heading3-text",
+                                                "charsCount": 11
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 220
+                                            },
+                                            {
+                                                "elementType": "link-text",
+                                                "charsCount": 11
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 224,
+                                                "borderRadius": {
+                                                    "topLeftPx": 8,
+                                                    "topRightPx": 8,
+                                                    "bottomLeftPx": 8,
+                                                    "bottomRightPx": 8
+                                                },
+                                                "fit-type": "fill"
+                                            },
+                                            {
+                                                "elementType": "heading3-text",
+                                                "charsCount": 11
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 220
+                                            },
+                                            {
+                                                "elementType": "link-text",
+                                                "charsCount": 11
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 3,
+                                        "widgets": []
+                                    }
+                                ]
+                            },
+                            {
+                                "columns": [
+                                    {
+                                        "size": 1,
+                                        "widgets": []
+                                    },
+                                    {
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 224,
+                                                "borderRadius": {
+                                                    "topLeftPx": 8,
+                                                    "topRightPx": 8,
+                                                    "bottomLeftPx": 8,
+                                                    "bottomRightPx": 8
+                                                },
+                                                "fit-type": "fill"
+                                            },
+                                            {
+                                                "elementType": "heading3-text",
+                                                "charsCount": 11
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 220
+                                            },
+                                            {
+                                                "elementType": "link-text",
+                                                "charsCount": 11
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "image",
+                                                "height": 224,
+                                                "borderRadius": {
+                                                    "topLeftPx": 8,
+                                                    "topRightPx": 8,
+                                                    "bottomLeftPx": 8,
+                                                    "bottomRightPx": 8
+                                                },
+                                                "fit-type": "fill"
+                                            },
+                                            {
+                                                "elementType": "heading3-text",
+                                                "charsCount": 11
+                                            },
+                                            {
+                                                "elementType": "normal-text",
+                                                "charsCount": 220
+                                            },
+                                            {
+                                                "elementType": "link-text",
+                                                "charsCount": 11
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 3,
+                                        "widgets": []
+                                    }
+                                ]
+                            },
+                            {
+                                "columns": [
+                                    {
+                                        "size": 1,
+                                        "widgets": []
+                                    },
+                                    {
+                                        "size": 11,
+                                        "widgets": [
+                                            {
+                                                "elementType": "link-text",
+                                                "charsCount": 11,
+                                                "fontData": {
+                                                    "color": "#F3DDAA"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "section-type": "content-7",
+            "background": "#810820;",
+            "section-content": {
+                "contentType": "single",
+                "border-radius": "0px",
+                "background": "#810820;",
+                "width": "100%",
+                "marginTop": "104px",
+                "marginBottom": "104px",
+                "grids": [
+                    {
+                        "width": "100%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {
+                                        "size": 1,
+                                        "widgets": []
+                                    },
+                                    {
+                                        "size": 11,
+                                        "widgets": [
+                                            {
+                                                "element-type": "form",
+                                                "type": "vertical"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 1,
+                                        "widgets": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "section-type": "footer",
+            "background": "#1A1A1A;",
+            "section-content": {
+                "contentType": "single",
+                "border-radius": "0px",
+                "background": "#1A1A1A;",
+                "width": "100%",
+                "marginTop": "104px",
+                "marginBottom": "104px",
+                "grids": [
+                    {
+                        "width": "100%",
+                        "rows": [
+                            {
+                                "columns": [
+                                    {
+                                        "size": 1,
+                                        "widgets": []
+                                    },
+                                    {
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "element-type": "heading3-text",
+                                                "chars-count": 18,
+                                                "fontData": {
+                                                    "fontFamily": "Molle"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 2,
+                                        "widgets": [
+                                            {
+                                                "element-type": "heading2-text",
+                                                "chars-count": 18
+                                            },
+                                            {
+                                                "element-type": "menu",
+                                                "items": [
+                                                    "HOME",
+                                                    "ABOUT US",
+                                                    "WINE COLLECTION",
+                                                    "WINE TESTING TOURS",
+                                                    "EVENTS",
+                                                    "SHOP",
+                                                    "CONTACT US"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 2,
+                                        "widgets": [
+                                            {
+                                                "element-type": "heading2-text",
+                                                "chars-count": 8
+                                            },
+                                            {
+                                                "element-type": "normal-text",
+                                                "chars-count": 79
+                                            },
+                                            {
+                                                "element-type": "normal-text",
+                                                "chars-count": 27
+                                            },
+                                            {
+                                                "element-type": "normal-text",
+                                                "chars-count": 17
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 3,
+                                        "widgets": [
+                                            {
+                                                "element-type": "heading2-text",
+                                                "chars-count": 8
+                                            },
+                                            {
+                                                "element-type": "social-links",
+                                                "links-count": 3
+                                            },
+                                            {
+                                                "element-type": "subscribe",
+                                                "type": "vertical"
                                             }
                                         ]
                                     }

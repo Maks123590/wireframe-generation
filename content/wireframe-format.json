@@ -124,7 +124,7 @@
                                                 "type": "vertical | horizontal"
                                             },
                                             {
-                                                "element-type": "social links",
+                                                "element-type": "social-links",
                                                 "links-count": 3
                                             },
                                             {
