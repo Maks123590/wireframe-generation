@@ -162,7 +162,7 @@
                                                     "fontSize": "px",
                                                     "fontFamily": "Samsung Sharp Sans",
                                                     "text-align": "left | center | right"
-                                                },
+                                                }
                                             },
                                             {
                                                 "element-type": "spacer",
