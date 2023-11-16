@@ -399,6 +399,10 @@
                                                 "fontData": {
                                                     "text-align": "center"
                                                 }
+                                            },
+                                            {
+                                                "element-type": "spacer",
+                                                "height": "20px"
                                             }
                                         ]
                                     }
@@ -511,6 +515,19 @@
                                                 "fontData": {
                                                     "text-align": "center"
                                                 }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "columns": [
+                                    {  
+                                        "size": 12,
+                                        "widgets": [
+                                            {
+                                                "element-type": "spacer",
+                                                "height": "20px"
                                             }
                                         ]
                                     }
@@ -904,7 +921,7 @@
         },
         { 
             "section-type": "content-6",
-            "background": "image",
+            "background": "#FFFFFF",
             "section-content": {
                 "contentType": "single",
                 "border-radius": "0px",
@@ -1007,7 +1024,7 @@
                     }
                 ]
             }
-        },
+        }, 
         {
             "section-type": "footer",
             "background": "#242834",
@@ -1156,39 +1173,39 @@
         },
         "heading1Styles": {
             "color": "#333333",
-            "fontSize": "px",
-            "fontFamily": "Samsung Sharp Sans",
-            "text-align": "left | center | right"
+            "fontSize": "36px",
+            "fontFamily": "Roboto",
+            "text-align": "center"
         },
         "heading2Styles": {
             "color": "#333333",
-            "fontSize": "px",
-            "fontFamily": "Samsung Sharp Sans",
-            "text-align": "left | center | right"
+            "fontSize": "18px",
+            "fontFamily": "Roboto",
+            "text-align": "left"
         },
         "heading3Styles": {
             "color": "#333333",
-            "fontSize": "px",
-            "fontFamily": "Samsung Sharp Sans",
-            "text-align": "left | center | right"
+            "fontSize": "18px",
+            "fontFamily": "Roboto",
+            "text-align": "left"
         },
         "heading4Styles": {
             "color": "#333333",
-            "fontSize": "px",
-            "fontFamily": "Samsung Sharp Sans",
-            "text-align": "left | center | right"
+            "fontSize": "18px",
+            "fontFamily": "Roboto",
+            "text-align": "left"
         },
         "subheadingStyles": {
             "color": "#333333",
-            "fontSize": "px",
-            "fontFamily": "Inter",
-            "text-align": "left | center | right"
+            "fontSize": "18px",
+            "fontFamily": "Roboto",
+            "text-align": "left"
         },
         "normalTextStyles": {
             "color": "#333333",
-            "fontSize": "px",
-            "fontFamily": "Inter",
-            "text-align": "left | center | right"
+            "fontSize": "18px",
+            "fontFamily": "Roboto",
+            "text-align": "left"
         }
     }
 }
