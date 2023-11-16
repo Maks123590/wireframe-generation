@@ -12,8 +12,8 @@
                 "marginBottom": "0px",
                 "grids": [
                     {
-                        //ToDo add alignment
                         "width": "90%",
+                        "grid-alignment": "top | center | bottom", // top by default
                         "rows": [
                             {
                                 "columns": [
@@ -164,7 +164,7 @@
                                                 "background": "hex | image"
                                             },
                                             {
-                                                "element-type": "logo-text",
+                                                "element-type": "logo-text",    // todo change to logo
                                                 "text": "",
                                                 "fontData": {
                                                     "color": "hex",
