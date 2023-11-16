@@ -225,3 +225,36 @@
         }
     }
 }
+
+
+
+
+
+
+{
+    "section-type": "content-3",
+    "background": "image",
+    "section-content": {
+        "contentType": "single",
+        "border-radius": "0px",
+        "width": "92%",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "grids": [
+            {
+                "width": "100%",
+                "rows": [
+                    {
+                        "columns": [
+                            {  
+                                "size": 3,
+                                "widgets": [
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
