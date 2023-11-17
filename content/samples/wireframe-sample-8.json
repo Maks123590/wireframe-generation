@@ -153,6 +153,10 @@
                             {
                                 "columns": [
                                     {  
+                                        "size": 1,
+                                        "widgets": []
+                                    },
+                                    {  
                                         "size": 6,
                                         "widgets": [
                                             {
@@ -177,7 +181,7 @@
                                         ]
                                     },
                                     {  
-                                        "size": 6,
+                                        "size": 5,
                                         "widgets": []
                                     }
                                 ]
@@ -1358,7 +1362,7 @@
                     }
                 ]
             }
-        },
+        }
     ],
     "commonStyles": {
         "primaryButtonColor": "#00BA34",

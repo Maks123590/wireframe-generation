@@ -24,7 +24,7 @@
                                         "widgets": [
                                             {
                                                 "element-type": "heading1-text",
-                                                "chars-count": 20,
+                                                "chars-count": 20, // ToDo [20, 20, 20]
                                                 "fontData": {   // optional
                                                     "color": "hex",
                                                     "fontSize": "px",
