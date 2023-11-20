@@ -3,12 +3,18 @@
 {
     "sections": [
         {
-            "section-type": "header",
-            "background": "#3513BF",
-            "section-content": {
+            "sectionType": "header",
+            "background": {
+                "type": "color",
+                "color": "#3513BF"
+            },
+            "sectionContent": {
                 "contentType": "single",
                 "border-radius": "0px",
-                "background": "#3513BF",
+                "background": {
+                    "type": "color",
+                    "color": "#3513BF"
+                },
                 "width": "92%",
                 "marginTop": "0px",
                 "marginBottom": "0px",
@@ -22,8 +28,7 @@
                                         "size": 2,
                                         "widgets": [
                                             {
-                                                "element-type": "logo-text",
-                                                "text": "Company Logo",
+                                                "elementType": "logo",
                                                 "fontData": {
                                                     "color": "#FFFFFF"
                                                 }
@@ -40,7 +45,7 @@
                                         "size": 6,
                                         "widgets": [
                                             {
-                                                "element-type": "menu",
+                                                "elementType": "menu",
                                                 "items": [
                                                     "SHOW",
                                                     "BOOK ONLINE",
@@ -60,9 +65,12 @@
             }
         },
         {
-            "section-type": "content-1",
-            "background": "#242834",
-            "section-content": {
+            "sectionType": "content-1",
+            "background": {
+                "type": "color",
+                "color": "#242834"
+            },
+            "sectionContent": {
                 "contentType": "single",
                 "border-radius": "0px",
                 "width": "92%",
@@ -78,22 +86,23 @@
                                         "size": 6,
                                         "widgets": [
                                             { 
-                                                "element-type": "spacer",
+                                                "elementType": "spacer",
                                                 "height": "20px"
                                             },
                                             {
-                                                "element-type": "heading1-text",
-                                                "chars-count": 20,
+                                                "elementType": "text",
+                                                "textType": "heading1",
+                                                "charsCount": 20,
                                                 "fontData": {
                                                     "color": "#FFFFFF"
                                                 }
                                             },
                                             {
-                                                "element-type": "spacer",
+                                                "elementType": "spacer",
                                                 "height": "20px"
                                             },
                                             {
-                                                "element-type": "button",
+                                                "elementType": "button",
                                                 "fit-type": "fit",
                                                 "align": "left",
                                                 "type": "primary",
@@ -110,7 +119,7 @@
                                         "size": 5 ,
                                         "widgets": [
                                             {
-                                                "element-type": "image",
+                                                "elementType": "image",
                                                 "height": 408,
                                                 "fit-type": "fill"
                                             }
@@ -124,9 +133,12 @@
             }
         },
         {
-            "section-type": "content-2",
-            "background": "#242834",
-            "section-content": {
+            "sectionType": "content-2",
+            "background": {
+                "type": "color",
+                "color": "#242834"
+            },
+            "sectionContent": {
                 "contentType": "single",
                 "border-radius": "0px",
                 "width": "92%",
@@ -142,14 +154,15 @@
                                         "size": 12,
                                         "widgets": [
                                             {
-                                                "element-type": "heading1-text",
-                                                "chars-count": 11,
+                                                "elementType": "text",
+                                                "textType": "heading1",
+                                                "charsCount": 11,
                                                 "fontData": {
                                                     "text-align": "center"
                                                 }
                                             },
                                             {
-                                                "element-type": "spacer",
+                                                "elementType": "spacer",
                                                 "height": "20px"
                                             }
                                         ]
@@ -162,7 +175,7 @@
                                         "size": 4,
                                         "widgets": [
                                             {
-                                                "element-type": "image",
+                                                "elementType": "image",
                                                 "height": 62,
                                                 "borderRadius": {
                                                     "topLeftPx": 0,
@@ -175,19 +188,21 @@
                                                 "width": "30%"
                                             },
                                             {
-                                                "element-type": "spacer",
+                                                "elementType": "spacer",
                                                 "height": "32px"
                                             },
                                             {
-                                                "element-type": "heading2-text",
-                                                "chars-count": 11,
+                                                "elementType": "text",
+                                                "textType": "heading2",
+                                                "charsCount": 11,
                                                 "fontData": {
                                                     "text-align": "center"
                                                 }
                                             },
                                             {
-                                                "element-type": "normal-text",
-                                                "chars-count": 78,
+                                                "elementType": "text",
+                                                "textType": "normal",
+                                                "charsCount": 78,
                                                 "fontData": {
                                                     "text-align": "center"
                                                 }
@@ -198,7 +213,7 @@
                                         "size": 4,
                                         "widgets": [
                                             {
-                                                "element-type": "image",
+                                                "elementType": "image",
                                                 "height": 62,
                                                 "borderRadius": {
                                                     "topLeftPx": 0,
@@ -211,19 +226,21 @@
                                                 "width": "30%"
                                             },
                                             {
-                                                "element-type": "spacer",
+                                                "elementType": "spacer",
                                                 "height": "32px"
                                             },
                                             {
-                                                "element-type": "heading2-text",
-                                                "chars-count": 11,
+                                                "elementType": "text",
+                                                "textType": "heading2",
+                                                "charsCount": 11,
                                                 "fontData": {
                                                     "text-align": "center"
                                                 }
                                             },
                                             {
-                                                "element-type": "normal-text",
-                                                "chars-count": 78,
+                                                "elementType": "text",
+                                                "textType": "normal",
+                                                "charsCount": 78,
                                                 "fontData": {
                                                     "text-align": "center"
                                                 }
@@ -234,7 +251,7 @@
                                         "size": 4,
                                         "widgets": [
                                             {
-                                                "element-type": "image",
+                                                "elementType": "image",
                                                 "height": 62,
                                                 "borderRadius": {
                                                     "topLeftPx": 0,
@@ -247,19 +264,21 @@
                                                 "width": "30%"
                                             },
                                             {
-                                                "element-type": "spacer",
+                                                "elementType": "spacer",
                                                 "height": "32px"
                                             },
                                             {
-                                                "element-type": "heading2-text",
-                                                "chars-count": 11,
+                                                "elementType": "text",
+                                                "textType": "heading2",
+                                                "charsCount": 11,
                                                 "fontData": {
                                                     "text-align": "center"
                                                 }
                                             },
                                             {
-                                                "element-type": "normal-text",
-                                                "chars-count": 78,
+                                                "elementType": "text",
+                                                "textType": "normal",
+                                                "charsCount": 78,
                                                 "fontData": {
                                                     "text-align": "center"
                                                 }
@@ -274,7 +293,7 @@
                                         "size": 12,
                                         "widgets": [
                                             {
-                                                "element-type": "spacer",
+                                                "elementType": "spacer",
                                                 "height": "20px"
                                             }
                                         ]
@@ -287,7 +306,7 @@
                                         "size": 4,
                                         "widgets": [
                                             {
-                                                "element-type": "image",
+                                                "elementType": "image",
                                                 "height": 62,
                                                 "borderRadius": {
                                                     "topLeftPx": 0,
@@ -300,19 +319,21 @@
                                                 "width": "30%"
                                             },
                                             {
-                                                "element-type": "spacer",
+                                                "elementType": "spacer",
                                                 "height": "32px"
                                             },
                                             {
-                                                "element-type": "heading2-text",
-                                                "chars-count": 11,
+                                                "elementType": "text",
+                                                "textType": "heading2",
+                                                "charsCount": 11,
                                                 "fontData": {
                                                     "text-align": "center"
                                                 }
                                             },
                                             {
-                                                "element-type": "normal-text",
-                                                "chars-count": 78,
+                                                "elementType": "text",
+                                                "textType": "normal",
+                                                "charsCount": 78,
                                                 "fontData": {
                                                     "text-align": "center"
                                                 }
@@ -323,7 +344,7 @@
                                         "size": 4,
                                         "widgets": [
                                             {
-                                                "element-type": "image",
+                                                "elementType": "image",
                                                 "height": 62,
                                                 "borderRadius": {
                                                     "topLeftPx": 0,
@@ -336,19 +357,21 @@
                                                 "width": "30%"
                                             },
                                             {
-                                                "element-type": "spacer",
+                                                "elementType": "spacer",
                                                 "height": "32px"
                                             },
                                             {
-                                                "element-type": "heading2-text",
-                                                "chars-count": 11,
+                                                "elementType": "text",
+                                                "textType": "heading2",
+                                                "charsCount": 11,
                                                 "fontData": {
                                                     "text-align": "center"
                                                 }
                                             },
                                             {
-                                                "element-type": "normal-text",
-                                                "chars-count": 78,
+                                                "elementType": "text",
+                                                "textType": "normal",
+                                                "charsCount": 78,
                                                 "fontData": {
                                                     "text-align": "center"
                                                 }
@@ -359,7 +382,7 @@
                                         "size": 4,
                                         "widgets": [
                                             {
-                                                "element-type": "image",
+                                                "elementType": "image",
                                                 "height": 62,
                                                 "borderRadius": {
                                                     "topLeftPx": 0,
@@ -372,19 +395,21 @@
                                                 "width": "30%"
                                             },
                                             {
-                                                "element-type": "spacer",
+                                                "elementType": "spacer",
                                                 "height": "32px"
                                             },
                                             {
-                                                "element-type": "heading2-text",
-                                                "chars-count": 11,
+                                                "elementType": "text",
+                                                "textType": "heading2",
+                                                "charsCount": 11,
                                                 "fontData": {
                                                     "text-align": "center"
                                                 }
                                             },
                                             {
-                                                "element-type": "normal-text",
-                                                "chars-count": 78,
+                                                "elementType": "text",
+                                                "textType": "normal",
+                                                "charsCount": 78,
                                                 "fontData": {
                                                     "text-align": "center"
                                                 }
@@ -399,9 +424,12 @@
             }
         },
         {
-            "section-type": "content-3",
-            "background": "#242834",
-            "section-content": {
+            "sectionType": "content-3",
+            "background": {
+                "type": "color",
+                "color": "#242834"
+            },
+            "sectionContent": {
                 "contentType": "single",
                 "border-radius": "0px",
                 "width": "92%",
@@ -417,7 +445,7 @@
                                         "size": 5 ,
                                         "widgets": [
                                             {
-                                                "element-type": "image",
+                                                "elementType": "image",
                                                 "height": 408,
                                                 "fit-type": "fill"
                                             }
@@ -432,12 +460,14 @@
                                         "size": 6,
                                         "widgets": [
                                             {
-                                                "element-type": "heading1-text",
-                                                "chars-count": 17
+                                                "elementType": "text",
+                                                "textType": "heading1",
+                                                "charsCount": 17
                                             },
                                             {
-                                                "element-type": "normal-text",
-                                                "chars-count": 699,
+                                                "elementType": "text",
+                                                "textType": "normal",
+                                                "charsCount": 699,
                                                 "fontData": {
                                                     "color": "#FFFFFF"
                                                 }
@@ -452,9 +482,12 @@
             }
         },
         { 
-            "section-type": "content-4",
-            "background": "#242834",
-            "section-content": {
+            "sectionType": "content-4",
+            "background": {
+                "type": "color",
+                "color": "#242834"
+            },
+            "sectionContent": {
                 "contentType": "single",
                 "border-radius": "0px",
                 "width": "92%",
@@ -470,14 +503,15 @@
                                         "size": 12,
                                         "widgets": [
                                             {
-                                                "element-type": "heading1-text",
-                                                "chars-count": 11,
+                                                "elementType": "text",
+                                                "textType": "heading1",
+                                                "charsCount": 11,
                                                 "fontData": {
                                                     "text-align": "center"
                                                 }
                                             },
                                             {
-                                                "element-type": "spacer",
+                                                "elementType": "spacer",
                                                 "height": "20px"
                                             }
                                         ]
@@ -490,7 +524,7 @@
                                         "size": 3,
                                         "widgets": [
                                             {
-                                                "element-type": "image",
+                                                "elementType": "image",
                                                 "height": 306,
                                                 "borderRadius": {
                                                     "topLeftPx": 0,
@@ -506,7 +540,7 @@
                                         "size": 3,
                                         "widgets": [
                                             {
-                                                "element-type": "image",
+                                                "elementType": "image",
                                                 "height": 306,
                                                 "borderRadius": {
                                                     "topLeftPx": 0,
@@ -522,7 +556,7 @@
                                         "size": 3,
                                         "widgets": [
                                             {
-                                                "element-type": "image",
+                                                "elementType": "image",
                                                 "height": 306,
                                                 "borderRadius": {
                                                     "topLeftPx": 0,
@@ -538,7 +572,7 @@
                                         "size": 3,
                                         "widgets": [
                                             {
-                                                "element-type": "image",
+                                                "elementType": "image",
                                                 "height": 306,
                                                 "borderRadius": {
                                                     "topLeftPx": 0,
@@ -558,7 +592,7 @@
                                         "size": 12,
                                         "widgets": [
                                             {
-                                                "element-type": "button",
+                                                "elementType": "button",
                                                 "fit-type": "fit",
                                                 "align": "center",
                                                 "type": "primary",
@@ -574,9 +608,12 @@
             }
         },
         {
-            "section-type": "content-5  ",
-            "background": "#242834",
-            "section-content": {
+            "sectionType": "content-5  ",
+            "background": {
+                "type": "color",
+                "color": "#242834"
+            },
+            "sectionContent": {
                 "contentType": "single",
                 "border-radius": "0px",
                 "width": "92%",
@@ -592,8 +629,9 @@
                                         "size": 5 ,
                                         "widgets": [
                                             {
-                                                "element-type": "heading1-text",
-                                                "chars-count": 11 
+                                                "elementType": "text",
+                                                "textType": "heading1",
+                                                "charsCount": 11 
                                             }
                                         ]
                                     },
@@ -601,23 +639,25 @@
                                         "size": 7 ,
                                         "widgets": [
                                             {
-                                                "element-type": "normal-text",
-                                                "chars-count": 153,
+                                                "elementType": "text",
+                                                "textType": "normal",
+                                                "charsCount": 153,
                                                 "fontData": {
                                                     "color": "#FFFFFF"
                                                 }
                                             },
                                             {
-                                                "element-type": "subheading-text",
-                                                "chars-count": 11,
+                                                "elementType": "text",
+                                                "textType": "subheading",
+                                                "charsCount": 11,
                                                 "fontData": {
                                                     "color": "#FFFFFF"
                                                 }
                                             },
-                                            ,
                                             {
-                                                "element-type": "normal-text",
-                                                "chars-count": 11 ,
+                                                "elementType": "text",
+                                                "textType": "normal",
+                                                "charsCount": 11 ,
                                                 "fontData": {
                                                     "color": "#FFFFFF"
                                                 }
@@ -632,9 +672,12 @@
             }
         },
         {
-            "section-type": "footer",
-            "background": "#9FA4AC",
-            "section-content": {
+            "sectionType": "footer",
+            "background": {
+                "type": "color",
+                "color": "#9FA4AC"
+            },
+            "sectionContent": {
                 "contentType": "single",
                 "border-radius": "0px",
                 "width": "92%",
@@ -650,19 +693,21 @@
                                         "size": 3 ,
                                         "widgets": [
                                             {
-                                                "element-type": "heading1-text",
-                                                "chars-count": 11
+                                                "elementType": "text",
+                                                "textType": "heading1",
+                                                "charsCount": 11
                                             },
                                             {
-                                                "element-type": "normal-text",
-                                                "chars-count": 153,
+                                                "elementType": "text",
+                                                "textType": "normal",
+                                                "charsCount": 153,
                                                 "fontData": {
                                                     "color": "#FFFFFF"
                                                 }
                                             },
                                             {
-                                                "element-type": "social-links",
-                                                "links-count": 5
+                                                "elementType": "social-links",
+                                                "linksCount": 5
                                             }
                                         ]
                                     },
@@ -675,7 +720,7 @@
                                         "size": 6 ,
                                         "widgets": [
                                             {
-                                                "element-type": "form",
+                                                "elementType": "form",
                                                 "type": "vertical"
                                             }
                                         ]

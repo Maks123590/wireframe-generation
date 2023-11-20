@@ -3,9 +3,12 @@
 {
     "sections": [
         {
-            "section-type": "header",
-            "background": "#202020",
-            "section-content": {
+            "sectionType": "header",
+            "background": {
+                "type": "color",
+                "color": "#202020"
+            },
+            "sectionContent": {
                 "contentType": "single",
                 "border-radius": "0px",
                 "width": "92%",
@@ -26,17 +29,17 @@
                                         "size": 4,
                                         "widgets": [
                                             {
-                                                "element-type": "social-links",
-                                                "links-count": 4,
+                                                "elementType": "social-links",
+                                                "linksCount": 4,
                                                 "align": "center"
                                             },
                                             {
-                                                "element-type": "image",
+                                                "elementType": "image",
                                                 "height": 200,
                                                 "fit-type": "fill"
                                             },
                                             {
-                                                "element-type": "menu",
+                                                "elementType": "menu",
                                                 "items": ["HOME", "CONTACTS", "CONTACTS"],
                                                 "align": "center",
                                                 "fontData": {
@@ -58,9 +61,12 @@
             }
         },
         {
-            "section-type": "content-1",
-            "background": "#FFFFFF",
-            "section-content": {
+            "sectionType": "content-1",
+            "background": {
+                "type": "color",
+                "color": "#FFFFFF"
+            },
+            "sectionContent": {
                 "contentType": "single",
                 "border-radius": "0px",
                 "width": "92%",
@@ -76,19 +82,20 @@
                                         "size": 4,
                                         "widgets": [
                                             {
-                                                "element-type": "box",
+                                                "elementType": "box",
                                                 "type": "vertical",
                                                 "widgets": [
                                                     {
-                                                        "element-type": "spacer",
+                                                        "elementType": "spacer",
                                                         "height": "282px"
                                                     },
                                                     {
-                                                        "element-type": "heading3-text",
-                                                        "chars-count": 11
+                                                        "elementType": "text",
+                                                        "textType": "heading3",
+                                                        "charsCount": 11
                                                     },
                                                     {
-                                                        "element-type": "spacer",
+                                                        "elementType": "spacer",
                                                         "height": "24px"
                                                     }
 
@@ -101,19 +108,20 @@
                                         "size": 4,
                                         "widgets": [
                                             {
-                                                "element-type": "box",
+                                                "elementType": "box",
                                                 "type": "vertical",
                                                 "widgets": [
                                                     {
-                                                        "element-type": "spacer",
+                                                        "elementType": "spacer",
                                                         "height": "282px"
                                                     },
                                                     {
-                                                        "element-type": "heading3-text",
-                                                        "chars-count": 11
+                                                        "elementType": "text",
+                                                        "textType": "heading3",
+                                                        "charsCount": 11
                                                     },
                                                     {
-                                                        "element-type": "spacer",
+                                                        "elementType": "spacer",
                                                         "height": "24px"
                                                     }
 
@@ -126,19 +134,20 @@
                                         "size": 4,
                                         "widgets": [
                                             {
-                                                "element-type": "box",
+                                                "elementType": "box",
                                                 "type": "vertical",
                                                 "widgets": [
                                                     {
-                                                        "element-type": "spacer",
+                                                        "elementType": "spacer",
                                                         "height": "282px"
                                                     },
                                                     {
-                                                        "element-type": "heading3-text",
-                                                        "chars-count": 11
+                                                        "elementType": "text",
+                                                        "textType": "heading3",
+                                                        "charsCount": 11
                                                     },
                                                     {
-                                                        "element-type": "spacer",
+                                                        "elementType": "spacer",
                                                         "height": "24px"
                                                     }
 
@@ -155,19 +164,20 @@
                                         "size": 4,
                                         "widgets": [
                                             {
-                                                "element-type": "box",
+                                                "elementType": "box",
                                                 "type": "vertical",
                                                 "widgets": [
                                                     {
-                                                        "element-type": "spacer",
+                                                        "elementType": "spacer",
                                                         "height": "282px"
                                                     },
                                                     {
-                                                        "element-type": "heading3-text",
-                                                        "chars-count": 11
+                                                        "elementType": "text",
+                                                        "textType": "heading3",
+                                                        "charsCount": 11
                                                     },
                                                     {
-                                                        "element-type": "spacer",
+                                                        "elementType": "spacer",
                                                         "height": "24px"
                                                     }
 
@@ -180,19 +190,20 @@
                                         "size": 4,
                                         "widgets": [
                                             {
-                                                "element-type": "box",
+                                                "elementType": "box",
                                                 "type": "vertical",
                                                 "widgets": [
                                                     {
-                                                        "element-type": "spacer",
+                                                        "elementType": "spacer",
                                                         "height": "282px"
                                                     },
                                                     {
-                                                        "element-type": "heading3-text",
-                                                        "chars-count": 11
+                                                        "elementType": "text",
+                                                        "textType": "heading3",
+                                                        "charsCount": 11
                                                     },
                                                     {
-                                                        "element-type": "spacer",
+                                                        "elementType": "spacer",
                                                         "height": "24px"
                                                     }
 
@@ -205,19 +216,20 @@
                                         "size": 4,
                                         "widgets": [
                                             {
-                                                "element-type": "box",
+                                                "elementType": "box",
                                                 "type": "vertical",
                                                 "widgets": [
                                                     {
-                                                        "element-type": "spacer",
+                                                        "elementType": "spacer",
                                                         "height": "282px"
                                                     },
                                                     {
-                                                        "element-type": "heading3-text",
-                                                        "chars-count": 11
+                                                        "elementType": "text",
+                                                        "textType": "heading3",
+                                                        "charsCount": 11
                                                     },
                                                     {
-                                                        "element-type": "spacer",
+                                                        "elementType": "spacer",
                                                         "height": "24px"
                                                     }
 
@@ -234,9 +246,12 @@
             }
         },
         {
-            "section-type": "content-2",
-            "background": "#FFFFFF",
-            "section-content": {
+            "sectionType": "content-2",
+            "background": {
+                "type": "color",
+                "color": "#FFFFFF"
+            },
+            "sectionContent": {
                 "contentType": "single",
                 "border-radius": "0px",
                 "width": "92%",
@@ -252,17 +267,19 @@
                                         "size": 12,
                                         "widgets": [
                                             {
-                                                "element-type": "image",
+                                                "elementType": "image",
                                                 "height": 417,
                                                 "fit-type": "fill"
                                             },
                                             {
-                                                "element-type": "subheading-text",
-                                                "chars-count": 370
+                                                "elementType": "text",
+                                                "textType": : "subheading",
+                                                "charsCount": 370
                                             },
                                             {
-                                                "element-type": "normal-text",
-                                                "chars-count": 328
+                                                "elementType": "text",
+                                                "textType": "normal",
+                                                "charsCount": 328
                                             }
                                         ]
                                     }
@@ -274,9 +291,12 @@
             }
         },
         {
-            "section-type": "content-3",
-            "background": "#FFFFFF",
-            "section-content": {
+            "sectionType": "content-3",
+            "background": {
+                "type": "color",
+                "color": "#FFFFFF"
+            },
+            "sectionContent": {
                 "contentType": "single",
                 "border-radius": "0px",
                 "width": "92%",
@@ -292,20 +312,23 @@
                                         "size": 3,
                                         "widgets": [
                                             {
-                                                "element-type": "heading2-text",
-                                                "chars-count": 11
+                                                "elementType": "text",
+                                                "textType": "heading2",
+                                                "charsCount": 11
                                             },
                                             {
-                                                "element-type": "normal-text",
-                                                "chars-count": 153
+                                                "elementType": "text",
+                                                "textType": "normal",
+                                                "charsCount": 153
                                             },
                                             {
-                                                "element-type": "heading2-text",
-                                                "chars-count": 11
+                                                "elementType": "text",
+                                                "textType": "heading2",
+                                                "charsCount": 11
                                             },
                                             {
-                                                "element-type": "social-links",
-                                                "links-count": 4,
+                                                "elementType": "social-links",
+                                                "linksCount": 4,
                                                 "align": "left"
                                             }
                                         ]
@@ -319,11 +342,12 @@
                                         "size": 8,
                                         "widgets": [
                                             {
-                                                "element-type": "heading2-text",
-                                                "chars-count": 11
+                                                "elementType": "text",
+                                                "textType": "heading2",
+                                                "charsCount": 11
                                             },
                                             {
-                                                "element-type": "form",
+                                                "elementType": "form",
                                                 "type": "vertical"
                                             }
                                         ]
@@ -336,9 +360,12 @@
             }
         },
         {
-            "section-type": "footer",
-            "background": "#242834",
-            "section-content": {
+            "sectionType": "footer",
+            "background": {
+                "type": "color",
+                "color": "#242834"
+            },
+            "sectionContent": {
                 "contentType": "single",
                 "border-radius": "0px",
                 "width": "92%",
@@ -354,8 +381,9 @@
                                         "size": 12,
                                         "widgets": [
                                             {
-                                                "element-type": "normal-text",
-                                                "chars-count": 63
+                                                "elementType": "text",
+                                                "textType": "normal",
+                                                "charsCount": 63
                                             }
                                         ]
                                     }

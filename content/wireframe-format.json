@@ -6,7 +6,7 @@
                 "type": "color | image",
                 "color": "hex"
             },
-            "section-content": {
+            "sectionContent": {
                 "contentType": "single | slider",
                 "borderRadius": "px",  // if not set, the default is 0px
                 "background": {    // if not set, the default is inherit from section background        //changed
@@ -21,7 +21,7 @@
                         "width": "%", // if not set, the default is 100%
                         "gridAlignment": "top | center | bottom", // if not set, top by default
                         "marginTop": "px", // if not set, the default is 0px
-                        "marginBottom": "x", // if not set, the default is 0px
+                        "marginBottom": "px", // if not set, the default is 0px
                         "rows": [
                             {
                                 "columns": [
@@ -30,12 +30,12 @@
                                         "widgets": [    // if the column is empty, then the widget array is empty
                                             {
                                                 "elementType": "text",
-                                                "textType": "heading1 | heading2 | heading3 | heading4 | subheading | normal-text | link",
-                                                "chars-count": 20,
+                                                "textType": "heading1 | heading2 | heading3 | heading4 | subheading | normal | link",
+                                                "charsCount": 20,
                                                 "fontData": {   // optional by default get from common styles
                                                     "color": "hex",
                                                     "fontSize": "px",
-                                                    "fontFamily": "Roboto",
+                                                    "fontFamily": "Font Name",
                                                     "textAlign": "left | center | right"
                                                 }
                                             },
@@ -58,12 +58,13 @@
                                                 "fontData": { // optional by default get from common styles (from normal-text)
                                                     "color": "hex",
                                                     "fontSize": "px",
-                                                    "fontFamily": "Roboto",
+                                                    "fontFamily": "Font Name",
                                                     "textAlign": "left | center | right"
                                                 }
                                             },
                                             {
                                                 "elementType": "image",
+                                                "color": "hex",
                                                 "height": 506,
                                                 "borderRadius": {   // if not set, the default is 0 for all
                                                     "topLeftPx": 24,
@@ -106,7 +107,7 @@
                                                 "fontData": {   // optional by default get from common styles (normalText)
                                                     "color": "hex",
                                                     "fontSize": "px",
-                                                    "fontFamily": "Roboto",
+                                                    "fontFamily": "Font Name",
                                                     "textAlign": "left | center | right"
                                                 }
                                             },
@@ -144,25 +145,25 @@
         "heading1Styles": {
             "color": "hex",
             "fontSize": "px",
-            "fontFamily": "Roboto",
+            "fontFamily": "Font Name",
             "textAlign": "left | center | right"
         },
         "heading2Styles": {
             "color": "hex",
             "fontSize": "px",
-            "fontFamily": "Roboto",
+            "fontFamily": "Font Name",
             "textAlign": "left | center | right"
         },
         "heading3Styles": {
             "color": "hex",
             "fontSize": "px",
-            "fontFamily": "Roboto",
+            "fontFamily": "Font Name",
             "textAlign": "left | center | right"
         },
         "heading4Styles": {
             "color": "hex",
             "fontSize": "px",
-            "fontFamily": "Roboto",
+            "fontFamily": "Font Name",
             "textAlign": "left | center | right"
         },
         "subheadingStyles": {
