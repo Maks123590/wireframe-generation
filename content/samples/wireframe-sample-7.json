@@ -20,7 +20,7 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -32,7 +32,12 @@
                                             },
                                             {
                                                 "elementType": "menu",
-                                                "items": ["Bio", "Video", "Photos", "Contacts"],
+                                                "items": [
+                                                    "Bio",
+                                                    "Video",
+                                                    "Photos",
+                                                    "Contacts"
+                                                ],
                                                 "align": "left",
                                                 "fontData": {
                                                     "color": "#FFFFFF"
@@ -50,15 +55,14 @@
                                                     "color": "#FFFFFF",
                                                     "text-align": "left"
                                                 }
-                                            },
+                                            }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 2,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     },
-                                    {  
+                                    {
                                         "size": 6,
                                         "widgets": [
                                             {
@@ -93,7 +97,7 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 12,
                                         "widgets": [
                                             {
@@ -162,7 +166,7 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 12,
                                         "widgets": [
                                             {
@@ -205,7 +209,7 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 12,
                                         "widgets": [
                                             {
@@ -232,7 +236,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 6,
                                         "widgets": [
                                             {
@@ -242,7 +246,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 3,
                                         "widgets": [
                                             {
@@ -256,7 +260,7 @@
                             },
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 5,
                                         "widgets": [
                                             {
@@ -266,7 +270,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 3,
                                         "widgets": [
                                             {
@@ -276,7 +280,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -310,8 +314,8 @@
                         "width": "100%",
                         "rows": [
                             {
-                                "columns": [ 
-                                    {  
+                                "columns": [
+                                    {
                                         "size": 6,
                                         "widgets": [
                                             {
@@ -321,12 +325,11 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 2,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     },
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -388,7 +391,7 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 12,
                                         "widgets": [
                                             {
@@ -399,7 +402,7 @@
                                         ]
                                     }
                                 ]
-                            } 
+                            }
                         ]
                     }
                 ]

@@ -164,7 +164,7 @@
         },
         {
             "sectionType": "about-us",
-            "background":{
+            "background": {
                 "type": "color",
                 "color": "#FFFFFF"
             },
@@ -179,7 +179,7 @@
                     "bottomLeftPx": 0,
                     "bottomRightPx": 0
                 },
-                "background":{
+                "background": {
                     "type": "color",
                     "color": "#FFFFFF"
                 },
@@ -239,7 +239,7 @@
             "background": {
                 "type": "color",
                 "color": "#FFFFFF"
-            },,
+            },
             "sectionContent": {
                 "width": "90%",
                 "contentType": "single",
@@ -254,7 +254,7 @@
                 "background": {
                     "type": "color",
                     "color": "#FFFFFF"
-                },,
+                },
                 "grids": [
                     {
                         "width": "90%",
@@ -604,7 +604,7 @@
             "background": {
                 "type": "color",
                 "color": "#FFFFFF"
-            },,
+            },
             "sectionContent": {
                 "width": "90%",
                 "contentType": "single",
@@ -619,7 +619,7 @@
                 "background": {
                     "type": "color",
                     "color": "#FFFFFF"
-                },,
+                },
                 "grids": [
                     {
                         "width": "100%",

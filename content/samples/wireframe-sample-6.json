@@ -20,12 +20,11 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 4,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     },
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -40,7 +39,11 @@
                                             },
                                             {
                                                 "elementType": "menu",
-                                                "items": ["HOME", "CONTACTS", "CONTACTS"],
+                                                "items": [
+                                                    "HOME",
+                                                    "CONTACTS",
+                                                    "CONTACTS"
+                                                ],
                                                 "align": "center",
                                                 "fontData": {
                                                     "color": "#FFFFFF"
@@ -48,10 +51,9 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 4,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     }
                                 ]
                             }
@@ -78,7 +80,7 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -98,13 +100,12 @@
                                                         "elementType": "spacer",
                                                         "height": "24px"
                                                     }
-
                                                 ],
                                                 "background": "image"
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -124,13 +125,12 @@
                                                         "elementType": "spacer",
                                                         "height": "24px"
                                                     }
-
                                                 ],
                                                 "background": "image"
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -150,7 +150,6 @@
                                                         "elementType": "spacer",
                                                         "height": "24px"
                                                     }
-
                                                 ],
                                                 "background": "image"
                                             }
@@ -160,7 +159,7 @@
                             },
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -180,13 +179,12 @@
                                                         "elementType": "spacer",
                                                         "height": "24px"
                                                     }
-
                                                 ],
                                                 "background": "image"
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -206,13 +204,12 @@
                                                         "elementType": "spacer",
                                                         "height": "24px"
                                                     }
-
                                                 ],
                                                 "background": "image"
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -232,14 +229,13 @@
                                                         "elementType": "spacer",
                                                         "height": "24px"
                                                     }
-
                                                 ],
                                                 "background": "image"
                                             }
                                         ]
                                     }
                                 ]
-                            } 
+                            }
                         ]
                     }
                 ]
@@ -263,7 +259,7 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 12,
                                         "widgets": [
                                             {
@@ -273,7 +269,7 @@
                                             },
                                             {
                                                 "elementType": "text",
-                                                "textType": : "subheading",
+                                                "textType": "subheading",
                                                 "charsCount": 370
                                             },
                                             {
@@ -284,7 +280,7 @@
                                         ]
                                     }
                                 ]
-                            } 
+                            }
                         ]
                     }
                 ]
@@ -308,7 +304,7 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 3,
                                         "widgets": [
                                             {
@@ -333,12 +329,11 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 1,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     },
-                                    {  
+                                    {
                                         "size": 8,
                                         "widgets": [
                                             {
@@ -353,7 +348,7 @@
                                         ]
                                     }
                                 ]
-                            } 
+                            }
                         ]
                     }
                 ]
@@ -377,7 +372,7 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 12,
                                         "widgets": [
                                             {
@@ -388,7 +383,7 @@
                                         ]
                                     }
                                 ]
-                            } 
+                            }
                         ]
                     }
                 ]

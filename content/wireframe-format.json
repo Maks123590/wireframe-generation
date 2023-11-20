@@ -2,14 +2,14 @@
     "sections": [
         {
             "sectionType": "Header | Hero | Secondary Navigation Menu | Call to Action | Services | About Us | Testimonials | FAQs | Pricing | Contacts | Partners | Footer", //changed
-            "background":  {    //changed
+            "background":  {
                 "type": "color | image",
                 "color": "hex"
             },
             "sectionContent": {
                 "contentType": "single | slider",
                 "borderRadius": "px",  // if not set, the default is 0px
-                "background": {    // if not set, the default is inherit from section background        //changed
+                "background": {    // if not set, the default is inherit from section background
                     "type": "color | image",
                     "color": "hex"
                 },
@@ -96,14 +96,14 @@
                                                 "elementType": "box",
                                                 "type": "vertical | horizontal",  // if not set, the default is vertical
                                                 "widgets": [],
-                                                "background": {    //changed
+                                                "background": {
                                                     "type": "color | image",
                                                     "color": "hex"
                                                 },
                                                 "borderRadius": 24 // if not set, the default is 0
                                             },
                                             {
-                                                "elementType": "logo",    // changed
+                                                "elementType": "logo",
                                                 "fontData": {   // optional by default get from common styles (normalText)
                                                     "color": "hex",
                                                     "fontSize": "px",

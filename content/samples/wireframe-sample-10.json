@@ -1,3 +1,5 @@
+// https://www.figma.com/file/cBM7ahB8YWi3345Yb4wnnI/TruSites---Oleg?type=design&node-id=4250-1226&mode=dev
+
 {
     "sections": [
         {
@@ -18,7 +20,7 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 2,
                                         "widgets": [
                                             {
@@ -31,7 +33,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 2,
                                         "widgets": [
                                             {
@@ -41,10 +43,10 @@
                                                 "fontData": {
                                                     "color": "#FFFFFF"
                                                 }
-                                            } 
+                                            }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 8,
                                         "widgets": []
                                     }
@@ -74,33 +76,40 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 2,
                                         "widgets": [
                                             {
                                                 "elementType": "logo",
                                                 "fontData": {
-                                                    "color": "#202020", 
+                                                    "color": "#202020",
                                                     "text-align": "center"
                                                 }
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 2,
                                         "widgets": []
                                     },
-                                    {  
+                                    {
                                         "size": 6,
                                         "widgets": [
                                             {
                                                 "elementType": "menu",
-                                                "items": ["Home", "About Us", "Forms", "Policies", "Insurance", "Contact Us"],
+                                                "items": [
+                                                    "Home",
+                                                    "About Us",
+                                                    "Forms",
+                                                    "Policies",
+                                                    "Insurance",
+                                                    "Contact Us"
+                                                ],
                                                 "align": "right"
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 2,
                                         "widgets": [
                                             {
@@ -136,11 +145,11 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 1,
                                         "widgets": []
                                     },
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -156,11 +165,11 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 1,
                                         "widgets": []
                                     },
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -182,10 +191,10 @@
                                                 "elementType": "text",
                                                 "textType": "subheading",
                                                 "charsCount": 11
-                                            } 
+                                            }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 2,
                                         "widgets": []
                                     }
@@ -212,11 +221,11 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 1,
                                         "widgets": []
                                     },
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -231,7 +240,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 7,
                                         "widgets": []
                                     }
@@ -261,13 +270,13 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 6,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
                                                 "textType": "normal",
-                                                "charsCount": 26 
+                                                "charsCount": 26
                                             },
                                             {
                                                 "elementType": "text",
@@ -277,20 +286,20 @@
                                             {
                                                 "elementType": "text",
                                                 "textType": "normal",
-                                                "charsCount": 214 
+                                                "charsCount": 214
                                             },
                                             {
                                                 "elementType": "text",
                                                 "textType": "normal",
-                                                "charsCount": 118 
+                                                "charsCount": 118
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 1,
                                         "widgets": []
                                     },
-                                    {  
+                                    {
                                         "size": 5,
                                         "widgets": [
                                             {
@@ -331,7 +340,7 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 12,
                                         "widgets": [
                                             {
@@ -342,7 +351,7 @@
                                             {
                                                 "elementType": "text",
                                                 "textType": "normal",
-                                                "charsCount": 369 
+                                                "charsCount": 369
                                             }
                                         ]
                                     }
@@ -371,7 +380,7 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -395,7 +404,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -419,7 +428,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -474,12 +483,12 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 5,
                                         "widgets": [
                                             {
                                                 "elementType": "image",
-                                                "height": 460 ,
+                                                "height": 460,
                                                 "borderRadius": {
                                                     "topLeftPx": 16,
                                                     "topRightPx": 16,
@@ -490,11 +499,11 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 1,
                                         "widgets": []
-                                    }, 
-                                    {  
+                                    },
+                                    {
                                         "size": 1,
                                         "widgets": [
                                             {
@@ -536,7 +545,7 @@
                                                 "fontData": {
                                                     "color": "#FFFFFF"
                                                 }
-                                            } 
+                                            }
                                         ]
                                     }
                                 ]
@@ -564,7 +573,7 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -583,7 +592,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -604,7 +613,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -626,7 +635,7 @@
                                             {
                                                 "elementType": "text",
                                                 "textType": "normal",
-                                                "charsCount": 53 ,
+                                                "charsCount": 53,
                                                 "fontData": {
                                                     "color": "#FFFFFF"
                                                 }
@@ -637,10 +646,9 @@
                             },
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 12,
                                         "widgets": [
-                                            ,
                                             {
                                                 "elementType": "divider",
                                                 "color": "#FFFFFF"
@@ -648,7 +656,7 @@
                                             {
                                                 "elementType": "text",
                                                 "textType": "normal",
-                                                "charsCount": 63 ,
+                                                "charsCount": 63,
                                                 "fontData": {
                                                     "color": "#FFFFFF"
                                                 }
@@ -661,8 +669,8 @@
                     }
                 ]
             }
-        } 
-    ], 
+        }
+    ],
     "commonStyles": {
         "primaryButtonColor": "#DE3C4B",
         "secondaryButtonColor": "#FFFFFF",

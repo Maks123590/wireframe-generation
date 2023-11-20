@@ -24,7 +24,7 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 2,
                                         "widgets": [
                                             {
@@ -35,13 +35,11 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 4,
-                                        "widgets": [
-                                            
-                                        ]
+                                        "widgets": []
                                     },
-                                    {  
+                                    {
                                         "size": 6,
                                         "widgets": [
                                             {
@@ -82,10 +80,10 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 6,
                                         "widgets": [
-                                            { 
+                                            {
                                                 "elementType": "spacer",
                                                 "height": "20px"
                                             },
@@ -110,13 +108,12 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 1,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     },
-                                    {  
-                                        "size": 5 ,
+                                    {
+                                        "size": 5,
                                         "widgets": [
                                             {
                                                 "elementType": "image",
@@ -150,7 +147,7 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 12,
                                         "widgets": [
                                             {
@@ -171,7 +168,7 @@
                             },
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -209,7 +206,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -247,7 +244,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -289,7 +286,7 @@
                             },
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 12,
                                         "widgets": [
                                             {
@@ -302,7 +299,7 @@
                             },
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -340,7 +337,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -378,7 +375,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
@@ -441,8 +438,8 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
-                                        "size": 5 ,
+                                    {
+                                        "size": 5,
                                         "widgets": [
                                             {
                                                 "elementType": "image",
@@ -451,12 +448,11 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 1,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     },
-                                    {  
+                                    {
                                         "size": 6,
                                         "widgets": [
                                             {
@@ -481,7 +477,7 @@
                 ]
             }
         },
-        { 
+        {
             "sectionType": "content-4",
             "background": {
                 "type": "color",
@@ -499,7 +495,7 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 12,
                                         "widgets": [
                                             {
@@ -520,7 +516,7 @@
                             },
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 3,
                                         "widgets": [
                                             {
@@ -536,7 +532,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 3,
                                         "widgets": [
                                             {
@@ -552,7 +548,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 3,
                                         "widgets": [
                                             {
@@ -568,7 +564,7 @@
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 3,
                                         "widgets": [
                                             {
@@ -588,7 +584,7 @@
                             },
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 12,
                                         "widgets": [
                                             {
@@ -625,18 +621,18 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
-                                        "size": 5 ,
+                                    {
+                                        "size": 5,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
                                                 "textType": "heading1",
-                                                "charsCount": 11 
+                                                "charsCount": 11
                                             }
                                         ]
                                     },
-                                    {  
-                                        "size": 7 ,
+                                    {
+                                        "size": 7,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
@@ -657,7 +653,7 @@
                                             {
                                                 "elementType": "text",
                                                 "textType": "normal",
-                                                "charsCount": 11 ,
+                                                "charsCount": 11,
                                                 "fontData": {
                                                     "color": "#FFFFFF"
                                                 }
@@ -689,8 +685,8 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
-                                        "size": 3 ,
+                                    {
+                                        "size": 3,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
@@ -711,13 +707,12 @@
                                             }
                                         ]
                                     },
-                                    {  
-                                        "size": 3 ,
-                                        "widgets": [
-                                        ]
+                                    {
+                                        "size": 3,
+                                        "widgets": []
                                     },
-                                    {  
-                                        "size": 6 ,
+                                    {
+                                        "size": 6,
                                         "widgets": [
                                             {
                                                 "elementType": "form",

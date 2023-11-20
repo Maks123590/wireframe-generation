@@ -1,3 +1,5 @@
+// https://www.figma.com/file/cBM7ahB8YWi3345Yb4wnnI/TruSites---Oleg?type=design&node-id=4223-4001&mode=dev
+
 {
     "sections": [
         {
@@ -18,23 +20,23 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
+                                    {
                                         "size": 5,
                                         "widgets": []
                                     },
-                                    {  
+                                    {
                                         "size": 2,
                                         "widgets": [
                                             {
                                                 "elementType": "logo",
                                                 "fontData": {
-                                                    "color": "#202020", 
+                                                    "color": "#202020",
                                                     "text-align": "center"
                                                 }
                                             }
                                         ]
                                     },
-                                    {  
+                                    {
                                         "size": 5,
                                         "widgets": []
                                     }
@@ -42,12 +44,19 @@
                             },
                             {
                                 "columns": [
-                                    {  
-                                        "size": 12 ,
+                                    {
+                                        "size": 12,
                                         "widgets": [
                                             {
                                                 "elementType": "menu",
-                                                "items": ["ABOUT US", "PRICING PLAN", "HOW TO ORDER", "CONTACTS", "CONSTRUCTION", "CONTACT US"],
+                                                "items": [
+                                                    "ABOUT US",
+                                                    "PRICING PLAN",
+                                                    "HOW TO ORDER",
+                                                    "CONTACTS",
+                                                    "CONSTRUCTION",
+                                                    "CONTACT US"
+                                                ],
                                                 "align": "center",
                                                 "fontData": {
                                                     "color": "#202020"
@@ -80,8 +89,8 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
-                                        "size": 12 ,
+                                    {
+                                        "size": 12,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
@@ -101,7 +110,7 @@
                 ]
             }
         },
-        { 
+        {
             "sectionType": "content-1",
             "background": {
                 "type": "color",
@@ -120,8 +129,8 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
-                                        "size": 4 ,
+                                    {
+                                        "size": 4,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
@@ -137,13 +146,12 @@
                                             }
                                         ]
                                     },
-                                    {  
-                                        "size": 2 ,
+                                    {
+                                        "size": 2,
                                         "widgets": []
-                                    }
-                                    ,
-                                    {  
-                                        "size": 6 ,
+                                    },
+                                    {
+                                        "size": 6,
                                         "widgets": [
                                             {
                                                 "elementType": "image",
@@ -173,7 +181,7 @@
                 ]
             }
         },
-        { 
+        {
             "sectionType": "content-2",
             "background": {
                 "type": "color",
@@ -192,8 +200,8 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
-                                        "size": 12 ,
+                                    {
+                                        "size": 12,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
@@ -214,8 +222,8 @@
                             },
                             {
                                 "columns": [
-                                    {  
-                                        "size": 4 ,
+                                    {
+                                        "size": 4,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
@@ -237,12 +245,12 @@
                                             }
                                         ]
                                     },
-                                    {  
-                                        "size": 2 ,
+                                    {
+                                        "size": 2,
                                         "widgets": []
                                     },
-                                    {  
-                                        "size": 6 ,
+                                    {
+                                        "size": 6,
                                         "widgets": [
                                             {
                                                 "elementType": "image",
@@ -261,10 +269,9 @@
                             },
                             {
                                 "columns": [
-                                    {  
-                                        "size": 12 ,
+                                    {
+                                        "size": 12,
                                         "widgets": [
-                                            ,
                                             {
                                                 "elementType": "divider",
                                                 "color": "#ACACAC"
@@ -275,8 +282,8 @@
                             },
                             {
                                 "columns": [
-                                    {  
-                                        "size": 4 ,
+                                    {
+                                        "size": 4,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
@@ -289,12 +296,12 @@
                                             }
                                         ]
                                     },
-                                    {  
-                                        "size": 2 ,
+                                    {
+                                        "size": 2,
                                         "widgets": []
                                     },
-                                    {  
-                                        "size": 3 ,
+                                    {
+                                        "size": 3,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
@@ -307,12 +314,12 @@
                                             }
                                         ]
                                     },
-                                    {  
-                                        "size": 3 ,
+                                    {
+                                        "size": 3,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
-                                                "textType": "normal", 
+                                                "textType": "normal",
                                                 "charsCount": 58,
                                                 "fontData": {
                                                     "color": "#FFFFFF",
@@ -328,7 +335,7 @@
                 ]
             }
         },
-        { 
+        {
             "sectionType": "content-3",
             "background": {
                 "type": "color",
@@ -347,8 +354,8 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
-                                        "size": 12 ,
+                                    {
+                                        "size": 12,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
@@ -368,12 +375,12 @@
                             },
                             {
                                 "columns": [
-                                    {  
-                                        "size": 3 ,
+                                    {
+                                        "size": 3,
                                         "widgets": [
                                             {
                                                 "elementType": "box",
-                                                "type": "vertical", 
+                                                "type": "vertical",
                                                 "widgets": [
                                                     {
                                                         "elementType": "image",
@@ -393,8 +400,8 @@
                                                         "textType": "heading3",
                                                         "charsCount": 11,
                                                         "fontData": {
-                                                             "color": "#FFFFFF",
-                                                             "text-align": "center"
+                                                            "color": "#FFFFFF",
+                                                            "text-align": "center"
                                                         }
                                                     },
                                                     {
@@ -402,8 +409,8 @@
                                                         "textType": "normal",
                                                         "charsCount": 28,
                                                         "fontData": {
-                                                             "color": "#FFFFFF",
-                                                             "text-align": "center"
+                                                            "color": "#FFFFFF",
+                                                            "text-align": "center"
                                                         }
                                                     }
                                                 ],
@@ -415,12 +422,12 @@
                                             }
                                         ]
                                     },
-                                    {  
-                                        "size": 3 ,
+                                    {
+                                        "size": 3,
                                         "widgets": [
                                             {
                                                 "elementType": "box",
-                                                "type": "vertical", 
+                                                "type": "vertical",
                                                 "widgets": [
                                                     {
                                                         "elementType": "image",
@@ -440,8 +447,8 @@
                                                         "textType": "heading3",
                                                         "charsCount": 11,
                                                         "fontData": {
-                                                             "color": "#FFFFFF",
-                                                             "text-align": "center"
+                                                            "color": "#FFFFFF",
+                                                            "text-align": "center"
                                                         }
                                                     },
                                                     {
@@ -449,8 +456,8 @@
                                                         "textType": "normal",
                                                         "charsCount": 28,
                                                         "fontData": {
-                                                             "color": "#FFFFFF",
-                                                             "text-align": "center"
+                                                            "color": "#FFFFFF",
+                                                            "text-align": "center"
                                                         }
                                                     }
                                                 ],
@@ -462,12 +469,12 @@
                                             }
                                         ]
                                     },
-                                    {  
-                                        "size": 3 ,
+                                    {
+                                        "size": 3,
                                         "widgets": [
                                             {
                                                 "elementType": "box",
-                                                "type": "vertical", 
+                                                "type": "vertical",
                                                 "widgets": [
                                                     {
                                                         "elementType": "image",
@@ -487,8 +494,8 @@
                                                         "textType": "heading3",
                                                         "charsCount": 11,
                                                         "fontData": {
-                                                             "color": "#FFFFFF",
-                                                             "text-align": "center"
+                                                            "color": "#FFFFFF",
+                                                            "text-align": "center"
                                                         }
                                                     },
                                                     {
@@ -496,8 +503,8 @@
                                                         "textType": "normal",
                                                         "charsCount": 28,
                                                         "fontData": {
-                                                             "color": "#FFFFFF",
-                                                             "text-align": "center"
+                                                            "color": "#FFFFFF",
+                                                            "text-align": "center"
                                                         }
                                                     }
                                                 ],
@@ -509,12 +516,12 @@
                                             }
                                         ]
                                     },
-                                    {  
-                                        "size": 3 ,
+                                    {
+                                        "size": 3,
                                         "widgets": [
                                             {
                                                 "elementType": "box",
-                                                "type": "vertical", 
+                                                "type": "vertical",
                                                 "widgets": [
                                                     {
                                                         "elementType": "image",
@@ -534,8 +541,8 @@
                                                         "textType": "heading3",
                                                         "charsCount": 11,
                                                         "fontData": {
-                                                             "color": "#FFFFFF",
-                                                             "text-align": "center"
+                                                            "color": "#FFFFFF",
+                                                            "text-align": "center"
                                                         }
                                                     },
                                                     {
@@ -543,8 +550,8 @@
                                                         "textType": "normal",
                                                         "charsCount": 28,
                                                         "fontData": {
-                                                             "color": "#FFFFFF",
-                                                             "text-align": "center"
+                                                            "color": "#FFFFFF",
+                                                            "text-align": "center"
                                                         }
                                                     }
                                                 ],
@@ -563,7 +570,7 @@
                 ]
             }
         },
-        { 
+        {
             "sectionType": "content-4",
             "background": {
                 "type": "color",
@@ -587,12 +594,12 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
-                                        "size": 12 ,
+                                    {
+                                        "size": 12,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
-                                                        "textType": "heading1",
+                                                "textType": "heading1",
                                                 "charsCount": 58,
                                                 "fontData": {
                                                     "text-align": "center"
@@ -608,8 +615,8 @@
                             },
                             {
                                 "columns": [
-                                    {  
-                                        "size": 6 ,
+                                    {
+                                        "size": 6,
                                         "widgets": [
                                             {
                                                 "elementType": "image",
@@ -624,7 +631,7 @@
                                             },
                                             {
                                                 "elementType": "text",
-                                                        "textType": "heading2",
+                                                "textType": "heading2",
                                                 "charsCount": 11,
                                                 "fontData": {
                                                     "text-align": "center"
@@ -632,7 +639,7 @@
                                             },
                                             {
                                                 "elementType": "text",
-                                                        "textType": "subheading",
+                                                "textType": "subheading",
                                                 "charsCount": 17,
                                                 "fontData": {
                                                     "text-align": "center"
@@ -656,8 +663,8 @@
                                             }
                                         ]
                                     },
-                                    {  
-                                        "size": 6 ,
+                                    {
+                                        "size": 6,
                                         "widgets": [
                                             {
                                                 "elementType": "image",
@@ -711,7 +718,7 @@
                 ]
             }
         },
-        { 
+        {
             "sectionType": "content-5",
             "background": {
                 "type": "color",
@@ -736,8 +743,8 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
-                                        "size": 4 ,
+                                    {
+                                        "size": 4,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
@@ -753,12 +760,12 @@
                                             }
                                         ]
                                     },
-                                    {  
-                                        "size": 2 ,
+                                    {
+                                        "size": 2,
                                         "widgets": []
                                     },
-                                    {  
-                                        "size": 6 ,
+                                    {
+                                        "size": 6,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
@@ -791,7 +798,7 @@
                                                 "fontData": {
                                                     "text-align": "left"
                                                 }
-                                            } 
+                                            }
                                         ]
                                     }
                                 ]
@@ -801,7 +808,7 @@
                 ]
             }
         },
-        { 
+        {
             "sectionType": "content-6",
             "background": {
                 "type": "color",
@@ -825,8 +832,8 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {  
-                                        "size": 12 ,
+                                    {
+                                        "size": 12,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
@@ -846,43 +853,12 @@
                             },
                             {
                                 "columns": [
-                                    {  
-                                        "size": 4 ,
+                                    {
+                                        "size": 4,
                                         "widgets": [
                                             {
                                                 "elementType": "box",
-                                                "type": "vertical", 
-                                                "widgets": [
-                                                    {
-                                                        "elementType": "text",
-                                                "textType": "heading2",
-                                                        "charsCount": 11
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "normal",
-                                                        "charsCount": 58
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "normal",
-                                                        "charsCount": 118
-                                                    }
-                                                ],
-                                                "background": {
-                                                    "type": "color",
-                                                    "color": "#FFFFFF"
-                                                },
-                                                "borderRadius": 24
-                                            }
-                                        ]
-                                    },
-                                    {  
-                                        "size": 4 ,
-                                        "widgets": [
-                                            {
-                                                "elementType": "box",
-                                                "type": "vertical", 
+                                                "type": "vertical",
                                                 "widgets": [
                                                     {
                                                         "elementType": "text",
@@ -908,12 +884,12 @@
                                             }
                                         ]
                                     },
-                                    {  
-                                        "size": 4 ,
+                                    {
+                                        "size": 4,
                                         "widgets": [
                                             {
                                                 "elementType": "box",
-                                                "type": "vertical", 
+                                                "type": "vertical",
                                                 "widgets": [
                                                     {
                                                         "elementType": "text",
@@ -936,9 +912,40 @@
                                                     "color": "#FFFFFF"
                                                 },
                                                 "borderRadius": 24
-                                            } 
+                                            }
                                         ]
-                                    } 
+                                    },
+                                    {
+                                        "size": 4,
+                                        "widgets": [
+                                            {
+                                                "elementType": "box",
+                                                "type": "vertical",
+                                                "widgets": [
+                                                    {
+                                                        "elementType": "text",
+                                                        "textType": "heading2",
+                                                        "charsCount": 11
+                                                    },
+                                                    {
+                                                        "elementType": "text",
+                                                        "textType": "normal",
+                                                        "charsCount": 58
+                                                    },
+                                                    {
+                                                        "elementType": "text",
+                                                        "textType": "normal",
+                                                        "charsCount": 118
+                                                    }
+                                                ],
+                                                "background": {
+                                                    "type": "color",
+                                                    "color": "#FFFFFF"
+                                                },
+                                                "borderRadius": 24
+                                            }
+                                        ]
+                                    }
                                 ]
                             }
                         ]
@@ -946,7 +953,7 @@
                 ]
             }
         },
-        { 
+        {
             "sectionType": "footer",
             "background": {
                 "type": "color",
@@ -964,24 +971,31 @@
                         "rows": [
                             {
                                 "columns": [
-                                    {   
+                                    {
                                         "size": 2,
                                         "widgets": [
                                             {
                                                 "elementType": "logo",
                                                 "fontData": {
-                                                    "color": "#202020", 
+                                                    "color": "#202020",
                                                     "text-align": "center"
                                                 }
                                             }
                                         ]
                                     },
-                                    {   
+                                    {
                                         "size": 8,
                                         "widgets": [
                                             {
                                                 "elementType": "menu",
-                                                "items": ["ABOUT US", "PRICING PLAN", "HOW TO ORDER", "CONTACTS", "CONSTRUCTION", "CONTACT US"],
+                                                "items": [
+                                                    "ABOUT US",
+                                                    "PRICING PLAN",
+                                                    "HOW TO ORDER",
+                                                    "CONTACTS",
+                                                    "CONSTRUCTION",
+                                                    "CONTACT US"
+                                                ],
                                                 "align": "center",
                                                 "fontData": {
                                                     "color": "#202020"
@@ -989,7 +1003,7 @@
                                             }
                                         ]
                                     },
-                                    {   
+                                    {
                                         "size": 2,
                                         "widgets": [
                                             {
@@ -1003,7 +1017,7 @@
                             },
                             {
                                 "columns": [
-                                    {   
+                                    {
                                         "size": 12,
                                         "widgets": [
                                             {
@@ -1016,38 +1030,37 @@
                             },
                             {
                                 "columns": [
-                                    {   
+                                    {
                                         "size": 5,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
                                                 "textType": "normal",
-                                                "charsCount": 58 
+                                                "charsCount": 58
                                             }
                                         ]
                                     },
-                                    {   
+                                    {
                                         "size": 2,
-                                        "widgets": [
-                                        ]
+                                        "widgets": []
                                     },
-                                    {   
+                                    {
                                         "size": 3,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
                                                 "textType": "normal",
-                                                "charsCount": 26 
+                                                "charsCount": 26
                                             }
                                         ]
                                     },
-                                    {   
+                                    {
                                         "size": 2,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
                                                 "textType": "normal",
-                                                "charsCount": 17 
+                                                "charsCount": 17
                                             }
                                         ]
                                     }
@@ -1057,7 +1070,7 @@
                     }
                 ]
             }
-        },
+        }
     ],
     "commonStyles": {
         "primaryButtonColor": "#1C6CC3",
