@@ -41,19 +41,19 @@
                                             },
                                             {
                                                 "elementType": "search-box",
-                                                "elementColor": "#C5E384"
+                                                "elementColor": "hex"
                                             },
                                             {
                                                 "elementType": "login",
-                                                "elementColor": "#F7F8F9"
+                                                "elementColor": "hex"
                                             },
                                             {
                                                 "elementType": "cart",
-                                                "elementColor": "#F7F8F9"
+                                                "elementColor": "hex"
                                             },
                                             {
                                                 "elementType": "menu",
-                                                "items": ["home", "about", "contacts"],
+                                                "items": ["item1", "item2", "item2"],
                                                 "align": "left | right | center", // if not set, the default is center
                                                 "fontData": { // optional by default get from common styles (from normal-text)
                                                     "color": "hex",
@@ -65,12 +65,12 @@
                                             {
                                                 "elementType": "image",
                                                 "color": "hex",
-                                                "height": 506,
+                                                "height": 506, // px
                                                 "borderRadius": {   // if not set, the default is 0 for all
-                                                    "topLeftPx": 24,
-                                                    "topRightPx": 24,
-                                                    "bottomLeftPx": 24,
-                                                    "bottomRightPx": 24
+                                                    "topLeftPx": 24, // px
+                                                    "topRightPx": 24, // px
+                                                    "bottomLeftPx": 24, // px
+                                                    "bottomRightPx": 24 // px
                                                 },
                                                 "fitType": "fit | fill", // if not set, the default is fill
                                                 "align": "left | right | center",   // only if fitType is fit
@@ -169,13 +169,13 @@
         "subheadingStyles": {
             "color": "hex",
             "fontSize": "px",
-            "fontFamily": "Inter",
+            "fontFamily": "Font Name",
             "textAlign": "left | center | right"
         },
         "normalTextStyles": {
             "color": "hex",
             "fontSize": "px",
-            "fontFamily": "Inter",
+            "fontFamily": "Font Name",
             "textAlign": "left | center | right"
         }
     }
