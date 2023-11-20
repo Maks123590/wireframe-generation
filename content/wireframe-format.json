@@ -1,188 +1,126 @@
 {
     "sections": [
         {
-            "section-type": "string",
-            "background": "hex | image",
+            "sectionType": "Header | Hero | Secondary Navigation Menu | Call to Action | Services | About Us | Testimonials | FAQs | Pricing | Contacts | Partners | Footer", //changed
+            "background":  {    //changed
+                "type": "color | image",
+                "color": "hex"
+            },
             "section-content": {
                 "contentType": "single | slider",
-                "border-radius": "px",
-                "background": "hex | image",
-                "width": "100%",
-                "marginTop": "0px",
-                "marginBottom": "0px",
+                "borderRadius": "px",  // if not set, the default is 0px
+                "background": {    // if not set, the default is inherit from section background        //changed
+                    "type": "color | image",
+                    "color": "hex"
+                },
+                "width": "%", // if not set, the default is 100%
+                "marginTop": "px", // if not set, the default is 0px
+                "marginBottom": "px", // if not set, the default is 0px
                 "grids": [
                     {
-                        "width": "90%",
-                        "grid-alignment": "top | center | bottom", // top by default
-                        "marginTop": "0px", // ?
-                        "marginBottom": "0x", // ?
+                        "width": "%", // if not set, the default is 100%
+                        "gridAlignment": "top | center | bottom", // if not set, top by default
+                        "marginTop": "px", // if not set, the default is 0px
+                        "marginBottom": "x", // if not set, the default is 0px
                         "rows": [
                             {
                                 "columns": [
                                     {  
-                                        "size": 12,
-                                        "widgets": [
+                                        "size": 12, // from 1 to 12, the sum of sizes of the elements in the column array cannot be greater than 12
+                                        "widgets": [    // if the column is empty, then the widget array is empty
                                             {
-                                                "element-type": "heading1-text",
-                                                "chars-count": 20, // ToDo [20, 20, 20]
-                                                "fontData": {   // optional
-                                                    "color": "hex",
-                                                    "fontSize": "px",
-                                                    "fontFamily": "Samsung Sharp Sans",
-                                                    "text-align": "left | center | right"
-                                                }
-                                            },
-                                            {
-                                                "element-type": "heading2-text",
+                                                "elementType": "text",
+                                                "textType": "heading1 | heading2 | heading3 | heading4 | subheading | normal-text | link",
                                                 "chars-count": 20,
-                                                "fontData": {   // optional
+                                                "fontData": {   // optional by default get from common styles
                                                     "color": "hex",
                                                     "fontSize": "px",
-                                                    "fontFamily": "Samsung Sharp Sans",
-                                                    "text-align": "left | center | right"
+                                                    "fontFamily": "Roboto",
+                                                    "textAlign": "left | center | right"
                                                 }
                                             },
                                             {
-                                                "element-type": "heading3-text",
-                                                "chars-count": 20,
-                                                "fontData": {   // optional
-                                                    "color": "hex",
-                                                    "fontSize": "px",
-                                                    "fontFamily": "Samsung Sharp Sans",
-                                                    "text-align": "left | center | right"
-                                                }
+                                                "elementType": "search-box",
+                                                "elementColor": "#C5E384"
                                             },
                                             {
-                                                "element-type": "heading4-text",
-                                                "chars-count": 20,
-                                                "fontData": {   // optional
-                                                    "color": "hex",
-                                                    "fontSize": "px",
-                                                    "fontFamily": "Samsung Sharp Sans",
-                                                    "text-align": "left | center | right"
-                                                }
+                                                "elementType": "login",
+                                                "elementColor": "#F7F8F9"
                                             },
                                             {
-                                                "element-type": "subheading-text",
-                                                "chars-count": 20,
-                                                "fontData": {   // optional
-                                                    "color": "hex",
-                                                    "fontSize": "px",
-                                                    "fontFamily": "Samsung Sharp Sans",
-                                                    "text-align": "left | center | right"
-                                                }
+                                                "elementType": "cart",
+                                                "elementColor": "#F7F8F9"
                                             },
                                             {
-                                                "element-type": "normal-text",
-                                                "chars-count": 20,
-                                                "fontData": {   // optional
-                                                    "color": "hex",
-                                                    "fontSize": "px",
-                                                    "fontFamily": "Samsung Sharp Sans",
-                                                    "text-align": "left | center | right"
-                                                }
-                                            },
-                                            {
-                                                "element-type": "link-text",
-                                                "chars-count": 20,
-                                                "fontData": {   // optional
-                                                    "color": "hex",
-                                                    "fontSize": "px",
-                                                    "fontFamily": "Samsung Sharp Sans",
-                                                    "text-align": "left | center | right"
-                                                }
-                                            },
-                                            {
-                                                "size": 5,
-                                                "widgets": [
-                                                    {
-                                                        "elementType": "search-box",
-                                                        "elementColor": "#C5E384"
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "size": 1,
-                                                "widgets": [
-                                                    {
-                                                        "elementType": "login",
-                                                        "elementColor": "#F7F8F9"
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "size": 1,
-                                                "widgets": [
-                                                    {
-                                                        "elementType": "cart",
-                                                        "elementColor": "#F7F8F9"
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "element-type": "menu",
+                                                "elementType": "menu",
                                                 "items": ["home", "about", "contacts"],
-                                                "align": "left | right | center", // center by default
-                                                "fontData": {
+                                                "align": "left | right | center", // if not set, the default is center
+                                                "fontData": { // optional by default get from common styles (from normal-text)
                                                     "color": "hex",
                                                     "fontSize": "px",
-                                                    "fontFamily": "Samsung Sharp Sans",
-                                                    "text-align": "left | center | right"
+                                                    "fontFamily": "Roboto",
+                                                    "textAlign": "left | center | right"
                                                 }
                                             },
                                             {
-                                                "element-type": "image",
+                                                "elementType": "image",
                                                 "height": 506,
-                                                "borderRadius": {
+                                                "borderRadius": {   // if not set, the default is 0 for all
                                                     "topLeftPx": 24,
                                                     "topRightPx": 24,
                                                     "bottomLeftPx": 24,
                                                     "bottomRightPx": 24
                                                 },
-                                                "fit-type": "fit | fill",
-                                                "align": "left | right | center",
-                                                "width": "25%"
+                                                "fitType": "fit | fill", // if not set, the default is fill
+                                                "align": "left | right | center",   // only if fitType is fit
+                                                "width": "25%" // only if fitType is fit
                                             },
                                             {
-                                                "element-type": "button",
-                                                "fit-type": "fit | fill",
-                                                "align": "left | right | center",
+                                                "elementType": "button",
                                                 "type": "primary | secondary",
-                                                "width": "100%"
+                                                "fitType": "fit | fill", // if not set, the default is fill
+                                                "align": "left | right | center", // only if fitType is fit
+                                                "width": "100%" // only if fitType is fit
                                             },
                                             {
-                                                "element-type": "form",
-                                                "type": "vertical | horizontal"
+                                                "elementType": "form",
+                                                "type": "vertical | horizontal" // if not set, the default is vertical
                                             },
                                             {
-                                                "element-type": "social-links",
-                                                "links-count": 3,
+                                                "elementType": "social-links",
+                                                "linksCount": 3,
                                                 "align": "left | right | center" // center by default
                                             },
                                             {
-                                                "element-type": "box",
-                                                "type": "vertical | horizontal", 
+                                                "elementType": "box",
+                                                "type": "vertical | horizontal",  // if not set, the default is vertical
                                                 "widgets": [],
-                                                "background": "hex | image",
-                                                "borderRadius": 24
+                                                "background": {    //changed
+                                                    "type": "color | image",
+                                                    "color": "hex"
+                                                },
+                                                "borderRadius": 24 // if not set, the default is 0
                                             },
                                             {
-                                                "element-type": "logo-text",    // todo change to logo
-                                                "text": "",
-                                                "fontData": {
+                                                "elementType": "logo",    // changed
+                                                "fontData": {   // optional by default get from common styles (normalText)
                                                     "color": "hex",
                                                     "fontSize": "px",
-                                                    "fontFamily": "Samsung Sharp Sans",
-                                                    "text-align": "left | center | right"
+                                                    "fontFamily": "Roboto",
+                                                    "textAlign": "left | center | right"
                                                 }
                                             },
                                             {
-                                                "element-type": "spacer",
+                                                "elementType": "spacer",
                                                 "height": "px"
                                             },
                                             {
-                                                "element-type": "divider",
+                                                "elementType": "divider",
                                                 "color": "hex"
+                                            },
+                                            {
+                                                "elementType": "accordion",
+                                                "itemsCount": 3
                                             }
                                         ]
                                     }
@@ -206,71 +144,38 @@
         "heading1Styles": {
             "color": "hex",
             "fontSize": "px",
-            "fontFamily": "Samsung Sharp Sans",
-            "text-align": "left | center | right"
+            "fontFamily": "Roboto",
+            "textAlign": "left | center | right"
         },
         "heading2Styles": {
             "color": "hex",
             "fontSize": "px",
-            "fontFamily": "Samsung Sharp Sans",
-            "text-align": "left | center | right"
+            "fontFamily": "Roboto",
+            "textAlign": "left | center | right"
         },
         "heading3Styles": {
             "color": "hex",
             "fontSize": "px",
-            "fontFamily": "Samsung Sharp Sans",
-            "text-align": "left | center | right"
+            "fontFamily": "Roboto",
+            "textAlign": "left | center | right"
         },
         "heading4Styles": {
             "color": "hex",
             "fontSize": "px",
-            "fontFamily": "Samsung Sharp Sans",
-            "text-align": "left | center | right"
+            "fontFamily": "Roboto",
+            "textAlign": "left | center | right"
         },
         "subheadingStyles": {
             "color": "hex",
             "fontSize": "px",
             "fontFamily": "Inter",
-            "text-align": "left | center | right"
+            "textAlign": "left | center | right"
         },
         "normalTextStyles": {
             "color": "hex",
             "fontSize": "px",
             "fontFamily": "Inter",
-            "text-align": "left | center | right"
+            "textAlign": "left | center | right"
         }
-    }
-}
-
-
-
-
-
-
-{
-    "section-type": "content-3",
-    "background": "image",
-    "section-content": {
-        "contentType": "single",
-        "border-radius": "0px",
-        "width": "92%",
-        "marginTop": "0px",
-        "marginBottom": "0px",
-        "grids": [
-            {
-                "width": "100%",
-                "rows": [
-                    {
-                        "columns": [
-                            {  
-                                "size": 3,
-                                "widgets": [
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
     }
 }
