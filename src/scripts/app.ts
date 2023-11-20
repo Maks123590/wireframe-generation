@@ -2,30 +2,41 @@ import { WireframeBuilder } from "./builder/wireframe-builder";
 
 export class App {
 
-  private container: HTMLElement = document.body;
+    private container: HTMLElement = document.body;
+    private editor: AceAjax.Editor = null;
 
-  constructor() {
-  }
+    constructor() {
+    }
 
-  public run() {
-      const generateBtn = this.container.querySelector("#generate-btn") as HTMLElement;
-      const clearBtn = this.container.querySelector("#clear-btn") as HTMLElement;
+    public run() {
+        const generateBtn = this.container.querySelector("#generate-btn") as HTMLElement;
+        const clearBtn = this.container.querySelector("#clear-btn") as HTMLElement;
 
-      const builder = new WireframeBuilder();
+        this.configureJSONEditor();
 
-      generateBtn.onclick = () => {
-          const textArea = document.querySelector("#input") as any;
+        const builder = new WireframeBuilder();
 
-          builder.generate(textArea.value);
-      };
+        generateBtn.onclick = () => {
+            builder.generate(this.editor.getValue());
+        };
 
-      clearBtn.onclick = () => {
-          const textArea = document.querySelector("#input") as any;
-          const resultBlock = document.querySelector("#result-view") as any;
+        clearBtn.onclick = () => {
+            const resultBlock = document.querySelector("#result-view") as HTMLElement;
 
-          textArea.value = "";
-          resultBlock.innerHTML = "";
-      };
-  }
+            this.editor.setValue("");
+            resultBlock.innerHTML = "";
+        };
+    }
+
+    public configureJSONEditor(): void {
+        var options = {
+            theme: "ace/theme/chrome",
+            mode: "ace/mode/json",
+            fontSize: "14px"
+        }
+
+        this.editor = ace.edit("editor");
+        this.editor.setOptions(options);
+    }
 
 }

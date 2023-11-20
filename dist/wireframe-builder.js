@@ -17,21 +17,30 @@ __webpack_require__.r(__webpack_exports__);
 class App {
     constructor() {
         this.container = document.body;
+        this.editor = null;
     }
     run() {
         const generateBtn = this.container.querySelector("#generate-btn");
         const clearBtn = this.container.querySelector("#clear-btn");
+        this.configureJSONEditor();
         const builder = new _builder_wireframe_builder__WEBPACK_IMPORTED_MODULE_0__.WireframeBuilder();
         generateBtn.onclick = () => {
-            const textArea = document.querySelector("#input");
-            builder.generate(textArea.value);
+            builder.generate(this.editor.getValue());
         };
         clearBtn.onclick = () => {
-            const textArea = document.querySelector("#input");
             const resultBlock = document.querySelector("#result-view");
-            textArea.value = "";
+            this.editor.setValue("");
             resultBlock.innerHTML = "";
         };
+    }
+    configureJSONEditor() {
+        var options = {
+            theme: "ace/theme/chrome",
+            mode: "ace/mode/json",
+            fontSize: "14px"
+        };
+        this.editor = ace.edit("editor");
+        this.editor.setOptions(options);
     }
 }
 
