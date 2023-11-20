@@ -3,7 +3,7 @@
 {
     "sections": [
         {
-            "sectionType": "header",
+            "sectionType": "Header",
             "background": {
                 "type": "color",
                 "color": "FDFAF1"

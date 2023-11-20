@@ -3,7 +3,7 @@
 {
     "sections": [
         {
-            "sectionType": "header-1",
+            "sectionType": "Header-1",
             "background": {
                 "type": "color",
                 "color": "#FFFFFF"
@@ -72,7 +72,7 @@
             }
         },
         {
-            "sectionType": "header-2",
+            "sectionType": "Header-2",
             "background": {
                 "type": "color",
                 "color": "#1C6CC3"
@@ -111,7 +111,7 @@
             }
         },
         {
-            "sectionType": "content-1",
+            "sectionType": "Hero",
             "background": {
                 "type": "color",
                 "color": "#F0F0F0"
@@ -182,7 +182,7 @@
             }
         },
         {
-            "sectionType": "content-2",
+            "sectionType": "About Us",
             "background": {
                 "type": "color",
                 "color": "#08215F"
@@ -336,7 +336,7 @@
             }
         },
         {
-            "sectionType": "content-3",
+            "sectionType": "Services",
             "background": {
                 "type": "color",
                 "color": "#08215F"
@@ -571,7 +571,7 @@
             }
         },
         {
-            "sectionType": "content-4",
+            "sectionType": "About Us",
             "background": {
                 "type": "color",
                 "color": "#F0F0F0"
@@ -719,7 +719,7 @@
             }
         },
         {
-            "sectionType": "content-5",
+            "sectionType": "Call to Action",
             "background": {
                 "type": "color",
                 "color": "#F0F0F0"
@@ -809,7 +809,7 @@
             }
         },
         {
-            "sectionType": "content-6",
+            "sectionType": "Pricing",
             "background": {
                 "type": "color",
                 "color": "#F0F0F0"
@@ -954,7 +954,7 @@
             }
         },
         {
-            "sectionType": "footer",
+            "sectionType": "Footer",
             "background": {
                 "type": "color",
                 "color": "#FFFFFF"

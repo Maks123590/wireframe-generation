@@ -3,7 +3,7 @@
 {
     "sections": [
         {
-            "sectionType": "header",
+            "sectionType": "Header",
             "background": {
                 "type": "color",
                 "color": "#3513BF"
@@ -63,7 +63,7 @@
             }
         },
         {
-            "sectionType": "content-1",
+            "sectionType": "Hero",
             "background": {
                 "type": "color",
                 "color": "#242834"
@@ -130,7 +130,7 @@
             }
         },
         {
-            "sectionType": "content-2",
+            "sectionType": "Services",
             "background": {
                 "type": "color",
                 "color": "#242834"
@@ -421,7 +421,7 @@
             }
         },
         {
-            "sectionType": "content-3",
+            "sectionType": "About Us",
             "background": {
                 "type": "color",
                 "color": "#242834"
@@ -478,7 +478,7 @@
             }
         },
         {
-            "sectionType": "content-4",
+            "sectionType": "Call To Action",
             "background": {
                 "type": "color",
                 "color": "#242834"
@@ -604,7 +604,7 @@
             }
         },
         {
-            "sectionType": "content-5  ",
+            "sectionType": "Testimonials",
             "background": {
                 "type": "color",
                 "color": "#242834"
@@ -668,7 +668,7 @@
             }
         },
         {
-            "sectionType": "footer",
+            "sectionType": "Footer", 
             "background": {
                 "type": "color",
                 "color": "#9FA4AC"

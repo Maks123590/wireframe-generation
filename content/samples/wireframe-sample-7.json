@@ -3,7 +3,7 @@
 {
     "sections": [
         {
-            "sectionType": "header",
+            "sectionType": "Header",
             "background": {
                 "type": "color",
                 "color": "#212892"
@@ -80,7 +80,7 @@
             }
         },
         {
-            "sectionType": "content-1",
+            "sectionType": "About Us",
             "background": {
                 "type": "color",
                 "color": "#EFEFEF"
@@ -149,7 +149,7 @@
             }
         },
         {
-            "sectionType": "content-2",
+            "sectionType": "About Us",
             "background": {
                 "type": "color",
                 "color": "#EFEFEF"
@@ -192,7 +192,7 @@
             }
         },
         {
-            "sectionType": "content-3",
+            "sectionType": "Testimonials",
             "background": {
                 "type": "color",
                 "color": "#EFEFEF"
@@ -298,7 +298,7 @@
             }
         },
         {
-            "sectionType": "content-4",
+            "sectionType": "Contacts",
             "background": {
                 "type": "color",
                 "color": "#212892"
@@ -373,8 +373,8 @@
                 ]
             }
         },
-        {
-            "sectionType": "footer",
+        {        
+            "sectionType": "Footer",
             "background": {
                 "type": "color",
                 "color": "#FFFFFF"

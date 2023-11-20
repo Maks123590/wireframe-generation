@@ -3,7 +3,7 @@
 {
     "sections": [
         {
-            "sectionType": "header",
+            "sectionType": "Header",
             "background": {
                 "type": "color",
                 "color": "#FFFFFF"
@@ -15,7 +15,7 @@
                     "type": "color",
                     "color": "#FFFFFF"
                 },
-                "width": "92%",
+                "width": "90%",
                 "marginTop": "0px",
                 "marginBottom": "0px",
                 "grids": [
@@ -73,12 +73,12 @@
             }
         },
         {
-            "sectionType": "content-1",
+            "sectionType": "Hero",
             "background": "image",
             "sectionContent": {
                 "contentType": "single",
                 "border-radius": "0px",
-                "width": "92%",
+                "width": "90%",
                 "marginTop": "201px",
                 "marginBottom": "201px",
                 "grids": [
@@ -127,7 +127,7 @@
             }
         },
         {
-            "sectionType": "content-2",
+            "sectionType": "Secondary Navigation Menu",
             "background": {
                 "type": "color",
                 "color": "#FFFFFF"
@@ -135,12 +135,12 @@
             "sectionContent": {
                 "contentType": "single",
                 "border-radius": "0px",
-                "width": "92%",
-                "marginTop": "96px",
-                "marginBottom": "96px",
+                "width": "90%",
+                "marginTop": "68px",
+                "marginBottom": "68px",
                 "grids": [
                     {
-                        "width": "90%",
+                        "width": "100%",
                         "rows": [
                             {
                                 "columns": [
@@ -313,20 +313,28 @@
                                         ]
                                     }
                                 ]
-                            },
-                            {
-                                "columns": [
-                                    {
-                                        "size": 12,
-                                        "widgets": [
-                                            {
-                                                "elementType": "spacer",
-                                                "height": "65px"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "sectionType": "Call to Action",
+            "background": {
+                "type": "color",
+                "color": "#FFFFFF"
+            },
+            "sectionContent": {
+                "contentType": "single",
+                "border-radius": "0px",
+                "width": "90%",
+                "marginTop": "68px",
+                "marginBottom": "68px",
+                "grids": [
+                    {
+                        "width": "100%",
+                        "rows": [
                             {
                                 "columns": [
                                     {
@@ -403,7 +411,7 @@
             }
         },
         {
-            "sectionType": "content-3",
+            "sectionType": "Services",
             "background": {
                 "type": "color",
                 "color": "#F1F3F5"
@@ -411,7 +419,7 @@
             "sectionContent": {
                 "contentType": "single",
                 "border-radius": "0px",
-                "width": "92%",
+                "width": "90%",
                 "marginTop": "96px",
                 "marginBottom": "96px",
                 "grids": [
@@ -694,7 +702,7 @@
             }
         },
         {
-            "sectionType": "content-4",
+            "sectionType": "Call to Action",
             "background": {
                 "type": "color",
                 "color": "#FFFFFF"
@@ -835,7 +843,7 @@
             }
         },
         {
-            "sectionType": "content-5",
+            "sectionType": "About Us",
             "background": {
                 "type": "color",
                 "color": "#F1F3F5"
@@ -985,7 +993,7 @@
             }
         },
         {
-            "sectionType": "content-6",
+            "sectionType": "Partners",
             "background": {
                 "type": "color",
                 "color": "#FFFFFF"
@@ -1095,7 +1103,7 @@
             }
         },
         {
-            "sectionType": "footer",
+            "sectionType": "Footer",
             "background": {
                 "type": "color",
                 "color": "#242834"

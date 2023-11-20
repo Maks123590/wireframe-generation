@@ -3,7 +3,7 @@
 {
     "sections": [
         {
-            "sectionType": "header",
+            "sectionType": "Header",
             "background": {
                 "type": "color",
                 "color": "#202020"
@@ -62,8 +62,8 @@
                 ]
             }
         },
-        {
-            "sectionType": "content-1",
+        { 
+            "sectionType": "Hero",
             "background": {
                 "type": "color",
                 "color": "#FFFFFF"
@@ -242,7 +242,7 @@
             }
         },
         {
-            "sectionType": "content-2",
+            "sectionType": "About Us",
             "background": {
                 "type": "color",
                 "color": "#FFFFFF"
@@ -287,7 +287,7 @@
             }
         },
         {
-            "sectionType": "content-3",
+            "sectionType": "Contacts",
             "background": {
                 "type": "color",
                 "color": "#FFFFFF"
@@ -354,8 +354,8 @@
                 ]
             }
         },
-        {
-            "sectionType": "footer",
+        { 
+            "sectionType": "Footer",
             "background": {
                 "type": "color",
                 "color": "#242834"
