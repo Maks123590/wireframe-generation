@@ -81,6 +81,26 @@
             }
         }
     }
+
+    &.box {
+        & > .widget-content {
+            padding: 24px 18px;
+            box-sizing: border-box;
+            display: flex;
+        }
+
+        &.vertical {
+            & > .widget-content {
+                flex-direction: column;
+            }
+        }
+
+        &.horizontal {
+            & > .widget-content {
+                flex-direction: row;
+            }
+        }
+    }
 }
 
 

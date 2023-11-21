@@ -749,12 +749,13 @@
                                                         "textType": "heading3",
                                                         "charsCount": 11,
                                                         "fontData": {
-                                                            "color": "#FFFFFF"
+                                                            "color": "#FFFFFF",
+                                                            "textAlign": "center"
                                                         }
                                                     },
                                                     {
                                                         "elementType": "image",
-                                                        "height": 50,
+                                                        "height": 100,
                                                         "borderRadius": {
                                                             "topLeftPx": 5,
                                                             "topRightPx": 5,
@@ -785,12 +786,13 @@
                                                         "textType": "heading3",
                                                         "charsCount": 11,
                                                         "fontData": {
-                                                            "color": "#FFFFFF"
+                                                            "color": "#FFFFFF",
+                                                            "textAlign": "center"
                                                         }
                                                     },
                                                     {
                                                         "elementType": "image",
-                                                        "height": 50,
+                                                        "height": 100,
                                                         "borderRadius": {
                                                             "topLeftPx": 5,
                                                             "topRightPx": 5,
@@ -821,12 +823,13 @@
                                                         "textType": "heading3",
                                                         "charsCount": 11,
                                                         "fontData": {
-                                                            "color": "#FFFFFF"
+                                                            "color": "#FFFFFF",
+                                                            "textAlign": "center"
                                                         }
                                                     },
                                                     {
                                                         "elementType": "image",
-                                                        "height": 50,
+                                                        "height": 100,
                                                         "borderRadius": {
                                                             "topLeftPx": 5,
                                                             "topRightPx": 5,
@@ -874,12 +877,13 @@
                                                         "textType": "heading3",
                                                         "charsCount": 11,
                                                         "fontData": {
-                                                            "color": "#FFFFFF"
+                                                            "color": "#FFFFFF",
+                                                            "textAlign": "center"
                                                         }
                                                     },
                                                     {
                                                         "elementType": "image",
-                                                        "height": 50,
+                                                        "height": 100,
                                                         "borderRadius": {
                                                             "topLeftPx": 5,
                                                             "topRightPx": 5,
@@ -910,12 +914,13 @@
                                                         "textType": "heading3",
                                                         "charsCount": 11,
                                                         "fontData": {
-                                                            "color": "#FFFFFF"
+                                                            "color": "#FFFFFF",
+                                                            "textAlign": "center"
                                                         }
                                                     },
                                                     {
                                                         "elementType": "image",
-                                                        "height": 50,
+                                                        "height": 100,
                                                         "borderRadius": {
                                                             "topLeftPx": 5,
                                                             "topRightPx": 5,
@@ -946,12 +951,13 @@
                                                         "textType": "heading3",
                                                         "charsCount": 11,
                                                         "fontData": {
-                                                            "color": "#FFFFFF"
+                                                            "color": "#FFFFFF",
+                                                            "textAlign": "center"
                                                         }
                                                     },
                                                     {
                                                         "elementType": "image",
-                                                        "height": 50,
+                                                        "height": 100,
                                                         "borderRadius": {
                                                             "topLeftPx": 5,
                                                             "topRightPx": 5,
@@ -999,12 +1005,13 @@
                                                         "textType": "heading3",
                                                         "charsCount": 11,
                                                         "fontData": {
-                                                            "color": "#FFFFFF"
+                                                            "color": "#FFFFFF",
+                                                            "textAlign": "center"
                                                         }
                                                     },
                                                     {
                                                         "elementType": "image",
-                                                        "height": 50,
+                                                        "height": 100,
                                                         "borderRadius": {
                                                             "topLeftPx": 5,
                                                             "topRightPx": 5,
@@ -1035,12 +1042,13 @@
                                                         "textType": "heading3",
                                                         "charsCount": 11,
                                                         "fontData": {
-                                                            "color": "#FFFFFF"
+                                                            "color": "#FFFFFF",
+                                                            "textAlign": "center"
                                                         }
                                                     },
                                                     {
                                                         "elementType": "image",
-                                                        "height": 50,
+                                                        "height": 100,
                                                         "borderRadius": {
                                                             "topLeftPx": 5,
                                                             "topRightPx": 5,
@@ -1071,12 +1079,13 @@
                                                         "textType": "heading3",
                                                         "charsCount": 11,
                                                         "fontData": {
-                                                            "color": "#FFFFFF"
+                                                            "color": "#FFFFFF",
+                                                            "textAlign": "center"
                                                         }
                                                     },
                                                     {
                                                         "elementType": "image",
-                                                        "height": 50,
+                                                        "height": 100,
                                                         "borderRadius": {
                                                             "topLeftPx": 5,
                                                             "topRightPx": 5,
@@ -1124,12 +1133,13 @@
                                                         "textType": "heading3",
                                                         "charsCount": 11,
                                                         "fontData": {
-                                                            "color": "#FFFFFF"
+                                                            "color": "#FFFFFF",
+                                                            "textAlign": "center"
                                                         }
                                                     },
                                                     {
                                                         "elementType": "image",
-                                                        "height": 50,
+                                                        "height": 100,
                                                         "borderRadius": {
                                                             "topLeftPx": 5,
                                                             "topRightPx": 5,
@@ -1160,12 +1170,13 @@
                                                         "textType": "heading3",
                                                         "charsCount": 11,
                                                         "fontData": {
-                                                            "color": "#FFFFFF"
+                                                            "color": "#FFFFFF",
+                                                            "textAlign": "center"
                                                         }
                                                     },
                                                     {
                                                         "elementType": "image",
-                                                        "height": 50,
+                                                        "height": 100,
                                                         "borderRadius": {
                                                             "topLeftPx": 5,
                                                             "topRightPx": 5,
@@ -1196,12 +1207,13 @@
                                                         "textType": "heading3",
                                                         "charsCount": 11,
                                                         "fontData": {
-                                                            "color": "#FFFFFF"
+                                                            "color": "#FFFFFF",
+                                                            "textAlign": "center"
                                                         }
                                                     },
                                                     {
                                                         "elementType": "image",
-                                                        "height": 50,
+                                                        "height": 100,
                                                         "borderRadius": {
                                                             "topLeftPx": 5,
                                                             "topRightPx": 5,

@@ -27,7 +27,7 @@ export interface IBoxWidgetData {
     type: "vertical" | "horizontal";
     widgets: IWidgetData[];
     background: IBackgroundData;
-    borderRadius: number;
+    borderRadius: IBorderRadiusData;
 }
 
 export interface ILogoWidgetData {

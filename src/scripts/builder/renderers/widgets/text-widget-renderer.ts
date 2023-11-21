@@ -6,7 +6,7 @@ export class TextWidgetRenderer {
 
     static render(data: ITextWidgetData, commonStylesData: ICommonStyles): HTMLElement {
         const widget = document.createElement("div");
-        widget.classList.add("widget", data.elementType);
+        widget.classList.add("widget", data.elementType, data.textType);
 
         const widgetContent = document.createElement("div");
         widgetContent.classList.add("widget-content");
