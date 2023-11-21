@@ -26,7 +26,7 @@ export class SectionRenderer {
         data.sectionContent.grids.forEach((gridData: IGridData) => {
             const grid = GridRenderer.render(gridData, commonStylesData);
             sectionContent.append(grid);
-        })
+        });
 
         section.append(sectionContent);
         section.append(label);

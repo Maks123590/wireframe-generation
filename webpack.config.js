@@ -25,8 +25,6 @@ module.exports = {
     plugins: [
         new CopyPlugin({
             patterns: [
-                { from: "src/assets/fonts/style.css", to: "assets/fonts/style.css" },
-                { from: "src/assets/fonts/fonts", to: "assets/fonts/fonts" },
                 { from: "src/index.html", to: "index.html" }
             ]
         })
