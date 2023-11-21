@@ -1,33 +1,24 @@
+import { IBackgroundData, IBorderRadiusData } from "./common-data";
 import { IGridData } from "./grid-data";
 
 export interface ISectionData {
     sectionType: string,
-    background: string, //hex for color or image for image stub
+    background: IBackgroundData,
     sectionContent: {
-        contentType: SectionContentType,
-        marginTop: string,
-        marginBottom: string,
-        width: string, // in percent
-        background: string, //hex for color or image for image stub
-        borderRadius: IBorderRadiusData,
-        grids: IGridData[],
-
+        contentType: SectionContentType;
+        borderRadius: IBorderRadiusData;
+        background: IBackgroundData;
+        width: string; // in percent
+        marginTop: string;
+        marginBottom: string;
+        grids: IGridData[];
     }
 }
 
-
 export type SectionContentType = "single" | "slider";
 
-
-export interface IBorderRadiusData {
-    topLeftPx: number;
-    topRightPx: number;
-    bottomLeftPx: number;
-    bottomRightPx: number;
-}
-
 export interface IAlignableData {
-    fitType: "fit" | "fill",
-    align: "left" | "right" | "center",
-    width: string // in percent
+    fitType: "fit" | "fill";
+    align: "left" | "right" | "center";
+    width: string; // in percent
 }

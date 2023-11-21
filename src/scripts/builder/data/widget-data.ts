@@ -1,22 +1,38 @@
+import { IBackgroundData, IBorderRadiusData } from "./common-data";
 import { IFontData } from "./common-styles";
-import { IAlignableData, IBorderRadiusData } from "./section-data";
+import { IAlignableData } from "./section-data";
 
 export interface ITextWidgetData {
-    elementType: TextWidgetType;
+    readonly elementType: "text";
+    textType: TextWidgetType;
     charsCount: number;
-    fontData?: IFontData
+    fontData?: IFontData;
 }
 
 export interface IImageWidgetData extends IAlignableData {
     readonly elementType: "image";
-    height: number, // number in px
+    height: number; // number in px
+    color: string;
     borderRadius: IBorderRadiusData;
 }
 
 export interface IButtonWidgetData extends IAlignableData {
     readonly elementType: "button";
     borderRadius: IBorderRadiusData;
-    type: "primary" | "secondary"
+    type: "primary" | "secondary";
+}
+
+export interface IBoxWidgetData {
+    readonly elementType: "box";
+    type: "vertical" | "horizontal";
+    widgets: IWidgetData[];
+    background: IBackgroundData;
+    borderRadius: number;
+}
+
+export interface ILogoWidgetData {
+    readonly elementType: "logo";
+    fontData: IFontData;
 }
 
 export interface IFormWidgetData {
@@ -24,14 +40,78 @@ export interface IFormWidgetData {
     type: "vertical" | "horizontal";
 }
 
+export interface ISearchWidgetData {
+    readonly elementType: "search-box";
+    color: string;
+}
+
+export interface ISpacerWidgetData {
+    readonly elementType: "spacer";
+    height: string; // px
+}
+
+export interface IDividerWidgetData {
+    readonly elementType: "divider";
+    color: string;
+}
+
+export interface IAccordionWidgetData {
+    readonly elementType: "accordion";
+    itemsCount: 3
+}
+
+export interface IMenuWidgetData {
+    readonly elementType: "menu";
+    items: string[];
+    align: "left" | "center" | "right";
+    fontData: IFontData;
+}
+
+export interface ILoginWidgetData {
+    readonly elementType: "login";
+    color: string;
+}
+
+export interface ICartWidgetData {
+    readonly elementType: "cart";
+    color: string;
+}
+
 export interface ISocialLinksWidgetData {
     readonly elementType: "social-links";
     linksCount: 3
 }
 
-export type IWidgetData = ITextWidgetData | IImageWidgetData | IButtonWidgetData | IFormWidgetData | ISocialLinksWidgetData;
+export type IWidgetData = 
+ITextWidgetData |
+IImageWidgetData |
+IButtonWidgetData |
+IBoxWidgetData |
+ILogoWidgetData |
+IFormWidgetData |
+ISearchWidgetData |
+ISpacerWidgetData |
+IDividerWidgetData |
+IAccordionWidgetData |
+IMenuWidgetData |
+ILoginWidgetData |
+ICartWidgetData |
+ISocialLinksWidgetData;
 
-export type TextWidgetType = "heading1-text" | "heading2-text" | "heading3-text" | "heading4-text" | "subheading-text" | "normal-text";
+export type TextWidgetType = "heading1" | "heading2" | "heading3" | "heading4" | "subheading" | "normal" | "link";
 
-export type WidgetType = TextWidgetType | "menu" | "image" | "button" | "form" | "social-links"
-
+export type WidgetType = 
+"text"
+| "menu"
+| "image"
+| "button"
+| "form"
+| "social-links"
+| "logo"
+| "box"
+| "spacer"
+| "divider"
+| "accordion"
+| "search-box"
+| "login"
+| "cart";

@@ -1,14 +1,8 @@
-import { CommonRenderer } from "./renderers/common-renderer";
-import { IColumnData, IGridData, IRowData } from "./data/grid-data";
 import { ISectionData } from "./data/section-data";
-import { IWidgetData } from "./data/widget-data";
 import { IWireframeData } from "./data/wireframe-data";
-import { WidgetRenderer } from "./renderers/widget-renderer";
+import { SectionRenderer } from "./renderers/section-renderer";
 
 export class WireframeBuilder {
-
-    constructor() {
-    }
   
     public generate(input: any) {
         const resultBlock = document.querySelector("#result-view") as HTMLElement;
@@ -35,68 +29,9 @@ export class WireframeBuilder {
         console.warn(wireframeData);
   
         wireframeData.sections.forEach((sectionData: ISectionData) => {
-            const section = document.createElement("section");
-  
-            CommonRenderer.renderBackground(section, sectionData.background);
-            
-            const label = this.generateElementLabel(sectionData.sectionType);
-  
-            const sectionContent = document.createElement("div");
-            sectionContent.classList.add("sectionContent");
-
-            sectionContent.style.width = sectionData.sectionContent.width;
-            sectionContent.style.marginTop = sectionData.sectionContent.marginTop;
-            sectionContent.style.marginBottom = sectionData.sectionContent.marginBottom;
-  
-            CommonRenderer.renderBackground(sectionContent, sectionData.sectionContent.background);
-            CommonRenderer.renderBorderRadius(sectionContent, sectionData.sectionContent.borderRadius);
-
-            sectionData.sectionContent.grids.forEach((gridData: IGridData) => {
-
-                const grid = document.createElement("div");
-                grid.classList.add("mesh");
-                grid.style.width = sectionData.sectionContent.grids[0].width;
-
-                gridData.rows.forEach((rowData: IRowData) => {
-                    const row = document.createElement("div");
-                    row.classList.add("mesh-row");
-      
-                    rowData.columns.forEach((columnData: IColumnData) => {
-                        const column = document.createElement("div");
-                        column.classList.add("col");
-                        column.classList.add(`col-${columnData.size}`);
-      
-                        columnData.widgets.forEach((widgetData: IWidgetData) => {
-                            const widgetElement = WidgetRenderer.render(widgetData, wireframeData.commonStyles);
-                            column.append(widgetElement);
-                        });
-      
-                        row.append(column);
-                    });
-      
-                    grid.append(row);
-                });
-                
-                sectionContent.append(grid);
-            })
-
-  
-            section.append(sectionContent);
-            section.append(label);
-  
+            const section = SectionRenderer.render(sectionData, wireframeData.commonStyles);
             resultBlock.appendChild(section);
         });
     }
-  
-    private generateElementLabel(elementType: any) {
-          const typeLabel = document.createElement("div");
-          typeLabel.classList.add("type-label");
-  
-          const span = document.createElement("span");
-          span.innerHTML = elementType;
-  
-          typeLabel.append(span);
-          return typeLabel;
-      }
   
   }

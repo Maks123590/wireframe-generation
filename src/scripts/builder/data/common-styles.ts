@@ -1,9 +1,9 @@
-import { IBorderRadiusData } from "./section-data";
+import { IBorderRadiusData } from "./common-data";
 
 export interface ICommonStyles {
     primaryButtonColor: string, // hex
     secondaryButtonColor: string, // hex
-    buttonBorderRadius: IBorderRadiusData,   // px
+    buttonBorderRadius: IBorderRadiusData, // px
 
     heading1Styles: IFontData,
     heading2Styles: IFontData,
@@ -13,9 +13,9 @@ export interface ICommonStyles {
     normalTextStyles: IFontData
 }
 
-
 export interface IFontData {
     color: string;
     fontSize: string;
     fontFamily: string;
+    textAlign: "left" | "center" | "right";
 }

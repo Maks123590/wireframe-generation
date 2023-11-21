@@ -1,7 +1,11 @@
 import { IWidgetData } from "./widget-data";
 
 export interface IGridData {
-    width: string, // in percent
+    width: string; // in percent
+    gridAlignment: "top" | "center" | "bottom";
+    marginTop: string; //px
+    marginBottom: string; //px
+
     rows: IRowData[]
 }
 
