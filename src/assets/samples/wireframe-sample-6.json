@@ -34,7 +34,7 @@
                                             {
                                                 "elementType": "image",
                                                 "height": 200,
-                                                "fit-type": "fill"
+                                                "fitType": "fill"
                                             },
                                             {
                                                 "elementType": "menu",
@@ -262,7 +262,7 @@
                                             {
                                                 "elementType": "image",
                                                 "height": 417,
-                                                "fit-type": "fill"
+                                                "fitType": "fill"
                                             },
                                             {
                                                 "elementType": "text",
@@ -398,37 +398,37 @@
             "color": "#333333",
             "fontSize": "36px",
             "fontFamily": "Roboto",
-            "text-align": "left"
+            "textAlign": "left"
         },
         "heading2Styles": {
             "color": "#333333",
             "fontSize": "32px",
             "fontFamily": "Roboto",
-            "text-align": "left"
+            "textAlign": "left"
         },
         "heading3Styles": {
             "color": "#333333",
             "fontSize": "18px",
             "fontFamily": "Roboto",
-            "text-align": "left"
+            "textAlign": "left"
         },
         "heading4Styles": {
             "color": "#333333",
             "fontSize": "18px",
             "fontFamily": "Roboto",
-            "text-align": "left"
+            "textAlign": "left"
         },
         "subheadingStyles": {
             "color": "#333333",
             "fontSize": "18px",
             "fontFamily": "Roboto",
-            "text-align": "left"
+            "textAlign": "left"
         },
         "normalTextStyles": {
             "color": "#333333",
             "fontSize": "18px",
             "fontFamily": "Roboto",
-            "text-align": "left"
+            "textAlign": "left"
         }
     }
 }

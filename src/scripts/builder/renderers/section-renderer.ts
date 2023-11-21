@@ -14,7 +14,7 @@ export class SectionRenderer {
         const label = this.generateElementLabel(data.sectionType);
 
         const sectionContent = document.createElement("div");
-        sectionContent.classList.add("sectionContent");
+        sectionContent.classList.add("section-content");
 
         sectionContent.style.width = data.sectionContent.width;
         sectionContent.style.marginTop = data.sectionContent.marginTop;

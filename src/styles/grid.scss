@@ -1,0 +1,85 @@
+.mesh {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 100%;
+    max-width: 3000px;
+    margin: 0 auto;
+}
+
+.mesh-row {
+    position: relative;
+    min-height: 50px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    min-height: inherit;
+
+    margin: 12px 0px;
+
+    &:first-child {
+        margin-top: 0px;
+    }
+
+    &:last-child {
+        margin-bottom: 0px;
+    }
+
+}
+
+.col {
+    position: relative;
+    max-width: 100%;
+    padding: 0px 12px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.col-1 {
+    width: calc(100% / 12 * 1);
+}
+
+.col-2 {
+    width: calc(100% / 12 * 2);
+}
+
+.col-3 {
+    width: calc(100% / 12 * 3);
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+}
+
+.col-5 {
+    width: calc(100% / 12 * 5);
+}
+
+.col-6 {
+    width: calc(100% / 12 * 6);
+}
+
+.col-7 {
+    width: calc(100% / 12 * 7);
+}
+
+.col-8 {
+    width: calc(100% / 12 * 8);
+}
+
+.col-9 {
+    width: calc(100% / 12 * 9);
+}
+
+.col-10 {
+    width: calc(100% / 12 * 10);
+}
+
+.col-11 {
+    width: calc(100% / 12 * 11);
+}
+
+.col-12 {
+    width: calc(100% / 12 * 12);
+}

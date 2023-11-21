@@ -11,11 +11,12 @@
             "sectionContent": {
                 "contentType": "single",
                 "width": "92%",
-                "marginTop": "0px",
-                "marginBottom": "0px",
+                "marginTop": "21px",
+                "marginBottom": "21px",
                 "grids": [
                     {
                         "width": "100%",
+                        "gridAlignment": "center",
                         "rows": [
                             {
                                 "columns": [
@@ -31,7 +32,7 @@
                                                     "bottomLeftPx": 100,
                                                     "bottomRightPx": 100
                                                 },
-                                                "fit-type": "fit",
+                                                "fitType": "fit",
                                                 "align": "left",
                                                 "width": "60%"
                                             }
@@ -57,7 +58,7 @@
                                             {
                                                 "elementType": "logo",
                                                 "fontData": {
-                                                    "text-align": "center"
+                                                    "textAlign": "center"
                                                 }
                                             }
                                         ]
@@ -74,7 +75,7 @@
                                                 "textType": "normal",
                                                 "charsCount": 32,
                                                 "fontData": {
-                                                    "text-align": "right"
+                                                    "textAlign": "right"
                                                 }
                                             }
                                         ]
@@ -84,7 +85,7 @@
                                         "widgets": [
                                             {
                                                 "elementType": "button",
-                                                "fit-type": "fill",
+                                                "fitType": "fill",
                                                 "type": "primary"
                                             }
                                         ]
@@ -105,8 +106,8 @@
             "sectionContent": {
                 "contentType": "single",
                 "width": "92%",
-                "marginTop": "0px",
-                "marginBottom": "0px",
+                "marginTop": "20px",
+                "marginBottom": "20px",
                 "grids": [
                     {
                         "width": "100%",
@@ -158,7 +159,7 @@
                 "grids": [
                     {
                         "width": "100%",
-                        "grid-alignment": "center",
+                        "gridAlignment": "center",
                         "rows": [
                             {
                                 "columns": [
@@ -185,7 +186,7 @@
                                             },
                                             {
                                                 "elementType": "button",
-                                                "fit-type": "fit",
+                                                "fitType": "fit",
                                                 "align": "left",
                                                 "type": "primary",
                                                 "width": "30%"
@@ -211,7 +212,7 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": {
+                "borderRadius": {
                     "topLeftPx": 24,
                     "topRightPx": 24,
                     "bottomLeftPx": 24,
@@ -275,7 +276,7 @@
                 "grids": [
                     {
                         "width": "96%",
-                        "grid-alignment": "center",
+                        "gridAlignment": "center",
                         "marginTop": "44px",
                         "marginBottom": "44px",
                         "rows": [
@@ -318,7 +319,7 @@
                                                     "bottomLeftPx": 5,
                                                     "bottomRightPx": 5
                                                 },
-                                                "fit-type": "fill"
+                                                "fitType": "fill"
                                             }
                                         ]
                                     }
@@ -331,7 +332,7 @@
                                         "widgets": [
                                             {
                                                 "elementType": "button",
-                                                "fit-type": "fill",
+                                                "fitType": "fill",
                                                 "type": "primary"
                                             }
                                         ]
@@ -341,7 +342,7 @@
                                         "widgets": [
                                             {
                                                 "elementType": "button",
-                                                "fit-type": "fill",
+                                                "fitType": "fill",
                                                 "type": "secondary"
                                             }
                                         ]
@@ -404,7 +405,7 @@
                                                             "bottomLeftPx": 100,
                                                             "bottomRightPx": 100
                                                         },
-                                                        "fit-type": "fit",
+                                                        "fitType": "fit",
                                                         "align": "left",
                                                         "width": "20%"
                                                     },
@@ -448,7 +449,7 @@
                                                             "bottomLeftPx": 100,
                                                             "bottomRightPx": 100
                                                         },
-                                                        "fit-type": "fit",
+                                                        "fitType": "fit",
                                                         "align": "left",
                                                         "width": "20%"
                                                     },
@@ -492,7 +493,7 @@
                                                             "bottomLeftPx": 100,
                                                             "bottomRightPx": 100
                                                         },
-                                                        "fit-type": "fit",
+                                                        "fitType": "fit",
                                                         "align": "left",
                                                         "width": "20%"
                                                     },
@@ -536,7 +537,7 @@
                                                             "bottomLeftPx": 100,
                                                             "bottomRightPx": 100
                                                         },
-                                                        "fit-type": "fit",
+                                                        "fitType": "fit",
                                                         "align": "left",
                                                         "width": "20%"
                                                     },
@@ -589,7 +590,7 @@
                 "grids": [
                     {
                         "width": "96%",
-                        "grid-alignment": "center",
+                        "gridAlignment": "center",
                         "marginTop": "44px",
                         "marginBottom": "44px",
                         "rows": [
@@ -621,7 +622,7 @@
                                                             "bottomLeftPx": 100,
                                                             "bottomRightPx": 100
                                                         },
-                                                        "fit-type": "fit",
+                                                        "fitType": "fit",
                                                         "align": "left",
                                                         "width": "20%"
                                                     },
@@ -665,7 +666,7 @@
                                                             "bottomLeftPx": 100,
                                                             "bottomRightPx": 100
                                                         },
-                                                        "fit-type": "fit",
+                                                        "fitType": "fit",
                                                         "align": "left",
                                                         "width": "20%"
                                                     },
@@ -694,34 +695,6 @@
                                         ]
                                     }
                                 ]
-                            },
-                            {
-                                "columns": [
-                                    {
-                                        "size": 2,
-                                        "widgets": [
-                                            {
-                                                "elementType": "button",
-                                                "fit-type": "fill",
-                                                "type": "primary"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "size": 2,
-                                        "widgets": [
-                                            {
-                                                "elementType": "button",
-                                                "fit-type": "fill",
-                                                "type": "secondary"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "size": 8,
-                                        "widgets": []
-                                    }
-                                ]
                             }
                         ]
                     }
@@ -742,7 +715,7 @@
                 "grids": [
                     {
                         "width": "100%",
-                        "grid-alignment": "center",
+                        "gridAlignment": "center",
                         "rows": [
                             {
                                 "columns": [
@@ -788,7 +761,7 @@
                                                             "bottomLeftPx": 5,
                                                             "bottomRightPx": 5
                                                         },
-                                                        "fit-type": "fill"
+                                                        "fitType": "fill"
                                                     },
                                                     {
                                                         "elementType": "text",
@@ -800,7 +773,7 @@
                                                     },
                                                     {
                                                         "elementType": "button",
-                                                        "fit-type": "fill",
+                                                        "fitType": "fill",
                                                         "type": "primary"
                                                     },
                                                     {
@@ -824,7 +797,7 @@
                                                             "bottomLeftPx": 5,
                                                             "bottomRightPx": 5
                                                         },
-                                                        "fit-type": "fill"
+                                                        "fitType": "fill"
                                                     },
                                                     {
                                                         "elementType": "text",
@@ -836,7 +809,7 @@
                                                     },
                                                     {
                                                         "elementType": "button",
-                                                        "fit-type": "fill",
+                                                        "fitType": "fill",
                                                         "type": "primary"
                                                     },
                                                     {
@@ -860,7 +833,7 @@
                                                             "bottomLeftPx": 5,
                                                             "bottomRightPx": 5
                                                         },
-                                                        "fit-type": "fill"
+                                                        "fitType": "fill"
                                                     },
                                                     {
                                                         "elementType": "text",
@@ -872,7 +845,7 @@
                                                     },
                                                     {
                                                         "elementType": "button",
-                                                        "fit-type": "fill",
+                                                        "fitType": "fill",
                                                         "type": "primary"
                                                     }
                                                 ],
@@ -913,7 +886,7 @@
                                                             "bottomLeftPx": 5,
                                                             "bottomRightPx": 5
                                                         },
-                                                        "fit-type": "fill"
+                                                        "fitType": "fill"
                                                     },
                                                     {
                                                         "elementType": "text",
@@ -925,7 +898,7 @@
                                                     },
                                                     {
                                                         "elementType": "button",
-                                                        "fit-type": "fill",
+                                                        "fitType": "fill",
                                                         "type": "primary"
                                                     },
                                                     {
@@ -949,7 +922,7 @@
                                                             "bottomLeftPx": 5,
                                                             "bottomRightPx": 5
                                                         },
-                                                        "fit-type": "fill"
+                                                        "fitType": "fill"
                                                     },
                                                     {
                                                         "elementType": "text",
@@ -961,7 +934,7 @@
                                                     },
                                                     {
                                                         "elementType": "button",
-                                                        "fit-type": "fill",
+                                                        "fitType": "fill",
                                                         "type": "primary"
                                                     },
                                                     {
@@ -985,7 +958,7 @@
                                                             "bottomLeftPx": 5,
                                                             "bottomRightPx": 5
                                                         },
-                                                        "fit-type": "fill"
+                                                        "fitType": "fill"
                                                     },
                                                     {
                                                         "elementType": "text",
@@ -997,7 +970,7 @@
                                                     },
                                                     {
                                                         "elementType": "button",
-                                                        "fit-type": "fill",
+                                                        "fitType": "fill",
                                                         "type": "primary"
                                                     }
                                                 ],
@@ -1038,7 +1011,7 @@
                                                             "bottomLeftPx": 5,
                                                             "bottomRightPx": 5
                                                         },
-                                                        "fit-type": "fill"
+                                                        "fitType": "fill"
                                                     },
                                                     {
                                                         "elementType": "text",
@@ -1050,7 +1023,7 @@
                                                     },
                                                     {
                                                         "elementType": "button",
-                                                        "fit-type": "fill",
+                                                        "fitType": "fill",
                                                         "type": "primary"
                                                     },
                                                     {
@@ -1074,7 +1047,7 @@
                                                             "bottomLeftPx": 5,
                                                             "bottomRightPx": 5
                                                         },
-                                                        "fit-type": "fill"
+                                                        "fitType": "fill"
                                                     },
                                                     {
                                                         "elementType": "text",
@@ -1086,7 +1059,7 @@
                                                     },
                                                     {
                                                         "elementType": "button",
-                                                        "fit-type": "fill",
+                                                        "fitType": "fill",
                                                         "type": "primary"
                                                     },
                                                     {
@@ -1110,7 +1083,7 @@
                                                             "bottomLeftPx": 5,
                                                             "bottomRightPx": 5
                                                         },
-                                                        "fit-type": "fill"
+                                                        "fitType": "fill"
                                                     },
                                                     {
                                                         "elementType": "text",
@@ -1122,7 +1095,7 @@
                                                     },
                                                     {
                                                         "elementType": "button",
-                                                        "fit-type": "fill",
+                                                        "fitType": "fill",
                                                         "type": "primary"
                                                     }
                                                 ],
@@ -1163,7 +1136,7 @@
                                                             "bottomLeftPx": 5,
                                                             "bottomRightPx": 5
                                                         },
-                                                        "fit-type": "fill"
+                                                        "fitType": "fill"
                                                     },
                                                     {
                                                         "elementType": "text",
@@ -1175,7 +1148,7 @@
                                                     },
                                                     {
                                                         "elementType": "button",
-                                                        "fit-type": "fill",
+                                                        "fitType": "fill",
                                                         "type": "primary"
                                                     },
                                                     {
@@ -1199,7 +1172,7 @@
                                                             "bottomLeftPx": 5,
                                                             "bottomRightPx": 5
                                                         },
-                                                        "fit-type": "fill"
+                                                        "fitType": "fill"
                                                     },
                                                     {
                                                         "elementType": "text",
@@ -1211,7 +1184,7 @@
                                                     },
                                                     {
                                                         "elementType": "button",
-                                                        "fit-type": "fill",
+                                                        "fitType": "fill",
                                                         "type": "primary"
                                                     },
                                                     {
@@ -1235,7 +1208,7 @@
                                                             "bottomLeftPx": 5,
                                                             "bottomRightPx": 5
                                                         },
-                                                        "fit-type": "fill"
+                                                        "fitType": "fill"
                                                     },
                                                     {
                                                         "elementType": "text",
@@ -1247,7 +1220,7 @@
                                                     },
                                                     {
                                                         "elementType": "button",
-                                                        "fit-type": "fill",
+                                                        "fitType": "fill",
                                                         "type": "primary"
                                                     }
                                                 ],
@@ -1289,7 +1262,7 @@
                 "grids": [
                     {
                         "width": "96%",
-                        "grid-alignment": "center",
+                        "gridAlignment": "center",
                         "marginTop": "24px",
                         "marginBottom": "24px",
                         "rows": [
@@ -1358,8 +1331,8 @@
             "sectionContent": {
                 "contentType": "single",
                 "width": "92%",
-                "marginTop": "0px",
-                "marginBottom": "0px",
+                "marginTop": "42px",
+                "marginBottom": "42px",
                 "grids": [
                     {
                         "width": "100%",
@@ -1378,7 +1351,7 @@
                                                     "bottomLeftPx": 100,
                                                     "bottomRightPx": 100
                                                 },
-                                                "fit-type": "fit",
+                                                "fitType": "fit",
                                                 "align": "left",
                                                 "width": "60%"
                                             }
@@ -1416,7 +1389,7 @@
                                                 "textType": "normal",
                                                 "charsCount": 32,
                                                 "fontData": {
-                                                    "text-align": "right"
+                                                    "textAlign": "right"
                                                 }
                                             }
                                         ]
@@ -1426,7 +1399,7 @@
                                         "widgets": [
                                             {
                                                 "elementType": "button",
-                                                "fit-type": "fit",
+                                                "fitType": "fit",
                                                 "align": "right",
                                                 "type": "primary",
                                                 "width": "80%"
@@ -1542,37 +1515,37 @@
             "color": "#202020",
             "fontSize": "36px",
             "fontFamily": "Roboto",
-            "text-align": "center"
+            "textAlign": "center"
         },
         "heading2Styles": {
             "color": "#202020",
             "fontSize": "32px",
             "fontFamily": "Roboto",
-            "text-align": "left"
+            "textAlign": "left"
         },
         "heading3Styles": {
             "color": "#202020",
             "fontSize": "22px",
             "fontFamily": "Roboto",
-            "text-align": "left"
+            "textAlign": "left"
         },
         "heading4Styles": {
             "color": "#202020",
             "fontSize": "18px",
             "fontFamily": "Roboto",
-            "text-align": "left"
+            "textAlign": "left"
         },
         "subheadingStyles": {
             "color": "#202020",
             "fontSize": "18px",
             "fontFamily": "Roboto",
-            "text-align": "left"
+            "textAlign": "left"
         },
         "normalTextStyles": {
             "color": "#202020",
             "fontSize": "18px",
             "fontFamily": "Roboto",
-            "text-align": "left"
+            "textAlign": "left"
         }
     }
 }

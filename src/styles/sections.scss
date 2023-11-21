@@ -1,0 +1,16 @@
+section {
+    display: flex;
+    justify-content: center;
+
+    .section-content {
+        display: flex;
+        justify-content: center;
+    }
+
+    &:hover {
+        .type-label {
+            display: inline-block;
+        }
+    }
+
+}

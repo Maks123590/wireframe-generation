@@ -99,7 +99,7 @@
                                             },
                                             {
                                                 "elementType": "button",
-                                                "fit-type": "fit",
+                                                "fitType": "fit",
                                                 "align": "left",
                                                 "type": "primary",
                                                 "width": "20%"
@@ -116,7 +116,7 @@
                                             {
                                                 "elementType": "image",
                                                 "height": 408,
-                                                "fit-type": "fill"
+                                                "fitType": "fill"
                                             }
                                         ]
                                     }
@@ -152,7 +152,7 @@
                                                 "textType": "heading1",
                                                 "charsCount": 11,
                                                 "fontData": {
-                                                    "text-align": "center"
+                                                    "textAlign": "center"
                                                 }
                                             },
                                             {
@@ -177,7 +177,7 @@
                                                     "bottomLeftPx": 0,
                                                     "bottomRightPx": 0
                                                 },
-                                                "fit-type": "fit",
+                                                "fitType": "fit",
                                                 "align": "center",
                                                 "width": "30%"
                                             },
@@ -190,7 +190,7 @@
                                                 "textType": "heading2",
                                                 "charsCount": 11,
                                                 "fontData": {
-                                                    "text-align": "center"
+                                                    "textAlign": "center"
                                                 }
                                             },
                                             {
@@ -198,7 +198,7 @@
                                                 "textType": "normal",
                                                 "charsCount": 78,
                                                 "fontData": {
-                                                    "text-align": "center"
+                                                    "textAlign": "center"
                                                 }
                                             }
                                         ]
@@ -215,7 +215,7 @@
                                                     "bottomLeftPx": 0,
                                                     "bottomRightPx": 0
                                                 },
-                                                "fit-type": "fit",
+                                                "fitType": "fit",
                                                 "align": "center",
                                                 "width": "30%"
                                             },
@@ -228,7 +228,7 @@
                                                 "textType": "heading2",
                                                 "charsCount": 11,
                                                 "fontData": {
-                                                    "text-align": "center"
+                                                    "textAlign": "center"
                                                 }
                                             },
                                             {
@@ -236,7 +236,7 @@
                                                 "textType": "normal",
                                                 "charsCount": 78,
                                                 "fontData": {
-                                                    "text-align": "center"
+                                                    "textAlign": "center"
                                                 }
                                             }
                                         ]
@@ -253,7 +253,7 @@
                                                     "bottomLeftPx": 0,
                                                     "bottomRightPx": 0
                                                 },
-                                                "fit-type": "fit",
+                                                "fitType": "fit",
                                                 "align": "center",
                                                 "width": "30%"
                                             },
@@ -266,7 +266,7 @@
                                                 "textType": "heading2",
                                                 "charsCount": 11,
                                                 "fontData": {
-                                                    "text-align": "center"
+                                                    "textAlign": "center"
                                                 }
                                             },
                                             {
@@ -274,7 +274,7 @@
                                                 "textType": "normal",
                                                 "charsCount": 78,
                                                 "fontData": {
-                                                    "text-align": "center"
+                                                    "textAlign": "center"
                                                 }
                                             }
                                         ]
@@ -308,7 +308,7 @@
                                                     "bottomLeftPx": 0,
                                                     "bottomRightPx": 0
                                                 },
-                                                "fit-type": "fit",
+                                                "fitType": "fit",
                                                 "align": "center",
                                                 "width": "30%"
                                             },
@@ -321,7 +321,7 @@
                                                 "textType": "heading2",
                                                 "charsCount": 11,
                                                 "fontData": {
-                                                    "text-align": "center"
+                                                    "textAlign": "center"
                                                 }
                                             },
                                             {
@@ -329,7 +329,7 @@
                                                 "textType": "normal",
                                                 "charsCount": 78,
                                                 "fontData": {
-                                                    "text-align": "center"
+                                                    "textAlign": "center"
                                                 }
                                             }
                                         ]
@@ -346,7 +346,7 @@
                                                     "bottomLeftPx": 0,
                                                     "bottomRightPx": 0
                                                 },
-                                                "fit-type": "fit",
+                                                "fitType": "fit",
                                                 "align": "center",
                                                 "width": "30%"
                                             },
@@ -359,7 +359,7 @@
                                                 "textType": "heading2",
                                                 "charsCount": 11,
                                                 "fontData": {
-                                                    "text-align": "center"
+                                                    "textAlign": "center"
                                                 }
                                             },
                                             {
@@ -367,7 +367,7 @@
                                                 "textType": "normal",
                                                 "charsCount": 78,
                                                 "fontData": {
-                                                    "text-align": "center"
+                                                    "textAlign": "center"
                                                 }
                                             }
                                         ]
@@ -384,7 +384,7 @@
                                                     "bottomLeftPx": 0,
                                                     "bottomRightPx": 0
                                                 },
-                                                "fit-type": "fit",
+                                                "fitType": "fit",
                                                 "align": "center",
                                                 "width": "30%"
                                             },
@@ -397,7 +397,7 @@
                                                 "textType": "heading2",
                                                 "charsCount": 11,
                                                 "fontData": {
-                                                    "text-align": "center"
+                                                    "textAlign": "center"
                                                 }
                                             },
                                             {
@@ -405,7 +405,7 @@
                                                 "textType": "normal",
                                                 "charsCount": 78,
                                                 "fontData": {
-                                                    "text-align": "center"
+                                                    "textAlign": "center"
                                                 }
                                             }
                                         ]
@@ -440,7 +440,7 @@
                                             {
                                                 "elementType": "image",
                                                 "height": 408,
-                                                "fit-type": "fill"
+                                                "fitType": "fill"
                                             }
                                         ]
                                     },
@@ -498,7 +498,7 @@
                                                 "textType": "heading1",
                                                 "charsCount": 11,
                                                 "fontData": {
-                                                    "text-align": "center"
+                                                    "textAlign": "center"
                                                 }
                                             },
                                             {
@@ -523,7 +523,7 @@
                                                     "bottomLeftPx": 0,
                                                     "bottomRightPx": 0
                                                 },
-                                                "fit-type": "fill"
+                                                "fitType": "fill"
                                             }
                                         ]
                                     },
@@ -539,7 +539,7 @@
                                                     "bottomLeftPx": 0,
                                                     "bottomRightPx": 0
                                                 },
-                                                "fit-type": "fill"
+                                                "fitType": "fill"
                                             }
                                         ]
                                     },
@@ -555,7 +555,7 @@
                                                     "bottomLeftPx": 0,
                                                     "bottomRightPx": 0
                                                 },
-                                                "fit-type": "fill"
+                                                "fitType": "fill"
                                             }
                                         ]
                                     },
@@ -571,7 +571,7 @@
                                                     "bottomLeftPx": 0,
                                                     "bottomRightPx": 0
                                                 },
-                                                "fit-type": "fill"
+                                                "fitType": "fill"
                                             }
                                         ]
                                     }
@@ -584,7 +584,7 @@
                                         "widgets": [
                                             {
                                                 "elementType": "button",
-                                                "fit-type": "fit",
+                                                "fitType": "fit",
                                                 "align": "center",
                                                 "type": "primary",
                                                 "width": "10%"
@@ -734,37 +734,37 @@
             "color": "#333333",
             "fontSize": "36px",
             "fontFamily": "Roboto",
-            "text-align": "center"
+            "textAlign": "center"
         },
         "heading2Styles": {
             "color": "#333333",
             "fontSize": "18px",
             "fontFamily": "Roboto",
-            "text-align": "left"
+            "textAlign": "left"
         },
         "heading3Styles": {
             "color": "#333333",
             "fontSize": "18px",
             "fontFamily": "Roboto",
-            "text-align": "left"
+            "textAlign": "left"
         },
         "heading4Styles": {
             "color": "#333333",
             "fontSize": "18px",
             "fontFamily": "Roboto",
-            "text-align": "left"
+            "textAlign": "left"
         },
         "subheadingStyles": {
             "color": "#333333",
             "fontSize": "18px",
             "fontFamily": "Roboto",
-            "text-align": "left"
+            "textAlign": "left"
         },
         "normalTextStyles": {
             "color": "#333333",
             "fontSize": "18px",
             "fontFamily": "Roboto",
-            "text-align": "left"
+            "textAlign": "left"
         }
     }
 }

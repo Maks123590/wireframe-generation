@@ -12,6 +12,9 @@ export class GridRenderer {
         grid.classList.add("mesh");
         grid.style.width = data.width;
 
+        grid.style.marginTop = data.marginTop;
+        grid.style.marginBottom = data.marginBottom;
+
         data.rows.forEach((rowData: IRowData) => {
             const row = document.createElement("div");
             row.classList.add("mesh-row");
@@ -20,6 +23,8 @@ export class GridRenderer {
                 const column = document.createElement("div");
                 column.classList.add("col");
                 column.classList.add(`col-${columnData.size}`);
+
+                column.style.justifyContent = data.gridAlignment ?? "top";
 
                 columnData.widgets.forEach((widgetData: IWidgetData) => {
                     const widgetElement = WidgetRenderer.render(widgetData, commonStylesData);

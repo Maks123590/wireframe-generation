@@ -25,13 +25,13 @@ module.exports = {
     plugins: [
         new CopyPlugin({
             patterns: [
-                { from: "src/assets/samples", to: "assets/assets/samples" },
+                { from: "src/assets/samples", to: "assets/samples" },
                 { from: "src/index.html", to: "index.html" }
             ]
         })
     ],
     resolve: {
-        extensions: [".tsx", ".ts", ".js"]
+        extensions: [".tsx", ".ts", ".js", ".json"]
     },
     devtool: "source-map"
 };

@@ -5,7 +5,7 @@
             "background": "It can be either color given in HEX format or just 'image'",
             "section-content": {
                 "contentType": "single or slider",
-                "border-radius": "px",
+                "borderRadius": "px",
                 "background": "It can be either color given in HEX format or just 'image'",
                 "grids": [
                     {
@@ -23,11 +23,11 @@
                                                 "element-color": "This is an optional setting that can only be in HEX",
                                                 "color": "It is an optional settings and it can be only in HEX",
                                                 "height": "it can be from 20px to 300px and it can be applied only for image, button elements",
-                                                "border-radius": "Only for buttons. From 0px to 100px",
-                                                "fit-type": "It can be applied only for button elements and it can be either fit or fill",
+                                                "borderRadius": "Only for buttons. From 0px to 100px",
+                                                "fitType": "It can be applied only for button elements and it can be either fit or fill",
                                                 "align": "It can be applied only for button elements and it can be either left, right or center",
                                                 "type": "It can be applied only for button elements and it can be either primary or secondary",
-                                                "width": "It is used by fit-type settings and it can be from 30% to 100%",
+                                                "width": "It is used by fitType settings and it can be from 30% to 100%",
                                                 "links-count": "The number of social network to display. This setting is only for social-links element"
                                             },
                                             {
@@ -37,11 +37,11 @@
                                                 "element-color": "This is an optional setting that can only be in HEX",
                                                 "color": "It is an optional settings and it can be only in HEX",
                                                 "height": "it can be from 20px to 300px and it can be applied only for image, button elements",
-                                                "border-radius": "From 0px to 100px",
-                                                "fit-type": "It can be applied only for button elements and it can be either fit or fill",
+                                                "borderRadius": "From 0px to 100px",
+                                                "fitType": "It can be applied only for button elements and it can be either fit or fill",
                                                 "align": "It can be applied only for button elements and it can be either left, right or center",
                                                 "type": "It can be applied only for button elements and it can be either primary or secondary",
-                                                "width": "It is used by fit-type settings and it can be from 30% to 100%",
+                                                "width": "It is used by fitType settings and it can be from 30% to 100%",
                                                 "links-count": "The number of social network to display. This setting is only for social-links element"
                                             },
                                         ]
@@ -56,11 +56,11 @@
                                                 "element-color": "This is an optional setting that can only be in HEX",
                                                 "color": "It is an optional settings and it can be only in HEX",
                                                 "height": "it can be from 20px to 300px and it can be applied only for image, button elements",
-                                                "border-radius": "From 0px to 100px",
-                                                "fit-type": "It can be applied only for button elements and it can be either fit or fill",
+                                                "borderRadius": "From 0px to 100px",
+                                                "fitType": "It can be applied only for button elements and it can be either fit or fill",
                                                 "align": "It can be applied only for button elements and it can be either left, right or center",
                                                 "type": "It can be applied only for button elements and it can be either primary or secondary",
-                                                "width": "It is used by fit-type settings and it can be from 30% to 100%",
+                                                "width": "It is used by fitType settings and it can be from 30% to 100%",
                                                 "links-count": "The number of social network to display. This setting is only for social-links element"
                                             },
                                             {
@@ -70,11 +70,11 @@
                                                 "element-color": "This is an optional setting that can only be in HEX",
                                                 "color": "It is an optional settings and it can be only in HEX",
                                                 "height": "it can be from 20px to 300px and it can be applied only for image, button elements",
-                                                "border-radius": "From 0px to 100px",
-                                                "fit-type": "It can be applied only for button elements and it can be either fit or fill",
+                                                "borderRadius": "From 0px to 100px",
+                                                "fitType": "It can be applied only for button elements and it can be either fit or fill",
                                                 "align": "It can be applied only for button elements and it can be either left, right or center",
                                                 "type": "It can be applied only for button elements and it can be either primary or secondary",
-                                                "width": "It is used by fit-type settings and it can be from 30% to 100%",
+                                                "width": "It is used by fitType settings and it can be from 30% to 100%",
                                                 "links-count": "The number of social network to display. This setting is only for social-links element"
                                             },
                                         ]
@@ -91,7 +91,7 @@
             "background": "It can be either color given in HEX format or just 'image'",
             "section-content": {
                 "contentType": "single or slider",
-                "border-radius": "px",
+                "borderRadius": "px",
                 "background": "It can be either color given in HEX format or just 'image'",
                 "grids": [
                     {
@@ -109,11 +109,11 @@
                                                 "element-color": "This is an optional setting that can only be in HEX",
                                                 "color": "It is an optional settings and it can be only in HEX",
                                                 "height": "it can be from 20px to 300px and it can be applied only for image, button elements",
-                                                "border-radius": "From 0px to 100px",
-                                                "fit-type": "It can be applied only for button elements and it can be either fit or fill",
+                                                "borderRadius": "From 0px to 100px",
+                                                "fitType": "It can be applied only for button elements and it can be either fit or fill",
                                                 "align": "It can be applied only for button elements and it can be either left, right or center",
                                                 "type": "It can be applied only for button elements and it can be either primary or secondary",
-                                                "width": "It is used by fit-type settings and it can be from 30% to 100%",
+                                                "width": "It is used by fitType settings and it can be from 30% to 100%",
                                                 "links-count": "The number of social network to display. This setting is only for social-links element"
                                             },
                                             {
@@ -123,11 +123,11 @@
                                                 "element-color": "This is an optional setting that can only be in HEX",
                                                 "color": "It is an optional settings and it can be only in HEX",
                                                 "height": "it can be from 20px to 300px and it can be applied only for image, button elements",
-                                                "border-radius": "From 0px to 100px",
-                                                "fit-type": "It can be applied only for button elements and it can be either fit or fill",
+                                                "borderRadius": "From 0px to 100px",
+                                                "fitType": "It can be applied only for button elements and it can be either fit or fill",
                                                 "align": "It can be applied only for button elements and it can be either left, right or center",
                                                 "type": "It can be applied only for button elements and it can be either primary or secondary",
-                                                "width": "It is used by fit-type settings and it can be from 30% to 100%",
+                                                "width": "It is used by fitType settings and it can be from 30% to 100%",
                                                 "links-count": "The number of social network to display. This setting is only for social-links element"
                                             },
                                         ]
@@ -142,11 +142,11 @@
                                                 "element-color": "This is an optional setting that can only be in HEX",
                                                 "color": "It is an optional settings and it can be only in HEX",
                                                 "height": "it can be from 20px to 300px and it can be applied only for image, button elements",
-                                                "border-radius": "From 0px to 100px",
-                                                "fit-type": "It can be applied only for button elements and it can be either fit or fill",
+                                                "borderRadius": "From 0px to 100px",
+                                                "fitType": "It can be applied only for button elements and it can be either fit or fill",
                                                 "align": "It can be applied only for button elements and it can be either left, right or center",
                                                 "type": "It can be applied only for button elements and it can be either primary or secondary",
-                                                "width": "It is used by fit-type settings and it can be from 30% to 100%",
+                                                "width": "It is used by fitType settings and it can be from 30% to 100%",
                                                 "links-count": "The number of social network to display. This setting is only for social-links element"
                                             },
                                             {
@@ -156,11 +156,11 @@
                                                 "element-color": "This is an optional setting that can only be in HEX",
                                                 "color": "It is an optional settings and it can be only in HEX",
                                                 "height": "it can be from 20px to 300px and it can be applied only for image, button elements",
-                                                "border-radius": "From 0px to 100px",
-                                                "fit-type": "It can be applied only for button elements and it can be either fit or fill",
+                                                "borderRadius": "From 0px to 100px",
+                                                "fitType": "It can be applied only for button elements and it can be either fit or fill",
                                                 "align": "It can be applied only for button elements and it can be either left, right or center",
                                                 "type": "It can be applied only for button elements and it can be either primary or secondary",
-                                                "width": "It is used by fit-type settings and it can be from 30% to 100%",
+                                                "width": "It is used by fitType settings and it can be from 30% to 100%",
                                                 "links-count": "The number of social network to display. This setting is only for social-links element"
                                             },
                                         ]
@@ -176,7 +176,7 @@
     "common-styles": {
         "primary-button-color": "This setting must be only in HEX",
         "secondary-button-color": "This setting must be only in HEX",
-        "button-border-radius": "16px",
+        "button-borderRadius": "16px",
         "heading1-color": "This setting must be only in HEX",
         "heading2-color": "This setting must be only in HEX",
         "heading3-color": "This setting must be only in HEX",

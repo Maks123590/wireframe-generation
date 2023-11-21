@@ -265,7 +265,7 @@
                                             },
                                             {
                                                 "elementType": "button",
-                                                "fit-type": "fit",
+                                                "fitType": "fit",
                                                 "align": "left",
                                                 "type": "primary",
                                                 "width": "20%"
@@ -285,7 +285,7 @@
                                                     "bottomLeftPx": 0,
                                                     "bottomRightPx": 0
                                                 },
-                                                "fit-type": "fill"
+                                                "fitType": "fill"
                                             }
                                         ]
                                     }
@@ -358,7 +358,7 @@
                                                     "bottomLeftPx": 50,
                                                     "bottomRightPx": 50
                                                 },
-                                                "fit-type": "fit",
+                                                "fitType": "fit",
                                                 "align": "center",
                                                 "width": "20%"
                                             },
@@ -392,7 +392,7 @@
                                                     "bottomLeftPx": 50,
                                                     "bottomRightPx": 50
                                                 },
-                                                "fit-type": "fit",
+                                                "fitType": "fit",
                                                 "align": "center",
                                                 "width": "20%"
                                             },
@@ -426,7 +426,7 @@
                                                     "bottomLeftPx": 50,
                                                     "bottomRightPx": 50
                                                 },
-                                                "fit-type": "fit",
+                                                "fitType": "fit",
                                                 "align": "center",
                                                 "width": "20%"
                                             },
@@ -509,7 +509,7 @@
                                                     "bottomLeftPx": 0,
                                                     "bottomRightPx": 0
                                                 },
-                                                "fit-type": "fill"
+                                                "fitType": "fill"
                                             }
                                         ]
                                     },
@@ -525,7 +525,7 @@
                                                     "bottomLeftPx": 0,
                                                     "bottomRightPx": 0
                                                 },
-                                                "fit-type": "fill"
+                                                "fitType": "fill"
                                             }
                                         ]
                                     },
@@ -541,7 +541,7 @@
                                                     "bottomLeftPx": 0,
                                                     "bottomRightPx": 0
                                                 },
-                                                "fit-type": "fill"
+                                                "fitType": "fill"
                                             }
                                         ]
                                     },
@@ -557,7 +557,7 @@
                                                     "bottomLeftPx": 0,
                                                     "bottomRightPx": 0
                                                 },
-                                                "fit-type": "fill"
+                                                "fitType": "fill"
                                             }
                                         ]
                                     }

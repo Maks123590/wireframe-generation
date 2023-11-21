@@ -16,8 +16,9 @@ export class CommonRenderer {
 
     public static renderFont(element: HTMLElement, data: IFontData | undefined, commonData: IFontData): void {
         element.style.fontSize = data?.fontSize ?? commonData.fontSize;
-        element.style.fontFamily = data?.fontFamily ?? commonData.fontFamily;
+        element.style.fontFamily = data?.fontFamily ?? commonData.fontFamily ?? "Roboto";
         element.style.color = data?.color ?? commonData.color;
+        element.style.textAlign = data?.textAlign ?? commonData.textAlign ?? "left"
     }
 
     public static renderBackground(element: HTMLElement, background: IBackgroundData): void {
