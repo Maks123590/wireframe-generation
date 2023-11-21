@@ -10,7 +10,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "width": "92%",
                 "marginTop": "0px",
                 "marginBottom": "0px",
@@ -105,7 +104,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "width": "92%",
                 "marginTop": "0px",
                 "marginBottom": "0px",
@@ -154,7 +152,6 @@
             },
             "sectionContent": {
                 "contentType": "slider",
-                "border-radius": "0px",
                 "width": "92%",
                 "marginTop": "96px",
                 "marginBottom": "96px",
@@ -214,7 +211,12 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "24px",
+                "border-radius": {
+                    "topLeftPx": 24,
+                    "topRightPx": 24,
+                    "bottomLeftPx": 24,
+                    "bottomRightPx": 24
+                },
                 "width": "92%",
                 "marginTop": "52px",
                 "marginBottom": "52px",
@@ -257,10 +259,15 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "background": {
                     "type": "color",
                     "color": "#37383F"
+                },
+                "borderRadius":  {
+                    "topLeftPx": 24,
+                    "topRightPx": 24,
+                    "bottomLeftPx": 24,
+                    "bottomRightPx": 24
                 },
                 "width": "96%",
                 "marginTop": "52px",
@@ -358,7 +365,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "width": "92%",
                 "marginTop": "36px",
                 "marginBottom": "36px",
@@ -413,7 +419,12 @@
                                                         "charsCount": 28
                                                     }
                                                 ],
-                                                "borderRadius": 24,
+                                                "borderRadius": {
+                                                    "topLeftPx": 24,
+                                                    "topRightPx": 24,
+                                                    "bottomLeftPx": 24,
+                                                    "bottomRightPx": 24
+                                                },
                                                 "background": {
                                                     "type": "color",
                                                     "color": "#F0F0F0"
@@ -452,7 +463,12 @@
                                                         "charsCount": 28
                                                     }
                                                 ],
-                                                "borderRadius": 24,
+                                                "borderRadius": {
+                                                    "topLeftPx": 24,
+                                                    "topRightPx": 24,
+                                                    "bottomLeftPx": 24,
+                                                    "bottomRightPx": 24
+                                                },
                                                 "background": {
                                                     "type": "color",
                                                     "color": "#F0F0F0"
@@ -491,7 +507,12 @@
                                                         "charsCount": 28
                                                     }
                                                 ],
-                                                "borderRadius": 24,
+                                                "borderRadius": {
+                                                    "topLeftPx": 24,
+                                                    "topRightPx": 24,
+                                                    "bottomLeftPx": 24,
+                                                    "bottomRightPx": 24
+                                                },
                                                 "background": {
                                                     "type": "color",
                                                     "color": "#F0F0F0"
@@ -530,7 +551,12 @@
                                                         "charsCount": 28
                                                     }
                                                 ],
-                                                "borderRadius": 24,
+                                                "borderRadius": {
+                                                    "topLeftPx": 24,
+                                                    "topRightPx": 24,
+                                                    "bottomLeftPx": 24,
+                                                    "bottomRightPx": 24
+                                                },
                                                 "background": {
                                                     "type": "color",
                                                     "color": "#F0F0F0"
@@ -553,7 +579,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "background": {
                     "type": "color",
                     "color": "#F0F0F0"
@@ -611,7 +636,12 @@
                                                         "charsCount": 28
                                                     }
                                                 ],
-                                                "borderRadius": 24,
+                                                "borderRadius": {
+                                                    "topLeftPx": 24,
+                                                    "topRightPx": 24,
+                                                    "bottomLeftPx": 24,
+                                                    "bottomRightPx": 24
+                                                },
                                                 "background": {
                                                     "type": "color",
                                                     "color": "#FFFFFF"
@@ -650,7 +680,12 @@
                                                         "charsCount": 28
                                                     }
                                                 ],
-                                                "borderRadius": 24,
+                                                "borderRadius": {
+                                                    "topLeftPx": 24,
+                                                    "topRightPx": 24,
+                                                    "bottomLeftPx": 24,
+                                                    "bottomRightPx": 24
+                                                },
                                                 "background": {
                                                     "type": "color",
                                                     "color": "#FFFFFF"
@@ -701,7 +736,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "width": "92%",
                 "marginTop": "96px",
                 "marginBottom": "96px",
@@ -842,7 +876,12 @@
                                                         "type": "primary"
                                                     }
                                                 ],
-                                                "borderRadius": 24,
+                                                "borderRadius": {
+                                                    "topLeftPx": 24,
+                                                    "topRightPx": 24,
+                                                    "bottomLeftPx": 24,
+                                                    "bottomRightPx": 24
+                                                },
                                                 "background": {
                                                     "type": "color",
                                                     "color": "#37383F"
@@ -962,7 +1001,12 @@
                                                         "type": "primary"
                                                     }
                                                 ],
-                                                "borderRadius": 24,
+                                                "borderRadius": {
+                                                    "topLeftPx": 24,
+                                                    "topRightPx": 24,
+                                                    "bottomLeftPx": 24,
+                                                    "bottomRightPx": 24
+                                                },
                                                 "background": {
                                                     "type": "color",
                                                     "color": "#37383F"
@@ -1082,7 +1126,12 @@
                                                         "type": "primary"
                                                     }
                                                 ],
-                                                "borderRadius": 24,
+                                                "borderRadius": {
+                                                    "topLeftPx": 24,
+                                                    "topRightPx": 24,
+                                                    "bottomLeftPx": 24,
+                                                    "bottomRightPx": 24
+                                                },
                                                 "background": {
                                                     "type": "color",
                                                     "color": "#37383F"
@@ -1202,7 +1251,12 @@
                                                         "type": "primary"
                                                     }
                                                 ],
-                                                "borderRadius": 24,
+                                                "borderRadius": {
+                                                    "topLeftPx": 24,
+                                                    "topRightPx": 24,
+                                                    "bottomLeftPx": 24,
+                                                    "bottomRightPx": 24
+                                                },
                                                 "background": {
                                                     "type": "color",
                                                     "color": "#37383F"
@@ -1225,7 +1279,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "background": {
                     "type": "color",
                     "color": "#37383F"
@@ -1304,7 +1357,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "width": "92%",
                 "marginTop": "0px",
                 "marginBottom": "0px",

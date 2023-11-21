@@ -10,7 +10,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "width": "92%",
                 "marginTop": "40px",
                 "marginBottom": "40px",
@@ -87,7 +86,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "width": "92%",
                 "marginTop": "42px",
                 "marginBottom": "42px",
@@ -156,7 +154,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "width": "92%",
                 "marginTop": "42px",
                 "marginBottom": "42px",
@@ -199,7 +196,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "width": "92%",
                 "marginTop": "42px",
                 "marginBottom": "42px",
@@ -305,7 +301,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "width": "92%",
                 "marginTop": "40px",
                 "marginBottom": "40px",
@@ -381,7 +376,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "width": "92%",
                 "marginTop": "0px",
                 "marginBottom": "0px",

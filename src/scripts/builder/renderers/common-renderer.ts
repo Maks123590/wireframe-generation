@@ -2,7 +2,11 @@ import { IBackgroundData, IBorderRadiusData } from "../data/common-data";
 import { IFontData } from "../data/common-styles";
 
 export class CommonRenderer {
-    public static renderBorderRadius(element: HTMLElement, data: IBorderRadiusData): void {
+    public static renderBorderRadius(element: HTMLElement, data?: IBorderRadiusData): void {
+        if (!data) {
+            return;
+        }
+
         element.style.borderTopLeftRadius = `${data.topLeftPx}px`;
         element.style.borderTopRightRadius = `${data.topRightPx}px`;
         element.style.borderBottomRightRadius = `${data.bottomRightPx}px`;

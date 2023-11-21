@@ -61,6 +61,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 class CommonRenderer {
     static renderBorderRadius(element, data) {
+        if (!data) {
+            return;
+        }
         element.style.borderTopLeftRadius = `${data.topLeftPx}px`;
         element.style.borderTopRightRadius = `${data.topRightPx}px`;
         element.style.borderBottomRightRadius = `${data.bottomRightPx}px`;
@@ -135,6 +138,7 @@ __webpack_require__.r(__webpack_exports__);
 
 class SectionRenderer {
     static render(data, commonStylesData) {
+        var _a;
         const section = document.createElement("section");
         _common_renderer__WEBPACK_IMPORTED_MODULE_0__.CommonRenderer.renderBackground(section, data.background);
         const label = this.generateElementLabel(data.sectionType);
@@ -143,7 +147,7 @@ class SectionRenderer {
         sectionContent.style.width = data.sectionContent.width;
         sectionContent.style.marginTop = data.sectionContent.marginTop;
         sectionContent.style.marginBottom = data.sectionContent.marginBottom;
-        _common_renderer__WEBPACK_IMPORTED_MODULE_0__.CommonRenderer.renderBackground(sectionContent, data.sectionContent.background);
+        _common_renderer__WEBPACK_IMPORTED_MODULE_0__.CommonRenderer.renderBackground(sectionContent, (_a = data.sectionContent.background) !== null && _a !== void 0 ? _a : data.background);
         _common_renderer__WEBPACK_IMPORTED_MODULE_0__.CommonRenderer.renderBorderRadius(sectionContent, data.sectionContent.borderRadius);
         data.sectionContent.grids.forEach((gridData) => {
             const grid = _grid_renderer__WEBPACK_IMPORTED_MODULE_1__.GridRenderer.render(gridData, commonStylesData);

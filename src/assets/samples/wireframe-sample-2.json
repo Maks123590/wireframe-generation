@@ -10,7 +10,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "background": {
                     "type": "color",
                     "color": "#1A1A1A"
@@ -61,7 +60,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "background": {
                     "type": "color",
                     "color": "#1A1A1A"
@@ -141,7 +139,6 @@
             },
             "sectionContent": {
                 "contentType": "slider",
-                "border-radius": "0px",
                 "background": {
                     "type": "color",
                     "color": "#1A1A1A"
@@ -232,7 +229,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "background": {
                     "type": "color",
                     "color": "#810820"
@@ -294,7 +290,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "background": {
                     "type": "color",
                     "color": "#1A1A1A"
@@ -435,7 +430,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "background": {
                     "type": "color",
                     "color": "#F5ECDC"
@@ -603,7 +597,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "background": {
                     "type": "color",
                     "color": "#810820"
@@ -771,7 +764,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "background": {
                     "type": "color",
                     "color": "#F5ECDC"
@@ -1117,7 +1109,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "background": {
                     "type": "color",
                     "color": "#1A1A1A"
@@ -1329,7 +1320,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "background": {
                     "type": "color",
                     "color": "#810820"
@@ -1375,7 +1365,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "background": {
                     "type": "color",
                     "color": "#1A1A1A"

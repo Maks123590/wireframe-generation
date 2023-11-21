@@ -10,7 +10,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "background": {
                     "type": "color",
                     "color": "#FFFFFF"
@@ -77,7 +76,6 @@
             "background": "image",
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "width": "90%",
                 "marginTop": "201px",
                 "marginBottom": "201px",
@@ -134,7 +132,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "width": "90%",
                 "marginTop": "68px",
                 "marginBottom": "68px",
@@ -327,7 +324,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "width": "90%",
                 "marginTop": "68px",
                 "marginBottom": "68px",
@@ -418,7 +414,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "width": "90%",
                 "marginTop": "96px",
                 "marginBottom": "96px",
@@ -709,7 +704,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "width": "92%",
                 "marginTop": "96px",
                 "marginBottom": "96px",
@@ -850,7 +844,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "width": "92%",
                 "marginTop": "96px",
                 "marginBottom": "96px",
@@ -1000,7 +993,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "width": "92%",
                 "marginTop": "96px",
                 "marginBottom": "96px",
@@ -1110,7 +1102,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "width": "92%",
                 "marginTop": "96px",
                 "marginBottom": "52px",

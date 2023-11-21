@@ -10,7 +10,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "width": "92%",
                 "marginTop": "0px",
                 "marginBottom": "0px",
@@ -79,7 +78,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "width": "92%",
                 "marginTop": "20px",
                 "marginBottom": "20px",
@@ -118,7 +116,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "width": "92%",
                 "marginTop": "48px",
                 "marginBottom": "48px",
@@ -189,7 +186,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "width": "92%",
                 "marginTop": "96px",
                 "marginBottom": "96px",
@@ -343,7 +339,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "width": "92%",
                 "marginTop": "96px",
                 "marginBottom": "96px",
@@ -418,7 +413,12 @@
                                                     "type": "color",
                                                     "color": "#1C6CC3"
                                                 },
-                                                "borderRadius": 24
+                                                "borderRadius":  {
+                                                    "topLeftPx": 24,
+                                                    "topRightPx": 24,
+                                                    "bottomLeftPx": 24,
+                                                    "bottomRightPx": 24
+                                                }
                                             }
                                         ]
                                     },
@@ -465,7 +465,12 @@
                                                     "type": "color",
                                                     "color": "#1C6CC3"
                                                 },
-                                                "borderRadius": 24
+                                                "borderRadius": {
+                                                    "topLeftPx": 24,
+                                                    "topRightPx": 24,
+                                                    "bottomLeftPx": 24,
+                                                    "bottomRightPx": 24
+                                                }
                                             }
                                         ]
                                     },
@@ -512,7 +517,12 @@
                                                     "type": "color",
                                                     "color": "#1C6CC3"
                                                 },
-                                                "borderRadius": 24
+                                                "borderRadius": {
+                                                    "topLeftPx": 24,
+                                                    "topRightPx": 24,
+                                                    "bottomLeftPx": 24,
+                                                    "bottomRightPx": 24
+                                                }
                                             }
                                         ]
                                     },
@@ -559,7 +569,12 @@
                                                     "type": "color",
                                                     "color": "#1C6CC3"
                                                 },
-                                                "borderRadius": 24
+                                                "borderRadius": {
+                                                    "topLeftPx": 24,
+                                                    "topRightPx": 24,
+                                                    "bottomLeftPx": 24,
+                                                    "bottomRightPx": 24
+                                                }
                                             }
                                         ]
                                     }
@@ -578,7 +593,12 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "24px",
+                "border-radius": {
+                    "topLeftPx": 24,
+                    "topRightPx": 24,
+                    "bottomLeftPx": 24,
+                    "bottomRightPx": 24
+                },
                 "background": {
                     "type": "color",
                     "color": "#FFFFFF"
@@ -726,7 +746,12 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "24px",
+                "border-radius": {
+                    "topLeftPx": 24,
+                    "topRightPx": 24,
+                    "bottomLeftPx": 24,
+                    "bottomRightPx": 24
+                },
                 "background": {
                     "type": "color",
                     "color": "#FFFFFF"
@@ -816,7 +841,12 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "24px",
+                "border-radius": {
+                    "topLeftPx": 24,
+                    "topRightPx": 24,
+                    "bottomLeftPx": 24,
+                    "bottomRightPx": 24
+                },
                 "background": {
                     "type": "color",
                     "color": "#FFFFFF"
@@ -880,7 +910,12 @@
                                                     "type": "color",
                                                     "color": "#FFFFFF"
                                                 },
-                                                "borderRadius": 24
+                                                "borderRadius": {
+                                                    "topLeftPx": 24,
+                                                    "topRightPx": 24,
+                                                    "bottomLeftPx": 24,
+                                                    "bottomRightPx": 24
+                                                }
                                             }
                                         ]
                                     },
@@ -911,7 +946,12 @@
                                                     "type": "color",
                                                     "color": "#FFFFFF"
                                                 },
-                                                "borderRadius": 24
+                                                "borderRadius": {
+                                                    "topLeftPx": 24,
+                                                    "topRightPx": 24,
+                                                    "bottomLeftPx": 24,
+                                                    "bottomRightPx": 24
+                                                }
                                             }
                                         ]
                                     },
@@ -942,7 +982,12 @@
                                                     "type": "color",
                                                     "color": "#FFFFFF"
                                                 },
-                                                "borderRadius": 24
+                                                "borderRadius": {
+                                                    "topLeftPx": 24,
+                                                    "topRightPx": 24,
+                                                    "bottomLeftPx": 24,
+                                                    "bottomRightPx": 24
+                                                }
                                             }
                                         ]
                                     }
@@ -961,7 +1006,6 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "border-radius": "0px",
                 "width": "92%",
                 "marginTop": "24px",
                 "marginBottom": "24px",

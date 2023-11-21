@@ -20,7 +20,7 @@ export class SectionRenderer {
         sectionContent.style.marginTop = data.sectionContent.marginTop;
         sectionContent.style.marginBottom = data.sectionContent.marginBottom;
 
-        CommonRenderer.renderBackground(sectionContent, data.sectionContent.background);
+        CommonRenderer.renderBackground(sectionContent, data.sectionContent.background ?? data.background);
         CommonRenderer.renderBorderRadius(sectionContent, data.sectionContent.borderRadius);
 
         data.sectionContent.grids.forEach((gridData: IGridData) => {

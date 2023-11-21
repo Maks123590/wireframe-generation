@@ -8,7 +8,12 @@
             },
             "sectionContent": {
                 "contentType": "single | slider",
-                "borderRadius": "px",  // if not set, the default is 0px
+                "borderRadius": {   // if not set, the default is 0 for all
+                    "topLeftPx": 24, // px
+                    "topRightPx": 24, // px
+                    "bottomLeftPx": 24, // px
+                    "bottomRightPx": 24 // px
+                },
                 "background": {    // if not set, the default is inherit from section background
                     "type": "color | image",
                     "color": "hex"
@@ -100,7 +105,12 @@
                                                     "type": "color | image",
                                                     "color": "hex"
                                                 },
-                                                "borderRadius": 24 // if not set, the default is 0
+                                                "borderRadius": {   // if not set, the default is 0 for all
+                                                    "topLeftPx": 24, // px
+                                                    "topRightPx": 24, // px
+                                                    "bottomLeftPx": 24, // px
+                                                    "bottomRightPx": 24 // px
+                                                }
                                             },
                                             {
                                                 "elementType": "logo",
