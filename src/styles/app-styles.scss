@@ -6,40 +6,89 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
-}
 
-.wrapper .sidebar {
-    display: flex;
-    flex-direction: column;
+    .editor, .result {
+        padding: 10px 0px;
+    }
 
-    flex: 1 1 50%;
-    padding: 20px;
+    .result {
+        display: flex;
+        flex-direction: column;
+    }
 
-}
+    .editor {
+        display: flex;
+        flex-direction: row;
 
-.wrapper .l-sidebar {
-}
+        .sidebar {
+            padding: 0px 10px;
 
-.l-sidebar .textarea-wrapper {
-    margin-bottom: 10px;
-}
+            &.l-sidebar {
+                flex: 1 1 80%;
+                .textarea-wrapper {
+                    margin-bottom: 10px;
+        
+                    textarea {
+                        width: 100%;
+                    }
+                }
+            }
 
-.l-sidebar .textarea-wrapper textarea {
-    width: 100%;
-}
+            &.r-sidebar {
+                flex: 1 1 20%;
 
-.wrapper .r-sidebar {
+                .controls-group {
+                    margin: 44px 0px;
+
+                    &:first-child {
+                        margin-top: 0px;
+                    }
+
+                    &:last-child {
+                        margin-bottom: 0px;
+                    }
+
+                    .controls-wrapper {
+                        display: flex;
     
-}
+                        margin-bottom: 10px;
+    
+                        #clear-btn {
+                            flex-grow: 0;
+                        }
+    
+                        #generate-btn {
+                            flex-grow: 1;
+                        }
+    
+                        button {
+                            flex-grow: 1;
+    
+                            margin-right: 10px;
+    
+                            &:last-child {
+                                margin-right: 0px;
+                            }
+                        }
+                    }
 
-.wrapper .r-sidebar #result-view {
-    flex-grow: 1;
-    background-color: #fff;
+                    .samples-selector-label {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
 
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
+    .result {
+        margin: 0px 10px;
 
-#generate-btn, #clear-btn {
-    height: 32px;
-    margin-bottom: 10px;
+        #result-view {
+            flex-grow: 1;
+            background-color: #fff;
+        
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        }
+    }
+
 }

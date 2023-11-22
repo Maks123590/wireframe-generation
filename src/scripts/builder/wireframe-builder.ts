@@ -5,6 +5,10 @@ import { SectionRenderer } from "./renderers/section-renderer";
 export class WireframeBuilder {
   
     public generate(input: any) {
+        if (!input) {
+            return;
+        }
+
         const resultBlock = document.querySelector("#result-view") as HTMLElement;
         resultBlock.innerHTML = "";
   
@@ -33,5 +37,5 @@ export class WireframeBuilder {
             resultBlock.appendChild(section);
         });
     }
-  
+
   }
