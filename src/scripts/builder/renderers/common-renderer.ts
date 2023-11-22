@@ -1,5 +1,6 @@
 import { IBackgroundData, IBorderRadiusData } from "../data/common-data";
 import { IFontData } from "../data/common-styles";
+import { IAlignableData } from "../data/section-data";
 
 export class CommonRenderer {
     public static renderBorderRadius(element: HTMLElement, data?: IBorderRadiusData): void {
@@ -13,6 +14,19 @@ export class CommonRenderer {
         element.style.borderBottomLeftRadius = `${data.bottomLeftPx}px`;
     }
 
+    public static renderAlignment(widget: HTMLElement, widgetContent: HTMLElement, data?: IAlignableData): void {
+        if (data?.fitType === "fit") {
+            widget.style.display = "flex";
+            widgetContent.style.width = data.width;
+            widget.style.justifyContent = data.align == "left"
+            ? "flex-start"
+            : data.align == "right"
+                ? "flex-end"
+                : "center";
+        } else {
+            widgetContent.style.width = "auto";
+        }
+    }
 
     public static renderFont(element: HTMLElement, data: IFontData | undefined, commonData: IFontData): void {
         element.style.fontSize = data?.fontSize ?? commonData.fontSize;

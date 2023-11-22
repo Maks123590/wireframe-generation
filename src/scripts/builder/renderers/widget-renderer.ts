@@ -10,6 +10,8 @@ import { SpacerWidgetRenderer } from "./widgets/spacer-widget-renderer";
 import { MenuWidgetRenderer } from "./widgets/menu-widget-renderer";
 import { AccordionWidgetRenderer } from "./widgets/accordion-widget-renderer";
 import { BoxWidgetRenderer } from "./widgets/box-widget-renderer";
+import { DividerWidgetRenderer } from "./widgets/divider-widget-renderer";
+import { SocialLinksWidgetRenderer } from "./widgets/social-links-renderer";
 
 export class WidgetRenderer {
     
@@ -24,8 +26,8 @@ export class WidgetRenderer {
             case "menu": return MenuWidgetRenderer.render(data, commonStylesData);
             case "accordion": return AccordionWidgetRenderer.render(data, commonStylesData);
             case "box": return BoxWidgetRenderer.render(data, commonStylesData);
-            case "social-links":
-            case "divider":
+            case "divider": return DividerWidgetRenderer.render(data, commonStylesData);
+            case "social-links": return SocialLinksWidgetRenderer.render(data, commonStylesData);
             case "search-box":
             case "login":
             case "cart":

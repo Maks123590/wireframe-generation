@@ -79,7 +79,8 @@ export interface ICartWidgetData {
 
 export interface ISocialLinksWidgetData {
     readonly elementType: "social-links";
-    linksCount: 3
+    linksCount: 3;
+    align: "left" | "right" | "center";
 }
 
 export type IWidgetData = 
