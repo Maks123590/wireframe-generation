@@ -184,6 +184,22 @@
             min-width: 75px;
         }
     }
+
+    &.search-box {
+        .search-field {
+            display: flex;
+            justify-content: space-between;
+    
+            box-sizing: border-box;
+    
+            border-radius: 16px;
+            border: 2px solid #DCDFE4;
+    
+            padding: 16px;
+    
+            height: 56px;
+        }
+    }
 }
 
 

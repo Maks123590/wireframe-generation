@@ -12,6 +12,7 @@ import { AccordionWidgetRenderer } from "./widgets/accordion-widget-renderer";
 import { BoxWidgetRenderer } from "./widgets/box-widget-renderer";
 import { DividerWidgetRenderer } from "./widgets/divider-widget-renderer";
 import { SocialLinksWidgetRenderer } from "./widgets/social-links-renderer";
+import { SearchBoxWidgetRenderer } from "./widgets/search-box-widget-renderer";
 
 export class WidgetRenderer {
     
@@ -28,7 +29,7 @@ export class WidgetRenderer {
             case "box": return BoxWidgetRenderer.render(data, commonStylesData);
             case "divider": return DividerWidgetRenderer.render(data, commonStylesData);
             case "social-links": return SocialLinksWidgetRenderer.render(data, commonStylesData);
-            case "search-box":
+            case "search-box": return SearchBoxWidgetRenderer.render(data, commonStylesData);
             case "login":
             case "cart":
                 return this.renderDefaultPlug(data);
