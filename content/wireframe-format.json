@@ -90,7 +90,8 @@
                                             },
                                             {
                                                 "elementType": "form",
-                                                "type": "vertical | horizontal" // if not set, the default is vertical
+                                                "type": "vertical | horizontal", // if not set, the default is vertical
+                                                "fieldsCount": 3
                                             },
                                             {
                                                 "elementType": "social-links",

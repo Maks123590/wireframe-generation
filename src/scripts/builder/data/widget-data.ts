@@ -38,6 +38,7 @@ export interface ILogoWidgetData {
 export interface IFormWidgetData {
     readonly elementType: "form";
     type: "vertical" | "horizontal";
+    fieldsCount: number;
 }
 
 export interface ISearchWidgetData {

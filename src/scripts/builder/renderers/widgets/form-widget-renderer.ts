@@ -13,8 +13,12 @@ export class FormWidgetRenderer {
     
         const form = document.createElement("form");
 
-        form.append(this.renderField("input", commonStylesData));
-        form.append(this.renderField("input", commonStylesData));
+        const fieldsCount = data.fieldsCount ?? 2;
+
+        for (let index = 0; index < fieldsCount - 1; index++) {
+            form.append(this.renderField("input", commonStylesData));
+        }
+
         form.append(this.renderField("textarea", commonStylesData));
         
         const submitButton = this.renderSubmitButton(commonStylesData);
