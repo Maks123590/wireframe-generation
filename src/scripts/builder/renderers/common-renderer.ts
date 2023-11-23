@@ -36,6 +36,10 @@ export class CommonRenderer {
     }
 
     public static renderBackground(element: HTMLElement, background: IBackgroundData): void {
+        if (!background) {
+            return;
+        }
+
         element.style.background = background.type === "image" ? "#D9D9D9" : background.color;
     }
 }

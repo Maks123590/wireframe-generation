@@ -13,6 +13,8 @@ import { BoxWidgetRenderer } from "./widgets/box-widget-renderer";
 import { DividerWidgetRenderer } from "./widgets/divider-widget-renderer";
 import { SocialLinksWidgetRenderer } from "./widgets/social-links-renderer";
 import { SearchBoxWidgetRenderer } from "./widgets/search-box-widget-renderer";
+import { LoginWidgetRenderer } from "./widgets/login-widget-renderer";
+import { CartWidgetRenderer } from "./widgets/cart-widget-renderer";
 
 export class WidgetRenderer {
     
@@ -30,8 +32,8 @@ export class WidgetRenderer {
             case "divider": return DividerWidgetRenderer.render(data, commonStylesData);
             case "social-links": return SocialLinksWidgetRenderer.render(data, commonStylesData);
             case "search-box": return SearchBoxWidgetRenderer.render(data, commonStylesData);
-            case "login":
-            case "cart":
+            case "login": return LoginWidgetRenderer.render(data, commonStylesData);
+            case "cart": return CartWidgetRenderer.render(data, commonStylesData);
                 return this.renderDefaultPlug(data);
         }
 

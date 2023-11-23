@@ -13,4 +13,21 @@ section {
         }
     }
 
+    .slider-mark-wrapper {
+        position: absolute;
+        bottom: 48px;
+        display: flex;
+        align-items: flex-end;
+        width: 100%;
+        justify-content: space-around;
+
+        width: 200px;
+
+        .slider-mark {
+            border: 1px solid #000;
+            font-size: 4px;
+            border-radius: 100px;
+        }
+    }
+
 }

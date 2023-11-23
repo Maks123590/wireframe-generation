@@ -19,16 +19,17 @@
     &.text {
         &.subheading {
             font-weight: 600;
+            line-height: normal;
         }
 
         &.heading1, &.heading2, &.heading3, &.heading4 {
             font-weight: 700;
-            line-height: 44px;
+            line-height: normal;
         }
 
         &.normal-text {
             font-weight: 500;
-            line-height: 28px;
+            line-height: normal;
         }
     }
 
@@ -86,13 +87,13 @@
 
     &.box {
         & > .widget-content {
-            padding: 24px 18px;
             box-sizing: border-box;
             display: flex;
         }
 
         &.vertical {
             & > .widget-content {
+                padding: 24px 18px;
                 flex-direction: column;
             }
         }
@@ -101,7 +102,21 @@
             & > .widget-content {
                 flex-direction: row;
             }
+
+            .widget {
+                &:first-child {
+                    margin-left: 0;
+                }
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                margin: 0 6px;
+            }
         }
+
+        
     }
 
     &.social-links {
@@ -198,6 +213,14 @@
             padding: 16px;
     
             height: 56px;
+        }
+    }
+
+    &.login, &.cart {
+        .widget-content {
+            padding: 8px;
+            border-radius: 8px;
+            background: #262626;
         }
     }
 }

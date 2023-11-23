@@ -23,6 +23,28 @@ export class SectionRenderer {
         CommonRenderer.renderBackground(sectionContent, data.sectionContent.background ?? data.background);
         CommonRenderer.renderBorderRadius(sectionContent, data.sectionContent.borderRadius);
 
+        if (data.sectionContent.contentType === "slider") {
+            const sliderMarkWrapper = document.createElement("div");
+            sliderMarkWrapper.classList.add("slider-mark-wrapper");
+
+            for (let index = 0; index < 3; index++) {
+                const sliderMark = document.createElement("div");
+            sliderMark.classList.add("slider-mark");
+
+            sliderMark.innerHTML =
+            `<svg width="54" height="4" viewBox="0 0 54 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="54" height="4" rx="2" fill="#DCDFE4"/>
+            </svg>
+            `;
+
+            sliderMarkWrapper.append(sliderMark);
+                
+            }
+
+            
+            section.append(sliderMarkWrapper);
+        }
+
         data.sectionContent.grids.forEach((gridData: IGridData) => {
             const grid = GridRenderer.render(gridData, commonStylesData);
             sectionContent.append(grid);

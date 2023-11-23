@@ -32,9 +32,15 @@
                                         "size": 2,
                                         "widgets": [
                                             {
-                                                "elementType": "text",
-                                                "textType": "heading3",
-                                                "charsCount": 15
+                                                "elementType": "logo",
+                                                "fontData": {
+                                                    "textAlign": "left"
+                                                },
+                                                "fontData": {
+                                                    "color": "#333333",
+                                                    "fontSize": "26px",
+                                                    "textAlign": "left"
+                                                }
                                             }
                                         ]
                                     },
@@ -916,11 +922,14 @@
                                         "size": 2,
                                         "widgets": [
                                             {
-                                                "elementType": "text",
-                                                "textType": "heading3",
-                                                "charsCount": 15,
+                                                "elementType": "logo",
                                                 "fontData": {
-                                                    "color": "#fff"
+                                                    "textAlign": "left"
+                                                },
+                                                "fontData": {
+                                                    "color": "#fff",
+                                                    "fontSize": "26px",
+                                                    "textAlign": "left"
                                                 }
                                             }
                                         ]
