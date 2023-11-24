@@ -29,8 +29,6 @@ export class WireframeBuilder {
             resultBlock.append(errorMessage);
             return;
         }
-
-        console.warn(wireframeData);
   
         wireframeData.sections.forEach((sectionData: ISectionData) => {
             const section = SectionRenderer.render(sectionData, wireframeData.commonStyles);
