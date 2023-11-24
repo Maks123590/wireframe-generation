@@ -6,7 +6,7 @@ export class MenuWidgetRenderer {
 
     static render(data: IMenuWidgetData, commonStylesData: ICommonStyles): HTMLElement {
         const widget = document.createElement("div");
-        widget.classList.add("widget", data.elementType, data.elementType);
+        widget.classList.add("widget", data.elementType, data.type ?? "horizontal");
 
         const widgetContent = document.createElement("div");
         widgetContent.classList.add("widget-content");

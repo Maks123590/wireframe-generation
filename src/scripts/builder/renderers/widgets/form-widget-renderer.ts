@@ -21,7 +21,7 @@ export class FormWidgetRenderer {
 
         form.append(this.renderField("textarea", commonStylesData));
         
-        const submitButton = this.renderSubmitButton(commonStylesData);
+        const submitButton = this.renderSubmitButton(data, commonStylesData);
     
         form.append(submitButton);
 
@@ -48,11 +48,16 @@ export class FormWidgetRenderer {
         return field;
     }
 
-    private static renderSubmitButton(commonStylesData: ICommonStyles): HTMLElement {
+    private static renderSubmitButton(data: IFormWidgetData, commonStylesData: ICommonStyles): HTMLElement {
         const submitButton = document.createElement("div");
         submitButton.classList.add("submit");
+        
+        const buttonColor = data.buttonType === "secondary"
+            ? commonStylesData.secondaryButtonColor
+            : commonStylesData.primaryButtonColor;
 
-        submitButton.style.background = commonStylesData.primaryButtonColor;
+        submitButton.style.background = buttonColor;
+
         CommonRenderer.renderBorderRadius(submitButton, commonStylesData.buttonBorderRadius);
     
         return submitButton;

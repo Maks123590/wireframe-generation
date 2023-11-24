@@ -39,6 +39,7 @@ export interface IFormWidgetData {
     readonly elementType: "form";
     type: "vertical" | "horizontal";
     fieldsCount: number;
+    buttonType: "primary" | "secondary";
 }
 
 export interface ISearchWidgetData {
@@ -65,6 +66,7 @@ export interface IMenuWidgetData {
     readonly elementType: "menu";
     items: string[];
     align: "left" | "center" | "right";
+    type: "vertical" | "horizontal";
     fontData: IFontData;
 }
 

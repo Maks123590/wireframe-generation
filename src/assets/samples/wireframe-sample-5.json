@@ -12,12 +12,13 @@
                     "type": "color",
                     "color": "#3513BF"
                 },
-                "width": "92%",
-                "marginTop": "0px",
-                "marginBottom": "0px",
+                "width": "95%",
+                "marginTop": "20px",
+                "marginBottom": "20px",
                 "grids": [
                     {
                         "width": "100%",
+                        "gridAlignment": "center",
                         "rows": [
                             {
                                 "columns": [
@@ -48,7 +49,10 @@
                                                     "GALLERY",
                                                     "REVIEWS",
                                                     "CONTACT"
-                                                ]
+                                                ],
+                                                "fontData": {
+                                                    "color": "#FFFFFF"
+                                                }
                                             }
                                         ]
                                     }
@@ -63,16 +67,17 @@
             "sectionType": "Hero",
             "background": {
                 "type": "color",
-                "color": "#242834"
+                "color": "#000"
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "96px",
                 "marginBottom": "96px",
                 "grids": [
                     {
                         "width": "100%",
+                        "gridAlignment": "center",
                         "rows": [
                             {
                                 "columns": [
@@ -80,14 +85,11 @@
                                         "size": 6,
                                         "widgets": [
                                             {
-                                                "elementType": "spacer",
-                                                "height": "20px"
-                                            },
-                                            {
                                                 "elementType": "text",
                                                 "textType": "heading1",
-                                                "charsCount": 20,
+                                                "charsCount": 59,
                                                 "fontData": {
+                                                    "textAlign": "left",
                                                     "color": "#FFFFFF"
                                                 }
                                             },
@@ -114,6 +116,7 @@
                                             {
                                                 "elementType": "image",
                                                 "height": 408,
+                                                "color": "#242834",
                                                 "fitType": "fill"
                                             }
                                         ]
@@ -129,11 +132,11 @@
             "sectionType": "Services",
             "background": {
                 "type": "color",
-                "color": "#242834"
+                "color": "#000"
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "96px",
                 "marginBottom": "96px",
                 "grids": [
@@ -170,18 +173,15 @@
                                                 "elementType": "image",
                                                 "height": 62,
                                                 "borderRadius": {
-                                                    "topLeftPx": 0,
-                                                    "topRightPx": 0,
-                                                    "bottomLeftPx": 0,
-                                                    "bottomRightPx": 0
+                                                    "topLeftPx": 100,
+                                                    "topRightPx": 100,
+                                                    "bottomLeftPx": 100,
+                                                    "bottomRightPx": 100
                                                 },
+                                                "color": "#242834",
                                                 "fitType": "fit",
                                                 "align": "center",
-                                                "width": "30%"
-                                            },
-                                            {
-                                                "elementType": "spacer",
-                                                "height": "32px"
+                                                "width": "15%"
                                             },
                                             {
                                                 "elementType": "text",
@@ -208,18 +208,15 @@
                                                 "elementType": "image",
                                                 "height": 62,
                                                 "borderRadius": {
-                                                    "topLeftPx": 0,
-                                                    "topRightPx": 0,
-                                                    "bottomLeftPx": 0,
-                                                    "bottomRightPx": 0
+                                                    "topLeftPx": 100,
+                                                    "topRightPx": 100,
+                                                    "bottomLeftPx": 100,
+                                                    "bottomRightPx": 100
                                                 },
+                                                "color": "#242834",
                                                 "fitType": "fit",
                                                 "align": "center",
-                                                "width": "30%"
-                                            },
-                                            {
-                                                "elementType": "spacer",
-                                                "height": "32px"
+                                                "width": "15%"
                                             },
                                             {
                                                 "elementType": "text",
@@ -246,18 +243,15 @@
                                                 "elementType": "image",
                                                 "height": 62,
                                                 "borderRadius": {
-                                                    "topLeftPx": 0,
-                                                    "topRightPx": 0,
-                                                    "bottomLeftPx": 0,
-                                                    "bottomRightPx": 0
+                                                    "topLeftPx": 100,
+                                                    "topRightPx": 100,
+                                                    "bottomLeftPx": 100,
+                                                    "bottomRightPx": 100
                                                 },
+                                                "color": "#242834",
                                                 "fitType": "fit",
                                                 "align": "center",
-                                                "width": "30%"
-                                            },
-                                            {
-                                                "elementType": "spacer",
-                                                "height": "32px"
+                                                "width": "15%"
                                             },
                                             {
                                                 "elementType": "text",
@@ -301,18 +295,15 @@
                                                 "elementType": "image",
                                                 "height": 62,
                                                 "borderRadius": {
-                                                    "topLeftPx": 0,
-                                                    "topRightPx": 0,
-                                                    "bottomLeftPx": 0,
-                                                    "bottomRightPx": 0
+                                                    "topLeftPx": 100,
+                                                    "topRightPx": 100,
+                                                    "bottomLeftPx": 100,
+                                                    "bottomRightPx": 100
                                                 },
+                                                "color": "#242834",
                                                 "fitType": "fit",
                                                 "align": "center",
-                                                "width": "30%"
-                                            },
-                                            {
-                                                "elementType": "spacer",
-                                                "height": "32px"
+                                                "width": "15%"
                                             },
                                             {
                                                 "elementType": "text",
@@ -339,18 +330,15 @@
                                                 "elementType": "image",
                                                 "height": 62,
                                                 "borderRadius": {
-                                                    "topLeftPx": 0,
-                                                    "topRightPx": 0,
-                                                    "bottomLeftPx": 0,
-                                                    "bottomRightPx": 0
+                                                    "topLeftPx": 100,
+                                                    "topRightPx": 100,
+                                                    "bottomLeftPx": 100,
+                                                    "bottomRightPx": 100
                                                 },
+                                                "color": "#242834",
                                                 "fitType": "fit",
                                                 "align": "center",
-                                                "width": "30%"
-                                            },
-                                            {
-                                                "elementType": "spacer",
-                                                "height": "32px"
+                                                "width": "15%"
                                             },
                                             {
                                                 "elementType": "text",
@@ -377,18 +365,15 @@
                                                 "elementType": "image",
                                                 "height": 62,
                                                 "borderRadius": {
-                                                    "topLeftPx": 0,
-                                                    "topRightPx": 0,
-                                                    "bottomLeftPx": 0,
-                                                    "bottomRightPx": 0
+                                                    "topLeftPx": 100,
+                                                    "topRightPx": 100,
+                                                    "bottomLeftPx": 100,
+                                                    "bottomRightPx": 100
                                                 },
+                                                "color": "#242834",
                                                 "fitType": "fit",
                                                 "align": "center",
-                                                "width": "30%"
-                                            },
-                                            {
-                                                "elementType": "spacer",
-                                                "height": "32px"
+                                                "width": "15%"
                                             },
                                             {
                                                 "elementType": "text",
@@ -419,11 +404,11 @@
             "sectionType": "About Us",
             "background": {
                 "type": "color",
-                "color": "#242834"
+                "color": "#000"
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "96px",
                 "marginBottom": "96px",
                 "grids": [
@@ -438,6 +423,7 @@
                                             {
                                                 "elementType": "image",
                                                 "height": 408,
+                                                "color": "#242834",
                                                 "fitType": "fill"
                                             }
                                         ]
@@ -452,7 +438,10 @@
                                             {
                                                 "elementType": "text",
                                                 "textType": "heading1",
-                                                "charsCount": 17
+                                                "charsCount": 17,
+                                                "fontData": {
+                                                    "textAlign": "left"
+                                                }
                                             },
                                             {
                                                 "elementType": "text",
@@ -475,11 +464,11 @@
             "sectionType": "Call To Action",
             "background": {
                 "type": "color",
-                "color": "#242834"
+                "color": "#000"
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "96px",
                 "marginBottom": "96px",
                 "grids": [
@@ -515,6 +504,7 @@
                                             {
                                                 "elementType": "image",
                                                 "height": 306,
+                                                "color": "#242834",
                                                 "borderRadius": {
                                                     "topLeftPx": 0,
                                                     "topRightPx": 0,
@@ -531,6 +521,7 @@
                                             {
                                                 "elementType": "image",
                                                 "height": 306,
+                                                "color": "#242834",
                                                 "borderRadius": {
                                                     "topLeftPx": 0,
                                                     "topRightPx": 0,
@@ -547,6 +538,7 @@
                                             {
                                                 "elementType": "image",
                                                 "height": 306,
+                                                "color": "#242834",
                                                 "borderRadius": {
                                                     "topLeftPx": 0,
                                                     "topRightPx": 0,
@@ -563,6 +555,7 @@
                                             {
                                                 "elementType": "image",
                                                 "height": 306,
+                                                "color": "#242834",
                                                 "borderRadius": {
                                                     "topLeftPx": 0,
                                                     "topRightPx": 0,
@@ -600,11 +593,11 @@
             "sectionType": "Testimonials",
             "background": {
                 "type": "color",
-                "color": "#242834"
+                "color": "#000"
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "96px",
                 "marginBottom": "71px",
                 "grids": [
@@ -619,7 +612,10 @@
                                             {
                                                 "elementType": "text",
                                                 "textType": "heading1",
-                                                "charsCount": 11
+                                                "charsCount": 11,
+                                                "fontData": {
+                                                    "textAlign": "left"
+                                                }
                                             }
                                         ]
                                     },
@@ -663,11 +659,11 @@
             "sectionType": "Footer", 
             "background": {
                 "type": "color",
-                "color": "#9FA4AC"
+                "color": "#242834"
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "96px",
                 "marginBottom": "96px",
                 "grids": [
@@ -682,7 +678,10 @@
                                             {
                                                 "elementType": "text",
                                                 "textType": "heading1",
-                                                "charsCount": 11
+                                                "charsCount": 11,
+                                                "fontData": {
+                                                    "textAlign": "left"
+                                                }
                                             },
                                             {
                                                 "elementType": "text",
@@ -694,7 +693,8 @@
                                             },
                                             {
                                                 "elementType": "social-links",
-                                                "linksCount": 5
+                                                "linksCount": 5,
+                                                "align": "left"
                                             }
                                         ]
                                     },
@@ -707,7 +707,8 @@
                                         "widgets": [
                                             {
                                                 "elementType": "form",
-                                                "type": "vertical"
+                                                "type": "vertical",
+                                                "fieldsCount": 3
                                             }
                                         ]
                                     }
@@ -729,37 +730,37 @@
             "bottomRightPx": 16
         },
         "heading1Styles": {
-            "color": "#333333",
+            "color": "#3513BF",
             "fontSize": "36px",
             "fontFamily": "Roboto",
             "textAlign": "center"
         },
         "heading2Styles": {
-            "color": "#333333",
+            "color": "#FFFFFF",
             "fontSize": "18px",
             "fontFamily": "Roboto",
             "textAlign": "left"
         },
         "heading3Styles": {
-            "color": "#333333",
+            "color": "#FFFFFF",
             "fontSize": "18px",
             "fontFamily": "Roboto",
             "textAlign": "left"
         },
         "heading4Styles": {
-            "color": "#333333",
+            "color": "#FFFFFF",
             "fontSize": "18px",
             "fontFamily": "Roboto",
             "textAlign": "left"
         },
         "subheadingStyles": {
-            "color": "#333333",
+            "color": "#FFFFFF",
             "fontSize": "18px",
             "fontFamily": "Roboto",
             "textAlign": "left"
         },
         "normalTextStyles": {
-            "color": "#333333",
+            "color": "#FFFFFF",
             "fontSize": "18px",
             "fontFamily": "Roboto",
             "textAlign": "left"

@@ -807,7 +807,7 @@
             }
         },
         {
-            "sectionType": "content-5",
+            "sectionType": "Pricing",
             "background": {
                 "type": "color",
                 "color": "#F5ECDC"
@@ -818,9 +818,9 @@
                     "type": "color",
                     "color": "#F5ECDC"
                 },
-                "width": "100%",
-                "marginTop": "104px",
-                "marginBottom": "104px",
+                "width": "98%",
+                "marginTop": "48px",
+                "marginBottom": "48px",
                 "grids": [
                     {
                         "width": "100%",
@@ -997,6 +997,19 @@
                             {
                                 "columns": [
                                     {
+                                        "size": 12,
+                                        "widgets": [
+                                            {
+                                                "elementType": "spacer",
+                                                "height": "15px"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "columns": [
+                                    {
                                         "size": 3,
                                         "widgets": [
                                             {
@@ -1152,7 +1165,7 @@
             }
         },
         {
-            "sectionType": "content-6",
+            "sectionType": "Blog",
             "background": {
                 "type": "color",
                 "color": "#1A1A1A"
@@ -1177,14 +1190,22 @@
                                         "widgets": []
                                     },
                                     {
-                                        "size": 11,
+                                        "size": 10,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
                                                 "textType": "heading2",
                                                 "charsCount": 11
+                                            },
+                                            {
+                                                "elementType": "spacer",
+                                                "height": "15px"
                                             }
                                         ]
+                                    },
+                                    {
+                                        "size": 1,
+                                        "widgets": []
                                     }
                                 ]
                             },
@@ -1200,6 +1221,7 @@
                                             {
                                                 "elementType": "image",
                                                 "height": 224,
+                                                "color": "#4D4D4D",
                                                 "borderRadius": {
                                                     "topLeftPx": 8,
                                                     "topRightPx": 8,
@@ -1231,6 +1253,7 @@
                                             {
                                                 "elementType": "image",
                                                 "height": 224,
+                                                "color": "#4D4D4D",
                                                 "borderRadius": {
                                                     "topLeftPx": 8,
                                                     "topRightPx": 8,
@@ -1269,11 +1292,38 @@
                                         "widgets": []
                                     },
                                     {
+                                        "size": 10,
+                                        "widgets": [
+                                            {
+                                                "elementType": "text",
+                                                "textType": "heading2",
+                                                "charsCount": 11
+                                            },
+                                            {
+                                                "elementType": "spacer",
+                                                "height": "15px"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 1,
+                                        "widgets": []
+                                    }
+                                ]
+                            },
+                            {
+                                "columns": [
+                                    {
+                                        "size": 1,
+                                        "widgets": []
+                                    },
+                                    {
                                         "size": 4,
                                         "widgets": [
                                             {
                                                 "elementType": "image",
                                                 "height": 224,
+                                                "color": "#4D4D4D",
                                                 "borderRadius": {
                                                     "topLeftPx": 8,
                                                     "topRightPx": 8,
@@ -1305,6 +1355,7 @@
                                             {
                                                 "elementType": "image",
                                                 "height": 224,
+                                                "color": "#4D4D4D",
                                                 "borderRadius": {
                                                     "topLeftPx": 8,
                                                     "topRightPx": 8,
@@ -1332,6 +1383,32 @@
                                     },
                                     {
                                         "size": 3,
+                                        "widgets": []
+                                    }
+                                ]
+                            },
+                            {
+                                "columns": [
+                                    {
+                                        "size": 1,
+                                        "widgets": []
+                                    },
+                                    {
+                                        "size": 10,
+                                        "widgets": [
+                                            {
+                                                "elementType": "text",
+                                                "textType": "heading2",
+                                                "charsCount": 11
+                                            },
+                                            {
+                                                "elementType": "spacer",
+                                                "height": "15px"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "size": 1,
                                         "widgets": []
                                     }
                                 ]
@@ -1363,7 +1440,7 @@
             }
         },
         {
-            "sectionType": "content-7",
+            "sectionType": "Contact",
             "background": {
                 "type": "color",
                 "color": "#810820"
@@ -1374,7 +1451,7 @@
                     "type": "color",
                     "color": "#810820"
                 },
-                "width": "100%",
+                "width": "98%",
                 "marginTop": "104px",
                 "marginBottom": "104px",
                 "grids": [
@@ -1391,8 +1468,15 @@
                                         "size": 11,
                                         "widgets": [
                                             {
+                                                "elementType": "text",
+                                                "textType": "heading2",
+                                                "charsCount": 11
+                                            },
+                                            {
                                                 "elementType": "form",
-                                                "type": "vertical"
+                                                "type": "vertical",
+                                                "fieldsCount": 3,
+                                                "buttonType": "secondary"
                                             }
                                         ]
                                     },
@@ -1408,7 +1492,7 @@
             }
         },
         {
-            "sectionType": "footer",
+            "sectionType": "Footer",
             "background": {
                 "type": "color",
                 "color": "#1A1A1A"
@@ -1436,10 +1520,10 @@
                                         "size": 4,
                                         "widgets": [
                                             {
-                                                "elementType": "text",
-                                                "textType": "heading3",
-                                                "charsCount": 18,
+                                                "elementType": "logo",
                                                 "fontData": {
+                                                    "color": "#FFFFFF",
+                                                    "fontSize": "22px",
                                                     "fontFamily": "Molle"
                                                 }
                                             }
@@ -1463,7 +1547,8 @@
                                                     "EVENTS",
                                                     "SHOP",
                                                     "CONTACT US"
-                                                ]
+                                                ],
+                                                "type": "vertical"
                                             }
                                         ]
                                     },
@@ -1493,20 +1578,26 @@
                                         ]
                                     },
                                     {
-                                        "size": 3,
+                                        "size": 2,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
                                                 "textType": "heading2",
-                                                "charsCount": 8
+                                                "charsCount": 12
                                             },
                                             {
                                                 "elementType": "social-links",
-                                                "linksCount": 3
+                                                "linksCount": 3,
+                                                "align": "left"
                                             },
                                             {
-                                                "elementType": "subscribe",
-                                                "type": "vertical"
+                                                "elementType": "text",
+                                                "textType": "normal",
+                                                "charsCount": 26
+                                            },
+                                            {
+                                                "elementType": "button",
+                                                "type": "secondary"
                                             }
                                         ]
                                     }
@@ -1520,7 +1611,7 @@
     ],
     "commonStyles": {
         "primaryButtonColor": "#810820",
-        "secondaryButtonColor": "#E9AA5D;",
+        "secondaryButtonColor": "#E9AA5D",
         "buttonBorderRadius": {
             "topLeftPx": 8,
             "topRightPx": 8,

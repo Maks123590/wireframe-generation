@@ -12,12 +12,13 @@
                     "type": "color",
                     "color": "FDFAF1"
                 },
-                "width": "90%",
+                "width": "95%",
                 "marginTop": "20px",
                 "marginBottom": "20px",
                 "grids": [
                     {
                         "width": "100%",
+                        "gridAlignment": "center",
                         "rows": [
                             {
                                 "columns": [
@@ -74,7 +75,7 @@
                     "type": "color",
                     "color": "#404040"
                 },
-                "width": "90%",
+                "width": "95%",
                 "marginTop": "148px",
                 "marginBottom": "148px",
                 "grids": [
@@ -93,9 +94,10 @@
                                             {
                                                 "elementType": "text",
                                                 "textType": "heading1",
-                                                "charsCount": 20,
+                                                "charsCount": 59,
                                                 "fontData": {
-                                                    "textAlign": "center"
+                                                    "textAlign": "center",
+                                                    "color": "#FFFFFF"
                                                 }
                                             },
                                             {
@@ -103,7 +105,8 @@
                                                 "textType": "normal",
                                                 "charsCount": 109,
                                                 "fontData": {
-                                                    "textAlign": "center"
+                                                    "textAlign": "center",
+                                                    "color": "#FFFFFF"
                                                 }
                                             }
                                         ]
@@ -131,7 +134,7 @@
                     "type": "color",
                     "color": "#FFFFFF"
                 },
-                "width": "90%",
+                "width": "95%",
                 "marginTop": "96px",
                 "marginBottom": "96px",
                 "grids": [
@@ -150,12 +153,18 @@
                                                     {
                                                         "elementType": "text",
                                                         "textType": "heading4",
-                                                        "charsCount": 11
+                                                        "charsCount": 11,
+                                                        "fontData": {
+                                                            "color": "#FFFFFF"
+                                                        }
                                                     },
                                                     {
                                                         "elementType": "text",
                                                         "textType": "normal",
-                                                        "charsCount": 89
+                                                        "charsCount": 89,
+                                                        "fontData": {
+                                                            "color": "#FFFFFF"
+                                                        }
                                                     }
                                                 ],
                                                 "background": {
@@ -175,12 +184,18 @@
                                                     {
                                                         "elementType": "text",
                                                         "textType": "heading4",
-                                                        "charsCount": 11
+                                                        "charsCount": 11,
+                                                        "fontData": {
+                                                            "color": "#FFFFFF"
+                                                        }
                                                     },
                                                     {
                                                         "elementType": "text",
                                                         "textType": "normal",
-                                                        "charsCount": 89
+                                                        "charsCount": 89,
+                                                        "fontData": {
+                                                            "color": "#FFFFFF"
+                                                        }
                                                     }
                                                 ],
                                                 "background": {
@@ -200,12 +215,18 @@
                                                     {
                                                         "elementType": "text",
                                                         "textType": "heading4",
-                                                        "charsCount": 11
+                                                        "charsCount": 11,
+                                                        "fontData": {
+                                                            "color": "#FFFFFF"
+                                                        }
                                                     },
                                                     {
                                                         "elementType": "text",
                                                         "textType": "normal",
-                                                        "charsCount": 89
+                                                        "charsCount": 89,
+                                                        "fontData": {
+                                                            "color": "#FFFFFF"
+                                                        }
                                                     }
                                                 ],
                                                 "background": {
@@ -234,7 +255,7 @@
                     "type": "color",
                     "color": "#FFFFFF"
                 },
-                "width": "90%",
+                "width": "95%",
                 "marginTop": "96px",
                 "marginBottom": "96px",
                 "grids": [
@@ -256,10 +277,6 @@
                                                 "elementType": "text",
                                                 "textType": "normal",
                                                 "charsCount": 109
-                                            },
-                                            {
-                                                "elementType": "spacer",
-                                                "height": "8px"
                                             },
                                             {
                                                 "elementType": "button",
@@ -302,7 +319,7 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "90%",
+                "width": "95%",
                 "marginTop": "96px",
                 "marginBottom": "96px",
                 "grids": [
@@ -322,7 +339,7 @@
                                                 "elementType": "text",
                                                 "textType": "heading1",
                                                 "charsCount": 58,
-                                                "font-data": {
+                                                "fontData": {
                                                     "textAlign": "center"
                                                 }
                                             },
@@ -330,7 +347,7 @@
                                                 "elementType": "text",
                                                 "textType": "normal",
                                                 "charsCount": 109,
-                                                "font-data": {
+                                                "fontData": {
                                                     "textAlign": "center"
                                                 }
                                             }
@@ -339,6 +356,19 @@
                                     {
                                         "size": 3,
                                         "widgets": []
+                                    }
+                                ]
+                            },
+                                                        {
+                                "columns": [
+                                    {
+                                        "size": 12,
+                                        "widgets": [
+                                            {
+                                                "elementType": "spacer",
+                                                "height": "20px"
+                                            }
+                                        ]
                                     }
                                 ]
                             },
@@ -362,9 +392,9 @@
                                             },
                                             {
                                                 "elementType": "text",
-                                                "textType": "heading1",
+                                                "textType": "heading3",
                                                 "charsCount": 11,
-                                                "font-data": {
+                                                "fontData": {
                                                     "textAlign": "center"
                                                 }
                                             },
@@ -372,7 +402,7 @@
                                                 "elementType": "text",
                                                 "textType": "normal",
                                                 "charsCount": 78,
-                                                "font-data": {
+                                                "fontData": {
                                                     "textAlign": "center"
                                                 }
                                             }
@@ -396,9 +426,9 @@
                                             },
                                             {
                                                 "elementType": "text",
-                                                "textType": "heading1",
+                                                "textType": "heading3",
                                                 "charsCount": 11,
-                                                "font-data": {
+                                                "fontData": {
                                                     "textAlign": "center"
                                                 }
                                             },
@@ -406,7 +436,7 @@
                                                 "elementType": "text",
                                                 "textType": "normal",
                                                 "charsCount": 78,
-                                                "font-data": {
+                                                "fontData": {
                                                     "textAlign": "center"
                                                 }
                                             }
@@ -430,9 +460,9 @@
                                             },
                                             {
                                                 "elementType": "text",
-                                                "textType": "heading1",
+                                                "textType": "heading3",
                                                 "charsCount": 11,
-                                                "font-data": {
+                                                "fontData": {
                                                     "textAlign": "center"
                                                 }
                                             },
@@ -440,7 +470,7 @@
                                                 "elementType": "text",
                                                 "textType": "normal",
                                                 "charsCount": 78,
-                                                "font-data": {
+                                                "fontData": {
                                                     "textAlign": "center"
                                                 }
                                             }
@@ -465,7 +495,7 @@
                     "type": "color",
                     "color": "#FFFFFF"
                 },
-                "width": "90%",
+                "width": "95%",
                 "marginTop": "96px",
                 "marginBottom": "96px",
                 "grids": [
@@ -560,85 +590,6 @@
                                         ]
                                     }
                                 ]
-                            },
-                            {
-                                "columns": [
-                                    {
-                                        "size": 4,
-                                        "widgets": [
-                                            {
-                                                "elementType": "box",
-                                                "type": "vertical",
-                                                "widgets": [
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "heading2",
-                                                        "charsCount": 7
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "normal",
-                                                        "charsCount": 14
-                                                    }
-                                                ],
-                                                "background": {
-                                                    "type": "color",
-                                                    "color": "#EA3F34"
-                                                }
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "size": 4,
-                                        "widgets": [
-                                            {
-                                                "elementType": "box",
-                                                "type": "vertical",
-                                                "widgets": [
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "heading2",
-                                                        "charsCount": 8
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "normal",
-                                                        "charsCount": 11
-                                                    }
-                                                ],
-                                                "background": {
-                                                    "type": "color",
-                                                    "color": "#EA3F34"
-                                                }
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "size": 4,
-                                        "widgets": [
-                                            {
-                                                "elementType": "box",
-                                                "type": "vertical",
-                                                "widgets": [
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "heading2",
-                                                        "charsCount": 14
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "normal",
-                                                        "charsCount": 27
-                                                    }
-                                                ],
-                                                "background": {
-                                                    "type": "color",
-                                                    "color": "#EA3F34"
-                                                }
-                                            }
-                                        ]
-                                    }
-                                ]
                             }
                         ]
                     }
@@ -657,7 +608,7 @@
                     "type": "color",
                     "color": "FFFFFF"
                 },
-                "width": "90%",
+                "width": "95%",
                 "marginTop": "96px",
                 "marginBottom": "96px",
                 "grids": [
@@ -676,12 +627,18 @@
                                                     {
                                                         "elementType": "text",
                                                         "textType": "heading3",
-                                                        "charsCount": 7
+                                                        "charsCount": 11,
+                                                        "fontData": {
+                                                            "color": "#FFFFFF"
+                                                        }
                                                     },
                                                     {
                                                         "elementType": "text",
                                                         "textType": "normal",
-                                                        "charsCount": 14
+                                                        "charsCount": 14,
+                                                        "fontData": {
+                                                            "color": "#FFFFFF"
+                                                        }
                                                     }
                                                 ],
                                                 "background": {
@@ -701,12 +658,18 @@
                                                     {
                                                         "elementType": "text",
                                                         "textType": "heading3",
-                                                        "charsCount": 8
+                                                        "charsCount": 11,
+                                                        "fontData": {
+                                                            "color": "#FFFFFF"
+                                                        }
                                                     },
                                                     {
                                                         "elementType": "text",
                                                         "textType": "normal",
-                                                        "charsCount": 11
+                                                        "charsCount": 14,
+                                                        "fontData": {
+                                                            "color": "#FFFFFF"
+                                                        }
                                                     }
                                                 ],
                                                 "background": {
@@ -726,12 +689,18 @@
                                                     {
                                                         "elementType": "text",
                                                         "textType": "heading3",
-                                                        "charsCount": 14
+                                                        "charsCount": 11,
+                                                        "fontData": {
+                                                            "color": "#FFFFFF"
+                                                        }
                                                     },
                                                     {
                                                         "elementType": "text",
                                                         "textType": "normal",
-                                                        "charsCount": 27
+                                                        "charsCount": 14,
+                                                        "fontData": {
+                                                            "color": "#FFFFFF"
+                                                        }
                                                     }
                                                 ],
                                                 "background": {
@@ -760,9 +729,9 @@
                     "type": "color",
                     "color": "#242834"
                 },
-                "width": "90%",
-                "marginTop": "120px",
-                "marginBottom": "120px",
+                "width": "95%",
+                "marginTop": "96px",
+                "marginBottom": "96px",
                 "grids": [
                     {
                         "width": "100%",
@@ -775,16 +744,23 @@
                                             {
                                                 "elementType": "text",
                                                 "textType": "heading2",
-                                                "charsCount": 11
+                                                "charsCount": 11,
+                                                "fontData": {
+                                                    "color": "#FFFFFF"
+                                                }
                                             },
                                             {
                                                 "elementType": "text",
                                                 "textType": "normal",
-                                                "charsCount": 78
+                                                "charsCount": 78,
+                                                "fontData": {
+                                                    "color": "#FFFFFF"
+                                                }
                                             },
                                             {
                                                 "elementType": "social-links",
-                                                "linksCount": 5
+                                                "linksCount": 5,
+                                                "align": "left"
                                             }
                                         ]
                                     },
@@ -798,12 +774,25 @@
                                             {
                                                 "elementType": "text",
                                                 "textType": "heading2",
-                                                "charsCount": 11
+                                                "charsCount": 11,
+                                                "fontData": {
+                                                    "color": "#FFFFFF"
+                                                }
                                             },
                                             {
-                                                "elementType": "text",
-                                                "textType": "normal",
-                                                "charsCount": 88
+                                                "elementType": "menu",
+                                                "align": "right",
+                                                "type": "vertical",
+                                                "items": [
+                                                    "ABOUT US",
+                                                    "SERVICES",
+                                                    "PRICING PLAN",
+                                                    "INSURANCE",
+                                                    "CONTACT"
+                                                ],
+                                                "fontData": {
+                                                    "color": "#FFFFFF"
+                                                }
                                             }
                                         ]
                                     },
@@ -817,12 +806,18 @@
                                             {
                                                 "elementType": "text",
                                                 "textType": "heading2",
-                                                "charsCount": 11
+                                                "charsCount": 11,
+                                                "fontData": {
+                                                    "color": "#FFFFFF"
+                                                }
                                             },
                                             {
                                                 "elementType": "text",
                                                 "textType": "normal",
-                                                "charsCount": 63
+                                                "charsCount": 63,
+                                                "fontData": {
+                                                    "color": "#FFFFFF"
+                                                }
                                             }
                                         ]
                                     }
