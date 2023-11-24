@@ -8,7 +8,7 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "20px",
                 "marginBottom": "20px",
                 "grids": [
@@ -36,7 +36,7 @@
                                             {
                                                 "elementType": "text",
                                                 "textType": "normal",
-                                                "charsCount": 17,
+                                                "charsCount": 11,
                                                 "fontData": {
                                                     "color": "#FFFFFF"
                                                 }
@@ -62,7 +62,7 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "20px",
                 "marginBottom": "20px",
                 "grids": [
@@ -130,9 +130,9 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
-                "marginTop": "20px",
-                "marginBottom": "20px",
+                "width": "95%",
+                "marginTop": "62px",
+                "marginBottom": "62px",
                 "grids": [
                     {
                         "width": "100%",
@@ -202,10 +202,13 @@
         },
         {
             "sectionType": "About Us",
-            "background": "image ",
+            "background": {
+                "type": "image",
+                "color": "#EBEBEB"
+            },
             "sectionContent": {
                 "contentType": "slider",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "156px",
                 "marginBottom": "156px",
                 "grids": [
@@ -253,7 +256,7 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "96px",
                 "marginBottom": "96px",
                 "grids": [
@@ -304,7 +307,8 @@
                                                     "bottomLeftPx": 24,
                                                     "bottomRightPx": 24
                                                 },
-                                                "fitType": "fill"
+                                                "fitType": "fill",
+                                                "color": "#EBEBEB "
                                             }
                                         ]
                                     }
@@ -323,7 +327,7 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "96px",
                 "marginBottom": "96px",
                 "grids": [
@@ -362,7 +366,7 @@
             },
             "sectionContent": {
                 "contentType": "slider",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "96px",
                 "marginBottom": "96px",
                 "grids": [
@@ -462,6 +466,12 @@
                     "type": "color",
                     "color": "#294271"
                 },
+                "borderRadius": {
+                    "topLeftPx": 24,
+                    "topRightPx": 24,
+                    "bottomLeftPx": 24,
+                    "bottomRightPx": 24
+                },
                 "width": "96%",
                 "marginTop": "48px",
                 "marginBottom": "48px",
@@ -494,7 +504,7 @@
                                         "widgets": []
                                     },
                                     {
-                                        "size": 1,
+                                        "size": 3,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
@@ -553,7 +563,7 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "56px",
                 "marginBottom": "56px",
                 "grids": [
@@ -582,7 +592,7 @@
                                         ]
                                     },
                                     {
-                                        "size": 4,
+                                        "size": 2,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
@@ -603,7 +613,11 @@
                                         ]
                                     },
                                     {
-                                        "size": 4,
+                                        "size": 2,
+                                        "widgets": []
+                                    },
+                                    {
+                                        "size": 2,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
@@ -630,6 +644,10 @@
                                                 }
                                             }
                                         ]
+                                    },
+                                    {
+                                        "size": 2,
+                                        "widgets": []
                                     }
                                 ]
                             },
@@ -670,37 +688,37 @@
             "bottomRightPx": 16
         },
         "heading1Styles": {
-            "color": "#202020",
+            "color": "#15171F",
             "fontSize": "48px",
             "fontFamily": "Roboto",
             "textAlign": "left"
         },
         "heading2Styles": {
-            "color": "#202020",
+            "color": "#15171F",
             "fontSize": "36px",
             "fontFamily": "Roboto",
             "textAlign": "left"
         },
         "heading3Styles": {
-            "color": "#202020",
+            "color": "#15171F",
             "fontSize": "18px",
             "fontFamily": "Roboto",
             "textAlign": "left"
         },
         "heading4Styles": {
-            "color": "#202020",
+            "color": "#15171F",
             "fontSize": "18px",
             "fontFamily": "Roboto",
             "textAlign": "left"
         },
         "subheadingStyles": {
-            "color": "#202020",
+            "color": "#15171F",
             "fontSize": "18px",
             "fontFamily": "Roboto",
             "textAlign": "left"
         },
         "normalTextStyles": {
-            "color": "#202020",
+            "color": "#15171F",
             "fontSize": "18px",
             "fontFamily": "Roboto",
             "textAlign": "left"

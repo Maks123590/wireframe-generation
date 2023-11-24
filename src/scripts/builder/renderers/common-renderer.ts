@@ -39,7 +39,9 @@ export class CommonRenderer {
         if (!background) {
             return;
         }
+        
+        element.classList.add(`backgroundt-type-${background.type}`);
 
-        element.style.background = background.type === "image" ? "#D9D9D9" : background.color;
+        element.style.background = background.color;
     }
 }

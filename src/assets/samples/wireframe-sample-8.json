@@ -9,7 +9,7 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "21px",
                 "marginBottom": "21px",
                 "grids": [
@@ -104,7 +104,7 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "20px",
                 "marginBottom": "20px",
                 "grids": [
@@ -155,7 +155,7 @@
             },
             "sectionContent": {
                 "contentType": "slider",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "96px",
                 "marginBottom": "96px",
                 "grids": [
@@ -220,7 +220,7 @@
                     "bottomLeftPx": 24,
                     "bottomRightPx": 24
                 },
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "52px",
                 "marginBottom": "52px",
                 "grids": [
@@ -368,7 +368,7 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "36px",
                 "marginBottom": "36px",
                 "grids": [
@@ -717,7 +717,7 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "96px",
                 "marginBottom": "96px",
                 "grids": [
@@ -1355,7 +1355,7 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "42px",
                 "marginBottom": "42px",
                 "grids": [

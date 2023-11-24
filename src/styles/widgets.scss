@@ -237,6 +237,12 @@
             background: #262626;
         }
     }
+
+    &.divider {
+        hr {
+            margin: 0;
+        }
+    }
 }
 
 

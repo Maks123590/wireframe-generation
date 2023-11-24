@@ -8,7 +8,7 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "40px",
                 "marginBottom": "40px",
                 "grids": [
@@ -65,7 +65,8 @@
                                             {
                                                 "elementType": "image",
                                                 "height": 409,
-                                                "fitType": "fill"
+                                                "fitType": "fill",
+                                                "color": "#EEEEEE"
                                             }
                                         ]
                                     }
@@ -84,7 +85,7 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "42px",
                 "marginBottom": "42px",
                 "grids": [
@@ -113,13 +114,9 @@
                                                 }
                                             },
                                             {
-                                                "elementType": "spacer",
-                                                "height": "16px"
-                                            },
-                                            {
                                                 "elementType": "text",
                                                 "textType": "normal",
-                                                "charsCount": 11,
+                                                "charsCount": 328,
                                                 "fontData": {
                                                     "textAlign": " center"
                                                 }
@@ -148,11 +145,11 @@
             "sectionType": "About Us",
             "background": {
                 "type": "color",
-                "color": "#EFEFEF"
+                "color": "#FFFFFF"
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "42px",
                 "marginBottom": "42px",
                 "grids": [
@@ -175,7 +172,8 @@
                                             {
                                                 "elementType": "image",
                                                 "height": 523,
-                                                "fitType": "fill"
+                                                "fitType": "fill",
+                                                "color": "#EEEEEE"
                                             }
                                         ]
                                     }
@@ -190,11 +188,11 @@
             "sectionType": "Testimonials",
             "background": {
                 "type": "color",
-                "color": "#EFEFEF"
+                "color": "#FFFFFF"
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "42px",
                 "marginBottom": "42px",
                 "grids": [
@@ -226,7 +224,8 @@
                                             {
                                                 "elementType": "image",
                                                 "height": 300,
-                                                "fitType": "fill"
+                                                "fitType": "fill",
+                                                "color": "#EEEEEE"
                                             }
                                         ]
                                     },
@@ -236,7 +235,8 @@
                                             {
                                                 "elementType": "image",
                                                 "height": 300,
-                                                "fitType": "fill"
+                                                "fitType": "fill",
+                                                "color": "#EEEEEE"
                                             }
                                         ]
                                     },
@@ -246,7 +246,8 @@
                                             {
                                                 "elementType": "image",
                                                 "height": 300,
-                                                "fitType": "fill"
+                                                "fitType": "fill",
+                                                "color": "#EEEEEE"
                                             }
                                         ]
                                     }
@@ -260,7 +261,8 @@
                                             {
                                                 "elementType": "image",
                                                 "height": 300,
-                                                "fitType": "fill"
+                                                "fitType": "fill",
+                                                "color": "#EEEEEE"
                                             }
                                         ]
                                     },
@@ -270,7 +272,8 @@
                                             {
                                                 "elementType": "image",
                                                 "height": 300,
-                                                "fitType": "fill"
+                                                "fitType": "fill",
+                                                "color": "#EEEEEE"
                                             }
                                         ]
                                     },
@@ -280,7 +283,8 @@
                                             {
                                                 "elementType": "image",
                                                 "height": 300,
-                                                "fitType": "fill"
+                                                "fitType": "fill",
+                                                "color": "#EEEEEE"
                                             }
                                         ]
                                     }
@@ -299,7 +303,7 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "40px",
                 "marginBottom": "40px",
                 "grids": [
@@ -314,7 +318,8 @@
                                             {
                                                 "elementType": "image",
                                                 "height": 409,
-                                                "fitType": "fill"
+                                                "fitType": "fill",
+                                                "color": "#EEEEEE"
                                             }
                                         ]
                                     },
@@ -344,9 +349,15 @@
                                                 }
                                             },
                                             {
-                                                "elementType": "text",
-                                                "textType": "normal",
-                                                "charsCount": 87,
+                                                "elementType": "menu",
+                                                "items": [
+                                                    "Bio",
+                                                    "Video",
+                                                    "Photos",
+                                                    "Contacts"
+                                                ],
+                                                "type": "vertical",
+                                                "align": "left",
                                                 "fontData": {
                                                     "color": "#FF6666",
                                                     "textAlign": "left"
@@ -374,9 +385,9 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
-                "marginTop": "0px",
-                "marginBottom": "0px",
+                "width": "95%",
+                "marginTop": "34px",
+                "marginBottom": "34px",
                 "grids": [
                     {
                         "width": "100%",
@@ -389,7 +400,10 @@
                                             {
                                                 "elementType": "text",
                                                 "textType": "normal",
-                                                "charsCount": 63
+                                                "charsCount": 63,
+                                                "fontData": {
+                                                    "textAlign": "center"
+                                                }
                                             }
                                         ]
                                     }
@@ -402,7 +416,7 @@
         }
     ],
     "commonStyles": {
-        "primaryButtonColor": "#000",
+        "primaryButtonColor": "#FF6666",
         "secondaryButtonColor": "#FFFFFF",
         "buttonBorderRadius": {
             "topLeftPx": 16,
@@ -411,37 +425,37 @@
             "bottomRightPx": 16
         },
         "heading1Styles": {
-            "color": "#202020",
+            "color": "#000000",
             "fontSize": "36px",
             "fontFamily": "Roboto",
             "textAlign": "center"
         },
         "heading2Styles": {
-            "color": "#202020",
+            "color": "#000000",
             "fontSize": "32px",
             "fontFamily": "Roboto",
             "textAlign": "left"
         },
         "heading3Styles": {
-            "color": "#202020",
+            "color": "#000000",
             "fontSize": "18px",
             "fontFamily": "Roboto",
             "textAlign": "left"
         },
         "heading4Styles": {
-            "color": "#202020",
+            "color": "#000000",
             "fontSize": "18px",
             "fontFamily": "Roboto",
             "textAlign": "left"
         },
         "subheadingStyles": {
-            "color": "#202020",
+            "color": "#000000",
             "fontSize": "18px",
             "fontFamily": "Roboto",
             "textAlign": "left"
         },
         "normalTextStyles": {
-            "color": "#202020",
+            "color": "#000000",
             "fontSize": "18px",
             "fontFamily": "Roboto",
             "textAlign": "left"

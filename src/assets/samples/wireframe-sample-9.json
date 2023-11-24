@@ -8,9 +8,9 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
-                "marginTop": "0px",
-                "marginBottom": "0px",
+                "width": "95%",
+                "marginTop": "10px",
+                "marginBottom": "10px",
                 "grids": [
                     {
                         "width": "100%",
@@ -42,7 +42,11 @@
                             {
                                 "columns": [
                                     {
-                                        "size": 12,
+                                        "size": 2,
+                                        "widgets": []
+                                    },
+                                    {
+                                        "size": 8,
                                         "widgets": [
                                             {
                                                 "elementType": "menu",
@@ -60,6 +64,10 @@
                                                 }
                                             }
                                         ]
+                                    },
+                                    {
+                                        "size": 2,
+                                        "widgets": []
                                     }
                                 ]
                             }
@@ -76,7 +84,7 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "20px",
                 "marginBottom": "20px",
                 "grids": [
@@ -109,12 +117,12 @@
         {
             "sectionType": "Hero",
             "background": {
-                "type": "color",
+                "type": "image",
                 "color": "#F0F0F0"
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "48px",
                 "marginBottom": "48px",
                 "grids": [
@@ -179,12 +187,12 @@
         {
             "sectionType": "About Us",
             "background": {
-                "type": "color",
+                "type": "image",
                 "color": "#08215F"
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
+                "width": "95%",
                 "borderRadius": {
                     "topLeftPx": 24,
                     "topRightPx": 24,
@@ -339,13 +347,13 @@
             "sectionType": "Services",
             "background": {
                 "type": "color",
-                "color": "#08215F"
+                "color": "#FFFFFF"
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
-                "marginTop": "96px",
-                "marginBottom": "96px",
+                "width": "95%",
+                "marginTop": "36px",
+                "marginBottom": "36px",
                 "grids": [
                     {
                         "width": "100%",
@@ -354,7 +362,11 @@
                             {
                                 "columns": [
                                     {
-                                        "size": 12,
+                                        "size": 3,
+                                        "widgets": []
+                                    },
+                                    {
+                                        "size": 6,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
@@ -369,6 +381,10 @@
                                                 "height": "20px"
                                             }
                                         ]
+                                    },
+                                    {
+                                        "size": 3,
+                                        "widgets": []
                                     }
                                 ]
                             },
@@ -619,7 +635,11 @@
                             {
                                 "columns": [
                                     {
-                                        "size": 12,
+                                        "size": 3,
+                                        "widgets": []
+                                    },
+                                    {
+                                        "size": 6,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
@@ -634,6 +654,10 @@
                                                 "height": "20px"
                                             }
                                         ]
+                                    },
+                                    {
+                                        "size": 3,
+                                        "widgets": []
                                     }
                                 ]
                             },
@@ -750,17 +774,7 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "borderRadius": {
-                    "topLeftPx": 24,
-                    "topRightPx": 24,
-                    "bottomLeftPx": 24,
-                    "bottomRightPx": 24
-                },
-                "background": {
-                    "type": "color",
-                    "color": "#FFFFFF"
-                },
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "72px",
                 "marginBottom": "72px",
                 "grids": [
@@ -845,17 +859,7 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "borderRadius": {
-                    "topLeftPx": 24,
-                    "topRightPx": 24,
-                    "bottomLeftPx": 24,
-                    "bottomRightPx": 24
-                },
-                "background": {
-                    "type": "color",
-                    "color": "#FFFFFF"
-                },
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "72px",
                 "marginBottom": "72px",
                 "grids": [
@@ -867,7 +871,11 @@
                             {
                                 "columns": [
                                     {
-                                        "size": 12,
+                                        "size": 3,
+                                        "widgets": []
+                                    },
+                                    {
+                                        "size": 6,
                                         "widgets": [
                                             {
                                                 "elementType": "text",
@@ -882,6 +890,10 @@
                                                 "height": "20px"
                                             }
                                         ]
+                                    },
+                                    {
+                                        "size": 3,
+                                        "widgets": []
                                     }
                                 ]
                             },
@@ -1010,12 +1022,13 @@
             },
             "sectionContent": {
                 "contentType": "single",
-                "width": "92%",
+                "width": "95%",
                 "marginTop": "24px",
                 "marginBottom": "24px",
                 "grids": [
                     {
                         "width": "100%",
+                        "gridAlignment": "center",
                         "rows": [
                             {
                                 "columns": [
@@ -1137,7 +1150,7 @@
         },
         "heading2Styles": {
             "color": "#202020",
-            "fontSize": "32px",
+            "fontSize": "24px",
             "fontFamily": "Roboto",
             "textAlign": "left"
         },
