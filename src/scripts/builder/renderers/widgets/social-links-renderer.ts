@@ -17,7 +17,7 @@ export class SocialLinksWidgetRenderer {
             ? "flex-end"
             : "center";
 
-        for (let index = 0; index < data.linksCount; index++) {
+        for (let index = 0; index < data.itemsCount; index++) {
             const link = document.createElement("div");
             link.classList.add("social-link");
 

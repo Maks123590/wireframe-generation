@@ -1475,7 +1475,7 @@
                                             {
                                                 "elementType": "form",
                                                 "type": "vertical",
-                                                "fieldsCount": 3,
+                                                "itemsCount": 3,
                                                 "buttonType": "secondary"
                                             }
                                         ]
@@ -1587,7 +1587,7 @@
                                             },
                                             {
                                                 "elementType": "social-links",
-                                                "linksCount": 3,
+                                                "itemsCount": 3,
                                                 "align": "left"
                                             },
                                             {

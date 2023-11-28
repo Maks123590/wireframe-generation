@@ -897,7 +897,7 @@
                                             {
                                                 "elementType": "form",
                                                 "type": "horizontal",
-                                                "fieldsCount": 1
+                                                "itemsCount": 1
                                             }
                                         ]
                                     }
@@ -966,7 +966,7 @@
                                         "widgets": [
                                             {
                                                 "elementType": "social-links",
-                                                "linksCount": 3,
+                                                "itemsCount": 3,
                                                 "align": "right"
                                             }
                                         ]

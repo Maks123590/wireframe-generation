@@ -13,9 +13,9 @@ export class FormWidgetRenderer {
     
         const form = document.createElement("form");
 
-        const fieldsCount = data.fieldsCount ?? 2;
+        const itemsCount = data.itemsCount ?? 2;
 
-        for (let index = 0; index < fieldsCount - 1; index++) {
+        for (let index = 0; index < itemsCount - 1; index++) {
             form.append(this.renderField("input", commonStylesData));
         }
 

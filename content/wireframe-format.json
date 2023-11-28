@@ -91,11 +91,11 @@
                                             {
                                                 "elementType": "form",
                                                 "type": "vertical | horizontal", // if not set, the default is vertical
-                                                "fieldsCount": 3
+                                                "itemsCount": 3
                                             },
                                             {
                                                 "elementType": "social-links",
-                                                "linksCount": 3,
+                                                "itemsCount": 3,
                                                 "align": "left | right | center" // center by default
                                             },
                                             {

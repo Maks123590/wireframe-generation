@@ -38,7 +38,7 @@ export interface ILogoWidgetData {
 export interface IFormWidgetData {
     readonly elementType: "form";
     type: "vertical" | "horizontal";
-    fieldsCount: number;
+    itemsCount: number;
     buttonType: "primary" | "secondary";
 }
 
@@ -82,7 +82,7 @@ export interface ICartWidgetData {
 
 export interface ISocialLinksWidgetData {
     readonly elementType: "social-links";
-    linksCount: 3;
+    itemsCount: 3;
     align: "left" | "right" | "center";
 }
 

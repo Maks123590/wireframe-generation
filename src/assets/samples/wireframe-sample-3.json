@@ -759,7 +759,7 @@
                                             },
                                             {
                                                 "elementType": "social-links",
-                                                "linksCount": 5,
+                                                "itemsCount": 5,
                                                 "align": "left"
                                             }
                                         ]

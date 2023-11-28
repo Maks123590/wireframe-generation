@@ -1,13 +1,13 @@
 {
     "sections": [
         {
-            "sectionType": "one of the following options: Header, Hero, Secondary Navigation Menu, Call to Action, Services, About Us, Testimonials, FAQs, Pricing, Contacts, Blog, Partners, Footer",
+            "sectionType": "Use only one of the following options: Header, Hero, Secondary Navigation Menu, Call to Action, Services, About Us, Testimonials, FAQs, Pricing, Contacts, Blog, Partners, Footer",
             "background":  {
-                "type": "one of the following options: color, image",
+                "type": "Use only one of the following options: color, image",
                 "color": "color in HEX format"
             },
             "sectionContent": {
-                "contentType": "one of the following options: single, slider",
+                "contentType": "Use only one of the following options: single, slider",
                 "borderRadius": {
                     "topLeftPx": "value is number of px",
                     "topRightPx": "value is number of px",
@@ -15,7 +15,7 @@
                     "bottomRightPx": "value is number of px"
                 },
                 "background":  {
-                    "type": "one of the following options: color, image",
+                    "type": "Use only one of the following options: color, image",
                     "color": "color in HEX format"
                 },
                 "width": "value in percentage, skip this if the value is 100%",
@@ -24,7 +24,7 @@
                 "grids": [
                     {
                         "width": "value in percentage, skip this if the value is 100%",
-                        "gridAlignment": "one of the following options: top, center, bottom",
+                        "gridAlignment": "Use only one of the following options: top, center, bottom",
                         "marginTop": "value in px, skip this if the value is 0px",
                         "marginBottom": "value in px, skip this if the value is 0px",
                         "rows": [
@@ -34,105 +34,40 @@
                                         "size": "Number of columns, and the sum of their sizes cannot exceed 12",
                                         "widgets": [
                                             {
-                                                "elementType": "text",
-                                                "textType": "one of the following options: heading1, heading2, heading3, heading4, subheading, normal, link",
-                                                "charsCount": "number of characters in the text",
-                                                "fontData": {
-                                                    "color": "color in HEX format",
-                                                    "fontSize": "value in px",
-                                                    "fontFamily": "Font Name",
-                                                    "textAlign": "one of the following options: left, center, right"
-                                                }
-                                            },
-                                            {
-                                                "elementType": "search-box",
-                                                "elementColor": "color in HEX format"
-                                            },
-                                            {
-                                                "elementType": "login",
-                                                "elementColor": "color in HEX format"
-                                            },
-                                            {
-                                                "elementType": "cart",
-                                                "elementColor": "color in HEX format"
-                                            },
-                                            {
-                                                "elementType": "menu",
-                                                "items": ["For example, 'About Us', 'Projects', 'Contacts'."],
-                                                "align": "one of the following options: left, center, right",
-                                                "fontData": {
-                                                    "color": "color in HEX format",
-                                                    "fontSize": "value in px",
-                                                    "fontFamily": "Font Name",
-                                                    "textAlign": "one of the following options: left, center, right"
-                                                }
-                                            },
-                                            {
-                                                "elementType": "image",
-                                                "color": "color in HEX format",
-                                                "height": "it can be from 20px to 300px",
-                                                "borderRadius": {
+                                                "elementType": "Use only one of the following options: text, search-box, login, cart, menu, image, button, form, social-links, box, logo, spacer, divider, accordion, otherwise skip it.",
+                                                "textType": "Use only one of the following options: heading1, heading2, heading3, heading4, subheading, normal, link. it can be applied only if elementType is text, otherwise skip it.",
+                                                "charsCount": "number of characters in the text. it can be applied only if elementType is text, otherwise skip it.",
+                                                
+                                                "elementColor": "color in HEX format. it can be applied only if elementType in search-box, login, cart.",
+                                                "items": ["For example, 'About Us', 'Projects', 'Contacts'. It is used for only menu type, otherwise skip it."],
+                                                "align": "Use only one of the following options: left, center, right. It is used for only menu and social-links widget or if fitType is fit, otherwise skip it.",
+                                                "fitType": "Use only one of the following options: fit, fill. It is used for only image and button types, otherwise skip it.",
+                                                "width": "value in percentage, it can be applied only if fitType is fit. It is used for only image and button types, otherwise skip it, otherwise skip it.",
+                                                "color": "color in HEX format. It is used for only image and divider types, otherwise skip it.",
+                                                "height": "it can be from 20px to 300px. It is used for only image and spacer types, otherwise skip it.",
+                                                "borderRadius": { 
+                                                    "$desc": "It is used for only image, box types.",
                                                     "topLeftPx": "value is number of px",
                                                     "topRightPx": "value is number of px",
                                                     "bottomLeftPx": "value is number of px",
                                                     "bottomRightPx": "value is number of px"
                                                 },
-                                                "fitType": "one of the following options: fit, fill",
-                                                "align": "one of the following options: left, right, center and it can be applied only if fitType is fit",
-                                                "width": "value in percentage, it can be applied only if fitType is fit"
-                                            },
-                                            {
-                                                "elementType": "button",
-                                                "type": "one of the following options: primary, secondary",
-                                                "fitType": "one of the following options: fit, fill",
-                                                "align": "one of the following options: left, right, center and it can be applied only if fitType is fit",
-                                                "width": "value in percentage, it can be applied only if fitType is fit"
-                                            },
-                                            {
-                                                "elementType": "form",
-                                                "type": "one of the following options: vertical, horizontal",
-                                                "fieldsCount": "number of fields in the form"
-                                            },
-                                            {
-                                                "elementType": "social-links",
-                                                "linksCount": "number of links",
-                                                "align": "one of the following options: left, right, center"
-                                            },
-                                            {
-                                                "elementType": "box",
-                                                "type": "one of the following options: vertical, horizontal",
-                                                "widgets": [],
+                                                "type": "Use only one of the following options: vertical, horizontal. It is used for only form and box types, otherwise skip it.",
+                                                "buttonType": "Use only one of the following options: primary, secondary. It is used for only button type, otherwise skip it.",
+                                                "widgets": [ "It is used for only for box widget. Paste inner widgets here." ],
                                                 "background":  {
-                                                    "type": "one of the following options: color, image",
+                                                    "$desc": "It is used for only box type.",
+                                                    "type": "Use only one of the following options: color, image",
                                                     "color": "color in HEX format"
                                                 },
-                                                "borderRadius": {
-                                                    "topLeftPx": "value is number of px",
-                                                    "topRightPx": "value is number of px",
-                                                    "bottomLeftPx": "value is number of px",
-                                                    "bottomRightPx": "value is number of px"
-                                                }
-                                            },
-                                            {
-                                                "elementType": "logo",
-                                                "fontData": {
+                                                "fontData": { 
+                                                    "$desc": "It is used for only text, menu, logo types.",
                                                     "color": "color in HEX format",
                                                     "fontSize": "value in px",
                                                     "fontFamily": "Font Name",
-                                                    "textAlign": "one of the following options: left, center, right"
-                                                }
-                                            },
-                                            {
-                                                "elementType": "spacer",
-                                                "height": "value in px"
-                                            },
-                                            {
-                                                "elementType": "divider",
-                                                "color": "color in HEX format"
-                                            },
-                                            {
-                                                "elementType": "accordion",
-                                                "itemsCount": "number of items in the accordion"
+                                                    "textAlign": "Use only one of the following options: left, center, right"
+                                                },
+                                                "itemsCount": "number of items. It is used for only social-links, form and accordion types."
                                             }
                                         ]
                                     }
@@ -157,37 +92,37 @@
             "color": "color in HEX format",
             "fontSize": "value in px",
             "fontFamily": "Font Name",
-            "textAlign": "one of the following options: left, center, right"
+            "textAlign": "Use only one of the following options: left, center, right"
         },
         "heading2Styles": {
             "color": "color in HEX format",
             "fontSize": "value in px",
             "fontFamily": "Font Name",
-            "textAlign": "one of the following options: left, center, right"
+            "textAlign": "Use only one of the following options: left, center, right"
         },
         "heading3Styles": {
             "color": "color in HEX format",
             "fontSize": "value in px",
             "fontFamily": "Font Name",
-            "textAlign": "one of the following options: left, center, right"
+            "textAlign": "Use only one of the following options: left, center, right"
         },
         "heading4Styles": {
             "color": "color in HEX format",
             "fontSize": "value in px",
             "fontFamily": "Font Name",
-            "textAlign": "one of the following options: left, center, right"
+            "textAlign": "Use only one of the following options: left, center, right"
         },
         "subheadingStyles": {
             "color": "color in HEX format",
             "fontSize": "value in px",
             "fontFamily": "Font Name",
-            "textAlign": "one of the following options: left, center, right"
+            "textAlign": "Use only one of the following options: left, center, right"
         },
         "normalTextStyles": {
             "color": "color in HEX format",
             "fontSize": "value in px",
             "fontFamily": "Font Name",
-            "textAlign": "one of the following options: left, center, right"
+            "textAlign": "Use only one of the following options: left, center, right"
         }
     }
 }
