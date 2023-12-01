@@ -536,7 +536,7 @@
                                             },
                                             {
                                                 "elementType": "button",
-                                                "type": "primary",
+                                                "buttonType": "primary",
                                                 "fitType": "fill"
                                             }
                                         ]
@@ -573,7 +573,7 @@
                                             },
                                             {
                                                 "elementType": "button",
-                                                "type": "primary",
+                                                "buttonType": "primary",
                                                 "fitType": "fill"
                                             }
                                         ]
@@ -876,7 +876,7 @@
                                             },
                                             {
                                                 "elementType": "button",
-                                                "type": "primary",
+                                                "buttonType": "primary",
                                                 "fitType": "fill"
                                             }
                                         ]
@@ -913,7 +913,7 @@
                                             },
                                             {
                                                 "elementType": "button",
-                                                "type": "primary",
+                                                "buttonType": "primary",
                                                 "fitType": "fill"
                                             }
                                         ]
@@ -950,7 +950,7 @@
                                             },
                                             {
                                                 "elementType": "button",
-                                                "type": "primary",
+                                                "buttonType": "primary",
                                                 "fitType": "fill"
                                             }
                                         ]
@@ -987,7 +987,7 @@
                                             },
                                             {
                                                 "elementType": "button",
-                                                "type": "primary",
+                                                "buttonType": "primary",
                                                 "fitType": "fill"
                                             }
                                         ]
@@ -1041,7 +1041,7 @@
                                             },
                                             {
                                                 "elementType": "button",
-                                                "type": "primary",
+                                                "buttonType": "primary",
                                                 "fitType": "fill"
                                             }
                                         ]
@@ -1078,7 +1078,7 @@
                                             },
                                             {
                                                 "elementType": "button",
-                                                "type": "primary",
+                                                "buttonType": "primary",
                                                 "fitType": "fill"
                                             }
                                         ]
@@ -1115,7 +1115,7 @@
                                             },
                                             {
                                                 "elementType": "button",
-                                                "type": "primary",
+                                                "buttonType": "primary",
                                                 "fitType": "fill"
                                             }
                                         ]
@@ -1152,7 +1152,7 @@
                                             },
                                             {
                                                 "elementType": "button",
-                                                "type": "primary",
+                                                "buttonType": "primary",
                                                 "fitType": "fill"
                                             }
                                         ]
@@ -1597,7 +1597,7 @@
                                             },
                                             {
                                                 "elementType": "button",
-                                                "type": "secondary"
+                                                "buttonType": "secondary"
                                             }
                                         ]
                                     }

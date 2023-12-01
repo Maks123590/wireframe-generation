@@ -111,7 +111,7 @@
                                             {
                                                 "elementType": "button",
                                                 "fitType": "fill",
-                                                "type": "primary"
+                                                "buttonType": "primary"
                                             }
                                         ]
                                     }

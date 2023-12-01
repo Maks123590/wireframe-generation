@@ -6,7 +6,7 @@ export class ButtonWidgetRenderer {
 
     static render(data: IButtonWidgetData, commonStylesData: ICommonStyles): HTMLElement {
         const widget = document.createElement("div");
-        widget.classList.add("widget", data.elementType, data.type);
+        widget.classList.add("widget", data.elementType, data.buttonType);
 
         const widgetContent = document.createElement("div");
         widgetContent.classList.add("widget-content");
@@ -14,11 +14,11 @@ export class ButtonWidgetRenderer {
         CommonRenderer.renderAlignment(widget, widgetContent, data);
         CommonRenderer.renderBorderRadius(widgetContent, commonStylesData.buttonBorderRadius);
 
-        if (data.type === "primary") {
+        if (data.buttonType === "primary") {
             widgetContent.style.background = commonStylesData.primaryButtonColor;
         }
 
-        if (data.type === "secondary") {
+        if (data.buttonType === "secondary") {
             widgetContent.style.background = commonStylesData.secondaryButtonColor;
         }
 

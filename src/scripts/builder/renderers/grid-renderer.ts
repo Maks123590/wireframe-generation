@@ -1,8 +1,6 @@
 import { ICommonStyles } from "../data/common-styles";
 import { IGridData, IRowData, IColumnData } from "../data/grid-data";
-import { ISectionData } from "../data/section-data";
 import { IWidgetData } from "../data/widget-data";
-import { CommonRenderer } from "./common-renderer";
 import { WidgetRenderer } from "./widget-renderer";
 
 export class GridRenderer {
@@ -15,18 +13,18 @@ export class GridRenderer {
         grid.style.marginTop = data.marginTop;
         grid.style.marginBottom = data.marginBottom;
 
-        data.rows.forEach((rowData: IRowData) => {
+        data.rows?.forEach((rowData: IRowData) => {
             const row = document.createElement("div");
             row.classList.add("mesh-row");
 
-            rowData.columns.forEach((columnData: IColumnData) => {
+            rowData.columns?.forEach((columnData: IColumnData) => {
                 const column = document.createElement("div");
                 column.classList.add("col");
                 column.classList.add(`col-${columnData.size}`);
 
                 column.style.justifyContent = data.gridAlignment ?? "top";
 
-                columnData.widgets.forEach((widgetData: IWidgetData) => {
+                columnData.widgets?.forEach((widgetData: IWidgetData) => {
                     const widgetElement = WidgetRenderer.render(widgetData, commonStylesData);
                     column.append(widgetElement);
                 });

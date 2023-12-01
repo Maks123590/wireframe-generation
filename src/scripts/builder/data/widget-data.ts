@@ -19,7 +19,7 @@ export interface IImageWidgetData extends IAlignableData {
 export interface IButtonWidgetData extends IAlignableData {
     readonly elementType: "button";
     borderRadius: IBorderRadiusData;
-    type: "primary" | "secondary";
+    buttonType: "primary" | "secondary";
 }
 
 export interface IBoxWidgetData {

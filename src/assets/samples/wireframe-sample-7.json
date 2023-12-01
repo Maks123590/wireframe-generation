@@ -129,7 +129,7 @@
                                                 "elementType": "button",
                                                 "fitType": "fit",
                                                 "align": "center",
-                                                "type": "primary",
+                                                "buttonType": "primary",
                                                 "width": "35%"
                                             }
                                         ]

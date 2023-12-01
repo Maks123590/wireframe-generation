@@ -58,7 +58,7 @@
                                             {
                                                 "elementType": "button",
                                                 "fitType": "fill",
-                                                "type": "primary",
+                                                "buttonType": "primary",
                                                 "width": "100%"
                                             }
                                         ]
@@ -110,7 +110,7 @@
                                                 "elementType": "button",
                                                 "fitType": "fit",
                                                 "align": "center",
-                                                "type": "primary",
+                                                "buttonType": "primary",
                                                 "width": "33%"
                                             }
                                         ]
@@ -172,7 +172,7 @@
                                                         "elementType": "button",
                                                         "fitType": "fit",
                                                         "align": "center",
-                                                        "type": "secondary",
+                                                        "buttonType": "secondary",
                                                         "width": "60%"
                                                     }
                                                 ],
@@ -212,7 +212,7 @@
                                                         "elementType": "button",
                                                         "fitType": "fit",
                                                         "align": "center",
-                                                        "type": "secondary",
+                                                        "buttonType": "secondary",
                                                         "width": "60%"
                                                     }
                                                 ],
@@ -252,7 +252,7 @@
                                                         "elementType": "button",
                                                         "fitType": "fit",
                                                         "align": "center",
-                                                        "type": "secondary",
+                                                        "buttonType": "secondary",
                                                         "width": "60%"
                                                     }
                                                 ],
@@ -292,7 +292,7 @@
                                                         "elementType": "button",
                                                         "fitType": "fit",
                                                         "align": "center",
-                                                        "type": "secondary",
+                                                        "buttonType": "secondary",
                                                         "width": "60%"
                                                     }
                                                 ],
@@ -387,7 +387,7 @@
                                                 "elementType": "button",
                                                 "fitType": "fit",
                                                 "align": "left",
-                                                "type": "primary",
+                                                "buttonType": "primary",
                                                 "width": "30%"
                                             }
                                         ]
@@ -731,7 +731,7 @@
                                                 "elementType": "button",
                                                 "fitType": "fit",
                                                 "align": "left",
-                                                "type": "primary",
+                                                "buttonType": "primary",
                                                 "width": "30%"
                                             }
                                         ]
@@ -764,7 +764,7 @@
                                                 "elementType": "button",
                                                 "fitType": "fit",
                                                 "align": "left",
-                                                "type": "primary",
+                                                "buttonType": "primary",
                                                 "width": "30%"
                                             }
                                         ]
@@ -797,7 +797,7 @@
                                                 "elementType": "button",
                                                 "fitType": "fit",
                                                 "align": "left",
-                                                "type": "primary",
+                                                "buttonType": "primary",
                                                 "width": "30%"
                                             }
                                         ]

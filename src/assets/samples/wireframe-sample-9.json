@@ -144,7 +144,7 @@
                                                 "elementType": "button",
                                                 "fitType": "fit",
                                                 "align": "left",
-                                                "type": "primary",
+                                                "buttonType": "primary",
                                                 "width": "50%"
                                             }
                                         ]
@@ -798,7 +798,7 @@
                                                 "elementType": "button",
                                                 "fitType": "fit",
                                                 "align": "left",
-                                                "type": "primary",
+                                                "buttonType": "primary",
                                                 "width": "50%"
                                             }
                                         ]
@@ -1070,7 +1070,7 @@
                                             {
                                                 "elementType": "button",
                                                 "fitType": "fill",
-                                                "type": "primary"
+                                                "buttonType": "primary"
                                             }
                                         ]
                                     }

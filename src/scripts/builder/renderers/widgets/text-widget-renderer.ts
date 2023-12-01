@@ -11,7 +11,7 @@ export class TextWidgetRenderer {
         const widgetContent = document.createElement("div");
         widgetContent.classList.add("widget-content");
 
-        widgetContent.textContent = this.loremIpsum.substring(0, data.charsCount);
+        widgetContent.textContent = this.loremIpsum.substring(0, data.charsCount ?? 20);
 
         let commonFontSettings = commonStylesData.normalTextStyles;
 

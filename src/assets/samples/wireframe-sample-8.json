@@ -85,7 +85,7 @@
                                             {
                                                 "elementType": "button",
                                                 "fitType": "fill",
-                                                "type": "primary"
+                                                "buttonType": "primary"
                                             }
                                         ]
                                     }
@@ -190,7 +190,7 @@
                                                 "elementType": "button",
                                                 "fitType": "fit",
                                                 "align": "left",
-                                                "type": "primary",
+                                                "buttonType": "primary",
                                                 "width": "30%"
                                             }
                                         ]
@@ -335,7 +335,7 @@
                                             {
                                                 "elementType": "button",
                                                 "fitType": "fill",
-                                                "type": "primary"
+                                                "buttonType": "primary"
                                             }
                                         ]
                                     },
@@ -345,7 +345,7 @@
                                             {
                                                 "elementType": "button",
                                                 "fitType": "fill",
-                                                "type": "secondary"
+                                                "buttonType": "secondary"
                                             }
                                         ]
                                     },
@@ -783,7 +783,7 @@
                                                     {
                                                         "elementType": "button",
                                                         "fitType": "fill",
-                                                        "type": "primary"
+                                                        "buttonType": "primary"
                                                     },
                                                     {
                                                         "elementType": "divider",
@@ -820,7 +820,7 @@
                                                     {
                                                         "elementType": "button",
                                                         "fitType": "fill",
-                                                        "type": "primary"
+                                                        "buttonType": "primary"
                                                     },
                                                     {
                                                         "elementType": "divider",
@@ -857,7 +857,7 @@
                                                     {
                                                         "elementType": "button",
                                                         "fitType": "fill",
-                                                        "type": "primary"
+                                                        "buttonType": "primary"
                                                     }
                                                 ],
                                                 "borderRadius": {
@@ -911,7 +911,7 @@
                                                     {
                                                         "elementType": "button",
                                                         "fitType": "fill",
-                                                        "type": "primary"
+                                                        "buttonType": "primary"
                                                     },
                                                     {
                                                         "elementType": "divider",
@@ -948,7 +948,7 @@
                                                     {
                                                         "elementType": "button",
                                                         "fitType": "fill",
-                                                        "type": "primary"
+                                                        "buttonType": "primary"
                                                     },
                                                     {
                                                         "elementType": "divider",
@@ -985,7 +985,7 @@
                                                     {
                                                         "elementType": "button",
                                                         "fitType": "fill",
-                                                        "type": "primary"
+                                                        "buttonType": "primary"
                                                     }
                                                 ],
                                                 "borderRadius": {
@@ -1039,7 +1039,7 @@
                                                     {
                                                         "elementType": "button",
                                                         "fitType": "fill",
-                                                        "type": "primary"
+                                                        "buttonType": "primary"
                                                     },
                                                     {
                                                         "elementType": "divider",
@@ -1076,7 +1076,7 @@
                                                     {
                                                         "elementType": "button",
                                                         "fitType": "fill",
-                                                        "type": "primary"
+                                                        "buttonType": "primary"
                                                     },
                                                     {
                                                         "elementType": "divider",
@@ -1113,7 +1113,7 @@
                                                     {
                                                         "elementType": "button",
                                                         "fitType": "fill",
-                                                        "type": "primary"
+                                                        "buttonType": "primary"
                                                     }
                                                 ],
                                                 "borderRadius": {
@@ -1167,7 +1167,7 @@
                                                     {
                                                         "elementType": "button",
                                                         "fitType": "fill",
-                                                        "type": "primary"
+                                                        "buttonType": "primary"
                                                     },
                                                     {
                                                         "elementType": "divider",
@@ -1204,7 +1204,7 @@
                                                     {
                                                         "elementType": "button",
                                                         "fitType": "fill",
-                                                        "type": "primary"
+                                                        "buttonType": "primary"
                                                     },
                                                     {
                                                         "elementType": "divider",
@@ -1241,7 +1241,7 @@
                                                     {
                                                         "elementType": "button",
                                                         "fitType": "fill",
-                                                        "type": "primary"
+                                                        "buttonType": "primary"
                                                     }
                                                 ],
                                                 "borderRadius": {
@@ -1430,7 +1430,7 @@
                                                 "elementType": "button",
                                                 "fitType": "fit",
                                                 "align": "right",
-                                                "type": "primary",
+                                                "buttonType": "primary",
                                                 "width": "80%"
                                             }
                                         ]

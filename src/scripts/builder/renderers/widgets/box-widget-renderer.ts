@@ -17,7 +17,7 @@ export class BoxWidgetRenderer {
         
         widget.classList.add(data.type ?? "vertical");
 
-        data.widgets.forEach((widgetData: IWidgetData) => {
+        data.widgets?.forEach((widgetData: IWidgetData) => {
             const widget = WidgetRenderer.render(widgetData, commonStylesData);
             widgetContent.append(widget);
         });

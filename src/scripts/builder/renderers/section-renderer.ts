@@ -16,9 +16,9 @@ export class SectionRenderer {
         const sectionContent = document.createElement("div");
         sectionContent.classList.add("section-content");
 
-        sectionContent.style.width = data.sectionContent.width;
-        sectionContent.style.marginTop = data.sectionContent.marginTop;
-        sectionContent.style.marginBottom = data.sectionContent.marginBottom;
+        sectionContent.style.width = data.sectionContent.width ?? "100%";
+        sectionContent.style.marginTop = data.sectionContent.marginTop ?? "0px";
+        sectionContent.style.marginBottom = data.sectionContent.marginBottom ?? "0px";
 
         CommonRenderer.renderBackground(sectionContent, data.sectionContent.background ?? data.background);
         CommonRenderer.renderBorderRadius(sectionContent, data.sectionContent.borderRadius);
@@ -47,7 +47,7 @@ export class SectionRenderer {
 
         data.sectionContent.grids.forEach((gridData: IGridData) => {
             const grid = GridRenderer.render(gridData, commonStylesData);
-            sectionContent.append(grid);
+        sectionContent.append(grid);
         });
 
         section.append(sectionContent);
