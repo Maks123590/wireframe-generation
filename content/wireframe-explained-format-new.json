@@ -21,64 +21,62 @@
                 "width": "Value in percentage; skip this field if the value is 100%",
                 "marginTop": "Number of px in format like 0px; skip this field if the value is 0px",
                 "marginBottom": "Number of px in format like 0px; skip this field if the value is 0px",
-                "grids": [
-                    {
-                        "width": "Value in percentage; skip this field if the value is 100%",
-                        "gridAlignment": "Use only one of the following options: top, center, bottom",
-                        "marginTop": "Number of px in format like 0px; skip this field if the value is 0px",
-                        "marginBottom": "Number of px in format like 0px; skip this field if the value is 0px",
-                        "rows": [
-                            {
-                                "columns": [
-                                    {
-                                        "size": "Number of columns and the sum of their sizes can't exceed 12",
-                                        "widgets": [
-                                            {
-                                                "elementType": "Use only one of the following options: text, search-box, login, cart, menu, image, button, form, social-links, box, logo, spacer, divider, accordion.",
-                                                "textType": "Use only one of the following options: heading1, heading2, heading3, heading4, subheading, normal, link. It is applicable only when the elementType is text; otherwise skip this field.",
-                                                "charsCount": "Number of letters in the text. This is a required field for text elementType; otherwise skip this field.",
-                                                "elementColor": "Color in HEX format. This is a required field for search-box, login, cart elementTypes; otherwise skip this field.",
-                                                "items": [
-                                                    "For example, 'About Us', 'Projects', 'Contacts'. This is used only for the menu type; otherwise skip it."
-                                                ],
-                                                "align": "Use only one of the following options: left, center, right. This must be used only for the menu and social-links widgets or if the fitType is fit; otherwise skip this field.",
-                                                "fitType": "Use only one of the following options: fit, fill. This is used only for the image and button types; otherwise, skip this field.",
-                                                "width": "Value in percentage. It is applicable only when the fitType is fit; otherwise skip this field.",
-                                                "color": "Color in HEX format. This must be used only for the image and divider types; otherwise skip this field.",
-                                                "height": "It must be from 20px to 300px. This must be used only for image and spacer types; otherwise skip this field.",
-                                                "borderRadius": {
-                                                    "$desc": "This must be used only for only image and box types.",
-                                                    "topLeftPx": "Value is a number of px",
-                                                    "topRightPx": "Value is a number of px",
-                                                    "bottomLeftPx": "Value is a number of px",
-                                                    "bottomRightPx": "Value is a number of px"
-                                                },
-                                                "type": "Use only one of the following options: vertical, horizontal. This must be used only for the form and box types; otherwise skip this field.",
-                                                "buttonType": "Use only one of the following options: primary, secondary. This must be used only for the button type; otherwise skip this field.",
-                                                "widgets": [
-                                                    "This must be used only for box widget. Paste inner widgets here."
-                                                ],
-                                                "background": {
-                                                    "$desc": "This must be used only for the box type.",
-                                                    "type": "Use only one of the following options: color, image",
-                                                    "color": "Color in HEX format"
-                                                },
-                                                "fontData": {
-                                                    "$desc": "This must be used only for the text, menu, logo types.",
-                                                    "color": "Color in HEX format",
-                                                    "fontSize": "Number of px in the format like 0px",
-                                                    "fontFamily": "A font name. By default it sets Roboto.",
-                                                    "textAlign": "Use only one of the following options: left, center, right"
-                                                },
-                                                "itemsCount": "Number of items. This must be used only for the social-links, form, and accordion types."
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
+                "grid": {
+                    "width": "Value in percentage; skip this field if the value is 100%",
+                    "gridAlignment": "Use only one of the following options: top, center, bottom",
+                    "marginTop": "Number of px in format like 0px; skip this field if the value is 0px",
+                    "marginBottom": "Number of px in format like 0px; skip this field if the value is 0px",
+                    "rows": [
+                        {
+                            "columns": [
+                                {
+                                    "size": "Number of columns and the sum of their sizes can't exceed 12",
+                                    "widgets": [
+                                        {
+                                            "elementType": "Use only one of the following options: text, search-box, login, cart, menu, image, button, form, social-links, box, logo, spacer, divider, accordion.",
+                                            "textType": "Use only one of the following options: heading1, heading2, heading3, heading4, subheading, normal, link. It is applicable only when the elementType is text; otherwise skip this field.",
+                                            "charsCount": "Number of letters in the text. This is a required field for text elementType; otherwise skip this field.",
+                                            "elementColor": "Color in HEX format. This is a required field for search-box, login, cart elementTypes; otherwise skip this field.",
+                                            "items": [
+                                                "For example, 'About Us', 'Projects', 'Contacts'. This is used only for the menu type; otherwise skip it."
+                                            ],
+                                            "align": "Use only one of the following options: left, center, right. This must be used only for the menu and social-links widgets or if the fitType is fit; otherwise skip this field.",
+                                            "fitType": "Use only one of the following options: fit, fill. This is used only for the image and button types; otherwise, skip this field.",
+                                            "width": "Value in percentage. It is applicable only when the fitType is fit; otherwise skip this field.",
+                                            "color": "Color in HEX format. This must be used only for the image and divider types; otherwise skip this field.",
+                                            "height": "It must be from 20px to 300px. This must be used only for image and spacer types; otherwise skip this field.",
+                                            "borderRadius": {
+                                                "$desc": "This must be used only for only image and box types.",
+                                                "topLeftPx": "Value is a number of px",
+                                                "topRightPx": "Value is a number of px",
+                                                "bottomLeftPx": "Value is a number of px",
+                                                "bottomRightPx": "Value is a number of px"
+                                            },
+                                            "type": "Use only one of the following options: vertical, horizontal. This must be used only for the form and box types; otherwise skip this field.",
+                                            "buttonType": "Use only one of the following options: primary, secondary. This must be used only for the button type; otherwise skip this field.",
+                                            "widgets": [
+                                                "This must be used only for box widget. Paste inner widgets here."
+                                            ],
+                                            "background": {
+                                                "$desc": "This must be used only for the box type.",
+                                                "type": "Use only one of the following options: color, image",
+                                                "color": "Color in HEX format"
+                                            },
+                                            "fontData": {
+                                                "$desc": "This must be used only for the text, menu, logo types.",
+                                                "color": "Color in HEX format",
+                                                "fontSize": "Number of px in the format like 0px",
+                                                "fontFamily": "A font name. By default it sets Roboto.",
+                                                "textAlign": "Use only one of the following options: left, center, right"
+                                            },
+                                            "itemsCount": "Number of items. This must be used only for the social-links, form, and accordion types."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
             }
         }
     ],

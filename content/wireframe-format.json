@@ -2,145 +2,147 @@
     "sections": [
         {
             "sectionType": "Header | Hero | Secondary Navigation Menu | Call to Action | Services | About Us | Testimonials | FAQs | Pricing | Contacts | Partners | Footer", //changed
-            "background":  {
+            "background": {
                 "type": "color | image",
                 "color": "hex"
             },
             "sectionContent": {
                 "contentType": "single | slider",
-                "borderRadius": {   // if not set, the default is 0 for all
+                "borderRadius": { // if not set, the default is 0 for all
                     "topLeftPx": 24, // px
                     "topRightPx": 24, // px
                     "bottomLeftPx": 24, // px
                     "bottomRightPx": 24 // px
                 },
-                "background": {    // if not set, the default is inherit from section background
+                "background": { // if not set, the default is inherit from section background
                     "type": "color | image",
                     "color": "hex"
                 },
                 "width": "%", // if not set, the default is 100%
                 "marginTop": "px", // if not set, the default is 0px
                 "marginBottom": "px", // if not set, the default is 0px
-                "grids": [
-                    {
-                        "width": "%", // if not set, the default is 100%
-                        "gridAlignment": "top | center | bottom", // if not set, top by default
-                        "marginTop": "px", // if not set, the default is 0px
-                        "marginBottom": "px", // if not set, the default is 0px
-                        "rows": [
-                            {
-                                "columns": [
-                                    {  
-                                        "size": 12, // from 1 to 12, the sum of sizes of the elements in the column array cannot be greater than 12
-                                        "widgets": [    // if the column is empty, then the widget array is empty
-                                            {
-                                                "elementType": "text",
-                                                "textType": "heading1 | heading2 | heading3 | heading4 | subheading | normal | link",
-                                                "charsCount": 20,
-                                                "fontData": {   // optional by default get from common styles
-                                                    "color": "hex",
-                                                    "fontSize": "px",
-                                                    "fontFamily": "Font Name",
-                                                    "textAlign": "left | center | right"
-                                                }
-                                            },
-                                            {
-                                                "elementType": "search-box",
-                                                "elementColor": "hex"
-                                            },
-                                            {
-                                                "elementType": "login",
-                                                "elementColor": "hex"
-                                            },
-                                            {
-                                                "elementType": "cart",
-                                                "elementColor": "hex"
-                                            },
-                                            {
-                                                "elementType": "menu",
-                                                "items": ["item1", "item2", "item2"],
-                                                "align": "left | right | center", // if not set, the default is center
-                                                "fontData": { // optional by default get from common styles (from normal-text)
-                                                    "color": "hex",
-                                                    "fontSize": "px",
-                                                    "fontFamily": "Font Name",
-                                                    "textAlign": "left | center | right"
-                                                }
-                                            },
-                                            {
-                                                "elementType": "image",
+                "grid": {
+                    "width": "%", // if not set, the default is 100%
+                    "gridAlignment": "top | center | bottom", // if not set, top by default
+                    "marginTop": "px", // if not set, the default is 0px
+                    "marginBottom": "px", // if not set, the default is 0px
+                    "rows": [
+                        {
+                            "columns": [
+                                {
+                                    "size": 12, // from 1 to 12, the sum of sizes of the elements in the column array cannot be greater than 12
+                                    "widgets": [ // if the column is empty, then the widget array is empty
+                                        {
+                                            "elementType": "text",
+                                            "textType": "heading1 | heading2 | heading3 | heading4 | subheading | normal | link",
+                                            "charsCount": 20,
+                                            "fontData": { // optional by default get from common styles
                                                 "color": "hex",
-                                                "height": 506, // px
-                                                "borderRadius": {   // if not set, the default is 0 for all
-                                                    "topLeftPx": 24, // px
-                                                    "topRightPx": 24, // px
-                                                    "bottomLeftPx": 24, // px
-                                                    "bottomRightPx": 24 // px
-                                                },
-                                                "fitType": "fit | fill", // if not set, the default is fill
-                                                "align": "left | right | center",   // only if fitType is fit
-                                                "width": "25%" // only if fitType is fit
+                                                "fontSize": "px",
+                                                "fontFamily": "Font Name",
+                                                "textAlign": "left | center | right"
+                                            }
+                                        },
+                                        {
+                                            "elementType": "search-box",
+                                            "elementColor": "hex"
+                                        },
+                                        {
+                                            "elementType": "login",
+                                            "elementColor": "hex"
+                                        },
+                                        {
+                                            "elementType": "cart",
+                                            "elementColor": "hex"
+                                        },
+                                        {
+                                            "elementType": "menu",
+                                            "items": [
+                                                "item1",
+                                                "item2",
+                                                "item2"
+                                            ],
+                                            "align": "left | right | center", // if not set, the default is center
+                                            "fontData": { // optional by default get from common styles (from normal-text)
+                                                "color": "hex",
+                                                "fontSize": "px",
+                                                "fontFamily": "Font Name",
+                                                "textAlign": "left | center | right"
+                                            }
+                                        },
+                                        {
+                                            "elementType": "image",
+                                            "color": "hex",
+                                            "height": 506, // px
+                                            "borderRadius": { // if not set, the default is 0 for all
+                                                "topLeftPx": 24, // px
+                                                "topRightPx": 24, // px
+                                                "bottomLeftPx": 24, // px
+                                                "bottomRightPx": 24 // px
                                             },
-                                            {
-                                                "elementType": "button",
-                                                "type": "primary | secondary",
-                                                "fitType": "fit | fill", // if not set, the default is fill
-                                                "align": "left | right | center", // only if fitType is fit
-                                                "width": "100%" // only if fitType is fit
-                                            },
-                                            {
-                                                "elementType": "form",
-                                                "type": "vertical | horizontal", // if not set, the default is vertical
-                                                "itemsCount": 3
-                                            },
-                                            {
-                                                "elementType": "social-links",
-                                                "itemsCount": 3,
-                                                "align": "left | right | center" // center by default
-                                            },
-                                            {
-                                                "elementType": "box",
-                                                "type": "vertical | horizontal",  // if not set, the default is vertical
-                                                "widgets": [],
-                                                "background": {
-                                                    "type": "color | image",
-                                                    "color": "hex"
-                                                },
-                                                "borderRadius": {   // if not set, the default is 0 for all
-                                                    "topLeftPx": 24, // px
-                                                    "topRightPx": 24, // px
-                                                    "bottomLeftPx": 24, // px
-                                                    "bottomRightPx": 24 // px
-                                                }
-                                            },
-                                            {
-                                                "elementType": "logo",
-                                                "fontData": {   // optional by default get from common styles (normalText)
-                                                    "color": "hex",
-                                                    "fontSize": "px",
-                                                    "fontFamily": "Font Name",
-                                                    "textAlign": "left | center | right"
-                                                }
-                                            },
-                                            {
-                                                "elementType": "spacer",
-                                                "height": "px"
-                                            },
-                                            {
-                                                "elementType": "divider",
+                                            "fitType": "fit | fill", // if not set, the default is fill
+                                            "align": "left | right | center", // only if fitType is fit
+                                            "width": "25%" // only if fitType is fit
+                                        },
+                                        {
+                                            "elementType": "button",
+                                            "type": "primary | secondary",
+                                            "fitType": "fit | fill", // if not set, the default is fill
+                                            "align": "left | right | center", // only if fitType is fit
+                                            "width": "100%" // only if fitType is fit
+                                        },
+                                        {
+                                            "elementType": "form",
+                                            "type": "vertical | horizontal", // if not set, the default is vertical
+                                            "itemsCount": 3
+                                        },
+                                        {
+                                            "elementType": "social-links",
+                                            "itemsCount": 3,
+                                            "align": "left | right | center" // center by default
+                                        },
+                                        {
+                                            "elementType": "box",
+                                            "type": "vertical | horizontal", // if not set, the default is vertical
+                                            "widgets": [],
+                                            "background": {
+                                                "type": "color | image",
                                                 "color": "hex"
                                             },
-                                            {
-                                                "elementType": "accordion",
-                                                "itemsCount": 3
+                                            "borderRadius": { // if not set, the default is 0 for all
+                                                "topLeftPx": 24, // px
+                                                "topRightPx": 24, // px
+                                                "bottomLeftPx": 24, // px
+                                                "bottomRightPx": 24 // px
                                             }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
+                                        },
+                                        {
+                                            "elementType": "logo",
+                                            "fontData": { // optional by default get from common styles (normalText)
+                                                "color": "hex",
+                                                "fontSize": "px",
+                                                "fontFamily": "Font Name",
+                                                "textAlign": "left | center | right"
+                                            }
+                                        },
+                                        {
+                                            "elementType": "spacer",
+                                            "height": "px"
+                                        },
+                                        {
+                                            "elementType": "divider",
+                                            "color": "hex"
+                                        },
+                                        {
+                                            "elementType": "accordion",
+                                            "itemsCount": 3
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
             }
         }
     ],
@@ -148,7 +150,7 @@
         "primaryButtonColor": "hex",
         "secondaryButtonColor": "hex",
         "buttonBorderRadius": {
-            "topLeftPx": 16,  // px
+            "topLeftPx": 16, // px
             "topRightPx": 16,
             "bottomLeftPx": 16,
             "bottomRightPx": 16

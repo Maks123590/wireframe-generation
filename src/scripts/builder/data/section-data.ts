@@ -11,7 +11,7 @@ export interface ISectionData {
         width: string; // in percent
         marginTop: string;
         marginBottom: string;
-        grids: IGridData[];
+        grid: IGridData;
     }
 }
 

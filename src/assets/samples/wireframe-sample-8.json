@@ -1,4 +1,3 @@
-
 {
     "sections": [
         {
@@ -12,88 +11,86 @@
                 "width": "95%",
                 "marginTop": "21px",
                 "marginBottom": "21px",
-                "grids": [
-                    {
-                        "width": "100%",
-                        "gridAlignment": "center",
-                        "rows": [
-                            {
-                                "columns": [
-                                    {
-                                        "size": 1,
-                                        "widgets": [
-                                            {
-                                                "elementType": "image",
-                                                "height": 56,
-                                                "borderRadius": {
-                                                    "topLeftPx": 100,
-                                                    "topRightPx": 100,
-                                                    "bottomLeftPx": 100,
-                                                    "bottomRightPx": 100
-                                                },
-                                                "fitType": "fit",
-                                                "align": "left",
-                                                "width": "60%"
+                "grid": {
+                    "width": "100%",
+                    "gridAlignment": "center",
+                    "rows": [
+                        {
+                            "columns": [
+                                {
+                                    "size": 1,
+                                    "widgets": [
+                                        {
+                                            "elementType": "image",
+                                            "height": 56,
+                                            "borderRadius": {
+                                                "topLeftPx": 100,
+                                                "topRightPx": 100,
+                                                "bottomLeftPx": 100,
+                                                "bottomRightPx": 100
+                                            },
+                                            "fitType": "fit",
+                                            "align": "left",
+                                            "width": "60%"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "size": 2,
+                                    "widgets": [
+                                        {
+                                            "elementType": "text",
+                                            "textType": "normal",
+                                            "charsCount": 32
+                                        }
+                                    ]
+                                },
+                                {
+                                    "size": 2,
+                                    "widgets": []
+                                },
+                                {
+                                    "size": 2,
+                                    "widgets": [
+                                        {
+                                            "elementType": "logo",
+                                            "fontData": {
+                                                "textAlign": "center"
                                             }
-                                        ]
-                                    },
-                                    {
-                                        "size": 2,
-                                        "widgets": [
-                                            {
-                                                "elementType": "text",
-                                                "textType": "normal",
-                                                "charsCount": 32
+                                        }
+                                    ]
+                                },
+                                {
+                                    "size": 1,
+                                    "widgets": []
+                                },
+                                {
+                                    "size": 2,
+                                    "widgets": [
+                                        {
+                                            "elementType": "text",
+                                            "textType": "normal",
+                                            "charsCount": 32,
+                                            "fontData": {
+                                                "textAlign": "right"
                                             }
-                                        ]
-                                    },
-                                    {
-                                        "size": 2,
-                                        "widgets": []
-                                    },
-                                    {
-                                        "size": 2,
-                                        "widgets": [
-                                            {
-                                                "elementType": "logo",
-                                                "fontData": {
-                                                    "textAlign": "center"
-                                                }
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "size": 1,
-                                        "widgets": []
-                                    },
-                                    {
-                                        "size": 2,
-                                        "widgets": [
-                                            {
-                                                "elementType": "text",
-                                                "textType": "normal",
-                                                "charsCount": 32,
-                                                "fontData": {
-                                                    "textAlign": "right"
-                                                }
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "size": 2,
-                                        "widgets": [
-                                            {
-                                                "elementType": "button",
-                                                "fitType": "fill",
-                                                "buttonType": "primary"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "size": 2,
+                                    "widgets": [
+                                        {
+                                            "elementType": "button",
+                                            "fitType": "fill",
+                                            "buttonType": "primary"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
             }
         },
         {
@@ -107,44 +104,42 @@
                 "width": "95%",
                 "marginTop": "20px",
                 "marginBottom": "20px",
-                "grids": [
-                    {
-                        "width": "100%",
-                        "rows": [
-                            {
-                                "columns": [
-                                    {
-                                        "size": 2,
-                                        "widgets": []
-                                    },
-                                    {
-                                        "size": 8,
-                                        "widgets": [
-                                            {
-                                                "elementType": "menu",
-                                                "items": [
-                                                    "ABOUT US",
-                                                    "PRICING PLAN",
-                                                    "HOW TO ORDER",
-                                                    "CONSTRUCTION",
-                                                    "CONTACT US"
-                                                ],
-                                                "align": "center",
-                                                "fontData": {
-                                                    "color": "#FFFFFF"
-                                                }
+                "grid": {
+                    "width": "100%",
+                    "rows": [
+                        {
+                            "columns": [
+                                {
+                                    "size": 2,
+                                    "widgets": []
+                                },
+                                {
+                                    "size": 8,
+                                    "widgets": [
+                                        {
+                                            "elementType": "menu",
+                                            "items": [
+                                                "ABOUT US",
+                                                "PRICING PLAN",
+                                                "HOW TO ORDER",
+                                                "CONSTRUCTION",
+                                                "CONTACT US"
+                                            ],
+                                            "align": "center",
+                                            "fontData": {
+                                                "color": "#FFFFFF"
                                             }
-                                        ]
-                                    },
-                                    {
-                                        "size": 2,
-                                        "widgets": []
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "size": 2,
+                                    "widgets": []
+                                }
+                            ]
+                        }
+                    ]
+                }
             }
         },
         {
@@ -158,52 +153,50 @@
                 "width": "95%",
                 "marginTop": "96px",
                 "marginBottom": "96px",
-                "grids": [
-                    {
-                        "width": "100%",
-                        "gridAlignment": "center",
-                        "rows": [
-                            {
-                                "columns": [
-                                    {
-                                        "size": 1,
-                                        "widgets": []
-                                    },
-                                    {
-                                        "size": 6,
-                                        "widgets": [
-                                            {
-                                                "elementType": "text",
-                                                "textType": "normal",
-                                                "charsCount": 11
-                                            },
-                                            {
-                                                "elementType": "text",
-                                                "textType": "heading1",
-                                                "charsCount": 58
-                                            },
-                                            {
-                                                "elementType": "spacer",
-                                                "height": "16px"
-                                            },
-                                            {
-                                                "elementType": "button",
-                                                "fitType": "fit",
-                                                "align": "left",
-                                                "buttonType": "primary",
-                                                "width": "30%"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "size": 5,
-                                        "widgets": []
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
+                "grid": {
+                    "width": "100%",
+                    "gridAlignment": "center",
+                    "rows": [
+                        {
+                            "columns": [
+                                {
+                                    "size": 1,
+                                    "widgets": []
+                                },
+                                {
+                                    "size": 6,
+                                    "widgets": [
+                                        {
+                                            "elementType": "text",
+                                            "textType": "normal",
+                                            "charsCount": 11
+                                        },
+                                        {
+                                            "elementType": "text",
+                                            "textType": "heading1",
+                                            "charsCount": 58
+                                        },
+                                        {
+                                            "elementType": "spacer",
+                                            "height": "16px"
+                                        },
+                                        {
+                                            "elementType": "button",
+                                            "fitType": "fit",
+                                            "align": "left",
+                                            "buttonType": "primary",
+                                            "width": "30%"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "size": 5,
+                                    "widgets": []
+                                }
+                            ]
+                        }
+                    ]
+                }
             }
         },
         {
@@ -223,35 +216,33 @@
                 "width": "95%",
                 "marginTop": "52px",
                 "marginBottom": "52px",
-                "grids": [
-                    {
-                        "width": "100%",
-                        "rows": [
-                            {
-                                "columns": [
-                                    {
-                                        "size": 12,
-                                        "widgets": [
-                                            {
-                                                "elementType": "text",
-                                                "textType": "heading1",
-                                                "charsCount": 11
-                                            },
-                                            {
-                                                "elementType": "spacer",
-                                                "height": "20px"
-                                            },
-                                            {
-                                                "elementType": "accordion",
-                                                "itemsCount": 3
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
+                "grid": {
+                    "width": "100%",
+                    "rows": [
+                        {
+                            "columns": [
+                                {
+                                    "size": 12,
+                                    "widgets": [
+                                        {
+                                            "elementType": "text",
+                                            "textType": "heading1",
+                                            "charsCount": 11
+                                        },
+                                        {
+                                            "elementType": "spacer",
+                                            "height": "20px"
+                                        },
+                                        {
+                                            "elementType": "accordion",
+                                            "itemsCount": 3
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
             }
         },
         {
@@ -266,7 +257,7 @@
                     "type": "color",
                     "color": "#37383F"
                 },
-                "borderRadius":  {
+                "borderRadius": {
                     "topLeftPx": 24,
                     "topRightPx": 24,
                     "bottomLeftPx": 24,
@@ -275,89 +266,87 @@
                 "width": "96%",
                 "marginTop": "52px",
                 "marginBottom": "52px",
-                "grids": [
-                    {
-                        "width": "96%",
-                        "gridAlignment": "center",
-                        "marginTop": "44px",
-                        "marginBottom": "44px",
-                        "rows": [
-                            {
-                                "columns": [
-                                    {
-                                        "size": 6,
-                                        "widgets": [
-                                            {
-                                                "elementType": "text",
-                                                "textType": "heading1",
-                                                "charsCount": 58,
-                                                "fontData": {
-                                                    "color": "#FFFFFF"
-                                                }
+                "grid": {
+                    "width": "96%",
+                    "gridAlignment": "center",
+                    "marginTop": "44px",
+                    "marginBottom": "44px",
+                    "rows": [
+                        {
+                            "columns": [
+                                {
+                                    "size": 6,
+                                    "widgets": [
+                                        {
+                                            "elementType": "text",
+                                            "textType": "heading1",
+                                            "charsCount": 58,
+                                            "fontData": {
+                                                "color": "#FFFFFF"
+                                            }
+                                        },
+                                        {
+                                            "elementType": "text",
+                                            "textType": "normal",
+                                            "charsCount": 11,
+                                            "fontData": {
+                                                "color": "#FFFFFF"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "size": 4,
+                                    "widgets": []
+                                },
+                                {
+                                    "size": 2,
+                                    "widgets": [
+                                        {
+                                            "elementType": "image",
+                                            "height": 110,
+                                            "borderRadius": {
+                                                "topLeftPx": 5,
+                                                "topRightPx": 5,
+                                                "bottomLeftPx": 5,
+                                                "bottomRightPx": 5
                                             },
-                                            {
-                                                "elementType": "text",
-                                                "textType": "normal",
-                                                "charsCount": 11,
-                                                "fontData": {
-                                                    "color": "#FFFFFF"
-                                                }
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "size": 4,
-                                        "widgets": []
-                                    },
-                                    {
-                                        "size": 2,
-                                        "widgets": [
-                                            {
-                                                "elementType": "image",
-                                                "height": 110,
-                                                "borderRadius": {
-                                                    "topLeftPx": 5,
-                                                    "topRightPx": 5,
-                                                    "bottomLeftPx": 5,
-                                                    "bottomRightPx": 5
-                                                },
-                                                "fitType": "fill"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "columns": [
-                                    {
-                                        "size": 2,
-                                        "widgets": [
-                                            {
-                                                "elementType": "button",
-                                                "fitType": "fill",
-                                                "buttonType": "primary"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "size": 2,
-                                        "widgets": [
-                                            {
-                                                "elementType": "button",
-                                                "fitType": "fill",
-                                                "buttonType": "secondary"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "size": 8,
-                                        "widgets": []
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
+                                            "fitType": "fill"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "columns": [
+                                {
+                                    "size": 2,
+                                    "widgets": [
+                                        {
+                                            "elementType": "button",
+                                            "fitType": "fill",
+                                            "buttonType": "primary"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "size": 2,
+                                    "widgets": [
+                                        {
+                                            "elementType": "button",
+                                            "fitType": "fill",
+                                            "buttonType": "secondary"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "size": 8,
+                                    "widgets": []
+                                }
+                            ]
+                        }
+                    ]
+                }
             }
         },
         {
@@ -371,207 +360,205 @@
                 "width": "95%",
                 "marginTop": "36px",
                 "marginBottom": "36px",
-                "grids": [
-                    {
-                        "width": "100%",
-                        "rows": [
-                            {
-                                "columns": [
-                                    {
-                                        "size": 12,
-                                        "widgets": [
-                                            {
-                                                "elementType": "text",
-                                                "textType": "heading1",
-                                                "charsCount": 11
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "columns": [
-                                    {
-                                        "size": 3,
-                                        "widgets": [
-                                            {
-                                                "elementType": "box",
-                                                "type": "vertical",
-                                                "widgets": [
-                                                    {
-                                                        "elementType": "image",
-                                                        "height": 50,
-                                                        "borderRadius": {
-                                                            "topLeftPx": 100,
-                                                            "topRightPx": 100,
-                                                            "bottomLeftPx": 100,
-                                                            "bottomRightPx": 100
-                                                        },
-                                                        "fitType": "fit",
-                                                        "align": "left",
-                                                        "width": "20%"
+                "grid": {
+                    "width": "100%",
+                    "rows": [
+                        {
+                            "columns": [
+                                {
+                                    "size": 12,
+                                    "widgets": [
+                                        {
+                                            "elementType": "text",
+                                            "textType": "heading1",
+                                            "charsCount": 11
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "columns": [
+                                {
+                                    "size": 3,
+                                    "widgets": [
+                                        {
+                                            "elementType": "box",
+                                            "type": "vertical",
+                                            "widgets": [
+                                                {
+                                                    "elementType": "image",
+                                                    "height": 50,
+                                                    "borderRadius": {
+                                                        "topLeftPx": 100,
+                                                        "topRightPx": 100,
+                                                        "bottomLeftPx": 100,
+                                                        "bottomRightPx": 100
                                                     },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "heading3",
-                                                        "charsCount": 11
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "normal",
-                                                        "charsCount": 28
-                                                    }
-                                                ],
-                                                "borderRadius": {
-                                                    "topLeftPx": 24,
-                                                    "topRightPx": 24,
-                                                    "bottomLeftPx": 24,
-                                                    "bottomRightPx": 24
+                                                    "fitType": "fit",
+                                                    "align": "left",
+                                                    "width": "20%"
                                                 },
-                                                "background": {
-                                                    "type": "color",
-                                                    "color": "#F0F0F0"
-                                                }
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "size": 3,
-                                        "widgets": [
-                                            {
-                                                "elementType": "box",
-                                                "type": "vertical",
-                                                "widgets": [
-                                                    {
-                                                        "elementType": "image",
-                                                        "height": 50,
-                                                        "borderRadius": {
-                                                            "topLeftPx": 100,
-                                                            "topRightPx": 100,
-                                                            "bottomLeftPx": 100,
-                                                            "bottomRightPx": 100
-                                                        },
-                                                        "fitType": "fit",
-                                                        "align": "left",
-                                                        "width": "20%"
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "heading3",
-                                                        "charsCount": 11
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "normal",
-                                                        "charsCount": 28
-                                                    }
-                                                ],
-                                                "borderRadius": {
-                                                    "topLeftPx": 24,
-                                                    "topRightPx": 24,
-                                                    "bottomLeftPx": 24,
-                                                    "bottomRightPx": 24
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "heading3",
+                                                    "charsCount": 11
                                                 },
-                                                "background": {
-                                                    "type": "color",
-                                                    "color": "#F0F0F0"
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "normal",
+                                                    "charsCount": 28
                                                 }
+                                            ],
+                                            "borderRadius": {
+                                                "topLeftPx": 24,
+                                                "topRightPx": 24,
+                                                "bottomLeftPx": 24,
+                                                "bottomRightPx": 24
+                                            },
+                                            "background": {
+                                                "type": "color",
+                                                "color": "#F0F0F0"
                                             }
-                                        ]
-                                    },
-                                    {
-                                        "size": 3,
-                                        "widgets": [
-                                            {
-                                                "elementType": "box",
-                                                "type": "vertical",
-                                                "widgets": [
-                                                    {
-                                                        "elementType": "image",
-                                                        "height": 50,
-                                                        "borderRadius": {
-                                                            "topLeftPx": 100,
-                                                            "topRightPx": 100,
-                                                            "bottomLeftPx": 100,
-                                                            "bottomRightPx": 100
-                                                        },
-                                                        "fitType": "fit",
-                                                        "align": "left",
-                                                        "width": "20%"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "size": 3,
+                                    "widgets": [
+                                        {
+                                            "elementType": "box",
+                                            "type": "vertical",
+                                            "widgets": [
+                                                {
+                                                    "elementType": "image",
+                                                    "height": 50,
+                                                    "borderRadius": {
+                                                        "topLeftPx": 100,
+                                                        "topRightPx": 100,
+                                                        "bottomLeftPx": 100,
+                                                        "bottomRightPx": 100
                                                     },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "heading3",
-                                                        "charsCount": 11
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "normal",
-                                                        "charsCount": 28
-                                                    }
-                                                ],
-                                                "borderRadius": {
-                                                    "topLeftPx": 24,
-                                                    "topRightPx": 24,
-                                                    "bottomLeftPx": 24,
-                                                    "bottomRightPx": 24
+                                                    "fitType": "fit",
+                                                    "align": "left",
+                                                    "width": "20%"
                                                 },
-                                                "background": {
-                                                    "type": "color",
-                                                    "color": "#F0F0F0"
-                                                }
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "size": 3,
-                                        "widgets": [
-                                            {
-                                                "elementType": "box",
-                                                "type": "vertical",
-                                                "widgets": [
-                                                    {
-                                                        "elementType": "image",
-                                                        "height": 50,
-                                                        "borderRadius": {
-                                                            "topLeftPx": 100,
-                                                            "topRightPx": 100,
-                                                            "bottomLeftPx": 100,
-                                                            "bottomRightPx": 100
-                                                        },
-                                                        "fitType": "fit",
-                                                        "align": "left",
-                                                        "width": "20%"
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "heading3",
-                                                        "charsCount": 11
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "normal",
-                                                        "charsCount": 28
-                                                    }
-                                                ],
-                                                "borderRadius": {
-                                                    "topLeftPx": 24,
-                                                    "topRightPx": 24,
-                                                    "bottomLeftPx": 24,
-                                                    "bottomRightPx": 24
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "heading3",
+                                                    "charsCount": 11
                                                 },
-                                                "background": {
-                                                    "type": "color",
-                                                    "color": "#F0F0F0"
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "normal",
+                                                    "charsCount": 28
                                                 }
+                                            ],
+                                            "borderRadius": {
+                                                "topLeftPx": 24,
+                                                "topRightPx": 24,
+                                                "bottomLeftPx": 24,
+                                                "bottomRightPx": 24
+                                            },
+                                            "background": {
+                                                "type": "color",
+                                                "color": "#F0F0F0"
                                             }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "size": 3,
+                                    "widgets": [
+                                        {
+                                            "elementType": "box",
+                                            "type": "vertical",
+                                            "widgets": [
+                                                {
+                                                    "elementType": "image",
+                                                    "height": 50,
+                                                    "borderRadius": {
+                                                        "topLeftPx": 100,
+                                                        "topRightPx": 100,
+                                                        "bottomLeftPx": 100,
+                                                        "bottomRightPx": 100
+                                                    },
+                                                    "fitType": "fit",
+                                                    "align": "left",
+                                                    "width": "20%"
+                                                },
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "heading3",
+                                                    "charsCount": 11
+                                                },
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "normal",
+                                                    "charsCount": 28
+                                                }
+                                            ],
+                                            "borderRadius": {
+                                                "topLeftPx": 24,
+                                                "topRightPx": 24,
+                                                "bottomLeftPx": 24,
+                                                "bottomRightPx": 24
+                                            },
+                                            "background": {
+                                                "type": "color",
+                                                "color": "#F0F0F0"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "size": 3,
+                                    "widgets": [
+                                        {
+                                            "elementType": "box",
+                                            "type": "vertical",
+                                            "widgets": [
+                                                {
+                                                    "elementType": "image",
+                                                    "height": 50,
+                                                    "borderRadius": {
+                                                        "topLeftPx": 100,
+                                                        "topRightPx": 100,
+                                                        "bottomLeftPx": 100,
+                                                        "bottomRightPx": 100
+                                                    },
+                                                    "fitType": "fit",
+                                                    "align": "left",
+                                                    "width": "20%"
+                                                },
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "heading3",
+                                                    "charsCount": 11
+                                                },
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "normal",
+                                                    "charsCount": 28
+                                                }
+                                            ],
+                                            "borderRadius": {
+                                                "topLeftPx": 24,
+                                                "topRightPx": 24,
+                                                "bottomLeftPx": 24,
+                                                "bottomRightPx": 24
+                                            },
+                                            "background": {
+                                                "type": "color",
+                                                "color": "#F0F0F0"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
             }
         },
         {
@@ -589,124 +576,122 @@
                 "width": "96%",
                 "marginTop": "52px",
                 "marginBottom": "52px",
-                "borderRadius":  {
+                "borderRadius": {
                     "topLeftPx": 24,
                     "topRightPx": 24,
                     "bottomLeftPx": 24,
                     "bottomRightPx": 24
                 },
-                "grids": [
-                    {
-                        "width": "96%",
-                        "gridAlignment": "center",
-                        "marginTop": "44px",
-                        "marginBottom": "44px",
-                        "rows": [
-                            {
-                                "columns": [
-                                    {
-                                        "size": 6,
-                                        "widgets": [
-                                            {
-                                                "elementType": "text",
-                                                "textType": "heading1",
-                                                "charsCount": 58
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "size": 3,
-                                        "widgets": [
-                                            {
-                                                "elementType": "box",
-                                                "type": "vertical",
-                                                "widgets": [
-                                                    {
-                                                        "elementType": "image",
-                                                        "height": 50,
-                                                        "borderRadius": {
-                                                            "topLeftPx": 100,
-                                                            "topRightPx": 100,
-                                                            "bottomLeftPx": 100,
-                                                            "bottomRightPx": 100
-                                                        },
-                                                        "fitType": "fit",
-                                                        "align": "left",
-                                                        "width": "20%"
+                "grid": {
+                    "width": "96%",
+                    "gridAlignment": "center",
+                    "marginTop": "44px",
+                    "marginBottom": "44px",
+                    "rows": [
+                        {
+                            "columns": [
+                                {
+                                    "size": 6,
+                                    "widgets": [
+                                        {
+                                            "elementType": "text",
+                                            "textType": "heading1",
+                                            "charsCount": 58
+                                        }
+                                    ]
+                                },
+                                {
+                                    "size": 3,
+                                    "widgets": [
+                                        {
+                                            "elementType": "box",
+                                            "type": "vertical",
+                                            "widgets": [
+                                                {
+                                                    "elementType": "image",
+                                                    "height": 50,
+                                                    "borderRadius": {
+                                                        "topLeftPx": 100,
+                                                        "topRightPx": 100,
+                                                        "bottomLeftPx": 100,
+                                                        "bottomRightPx": 100
                                                     },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "heading3",
-                                                        "charsCount": 11
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "normal",
-                                                        "charsCount": 28
-                                                    }
-                                                ],
-                                                "borderRadius": {
-                                                    "topLeftPx": 24,
-                                                    "topRightPx": 24,
-                                                    "bottomLeftPx": 24,
-                                                    "bottomRightPx": 24
+                                                    "fitType": "fit",
+                                                    "align": "left",
+                                                    "width": "20%"
                                                 },
-                                                "background": {
-                                                    "type": "color",
-                                                    "color": "#FFFFFF"
-                                                }
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "size": 3,
-                                        "widgets": [
-                                            {
-                                                "elementType": "box",
-                                                "type": "vertical",
-                                                "widgets": [
-                                                    {
-                                                        "elementType": "image",
-                                                        "height": 50,
-                                                        "borderRadius": {
-                                                            "topLeftPx": 100,
-                                                            "topRightPx": 100,
-                                                            "bottomLeftPx": 100,
-                                                            "bottomRightPx": 100
-                                                        },
-                                                        "fitType": "fit",
-                                                        "align": "left",
-                                                        "width": "20%"
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "heading3",
-                                                        "charsCount": 11
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "normal",
-                                                        "charsCount": 28
-                                                    }
-                                                ],
-                                                "borderRadius": {
-                                                    "topLeftPx": 24,
-                                                    "topRightPx": 24,
-                                                    "bottomLeftPx": 24,
-                                                    "bottomRightPx": 24
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "heading3",
+                                                    "charsCount": 11
                                                 },
-                                                "background": {
-                                                    "type": "color",
-                                                    "color": "#FFFFFF"
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "normal",
+                                                    "charsCount": 28
                                                 }
+                                            ],
+                                            "borderRadius": {
+                                                "topLeftPx": 24,
+                                                "topRightPx": 24,
+                                                "bottomLeftPx": 24,
+                                                "bottomRightPx": 24
+                                            },
+                                            "background": {
+                                                "type": "color",
+                                                "color": "#FFFFFF"
                                             }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "size": 3,
+                                    "widgets": [
+                                        {
+                                            "elementType": "box",
+                                            "type": "vertical",
+                                            "widgets": [
+                                                {
+                                                    "elementType": "image",
+                                                    "height": 50,
+                                                    "borderRadius": {
+                                                        "topLeftPx": 100,
+                                                        "topRightPx": 100,
+                                                        "bottomLeftPx": 100,
+                                                        "bottomRightPx": 100
+                                                    },
+                                                    "fitType": "fit",
+                                                    "align": "left",
+                                                    "width": "20%"
+                                                },
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "heading3",
+                                                    "charsCount": 11
+                                                },
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "normal",
+                                                    "charsCount": 28
+                                                }
+                                            ],
+                                            "borderRadius": {
+                                                "topLeftPx": 24,
+                                                "topRightPx": 24,
+                                                "bottomLeftPx": 24,
+                                                "bottomRightPx": 24
+                                            },
+                                            "background": {
+                                                "type": "color",
+                                                "color": "#FFFFFF"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
             }
         },
         {
@@ -720,548 +705,546 @@
                 "width": "95%",
                 "marginTop": "96px",
                 "marginBottom": "96px",
-                "grids": [
-                    {
-                        "width": "100%",
-                        "gridAlignment": "center",
-                        "rows": [
-                            {
-                                "columns": [
-                                    {
-                                        "size": 12,
-                                        "widgets": [
-                                            {
-                                                "elementType": "text",
-                                                "textType": "heading1",
-                                                "charsCount": 58
+                "grid": {
+                    "width": "100%",
+                    "gridAlignment": "center",
+                    "rows": [
+                        {
+                            "columns": [
+                                {
+                                    "size": 12,
+                                    "widgets": [
+                                        {
+                                            "elementType": "text",
+                                            "textType": "heading1",
+                                            "charsCount": 58
+                                        },
+                                        {
+                                            "elementType": "spacer",
+                                            "height": "16px"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "columns": [
+                                {
+                                    "size": 3,
+                                    "widgets": [
+                                        {
+                                            "elementType": "box",
+                                            "type": "vertical",
+                                            "widgets": [
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "heading3",
+                                                    "charsCount": 11,
+                                                    "fontData": {
+                                                        "color": "#FFFFFF",
+                                                        "textAlign": "center"
+                                                    }
+                                                },
+                                                {
+                                                    "elementType": "image",
+                                                    "height": 100,
+                                                    "borderRadius": {
+                                                        "topLeftPx": 5,
+                                                        "topRightPx": 5,
+                                                        "bottomLeftPx": 5,
+                                                        "bottomRightPx": 5
+                                                    },
+                                                    "fitType": "fill"
+                                                },
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "normal",
+                                                    "charsCount": 34,
+                                                    "fontData": {
+                                                        "color": "#FFFFFF"
+                                                    }
+                                                },
+                                                {
+                                                    "elementType": "button",
+                                                    "fitType": "fill",
+                                                    "buttonType": "primary"
+                                                },
+                                                {
+                                                    "elementType": "divider",
+                                                    "color": "#FFFFFF"
+                                                },
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "heading3",
+                                                    "charsCount": 11,
+                                                    "fontData": {
+                                                        "color": "#FFFFFF",
+                                                        "textAlign": "center"
+                                                    }
+                                                },
+                                                {
+                                                    "elementType": "image",
+                                                    "height": 100,
+                                                    "borderRadius": {
+                                                        "topLeftPx": 5,
+                                                        "topRightPx": 5,
+                                                        "bottomLeftPx": 5,
+                                                        "bottomRightPx": 5
+                                                    },
+                                                    "fitType": "fill"
+                                                },
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "normal",
+                                                    "charsCount": 34,
+                                                    "fontData": {
+                                                        "color": "#FFFFFF"
+                                                    }
+                                                },
+                                                {
+                                                    "elementType": "button",
+                                                    "fitType": "fill",
+                                                    "buttonType": "primary"
+                                                },
+                                                {
+                                                    "elementType": "divider",
+                                                    "color": "#FFFFFF"
+                                                },
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "heading3",
+                                                    "charsCount": 11,
+                                                    "fontData": {
+                                                        "color": "#FFFFFF",
+                                                        "textAlign": "center"
+                                                    }
+                                                },
+                                                {
+                                                    "elementType": "image",
+                                                    "height": 100,
+                                                    "borderRadius": {
+                                                        "topLeftPx": 5,
+                                                        "topRightPx": 5,
+                                                        "bottomLeftPx": 5,
+                                                        "bottomRightPx": 5
+                                                    },
+                                                    "fitType": "fill"
+                                                },
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "normal",
+                                                    "charsCount": 34,
+                                                    "fontData": {
+                                                        "color": "#FFFFFF"
+                                                    }
+                                                },
+                                                {
+                                                    "elementType": "button",
+                                                    "fitType": "fill",
+                                                    "buttonType": "primary"
+                                                }
+                                            ],
+                                            "borderRadius": {
+                                                "topLeftPx": 24,
+                                                "topRightPx": 24,
+                                                "bottomLeftPx": 24,
+                                                "bottomRightPx": 24
                                             },
-                                            {
-                                                "elementType": "spacer",
-                                                "height": "16px"
+                                            "background": {
+                                                "type": "color",
+                                                "color": "#37383F"
                                             }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "columns": [
-                                    {
-                                        "size": 3,
-                                        "widgets": [
-                                            {
-                                                "elementType": "box",
-                                                "type": "vertical",
-                                                "widgets": [
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "heading3",
-                                                        "charsCount": 11,
-                                                        "fontData": {
-                                                            "color": "#FFFFFF",
-                                                            "textAlign": "center"
-                                                        }
-                                                    },
-                                                    {
-                                                        "elementType": "image",
-                                                        "height": 100,
-                                                        "borderRadius": {
-                                                            "topLeftPx": 5,
-                                                            "topRightPx": 5,
-                                                            "bottomLeftPx": 5,
-                                                            "bottomRightPx": 5
-                                                        },
-                                                        "fitType": "fill"
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "normal",
-                                                        "charsCount": 34,
-                                                        "fontData": {
-                                                            "color": "#FFFFFF"
-                                                        }
-                                                    },
-                                                    {
-                                                        "elementType": "button",
-                                                        "fitType": "fill",
-                                                        "buttonType": "primary"
-                                                    },
-                                                    {
-                                                        "elementType": "divider",
-                                                        "color": "#FFFFFF"
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "heading3",
-                                                        "charsCount": 11,
-                                                        "fontData": {
-                                                            "color": "#FFFFFF",
-                                                            "textAlign": "center"
-                                                        }
-                                                    },
-                                                    {
-                                                        "elementType": "image",
-                                                        "height": 100,
-                                                        "borderRadius": {
-                                                            "topLeftPx": 5,
-                                                            "topRightPx": 5,
-                                                            "bottomLeftPx": 5,
-                                                            "bottomRightPx": 5
-                                                        },
-                                                        "fitType": "fill"
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "normal",
-                                                        "charsCount": 34,
-                                                        "fontData": {
-                                                            "color": "#FFFFFF"
-                                                        }
-                                                    },
-                                                    {
-                                                        "elementType": "button",
-                                                        "fitType": "fill",
-                                                        "buttonType": "primary"
-                                                    },
-                                                    {
-                                                        "elementType": "divider",
-                                                        "color": "#FFFFFF"
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "heading3",
-                                                        "charsCount": 11,
-                                                        "fontData": {
-                                                            "color": "#FFFFFF",
-                                                            "textAlign": "center"
-                                                        }
-                                                    },
-                                                    {
-                                                        "elementType": "image",
-                                                        "height": 100,
-                                                        "borderRadius": {
-                                                            "topLeftPx": 5,
-                                                            "topRightPx": 5,
-                                                            "bottomLeftPx": 5,
-                                                            "bottomRightPx": 5
-                                                        },
-                                                        "fitType": "fill"
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "normal",
-                                                        "charsCount": 34,
-                                                        "fontData": {
-                                                            "color": "#FFFFFF"
-                                                        }
-                                                    },
-                                                    {
-                                                        "elementType": "button",
-                                                        "fitType": "fill",
-                                                        "buttonType": "primary"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "size": 3,
+                                    "widgets": [
+                                        {
+                                            "elementType": "box",
+                                            "type": "vertical",
+                                            "widgets": [
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "heading3",
+                                                    "charsCount": 11,
+                                                    "fontData": {
+                                                        "color": "#FFFFFF",
+                                                        "textAlign": "center"
                                                     }
-                                                ],
-                                                "borderRadius": {
-                                                    "topLeftPx": 24,
-                                                    "topRightPx": 24,
-                                                    "bottomLeftPx": 24,
-                                                    "bottomRightPx": 24
                                                 },
-                                                "background": {
-                                                    "type": "color",
-                                                    "color": "#37383F"
-                                                }
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "size": 3,
-                                        "widgets": [
-                                            {
-                                                "elementType": "box",
-                                                "type": "vertical",
-                                                "widgets": [
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "heading3",
-                                                        "charsCount": 11,
-                                                        "fontData": {
-                                                            "color": "#FFFFFF",
-                                                            "textAlign": "center"
-                                                        }
+                                                {
+                                                    "elementType": "image",
+                                                    "height": 100,
+                                                    "borderRadius": {
+                                                        "topLeftPx": 5,
+                                                        "topRightPx": 5,
+                                                        "bottomLeftPx": 5,
+                                                        "bottomRightPx": 5
                                                     },
-                                                    {
-                                                        "elementType": "image",
-                                                        "height": 100,
-                                                        "borderRadius": {
-                                                            "topLeftPx": 5,
-                                                            "topRightPx": 5,
-                                                            "bottomLeftPx": 5,
-                                                            "bottomRightPx": 5
-                                                        },
-                                                        "fitType": "fill"
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "normal",
-                                                        "charsCount": 34,
-                                                        "fontData": {
-                                                            "color": "#FFFFFF"
-                                                        }
-                                                    },
-                                                    {
-                                                        "elementType": "button",
-                                                        "fitType": "fill",
-                                                        "buttonType": "primary"
-                                                    },
-                                                    {
-                                                        "elementType": "divider",
+                                                    "fitType": "fill"
+                                                },
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "normal",
+                                                    "charsCount": 34,
+                                                    "fontData": {
                                                         "color": "#FFFFFF"
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "heading3",
-                                                        "charsCount": 11,
-                                                        "fontData": {
-                                                            "color": "#FFFFFF",
-                                                            "textAlign": "center"
-                                                        }
-                                                    },
-                                                    {
-                                                        "elementType": "image",
-                                                        "height": 100,
-                                                        "borderRadius": {
-                                                            "topLeftPx": 5,
-                                                            "topRightPx": 5,
-                                                            "bottomLeftPx": 5,
-                                                            "bottomRightPx": 5
-                                                        },
-                                                        "fitType": "fill"
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "normal",
-                                                        "charsCount": 34,
-                                                        "fontData": {
-                                                            "color": "#FFFFFF"
-                                                        }
-                                                    },
-                                                    {
-                                                        "elementType": "button",
-                                                        "fitType": "fill",
-                                                        "buttonType": "primary"
-                                                    },
-                                                    {
-                                                        "elementType": "divider",
-                                                        "color": "#FFFFFF"
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "heading3",
-                                                        "charsCount": 11,
-                                                        "fontData": {
-                                                            "color": "#FFFFFF",
-                                                            "textAlign": "center"
-                                                        }
-                                                    },
-                                                    {
-                                                        "elementType": "image",
-                                                        "height": 100,
-                                                        "borderRadius": {
-                                                            "topLeftPx": 5,
-                                                            "topRightPx": 5,
-                                                            "bottomLeftPx": 5,
-                                                            "bottomRightPx": 5
-                                                        },
-                                                        "fitType": "fill"
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "normal",
-                                                        "charsCount": 34,
-                                                        "fontData": {
-                                                            "color": "#FFFFFF"
-                                                        }
-                                                    },
-                                                    {
-                                                        "elementType": "button",
-                                                        "fitType": "fill",
-                                                        "buttonType": "primary"
                                                     }
-                                                ],
-                                                "borderRadius": {
-                                                    "topLeftPx": 24,
-                                                    "topRightPx": 24,
-                                                    "bottomLeftPx": 24,
-                                                    "bottomRightPx": 24
                                                 },
-                                                "background": {
-                                                    "type": "color",
-                                                    "color": "#37383F"
-                                                }
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "size": 3,
-                                        "widgets": [
-                                            {
-                                                "elementType": "box",
-                                                "type": "vertical",
-                                                "widgets": [
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "heading3",
-                                                        "charsCount": 11,
-                                                        "fontData": {
-                                                            "color": "#FFFFFF",
-                                                            "textAlign": "center"
-                                                        }
-                                                    },
-                                                    {
-                                                        "elementType": "image",
-                                                        "height": 100,
-                                                        "borderRadius": {
-                                                            "topLeftPx": 5,
-                                                            "topRightPx": 5,
-                                                            "bottomLeftPx": 5,
-                                                            "bottomRightPx": 5
-                                                        },
-                                                        "fitType": "fill"
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "normal",
-                                                        "charsCount": 34,
-                                                        "fontData": {
-                                                            "color": "#FFFFFF"
-                                                        }
-                                                    },
-                                                    {
-                                                        "elementType": "button",
-                                                        "fitType": "fill",
-                                                        "buttonType": "primary"
-                                                    },
-                                                    {
-                                                        "elementType": "divider",
-                                                        "color": "#FFFFFF"
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "heading3",
-                                                        "charsCount": 11,
-                                                        "fontData": {
-                                                            "color": "#FFFFFF",
-                                                            "textAlign": "center"
-                                                        }
-                                                    },
-                                                    {
-                                                        "elementType": "image",
-                                                        "height": 100,
-                                                        "borderRadius": {
-                                                            "topLeftPx": 5,
-                                                            "topRightPx": 5,
-                                                            "bottomLeftPx": 5,
-                                                            "bottomRightPx": 5
-                                                        },
-                                                        "fitType": "fill"
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "normal",
-                                                        "charsCount": 34,
-                                                        "fontData": {
-                                                            "color": "#FFFFFF"
-                                                        }
-                                                    },
-                                                    {
-                                                        "elementType": "button",
-                                                        "fitType": "fill",
-                                                        "buttonType": "primary"
-                                                    },
-                                                    {
-                                                        "elementType": "divider",
-                                                        "color": "#FFFFFF"
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "heading3",
-                                                        "charsCount": 11,
-                                                        "fontData": {
-                                                            "color": "#FFFFFF",
-                                                            "textAlign": "center"
-                                                        }
-                                                    },
-                                                    {
-                                                        "elementType": "image",
-                                                        "height": 100,
-                                                        "borderRadius": {
-                                                            "topLeftPx": 5,
-                                                            "topRightPx": 5,
-                                                            "bottomLeftPx": 5,
-                                                            "bottomRightPx": 5
-                                                        },
-                                                        "fitType": "fill"
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "normal",
-                                                        "charsCount": 34,
-                                                        "fontData": {
-                                                            "color": "#FFFFFF"
-                                                        }
-                                                    },
-                                                    {
-                                                        "elementType": "button",
-                                                        "fitType": "fill",
-                                                        "buttonType": "primary"
+                                                {
+                                                    "elementType": "button",
+                                                    "fitType": "fill",
+                                                    "buttonType": "primary"
+                                                },
+                                                {
+                                                    "elementType": "divider",
+                                                    "color": "#FFFFFF"
+                                                },
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "heading3",
+                                                    "charsCount": 11,
+                                                    "fontData": {
+                                                        "color": "#FFFFFF",
+                                                        "textAlign": "center"
                                                     }
-                                                ],
-                                                "borderRadius": {
-                                                    "topLeftPx": 24,
-                                                    "topRightPx": 24,
-                                                    "bottomLeftPx": 24,
-                                                    "bottomRightPx": 24
                                                 },
-                                                "background": {
-                                                    "type": "color",
-                                                    "color": "#37383F"
-                                                }
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "size": 3,
-                                        "widgets": [
-                                            {
-                                                "elementType": "box",
-                                                "type": "vertical",
-                                                "widgets": [
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "heading3",
-                                                        "charsCount": 11,
-                                                        "fontData": {
-                                                            "color": "#FFFFFF",
-                                                            "textAlign": "center"
-                                                        }
+                                                {
+                                                    "elementType": "image",
+                                                    "height": 100,
+                                                    "borderRadius": {
+                                                        "topLeftPx": 5,
+                                                        "topRightPx": 5,
+                                                        "bottomLeftPx": 5,
+                                                        "bottomRightPx": 5
                                                     },
-                                                    {
-                                                        "elementType": "image",
-                                                        "height": 100,
-                                                        "borderRadius": {
-                                                            "topLeftPx": 5,
-                                                            "topRightPx": 5,
-                                                            "bottomLeftPx": 5,
-                                                            "bottomRightPx": 5
-                                                        },
-                                                        "fitType": "fill"
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "normal",
-                                                        "charsCount": 34,
-                                                        "fontData": {
-                                                            "color": "#FFFFFF"
-                                                        }
-                                                    },
-                                                    {
-                                                        "elementType": "button",
-                                                        "fitType": "fill",
-                                                        "buttonType": "primary"
-                                                    },
-                                                    {
-                                                        "elementType": "divider",
+                                                    "fitType": "fill"
+                                                },
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "normal",
+                                                    "charsCount": 34,
+                                                    "fontData": {
                                                         "color": "#FFFFFF"
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "heading3",
-                                                        "charsCount": 11,
-                                                        "fontData": {
-                                                            "color": "#FFFFFF",
-                                                            "textAlign": "center"
-                                                        }
-                                                    },
-                                                    {
-                                                        "elementType": "image",
-                                                        "height": 100,
-                                                        "borderRadius": {
-                                                            "topLeftPx": 5,
-                                                            "topRightPx": 5,
-                                                            "bottomLeftPx": 5,
-                                                            "bottomRightPx": 5
-                                                        },
-                                                        "fitType": "fill"
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "normal",
-                                                        "charsCount": 34,
-                                                        "fontData": {
-                                                            "color": "#FFFFFF"
-                                                        }
-                                                    },
-                                                    {
-                                                        "elementType": "button",
-                                                        "fitType": "fill",
-                                                        "buttonType": "primary"
-                                                    },
-                                                    {
-                                                        "elementType": "divider",
-                                                        "color": "#FFFFFF"
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "heading3",
-                                                        "charsCount": 11,
-                                                        "fontData": {
-                                                            "color": "#FFFFFF",
-                                                            "textAlign": "center"
-                                                        }
-                                                    },
-                                                    {
-                                                        "elementType": "image",
-                                                        "height": 100,
-                                                        "borderRadius": {
-                                                            "topLeftPx": 5,
-                                                            "topRightPx": 5,
-                                                            "bottomLeftPx": 5,
-                                                            "bottomRightPx": 5
-                                                        },
-                                                        "fitType": "fill"
-                                                    },
-                                                    {
-                                                        "elementType": "text",
-                                                        "textType": "normal",
-                                                        "charsCount": 34,
-                                                        "fontData": {
-                                                            "color": "#FFFFFF"
-                                                        }
-                                                    },
-                                                    {
-                                                        "elementType": "button",
-                                                        "fitType": "fill",
-                                                        "buttonType": "primary"
                                                     }
-                                                ],
-                                                "borderRadius": {
-                                                    "topLeftPx": 24,
-                                                    "topRightPx": 24,
-                                                    "bottomLeftPx": 24,
-                                                    "bottomRightPx": 24
                                                 },
-                                                "background": {
-                                                    "type": "color",
-                                                    "color": "#37383F"
+                                                {
+                                                    "elementType": "button",
+                                                    "fitType": "fill",
+                                                    "buttonType": "primary"
+                                                },
+                                                {
+                                                    "elementType": "divider",
+                                                    "color": "#FFFFFF"
+                                                },
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "heading3",
+                                                    "charsCount": 11,
+                                                    "fontData": {
+                                                        "color": "#FFFFFF",
+                                                        "textAlign": "center"
+                                                    }
+                                                },
+                                                {
+                                                    "elementType": "image",
+                                                    "height": 100,
+                                                    "borderRadius": {
+                                                        "topLeftPx": 5,
+                                                        "topRightPx": 5,
+                                                        "bottomLeftPx": 5,
+                                                        "bottomRightPx": 5
+                                                    },
+                                                    "fitType": "fill"
+                                                },
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "normal",
+                                                    "charsCount": 34,
+                                                    "fontData": {
+                                                        "color": "#FFFFFF"
+                                                    }
+                                                },
+                                                {
+                                                    "elementType": "button",
+                                                    "fitType": "fill",
+                                                    "buttonType": "primary"
                                                 }
+                                            ],
+                                            "borderRadius": {
+                                                "topLeftPx": 24,
+                                                "topRightPx": 24,
+                                                "bottomLeftPx": 24,
+                                                "bottomRightPx": 24
+                                            },
+                                            "background": {
+                                                "type": "color",
+                                                "color": "#37383F"
                                             }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "size": 3,
+                                    "widgets": [
+                                        {
+                                            "elementType": "box",
+                                            "type": "vertical",
+                                            "widgets": [
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "heading3",
+                                                    "charsCount": 11,
+                                                    "fontData": {
+                                                        "color": "#FFFFFF",
+                                                        "textAlign": "center"
+                                                    }
+                                                },
+                                                {
+                                                    "elementType": "image",
+                                                    "height": 100,
+                                                    "borderRadius": {
+                                                        "topLeftPx": 5,
+                                                        "topRightPx": 5,
+                                                        "bottomLeftPx": 5,
+                                                        "bottomRightPx": 5
+                                                    },
+                                                    "fitType": "fill"
+                                                },
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "normal",
+                                                    "charsCount": 34,
+                                                    "fontData": {
+                                                        "color": "#FFFFFF"
+                                                    }
+                                                },
+                                                {
+                                                    "elementType": "button",
+                                                    "fitType": "fill",
+                                                    "buttonType": "primary"
+                                                },
+                                                {
+                                                    "elementType": "divider",
+                                                    "color": "#FFFFFF"
+                                                },
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "heading3",
+                                                    "charsCount": 11,
+                                                    "fontData": {
+                                                        "color": "#FFFFFF",
+                                                        "textAlign": "center"
+                                                    }
+                                                },
+                                                {
+                                                    "elementType": "image",
+                                                    "height": 100,
+                                                    "borderRadius": {
+                                                        "topLeftPx": 5,
+                                                        "topRightPx": 5,
+                                                        "bottomLeftPx": 5,
+                                                        "bottomRightPx": 5
+                                                    },
+                                                    "fitType": "fill"
+                                                },
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "normal",
+                                                    "charsCount": 34,
+                                                    "fontData": {
+                                                        "color": "#FFFFFF"
+                                                    }
+                                                },
+                                                {
+                                                    "elementType": "button",
+                                                    "fitType": "fill",
+                                                    "buttonType": "primary"
+                                                },
+                                                {
+                                                    "elementType": "divider",
+                                                    "color": "#FFFFFF"
+                                                },
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "heading3",
+                                                    "charsCount": 11,
+                                                    "fontData": {
+                                                        "color": "#FFFFFF",
+                                                        "textAlign": "center"
+                                                    }
+                                                },
+                                                {
+                                                    "elementType": "image",
+                                                    "height": 100,
+                                                    "borderRadius": {
+                                                        "topLeftPx": 5,
+                                                        "topRightPx": 5,
+                                                        "bottomLeftPx": 5,
+                                                        "bottomRightPx": 5
+                                                    },
+                                                    "fitType": "fill"
+                                                },
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "normal",
+                                                    "charsCount": 34,
+                                                    "fontData": {
+                                                        "color": "#FFFFFF"
+                                                    }
+                                                },
+                                                {
+                                                    "elementType": "button",
+                                                    "fitType": "fill",
+                                                    "buttonType": "primary"
+                                                }
+                                            ],
+                                            "borderRadius": {
+                                                "topLeftPx": 24,
+                                                "topRightPx": 24,
+                                                "bottomLeftPx": 24,
+                                                "bottomRightPx": 24
+                                            },
+                                            "background": {
+                                                "type": "color",
+                                                "color": "#37383F"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "size": 3,
+                                    "widgets": [
+                                        {
+                                            "elementType": "box",
+                                            "type": "vertical",
+                                            "widgets": [
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "heading3",
+                                                    "charsCount": 11,
+                                                    "fontData": {
+                                                        "color": "#FFFFFF",
+                                                        "textAlign": "center"
+                                                    }
+                                                },
+                                                {
+                                                    "elementType": "image",
+                                                    "height": 100,
+                                                    "borderRadius": {
+                                                        "topLeftPx": 5,
+                                                        "topRightPx": 5,
+                                                        "bottomLeftPx": 5,
+                                                        "bottomRightPx": 5
+                                                    },
+                                                    "fitType": "fill"
+                                                },
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "normal",
+                                                    "charsCount": 34,
+                                                    "fontData": {
+                                                        "color": "#FFFFFF"
+                                                    }
+                                                },
+                                                {
+                                                    "elementType": "button",
+                                                    "fitType": "fill",
+                                                    "buttonType": "primary"
+                                                },
+                                                {
+                                                    "elementType": "divider",
+                                                    "color": "#FFFFFF"
+                                                },
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "heading3",
+                                                    "charsCount": 11,
+                                                    "fontData": {
+                                                        "color": "#FFFFFF",
+                                                        "textAlign": "center"
+                                                    }
+                                                },
+                                                {
+                                                    "elementType": "image",
+                                                    "height": 100,
+                                                    "borderRadius": {
+                                                        "topLeftPx": 5,
+                                                        "topRightPx": 5,
+                                                        "bottomLeftPx": 5,
+                                                        "bottomRightPx": 5
+                                                    },
+                                                    "fitType": "fill"
+                                                },
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "normal",
+                                                    "charsCount": 34,
+                                                    "fontData": {
+                                                        "color": "#FFFFFF"
+                                                    }
+                                                },
+                                                {
+                                                    "elementType": "button",
+                                                    "fitType": "fill",
+                                                    "buttonType": "primary"
+                                                },
+                                                {
+                                                    "elementType": "divider",
+                                                    "color": "#FFFFFF"
+                                                },
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "heading3",
+                                                    "charsCount": 11,
+                                                    "fontData": {
+                                                        "color": "#FFFFFF",
+                                                        "textAlign": "center"
+                                                    }
+                                                },
+                                                {
+                                                    "elementType": "image",
+                                                    "height": 100,
+                                                    "borderRadius": {
+                                                        "topLeftPx": 5,
+                                                        "topRightPx": 5,
+                                                        "bottomLeftPx": 5,
+                                                        "bottomRightPx": 5
+                                                    },
+                                                    "fitType": "fill"
+                                                },
+                                                {
+                                                    "elementType": "text",
+                                                    "textType": "normal",
+                                                    "charsCount": 34,
+                                                    "fontData": {
+                                                        "color": "#FFFFFF"
+                                                    }
+                                                },
+                                                {
+                                                    "elementType": "button",
+                                                    "fitType": "fill",
+                                                    "buttonType": "primary"
+                                                }
+                                            ],
+                                            "borderRadius": {
+                                                "topLeftPx": 24,
+                                                "topRightPx": 24,
+                                                "bottomLeftPx": 24,
+                                                "bottomRightPx": 24
+                                            },
+                                            "background": {
+                                                "type": "color",
+                                                "color": "#37383F"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
             }
         },
         {
@@ -1276,7 +1259,7 @@
                     "type": "color",
                     "color": "#37383F"
                 },
-                "borderRadius":  {
+                "borderRadius": {
                     "topLeftPx": 24,
                     "topRightPx": 24,
                     "bottomLeftPx": 24,
@@ -1285,66 +1268,64 @@
                 "width": "96%",
                 "marginTop": "52px",
                 "marginBottom": "52px",
-                "grids": [
-                    {
-                        "width": "96%",
-                        "marginTop": "24px",
-                        "marginBottom": "24px",
-                        "rows": [
-                            {
-                                "columns": [
-                                    {
-                                        "size": 6,
-                                        "widgets": [
-                                            {
-                                                "elementType": "text",
-                                                "textType": "heading1",
-                                                "charsCount": 58,
-                                                "fontData": {
-                                                    "color": "#FFFFFF"
-                                                }
+                "grid": {
+                    "width": "96%",
+                    "marginTop": "24px",
+                    "marginBottom": "24px",
+                    "rows": [
+                        {
+                            "columns": [
+                                {
+                                    "size": 6,
+                                    "widgets": [
+                                        {
+                                            "elementType": "text",
+                                            "textType": "heading1",
+                                            "charsCount": 58,
+                                            "fontData": {
+                                                "color": "#FFFFFF"
                                             }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "columns": [
-                                    {
-                                        "size": 6,
-                                        "widgets": [
-                                            {
-                                                "elementType": "text",
-                                                "textType": "normal",
-                                                "charsCount": 153,
-                                                "fontData": {
-                                                    "color": "#FFFFFF"
-                                                }
-                                            },
-                                            {
-                                                "elementType": "text",
-                                                "textType": "normal",
-                                                "charsCount": 88,
-                                                "fontData": {
-                                                    "color": "#FFFFFF"
-                                                }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "columns": [
+                                {
+                                    "size": 6,
+                                    "widgets": [
+                                        {
+                                            "elementType": "text",
+                                            "textType": "normal",
+                                            "charsCount": 153,
+                                            "fontData": {
+                                                "color": "#FFFFFF"
                                             }
-                                        ]
-                                    },
-                                    {
-                                        "size": 6,
-                                        "widgets": [
-                                            {
-                                                "elementType": "form",
-                                                "type": "vertical"
+                                        },
+                                        {
+                                            "elementType": "text",
+                                            "textType": "normal",
+                                            "charsCount": 88,
+                                            "fontData": {
+                                                "color": "#FFFFFF"
                                             }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "size": 6,
+                                    "widgets": [
+                                        {
+                                            "elementType": "form",
+                                            "type": "vertical"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
             }
         },
         {
@@ -1358,176 +1339,174 @@
                 "width": "95%",
                 "marginTop": "42px",
                 "marginBottom": "42px",
-                "grids": [
-                    {
-                        "width": "100%",
-                        "rows": [
-                            {
-                                "columns": [
-                                    {
-                                        "size": 1,
-                                        "widgets": [
-                                            {
-                                                "elementType": "image",
-                                                "height": 56,
-                                                "borderRadius": {
-                                                    "topLeftPx": 100,
-                                                    "topRightPx": 100,
-                                                    "bottomLeftPx": 100,
-                                                    "bottomRightPx": 100
-                                                },
-                                                "fitType": "fit",
-                                                "align": "left",
-                                                "width": "80%"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "size": 2,
-                                        "widgets": [
-                                            {
-                                                "elementType": "text",
-                                                "textType": "normal",
-                                                "charsCount": 32,
-                                                "fontData": {
-                                                    "color": "#FFFFFF"
-                                                }
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "size": 1,
-                                        "widgets": []
-                                    },
-                                    {
-                                        "size": 4,
-                                        "widgets": [
-                                            {
-                                                "elementType": "social-links",
-                                                "itemsCount": 5,
-                                                "align": "center"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "size": 2,
-                                        "widgets": [
-                                            {
-                                                "elementType": "text",
-                                                "textType": "normal",
-                                                "charsCount": 32,
-                                                "fontData": {
-                                                    "textAlign": "right",
-                                                    "color": "#FFFFFF"
-                                                }
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "size": 2,
-                                        "widgets": [
-                                            {
-                                                "elementType": "button",
-                                                "fitType": "fit",
-                                                "align": "right",
-                                                "buttonType": "primary",
-                                                "width": "80%"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "columns": [
-                                    {
-                                        "size": 2,
-                                        "widgets": [
-                                            {
-                                                "elementType": "text",
-                                                "textType": "heading4",
-                                                "charsCount": 11,
-                                                "fontData": {
-                                                    "color": "#FFFFFF"
-                                                }
+                "grid": {
+                    "width": "100%",
+                    "rows": [
+                        {
+                            "columns": [
+                                {
+                                    "size": 1,
+                                    "widgets": [
+                                        {
+                                            "elementType": "image",
+                                            "height": 56,
+                                            "borderRadius": {
+                                                "topLeftPx": 100,
+                                                "topRightPx": 100,
+                                                "bottomLeftPx": 100,
+                                                "bottomRightPx": 100
                                             },
-                                            {
-                                                "elementType": "text",
-                                                "textType": "normal",
-                                                "charsCount": 88,
-                                                "fontData": {
-                                                    "color": "#FFFFFF"
-                                                }
+                                            "fitType": "fit",
+                                            "align": "left",
+                                            "width": "80%"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "size": 2,
+                                    "widgets": [
+                                        {
+                                            "elementType": "text",
+                                            "textType": "normal",
+                                            "charsCount": 32,
+                                            "fontData": {
+                                                "color": "#FFFFFF"
                                             }
-                                        ]
-                                    },
-                                    {
-                                        "size": 1,
-                                        "widgets": []
-                                    },
-                                    {
-                                        "size": 2,
-                                        "widgets": [
-                                            {
-                                                "elementType": "text",
-                                                "textType": "normal",
-                                                "charsCount": 88,
-                                                "fontData": {
-                                                    "color": "#FFFFFF"
-                                                }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "size": 1,
+                                    "widgets": []
+                                },
+                                {
+                                    "size": 4,
+                                    "widgets": [
+                                        {
+                                            "elementType": "social-links",
+                                            "itemsCount": 5,
+                                            "align": "center"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "size": 2,
+                                    "widgets": [
+                                        {
+                                            "elementType": "text",
+                                            "textType": "normal",
+                                            "charsCount": 32,
+                                            "fontData": {
+                                                "textAlign": "right",
+                                                "color": "#FFFFFF"
                                             }
-                                        ]
-                                    },
-                                    {
-                                        "size": 1,
-                                        "widgets": []
-                                    },
-                                    {
-                                        "size": 2,
-                                        "widgets": [
-                                            {
-                                                "elementType": "text",
-                                                "textType": "heading4",
-                                                "charsCount": 11,
-                                                "fontData": {
-                                                    "color": "#FFFFFF"
-                                                }
-                                            },
-                                            {
-                                                "elementType": "text",
-                                                "textType": "normal",
-                                                "charsCount": 88,
-                                                "fontData": {
-                                                    "color": "#FFFFFF"
-                                                }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "size": 2,
+                                    "widgets": [
+                                        {
+                                            "elementType": "button",
+                                            "fitType": "fit",
+                                            "align": "right",
+                                            "buttonType": "primary",
+                                            "width": "80%"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "columns": [
+                                {
+                                    "size": 2,
+                                    "widgets": [
+                                        {
+                                            "elementType": "text",
+                                            "textType": "heading4",
+                                            "charsCount": 11,
+                                            "fontData": {
+                                                "color": "#FFFFFF"
                                             }
-                                        ]
-                                    },
-                                    {
-                                        "size": 1,
-                                        "widgets": []
-                                    },
-                                    {
-                                        "size": 2,
-                                        "widgets": [
-                                            {
-                                                "elementType": "text",
-                                                "textType": "normal",
-                                                "charsCount": 88,
-                                                "fontData": {
-                                                    "color": "#FFFFFF"
-                                                }
+                                        },
+                                        {
+                                            "elementType": "text",
+                                            "textType": "normal",
+                                            "charsCount": 88,
+                                            "fontData": {
+                                                "color": "#FFFFFF"
                                             }
-                                        ]
-                                    },
-                                    {
-                                        "size": 1,
-                                        "widgets": []
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "size": 1,
+                                    "widgets": []
+                                },
+                                {
+                                    "size": 2,
+                                    "widgets": [
+                                        {
+                                            "elementType": "text",
+                                            "textType": "normal",
+                                            "charsCount": 88,
+                                            "fontData": {
+                                                "color": "#FFFFFF"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "size": 1,
+                                    "widgets": []
+                                },
+                                {
+                                    "size": 2,
+                                    "widgets": [
+                                        {
+                                            "elementType": "text",
+                                            "textType": "heading4",
+                                            "charsCount": 11,
+                                            "fontData": {
+                                                "color": "#FFFFFF"
+                                            }
+                                        },
+                                        {
+                                            "elementType": "text",
+                                            "textType": "normal",
+                                            "charsCount": 88,
+                                            "fontData": {
+                                                "color": "#FFFFFF"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "size": 1,
+                                    "widgets": []
+                                },
+                                {
+                                    "size": 2,
+                                    "widgets": [
+                                        {
+                                            "elementType": "text",
+                                            "textType": "normal",
+                                            "charsCount": 88,
+                                            "fontData": {
+                                                "color": "#FFFFFF"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "size": 1,
+                                    "widgets": []
+                                }
+                            ]
+                        }
+                    ]
+                }
             }
         }
     ],

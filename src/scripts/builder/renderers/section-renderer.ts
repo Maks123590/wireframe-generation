@@ -45,10 +45,8 @@ export class SectionRenderer {
             section.append(sliderMarkWrapper);
         }
 
-        data.sectionContent.grids.forEach((gridData: IGridData) => {
-            const grid = GridRenderer.render(gridData, commonStylesData);
+        const grid = GridRenderer.render(data.sectionContent.grid, commonStylesData);
         sectionContent.append(grid);
-        });
 
         section.append(sectionContent);
         section.append(label);
