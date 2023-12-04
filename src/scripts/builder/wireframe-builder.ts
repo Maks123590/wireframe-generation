@@ -30,7 +30,7 @@ export class WireframeBuilder {
             return;
         }
   
-        wireframeData.sections.forEach((sectionData: ISectionData) => {
+        wireframeData.sectionsArray.forEach((sectionData: ISectionData) => {
             const section = SectionRenderer.render(sectionData, wireframeData.commonStyles);
             resultBlock.appendChild(section);
         });

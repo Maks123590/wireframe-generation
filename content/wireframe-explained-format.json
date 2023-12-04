@@ -1,5 +1,5 @@
 {
-    "sections": [
+    "sectionsArray": [
         {
             "sectionType": "one of the following options: Header, Hero, Secondary Navigation Menu, Call to Action, Services, About Us, Testimonials, FAQs, Pricing, Contacts, Blog, Partners, Footer",
             "background": {
