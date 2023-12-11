@@ -25,19 +25,20 @@
           {
             "width": "100%",
             "gridAlignment": "center",
-            "marginTop": 0,
-            "marginBottom": 0,
+            "marginTop": "0px",
+            "marginBottom": "0px",
             "rows": [
               {
                 "columns": [
                   {
-                    "size": 2,
+                    "size": "2",
                     "widgets": [
                       {
                         "elementType": "logo",
-                        "textType": "normal",
+                        "textType": "heading2",
                         "charsCount": 0,
                         "elementColor": "#333333",
+                        "align": "left",
                         "fontData": {
                           "color": "#333333",
                           "fontSize": "26px",
@@ -48,17 +49,16 @@
                     ]
                   },
                   {
-                    "size": 1,
+                    "size": "1",
                     "widgets": []
                   },
                   {
-                    "size": 2,
+                    "size": "2",
                     "widgets": [
                       {
                         "elementType": "menu",
                         "items": ["About Us", "Projects", "Contacts"],
                         "align": "center",
-                        "elementColor": "#333333",
                         "fontData": {
                           "color": "#333333",
                           "fontSize": "16px",
@@ -69,11 +69,11 @@
                     ]
                   },
                   {
-                    "size": 1,
+                    "size": "1",
                     "widgets": []
                   },
                   {
-                    "size": 6,
+                    "size": "6",
                     "widgets": [
                       {
                         "elementType": "search-box"
@@ -118,34 +118,22 @@
               {
                 "columns": [
                   {
-                    "size": 5,
+                    "size": "5",
                     "widgets": [
                       {
                         "elementType": "text",
                         "textType": "heading2",
-                        "charsCount": 33,
-                        "fontData": {
-                          "color": "#333333",
-                          "fontSize": "36px",
-                          "fontFamily": "Roboto",
-                          "textAlign": "left"
-                        }
+                        "charsCount": 33
                       },
                       {
                         "elementType": "text",
                         "textType": "normal",
-                        "charsCount": 109,
-                        "fontData": {
-                          "color": "#333333",
-                          "fontSize": "16px",
-                          "fontFamily": "Inter",
-                          "textAlign": "left"
-                        }
+                        "charsCount": 109
                       }
                     ]
                   },
                   {
-                    "size": 7,
+                    "size": "7",
                     "widgets": []
                   }
                 ]
@@ -153,7 +141,7 @@
               {
                 "columns": [
                   {
-                    "size": 2,
+                    "size": "2",
                     "widgets": [
                       {
                         "elementType": "button",
@@ -162,7 +150,7 @@
                     ]
                   },
                   {
-                    "size": 2,
+                    "size": "2",
                     "widgets": [
                       {
                         "elementType": "button",
@@ -171,7 +159,7 @@
                     ]
                   },
                   {
-                    "size": 8,
+                    "size": "8",
                     "widgets": []
                   }
                 ]
@@ -206,35 +194,23 @@
           {
             "width": "100%",
             "gridAlignment": "center",
-            "marginTop": 0,
-            "marginBottom": 0,
+            "marginTop": "0px",
+            "marginBottom": "0px",
             "rows": [
               {
                 "columns": [
                   {
-                    "size": 5,
+                    "size": "5",
                     "widgets": [
                       {
                         "elementType": "text",
                         "textType": "heading1",
-                        "charsCount": 8,
-                        "fontData": {
-                          "color": "#333333",
-                          "fontSize": "48px",
-                          "fontFamily": "Roboto",
-                          "textAlign": "left"
-                        }
+                        "charsCount": 8
                       },
                       {
                         "elementType": "text",
                         "textType": "normal",
-                        "charsCount": 444,
-                        "fontData": {
-                          "color": "#333333",
-                          "fontSize": "16px",
-                          "fontFamily": "Inter",
-                          "textAlign": "left"
-                        }
+                        "charsCount": 444
                       },
                       {
                         "elementType": "button",
@@ -246,11 +222,11 @@
                     ]
                   },
                   {
-                    "size": 1,
+                    "size": "1",
                     "widgets": []
                   },
                   {
-                    "size": 6,
+                    "size": "6",
                     "widgets": [
                       {
                         "elementType": "image",
